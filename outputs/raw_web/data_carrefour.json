@@ -1,0 +1,2792 @@
+[
+    {
+        "store": "Carrefour",
+        "raw_name": "Pulpe dezosate de pui, cu piele Ferma VrânceanÄ",
+        "price_new": 2.2,
+        "price_old": 3.29,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/24001531.jpg",
+        "local_image_path": "data/images/carrefour/pulpe_dezosate_de_pui_cu_piele_ferma_vr_ncean.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Aripi de pui secÈionate fÄrÄ vârf, Fermador (",
+        "price_new": 1.49,
+        "price_old": 1.95,
+        "discount": 0.24,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/24502297_edt.jpg",
+        "local_image_path": "data/images/carrefour/aripi_de_pui_sec_ionate_f_r_v_rf_fermador.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pui grill Puiul de CrÄieÈti",
+        "price_new": 1.59,
+        "price_old": 1.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/12/10/24504107.jpg",
+        "local_image_path": "data/images/carrefour/pui_grill_puiul_de_cr_ie_ti.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Piept de raÈÄ, afumat Polifresh",
+        "price_new": 9.9,
+        "price_old": 12.2,
+        "discount": 0.19,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/24501550.jpg",
+        "local_image_path": "data/images/carrefour/piept_de_ra_afumat_polifresh.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CârnaÈi pentru grill Comtim",
+        "price_new": 11.79,
+        "price_old": 15.79,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/24502650.jpg",
+        "local_image_path": "data/images/carrefour/c_rna_i_pentru_grill_comtim.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pachet pentru ciorbÄ de miel Maria",
+        "price_new": 3.99,
+        "price_old": 4.89,
+        "discount": 0.18,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/24504247.jpg",
+        "local_image_path": "data/images/carrefour/pachet_pentru_ciorb_de_miel_maria.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Hamburgeri de vitÄ, Bio Silvania",
+        "price_new": 19.99,
+        "price_old": 25.5,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/24503946.jpg",
+        "local_image_path": "data/images/carrefour/hamburgeri_de_vit_bio_silvania.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Coaste de miel, gÄtite lent Agroline",
+        "price_new": 39.9,
+        "price_old": 55.9,
+        "discount": 0.29,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/24504016.jpg",
+        "local_image_path": "data/images/carrefour/coaste_de_miel_g_tite_lent_agroline.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Macrou afumat calibru 300/500",
+        "price_new": 5.99,
+        "price_old": 7.79,
+        "discount": 0.23,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/21501431_3.jpg",
+        "local_image_path": "data/images/carrefour/macrou_afumat_calibru_300_500.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PÄstrÄv afumat la cald Din Èara Ta , calibru 200/400",
+        "price_new": 8.29,
+        "price_old": 10.59,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/21502336_edit.jpg",
+        "local_image_path": "data/images/carrefour/p_str_v_afumat_la_cald_din_ara_ta_calibru_200_400.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "File de hering afumat condimentat",
+        "price_new": 2.59,
+        "price_old": 3.55,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/21501147_File_hering_afumat_per_kg.jpg",
+        "local_image_path": "data/images/carrefour/file_de_hering_afumat_condimentat.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CârnaÈi de somon afumaÈi la cald",
+        "price_new": 5.99,
+        "price_old": 8.65,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/21500122_1.jpg",
+        "local_image_path": "data/images/carrefour/c_rna_i_de_somon_afuma_i_la_cald.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PastÄ din pÄstrÄv Somonat afumat",
+        "price_new": 17.0,
+        "price_old": 21.9,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/21502444.jpg",
+        "local_image_path": "data/images/carrefour/past_din_p_str_v_somonat_afumat.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "DeltinÄ de peÈte",
+        "price_new": 15.0,
+        "price_old": 19.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/21502649.jpg",
+        "local_image_path": "data/images/carrefour/deltin_de_pe_te.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "SalatÄ de icre de ÈtiucÄ Èi crap cu ceapÄ, Biolife",
+        "price_new": 29.99,
+        "price_old": 40.7,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/21501483_(2).jpg",
+        "local_image_path": "data/images/carrefour/salat_de_icre_de_tiuc_i_crap_cu_ceap_biolife.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "SalatÄ Eisberg",
+        "price_new": 6.99,
+        "price_old": 8.99,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/27000989.jpg",
+        "local_image_path": "data/images/carrefour/salat_eisberg.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Dovlecei",
+        "price_new": 8.99,
+        "price_old": 14.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/27000635.jpg",
+        "local_image_path": "data/images/carrefour/dovlecei.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PulpÄ de raÈÄ, afumat Polifresh",
+        "price_new": 6.9,
+        "price_old": 8.14,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/24501962.jpg",
+        "local_image_path": "data/images/carrefour/pulp_de_ra_afumat_polifresh.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Mici Ca la DeduleÈti Integra",
+        "price_new": 14.99,
+        "price_old": 19.19,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/24500171.jpg",
+        "local_image_path": "data/images/carrefour/mici_ca_la_dedule_ti_integra.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Trunchi de merluciu prÄjit",
+        "price_new": 4.99,
+        "price_old": 6.4,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/26501404_1_1.jpg",
+        "local_image_path": "data/images/carrefour/trunchi_de_merluciu_pr_jit.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "DoradÄ la cuptor",
+        "price_new": 8.99,
+        "price_old": 10.5,
+        "discount": 0.14,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/26505447_1.jpg",
+        "local_image_path": "data/images/carrefour/dorad_la_cuptor.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Sushi Mix",
+        "price_new": 19.9,
+        "price_old": 29.6,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/21502191.jpg",
+        "local_image_path": "data/images/carrefour/sushi_mix.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "ZacuscÄ de novac",
+        "price_new": 22.0,
+        "price_old": 29.9,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/21502359.jpg",
+        "local_image_path": "data/images/carrefour/zacusc_de_novac.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ecler cu aromÄ de cafea Carrefour la PiaÈÄ /",
+        "price_new": 11.99,
+        "price_old": 14.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/23508580.jpg",
+        "local_image_path": "data/images/carrefour/ecler_cu_arom_de_cafea_carrefour_la_pia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "SavarinÄ /",
+        "price_new": 19.99,
+        "price_old": 27.49,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/01/15/23512422.jpg",
+        "local_image_path": "data/images/carrefour/savarin.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "OuÄ categorial L Rikado",
+        "price_new": 11.99,
+        "price_old": 15.49,
+        "discount": 0.23,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/15505897_1.jpg",
+        "local_image_path": "data/images/carrefour/ou_categorial_l_rikado.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Lapte de vacÄ ecologic Artesana",
+        "price_new": 11.99,
+        "price_old": 14.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/15513262.jpg",
+        "local_image_path": "data/images/carrefour/lapte_de_vac_ecologic_artesana.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Lapte gingaÈ fÄrÄ lactoza 3.8-4.1% grÄsime LÄptÄria cu Caimac",
+        "price_new": 12.99,
+        "price_old": 15.99,
+        "discount": 0.19,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/11/20/15516578.jpg",
+        "local_image_path": "data/images/carrefour/lapte_ginga_f_r_lactoza_3_8_4_1_gr_sime_l_pt_ria_cu_caimac.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Mascarpone Hochland",
+        "price_new": 12.99,
+        "price_old": 17.49,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/15513229.jpg",
+        "local_image_path": "data/images/carrefour/mascarpone_hochland.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Mascarpone Delaco",
+        "price_new": 11.79,
+        "price_old": 15.79,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/15501104.jpg",
+        "local_image_path": "data/images/carrefour/mascarpone_delaco.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ Mozzarella feliatÄ Hochland",
+        "price_new": 15.99,
+        "price_old": 20.49,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/15513231.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_mozzarella_feliat_hochland.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ CiobÄneascÄ Chitriuc",
+        "price_new": 4.79,
+        "price_old": 5.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/11/13/20507554.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_ciob_neasc_chitriuc.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ maturatÄ de BÄlcÄuÈi Chitriuc",
+        "price_new": 6.39,
+        "price_old": 7.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/20506784.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_maturat_de_b_lc_u_i_chitriuc.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ MÄrgÄitar Chitriuc",
+        "price_new": 7.99,
+        "price_old": 9.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/20508075.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_m_rg_itar_chitriuc.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ maturatÄ Arkenzeller Arkase",
+        "price_new": 6.79,
+        "price_old": 8.5,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/20506181.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_maturat_arkenzeller_arkase.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ maturatÄ Tilsit Arkase",
+        "price_new": 6.79,
+        "price_old": 8.5,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/20506180.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_maturat_tilsit_arkase.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ maturatÄ Raclette Arkase",
+        "price_new": 6.79,
+        "price_old": 8.5,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/20506179.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_maturat_raclette_arkase.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ maturatÄ Trapist Arkase",
+        "price_new": 6.79,
+        "price_old": 8.5,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/20506178.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_maturat_trapist_arkase.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Èvaizer Arkase",
+        "price_new": 6.79,
+        "price_old": 8.5,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/20506840.jpg",
+        "local_image_path": "data/images/carrefour/vaizer_arkase.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ maturatÄ cu chimen / pi Five Continents",
+        "price_new": 6.39,
+        "price_old": 7.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/20506080.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_maturat_cu_chimen_pi_five_continents.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ maturatÄ cu cÄrbune / nucÄ / ardei Enisala",
+        "price_new": 6.39,
+        "price_old": 7.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/11/13/20506909.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_maturat_cu_c_rbune_nuc_ardei_enisala.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ maturatÄ 180 de zile Traian",
+        "price_new": 9.59,
+        "price_old": 12.0,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/11/13/20506910.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_maturat_180_de_zile_traian.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ maturatÄ 270 de zile Traian",
+        "price_new": 10.79,
+        "price_old": 13.5,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/11/13/20506908.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_maturat_270_de_zile_traian.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ maturatÄ 24 de luni Traian",
+        "price_new": 13.2,
+        "price_old": 16.5,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/20507690.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_maturat_24_de_luni_traian.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ maturatÄ de bivoliÈÄ Tarina",
+        "price_new": 27.5,
+        "price_old": 34.69,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/20506253.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_maturat_de_bivoli_tarina.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BrânzÄ maturatÄ Tarina",
+        "price_new": 26.5,
+        "price_old": 33.35,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/20506254.jpg",
+        "local_image_path": "data/images/carrefour/br_nz_maturat_tarina.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CaÈcaval de oaie Dobrogea",
+        "price_new": 6.99,
+        "price_old": 8.75,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/12/10/20506074.jpg",
+        "local_image_path": "data/images/carrefour/ca_caval_de_oaie_dobrogea.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Delaco Mozzarella felii DeSenvis Delaco",
+        "price_new": 7.75,
+        "price_old": 9.99,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/15507499.jpg",
+        "local_image_path": "data/images/carrefour/delaco_mozzarella_felii_desenvis_delaco.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CaÈcaval de 10, felii, LÄptÄria cu Caimac",
+        "price_new": 12.39,
+        "price_old": 15.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/11/20/15514107.jpg",
+        "local_image_path": "data/images/carrefour/ca_caval_de_10_felii_l_pt_ria_cu_caimac.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CaÈcaval Dalia Covalact de ÈarÄ",
+        "price_new": 32.79,
+        "price_old": 40.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/15505654.jpg",
+        "local_image_path": "data/images/carrefour/ca_caval_dalia_covalact_de_ar.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CaÈcaval clasic / afumat Hochland",
+        "price_new": 34.99,
+        "price_old": 51.49,
+        "discount": 0.32,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/15502898.jpg",
+        "local_image_path": "data/images/carrefour/ca_caval_clasic_afumat_hochland.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Salam Rustic feliat Malina",
+        "price_new": 4.09,
+        "price_old": 5.49,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/15513820.jpg",
+        "local_image_path": "data/images/carrefour/salam_rustic_feliat_malina.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Mozzarella pane Delaco",
+        "price_new": 17.59,
+        "price_old": 23.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/15512648.jpg",
+        "local_image_path": "data/images/carrefour/mozzarella_pane_delaco.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "File de somon fÄrÄ piele Ocean Fish /",
+        "price_new": 42.09,
+        "price_old": 46.99,
+        "discount": 0.1,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/15509226.jpg",
+        "local_image_path": "data/images/carrefour/file_de_somon_f_r_piele_ocean_fish.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Risotto cu ciuperci Edenia",
+        "price_new": 14.59,
+        "price_old": 19.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/01/22/15505647.jpg",
+        "local_image_path": "data/images/carrefour/risotto_cu_ciuperci_edenia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Tagliatelle cu somon Frosta",
+        "price_new": 14.79,
+        "price_old": 18.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/12/22/15511892.jpg",
+        "local_image_path": "data/images/carrefour/tagliatelle_cu_somon_frosta.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "ViÈine fÄrÄ sâmburi SBF",
+        "price_new": 19.79,
+        "price_old": 21.99,
+        "discount": 0.1,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/15516605.jpg",
+        "local_image_path": "data/images/carrefour/vi_ine_f_r_s_mburi_sbf.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BÄuturÄ rÄcoritoare cabogazoasÄ Coca Cola Zero",
+        "price_new": 12.78,
+        "price_old": 16.3,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10508940_1.jpg",
+        "local_image_path": "data/images/carrefour/b_utur_r_coritoare_cabogazoas_coca_cola_zero.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BauturÄ Monster diverse sortimente",
+        "price_new": 19.99,
+        "price_old": 26.6,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/11/06/10004429_1.jpg",
+        "local_image_path": "data/images/carrefour/bautur_monster_diverse_sortimente.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Bere fÄrÄ alcool cu suc lÄmâie Èi portocalÄ / zmeurÄ Èi afine Fresh",
+        "price_new": 3.99,
+        "price_old": 4.69,
+        "discount": 0.15,
+        "requires_card": false,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/10004301_3.jpeg",
+        "local_image_path": "data/images/carrefour/bere_f_r_alcool_cu_suc_l_m_ie_i_portocal_zmeur_i_afine_fresh.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Bere fÄrÄ gluten Daura Damm",
+        "price_new": 8.35,
+        "price_old": 9.69,
+        "discount": 0.14,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/10005446.jpg",
+        "local_image_path": "data/images/carrefour/bere_f_r_gluten_daura_damm.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Bere Berliner Kindle Pilsner",
+        "price_new": 8.9,
+        "price_old": 9.99,
+        "discount": 0.11,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/10005620.jpg",
+        "local_image_path": "data/images/carrefour/bere_berliner_kindle_pilsner.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Bere Clausthaler Original",
+        "price_new": 6.5,
+        "price_old": 7.49,
+        "discount": 0.13,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10005787.jpg",
+        "local_image_path": "data/images/carrefour/bere_clausthaler_original.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Bere Dab Export",
+        "price_new": 32.85,
+        "price_old": 36.5,
+        "discount": 0.1,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10005891.jpg",
+        "local_image_path": "data/images/carrefour/bere_dab_export.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb demisec X+Y FeteascÄ RegalÄ",
+        "price_new": 23.9,
+        "price_old": 32.09,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10004382.jpg",
+        "local_image_path": "data/images/carrefour/vin_alb_demisec_x_y_feteasc_regal.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb sec X+Y Chardonnay",
+        "price_new": 23.9,
+        "price_old": 32.09,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10004384.jpg",
+        "local_image_path": "data/images/carrefour/vin_alb_sec_x_y_chardonnay.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb sec X+Y Babeasca Gri",
+        "price_new": 23.9,
+        "price_old": 32.09,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10508751_1.jpg",
+        "local_image_path": "data/images/carrefour/vin_alb_sec_x_y_babeasca_gri.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin rose demisec X+Y Traminer",
+        "price_new": 23.9,
+        "price_old": 32.09,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10004381.jpg",
+        "local_image_path": "data/images/carrefour/vin_rose_demisec_x_y_traminer.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb 3 Hectare Chardonnay Sec",
+        "price_new": 27.5,
+        "price_old": 36.69,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10004645_1.jpeg",
+        "local_image_path": "data/images/carrefour/vin_alb_3_hectare_chardonnay_sec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin roze 3 Hectare Cabernet Sauvignon Sec",
+        "price_new": 27.5,
+        "price_old": 36.69,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10004647_1.jpeg",
+        "local_image_path": "data/images/carrefour/vin_roze_3_hectare_cabernet_sauvignon_sec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin roÈu 3 Hectare FeteascÄ NeagrÄ Sec",
+        "price_new": 27.5,
+        "price_old": 36.69,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10004643_1.jpeg",
+        "local_image_path": "data/images/carrefour/vin_ro_u_3_hectare_feteasc_neagr_sec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb Siel FeteascÄ RegalÄ",
+        "price_new": 30.49,
+        "price_old": 40.65,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10509393.jpg",
+        "local_image_path": "data/images/carrefour/vin_alb_siel_feteasc_regal.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin rose Siel FeteascÄ NeagrÄ",
+        "price_new": 30.49,
+        "price_old": 40.65,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10509388_sed.jpg",
+        "local_image_path": "data/images/carrefour/vin_rose_siel_feteasc_neagr.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin rose Ecou Domeniul Bogdan",
+        "price_new": 20.59,
+        "price_old": 27.45,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10005529_1.jpg",
+        "local_image_path": "data/images/carrefour/vin_rose_ecou_domeniul_bogdan.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin roÈu Ecou Domeniul Bogdan Merlot",
+        "price_new": 20.59,
+        "price_old": 27.45,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10005495_1.jpeg",
+        "local_image_path": "data/images/carrefour/vin_ro_u_ecou_domeniul_bogdan_merlot.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb Cotnari Domenii, GrasÄ de Cotnari",
+        "price_new": 27.35,
+        "price_old": 36.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10005434_1.jpg",
+        "local_image_path": "data/images/carrefour/vin_alb_cotnari_domenii_gras_de_cotnari.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb Vals Chardonnay",
+        "price_new": 28.5,
+        "price_old": 38.09,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10005637.jpg",
+        "local_image_path": "data/images/carrefour/vin_alb_vals_chardonnay.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb Davino Brumar",
+        "price_new": 29.3,
+        "price_old": 39.09,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10508503.jpg",
+        "local_image_path": "data/images/carrefour/vin_alb_davino_brumar.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin roÈu Davino Brumar",
+        "price_new": 29.3,
+        "price_old": 39.09,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10508502.jpg",
+        "local_image_path": "data/images/carrefour/vin_ro_u_davino_brumar.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb Cuvee Matei",
+        "price_new": 47.7,
+        "price_old": 63.65,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10508446_1.jpg",
+        "local_image_path": "data/images/carrefour/vin_alb_cuvee_matei.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Avincis Olt de Vie Negru de DrÄgÄÈani",
+        "price_new": 53.99,
+        "price_old": 71.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10005950_1.jpg",
+        "local_image_path": "data/images/carrefour/vin_avincis_olt_de_vie_negru_de_dr_g_ani.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Olt De Vie Alutus Primus",
+        "price_new": 79.9,
+        "price_old": 114.75,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10510166_sed_1.jpg",
+        "local_image_path": "data/images/carrefour/vin_olt_de_vie_alutus_primus.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin roÈu sec, Etika FeteascÄ NeagrÄ",
+        "price_new": 69.29,
+        "price_old": 92.39,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10005283_1.jpeg",
+        "local_image_path": "data/images/carrefour/vin_ro_u_sec_etika_feteasc_neagr.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Bianco Puglia Igt 2024 Amornero",
+        "price_new": 22.5,
+        "price_old": 30.09,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10509802.jpg",
+        "local_image_path": "data/images/carrefour/vin_bianco_puglia_igt_2024_amornero.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Rosato Puglia Igt 2024 Amornero",
+        "price_new": 22.5,
+        "price_old": 30.09,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10509800_sed.jpg",
+        "local_image_path": "data/images/carrefour/vin_rosato_puglia_igt_2024_amornero.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Rosso Puglia 2022 Amornero",
+        "price_new": 22.5,
+        "price_old": 30.09,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10509803.jpg",
+        "local_image_path": "data/images/carrefour/vin_rosso_puglia_2022_amornero.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Vinho Verde Tussock Jumper",
+        "price_new": 18.9,
+        "price_old": 25.49,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10510119.jpg",
+        "local_image_path": "data/images/carrefour/vin_vinho_verde_tussock_jumper.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Moscato Tussock Jumper",
+        "price_new": 19.8,
+        "price_old": 26.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10510117_sed.jpg",
+        "local_image_path": "data/images/carrefour/vin_moscato_tussock_jumper.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Sauvignon Blanc Tussock Jumper",
+        "price_new": 21.9,
+        "price_old": 25.99,
+        "discount": 0.16,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10510116_sed.jpg",
+        "local_image_path": "data/images/carrefour/vin_sauvignon_blanc_tussock_jumper.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Tempranillo Tussock Jumper",
+        "price_new": 18.9,
+        "price_old": 25.49,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10510113_sed.jpg",
+        "local_image_path": "data/images/carrefour/vin_tempranillo_tussock_jumper.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Zinfandel Tussock Jumper",
+        "price_new": 29.8,
+        "price_old": 39.75,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10510112.jpg",
+        "local_image_path": "data/images/carrefour/vin_zinfandel_tussock_jumper.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Sauvignon Blanc Les Allies",
+        "price_new": 18.7,
+        "price_old": 24.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10510125_sed.jpg",
+        "local_image_path": "data/images/carrefour/vin_sauvignon_blanc_les_allies.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Chardonnay Les Allies",
+        "price_new": 15.65,
+        "price_old": 20.89,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10510126_sed.jpg",
+        "local_image_path": "data/images/carrefour/vin_chardonnay_les_allies.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Rose Grenache Les Allies",
+        "price_new": 15.29,
+        "price_old": 20.39,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10510124_sed.jpg",
+        "local_image_path": "data/images/carrefour/vin_rose_grenache_les_allies.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Merlot Les Allies",
+        "price_new": 15.29,
+        "price_old": 20.39,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10510123_sed.jpg",
+        "local_image_path": "data/images/carrefour/vin_merlot_les_allies.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Pinot Noir Les Allies",
+        "price_new": 17.9,
+        "price_old": 23.95,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10510122_sed.jpg",
+        "local_image_path": "data/images/carrefour/vin_pinot_noir_les_allies.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Chateuneuf Du Pape Les Allies",
+        "price_new": 106.25,
+        "price_old": 141.69,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10510120.jpg",
+        "local_image_path": "data/images/carrefour/vin_chateuneuf_du_pape_les_allies.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin spumant Zaz FrâncuÈÄ alb sec",
+        "price_new": 25.09,
+        "price_old": 33.45,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10508684.jpg",
+        "local_image_path": "data/images/carrefour/vin_spumant_zaz_fr_ncu_alb_sec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin spumant alb Tectonic extrasec",
+        "price_new": 26.6,
+        "price_old": 35.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10508125_1.jpeg",
+        "local_image_path": "data/images/carrefour/vin_spumant_alb_tectonic_extrasec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin spumant roze Tectonic extrasec",
+        "price_new": 26.6,
+        "price_old": 35.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10508124_1.jpg",
+        "local_image_path": "data/images/carrefour/vin_spumant_roze_tectonic_extrasec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin spumant de calitate, Alb Brut, Spectrum, Zghihara De Husi",
+        "price_new": 47.5,
+        "price_old": 63.39,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10509534_sed_1.jpg",
+        "local_image_path": "data/images/carrefour/vin_spumant_de_calitate_alb_brut_spectrum_zghihara_de_husi.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin spumant de calitate, Rose Brut, Spectrum, Pinot Noir",
+        "price_new": 47.5,
+        "price_old": 63.39,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10509535.jpg",
+        "local_image_path": "data/images/carrefour/vin_spumant_de_calitate_rose_brut_spectrum_pinot_noir.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin spumant Rhein Extra Royale sec",
+        "price_new": 74.9,
+        "price_old": 99.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10004374_sed.jpg",
+        "local_image_path": "data/images/carrefour/vin_spumant_rhein_extra_royale_sec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Èampanie Charles De Courance Brut",
+        "price_new": 92.8,
+        "price_old": 123.79,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10003414.jpg",
+        "local_image_path": "data/images/carrefour/ampanie_charles_de_courance_brut.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gin Bombay Sapphire",
+        "price_new": 79.99,
+        "price_old": 96.99,
+        "discount": 0.18,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10002738_1.jpg",
+        "local_image_path": "data/images/carrefour/gin_bombay_sapphire.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Aperitiv Aperol",
+        "price_new": 66.99,
+        "price_old": 79.99,
+        "discount": 0.16,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10002935_1.jpg",
+        "local_image_path": "data/images/carrefour/aperitiv_aperol.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Aperitiv Campari",
+        "price_new": 115.99,
+        "price_old": 137.9,
+        "discount": 0.16,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10003453_1.jpg",
+        "local_image_path": "data/images/carrefour/aperitiv_campari.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Lichior Amaretto Disaronno Originale",
+        "price_new": 89.99,
+        "price_old": 108.9,
+        "discount": 0.17,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10002795_1.jpg",
+        "local_image_path": "data/images/carrefour/lichior_amaretto_disaronno_originale.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Lichior Sheridan's",
+        "price_new": 99.99,
+        "price_old": 125.9,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10004807_1.jpg",
+        "local_image_path": "data/images/carrefour/lichior_sheridan_s.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Lichior Bumbu Cream",
+        "price_new": 124.99,
+        "price_old": 150.9,
+        "discount": 0.17,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10004311_1.jpg",
+        "local_image_path": "data/images/carrefour/lichior_bumbu_cream.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vodka Ostoya",
+        "price_new": 119.99,
+        "price_old": 187.9,
+        "discount": 0.36,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10004573_1.jpg",
+        "local_image_path": "data/images/carrefour/vodka_ostoya.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Jameson",
+        "price_new": 25.99,
+        "price_old": 33.49,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/10003749.jpeg",
+        "local_image_path": "data/images/carrefour/whisky_jameson.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Passport",
+        "price_new": 49.99,
+        "price_old": 65.99,
+        "discount": 0.24,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/12/04/10509931_1.jpg",
+        "local_image_path": "data/images/carrefour/whisky_passport.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Sweet Blend Ballantine's",
+        "price_new": 61.99,
+        "price_old": 79.99,
+        "discount": 0.23,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/10/30/10509929_1.jpg",
+        "local_image_path": "data/images/carrefour/whisky_sweet_blend_ballantine_s.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky John Lennon, Limited Edition Ballantine'S",
+        "price_new": 63.99,
+        "price_old": 75.49,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10509050_1.jpg",
+        "local_image_path": "data/images/carrefour/whisky_john_lennon_limited_edition_ballantine_s.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Elton John, Limited Edition Ballantine'S",
+        "price_new": 63.99,
+        "price_old": 75.49,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10509049_1.jpg",
+        "local_image_path": "data/images/carrefour/whisky_elton_john_limited_edition_ballantine_s.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Gentleman Jack",
+        "price_new": 144.39,
+        "price_old": 169.9,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/10509484.jpg",
+        "local_image_path": "data/images/carrefour/whisky_gentleman_jack.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Blended 15 YO Chivas Regal XV",
+        "price_new": 225.99,
+        "price_old": 267.9,
+        "discount": 0.16,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/10005689_4.jpg",
+        "local_image_path": "data/images/carrefour/whisky_blended_15_yo_chivas_regal_xv.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky 18 YO Chivas Regal",
+        "price_new": 299.99,
+        "price_old": 355.9,
+        "discount": 0.16,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/10004732_1.jpg",
+        "local_image_path": "data/images/carrefour/whisky_18_yo_chivas_regal.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Sardine baltice în ulei King Oscar",
+        "price_new": 7.85,
+        "price_old": 10.49,
+        "discount": 0.25,
+        "requires_card": false,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/11004647_1.jpg",
+        "local_image_path": "data/images/carrefour/sardine_baltice_n_ulei_king_oscar.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Macrou în sos tomat King Oscar",
+        "price_new": 12.0,
+        "price_old": 15.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/14524567.jpg",
+        "local_image_path": "data/images/carrefour/macrou_n_sos_tomat_king_oscar.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ton bucaÈi în apÄ Defish",
+        "price_new": 9.35,
+        "price_old": 12.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/14513777_sedinta.jpg",
+        "local_image_path": "data/images/carrefour/ton_buca_i_n_ap_defish.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ton bucaÈi în ulei Siblou",
+        "price_new": 11.25,
+        "price_old": 14.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/11020794.jpg",
+        "local_image_path": "data/images/carrefour/ton_buca_i_n_ulei_siblou.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Macrou file sos tomat / în ulei Home Garden",
+        "price_new": 8.15,
+        "price_old": 10.89,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/14501208.jpeg",
+        "local_image_path": "data/images/carrefour/macrou_file_sos_tomat_n_ulei_home_garden.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Somon file in sos tomat / în ulei cu legume Home Garden",
+        "price_new": 15.0,
+        "price_old": 19.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/14509154.jpg",
+        "local_image_path": "data/images/carrefour/somon_file_in_sos_tomat_n_ulei_cu_legume_home_garden.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pate de ton cu mÄsline / ardei / lÄmâie Rio Mare",
+        "price_new": 18.0,
+        "price_old": 23.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/14506471.jpg",
+        "local_image_path": "data/images/carrefour/pate_de_ton_cu_m_sline_ardei_l_m_ie_rio_mare.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ton buc în ulei de mÄsline Calvo",
+        "price_new": 12.6,
+        "price_old": 16.79,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/14005006.jpg",
+        "local_image_path": "data/images/carrefour/ton_buc_n_ulei_de_m_sline_calvo.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ton în ulei de mÄsline Rio Mare",
+        "price_new": 41.09,
+        "price_old": 54.85,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/11014502_sedinta.jpg",
+        "local_image_path": "data/images/carrefour/ton_n_ulei_de_m_sline_rio_mare.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vopsea pentru ouÄ Take",
+        "price_new": 12.36,
+        "price_old": 16.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/11504826.jpg",
+        "local_image_path": "data/images/carrefour/vopsea_pentru_ou_take.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Cozonac cu cremÄ de lapte Èi cacao / lapte cu ciocolatÄ Èi fistic Duofino",
+        "price_new": 14.99,
+        "price_old": 19.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/14530416.jpg",
+        "local_image_path": "data/images/carrefour/cozonac_cu_crem_de_lapte_i_cacao_lapte_cu_ciocolat_i_fistic_duofino.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Popcorn pentru microunde La Cornette",
+        "price_new": 2.09,
+        "price_old": 2.89,
+        "discount": 0.28,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/14524350_sed.jpg",
+        "local_image_path": "data/images/carrefour/popcorn_pentru_microunde_la_cornette.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Chips Csiki Csipsz cu hribi / trufe",
+        "price_new": 5.49,
+        "price_old": 7.39,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/14524947.jpg",
+        "local_image_path": "data/images/carrefour/chips_csiki_csipsz_cu_hribi_trufe.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Migdale coapte Èi sÄrate Nutline",
+        "price_new": 23.69,
+        "price_old": 31.69,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/14502475_3.jpg",
+        "local_image_path": "data/images/carrefour/migdale_coapte_i_s_rate_nutline.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Caju coapte Èi sÄrate Nutline",
+        "price_new": 20.59,
+        "price_old": 27.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/14511682.jpg",
+        "local_image_path": "data/images/carrefour/caju_coapte_i_s_rate_nutline.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Èampon pentru bÄrbaÈi Men Ultra Head & Shoulders",
+        "price_new": 25.09,
+        "price_old": 33.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12527181.jpg",
+        "local_image_path": "data/images/carrefour/ampon_pentru_b_rba_i_men_ultra_head_shoulders.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gel de duÈ Fa",
+        "price_new": 11.99,
+        "price_old": 15.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12526301.jpg",
+        "local_image_path": "data/images/carrefour/gel_de_du_fa.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gel de duÈ Nivea Men",
+        "price_new": 18.99,
+        "price_old": 25.45,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12519546_sed.jpg",
+        "local_image_path": "data/images/carrefour/gel_de_du_nivea_men.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ser pentru albirea dinÈilor Colgate MaxWhite Purple",
+        "price_new": 56.25,
+        "price_old": 86.59,
+        "discount": 0.35,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12526994.jpg",
+        "local_image_path": "data/images/carrefour/ser_pentru_albirea_din_ilor_colgate_maxwhite_purple.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PastÄ de dinÈi Colgate Max White Ultra Instantly Whiter",
+        "price_new": 22.99,
+        "price_old": 32.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/23/12527584.jpg",
+        "local_image_path": "data/images/carrefour/past_de_din_i_colgate_max_white_ultra_instantly_whiter.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PastÄ de dinÈi Max White Ultra Multi Protect / Freshness Pearls Colgate",
+        "price_new": 21.19,
+        "price_old": 28.49,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/12522418.jpeg",
+        "local_image_path": "data/images/carrefour/past_de_din_i_max_white_ultra_multi_protect_freshness_pearls_colgate.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PastÄ de dinÈi Max White Expert Original / Purifying Colgate",
+        "price_new": 20.49,
+        "price_old": 27.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/12508113_1.jpg",
+        "local_image_path": "data/images/carrefour/past_de_din_i_max_white_expert_original_purifying_colgate.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "ApÄ de gurÄ Colgate",
+        "price_new": 19.49,
+        "price_old": 25.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12520744.jpg",
+        "local_image_path": "data/images/carrefour/ap_de_gur_colgate.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Fond de ten 123 Perfect Bourjois",
+        "price_new": 48.99,
+        "price_old": 65.99,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12012561_2.jpg",
+        "local_image_path": "data/images/carrefour/fond_de_ten_123_perfect_bourjois.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Primer Bourjois Healthy Mix Serum",
+        "price_new": 39.99,
+        "price_old": 54.49,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12526142.jpg",
+        "local_image_path": "data/images/carrefour/primer_bourjois_healthy_mix_serum.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BB Cream Healthy Mix Bourjois",
+        "price_new": 51.99,
+        "price_old": 69.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12524291.jpg",
+        "local_image_path": "data/images/carrefour/bb_cream_healthy_mix_bourjois.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PudrÄ pulbere Bourjois Poudre de Riz de Java",
+        "price_new": 48.99,
+        "price_old": 66.49,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/23/12518823.jpg",
+        "local_image_path": "data/images/carrefour/pudr_pulbere_bourjois_poudre_de_riz_de_java.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Corector Healthy Mix Serum Concealer Bourjois",
+        "price_new": 39.99,
+        "price_old": 54.49,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/23/12523297.jpg",
+        "local_image_path": "data/images/carrefour/corector_healthy_mix_serum_concealer_bourjois.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CremÄ de uz general Nivea",
+        "price_new": 5.73,
+        "price_old": 8.19,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/23/12527280.jpg",
+        "local_image_path": "data/images/carrefour/crem_de_uz_general_nivea.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CremÄ de corp Nivea Soft",
+        "price_new": 8.39,
+        "price_old": 11.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/13017959.jpg",
+        "local_image_path": "data/images/carrefour/crem_de_corp_nivea_soft.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ser antirid Revuele Double Hyaluron + B5 Serum",
+        "price_new": 19.49,
+        "price_old": 25.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12526019_sed.jpg",
+        "local_image_path": "data/images/carrefour/ser_antirid_revuele_double_hyaluron_b5_serum.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Serum hidratant Revox Just Collagen Amino acids + HA",
+        "price_new": 20.49,
+        "price_old": 27.9,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/12520175.jpg",
+        "local_image_path": "data/images/carrefour/serum_hidratant_revox_just_collagen_amino_acids_ha.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "LoÈiune-serum Revox Just Azelaic Acid brightening solution 10%",
+        "price_new": 20.49,
+        "price_old": 27.9,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/12520178.jpg",
+        "local_image_path": "data/images/carrefour/lo_iune_serum_revox_just_azelaic_acid_brightening_solution_10.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CremÄ pentru conturul ochilor cu Retinol, Revox",
+        "price_new": 20.19,
+        "price_old": 26.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12526348_sed.jpg",
+        "local_image_path": "data/images/carrefour/crem_pentru_conturul_ochilor_cu_retinol_revox.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Serum pentru faÈÄ Revox Retinol Unifying Regenerator",
+        "price_new": 20.19,
+        "price_old": 26.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12526346.jpg",
+        "local_image_path": "data/images/carrefour/serum_pentru_fa_revox_retinol_unifying_regenerator.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Serum soluÈie hidratantÄ Revox, diverse sortimente",
+        "price_new": 22.49,
+        "price_old": 29.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12517820.jpg",
+        "local_image_path": "data/images/carrefour/serum_solu_ie_hidratant_revox_diverse_sortimente.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Toner cu efect de rejuvenare Just Retinol, Revox",
+        "price_new": 22.49,
+        "price_old": 29.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12525835_sed.jpg",
+        "local_image_path": "data/images/carrefour/toner_cu_efect_de_rejuvenare_just_retinol_revox.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CremÄ de zi Just Daily sun shield uva+uvb filters SPF50 + hyaluronic acid, Revox",
+        "price_new": 22.49,
+        "price_old": 29.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12526014_sed.jpg",
+        "local_image_path": "data/images/carrefour/crem_de_zi_just_daily_sun_shield_uva_uvb_filters_spf50_hyaluronic_acid_revox.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gel de curÄÈare cu acid hialuronic 3%, Revox",
+        "price_new": 23.49,
+        "price_old": 31.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12526374_sed.jpg",
+        "local_image_path": "data/images/carrefour/gel_de_cur_are_cu_acid_hialuronic_3_revox.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gel de curÄÈare faÈÄ Zitcare Revox",
+        "price_new": 24.99,
+        "price_old": 33.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12526347_sed.jpg",
+        "local_image_path": "data/images/carrefour/gel_de_cur_are_fa_zitcare_revox.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Toner pentru faÈÄ cu AHA BHA PHA Zitcare Revox",
+        "price_new": 22.49,
+        "price_old": 29.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12526377_sed.jpg",
+        "local_image_path": "data/images/carrefour/toner_pentru_fa_cu_aha_bha_pha_zitcare_revox.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CremÄ pentru faÈÄ cu Retinol Èi protecÈie solarÄ SPF20, Revox",
+        "price_new": 29.19,
+        "price_old": 38.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12526378_sed.jpg",
+        "local_image_path": "data/images/carrefour/crem_pentru_fa_cu_retinol_i_protec_ie_solar_spf20_revox.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Aparat de ras Fusion Gillette 1 Aparat + 2 Rezerve",
+        "price_new": 60.66,
+        "price_old": 80.89,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/13024493.jpg",
+        "local_image_path": "data/images/carrefour/aparat_de_ras_fusion_gillette_1_aparat_2_rezerve.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Aparat de ras ProGlide Flexball Gillette 1 Aparat + 2 Rezerve",
+        "price_new": 68.24,
+        "price_old": 90.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/12507801_1.jpg",
+        "local_image_path": "data/images/carrefour/aparat_de_ras_proglide_flexball_gillette_1_aparat_2_rezerve.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Aparat de ras pentru femei Gillette Simply Venus 3 Miami, maner + rezerve",
+        "price_new": 17.61,
+        "price_old": 23.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12524548.jpg",
+        "local_image_path": "data/images/carrefour/aparat_de_ras_pentru_femei_gillette_simply_venus_3_miami_maner_rezerve.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Aparat de ras pentru femei Swirl, mâner Flexiball cu 1 rezervÄ inclusÄ Gillette Venus",
+        "price_new": 44.24,
+        "price_old": 58.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/12512324.jpg",
+        "local_image_path": "data/images/carrefour/aparat_de_ras_pentru_femei_swirl_m_ner_flexiball_cu_1_rezerv_inclus_gillette_venus.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Aparat de ras pentru femei Comfortglide Sugarberry Gillette Venus",
+        "price_new": 44.99,
+        "price_old": 59.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/12522916.jpg",
+        "local_image_path": "data/images/carrefour/aparat_de_ras_pentru_femei_comfortglide_sugarberry_gillette_venus.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Trimmer pentru pÄrul Èi pielea zonei intime Gillette Venus",
+        "price_new": 136.42,
+        "price_old": 181.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/02/12523777.jpg",
+        "local_image_path": "data/images/carrefour/trimmer_pentru_p_rul_i_pielea_zonei_intime_gillette_venus.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PastÄ de dinÈi Repair & Protect Whitening Sensodyne",
+        "price_new": 21.19,
+        "price_old": 28.59,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/12501721_1.jpg",
+        "local_image_path": "data/images/carrefour/past_de_din_i_repair_protect_whitening_sensodyne.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CremÄ adezivÄ pentru proteza dentarÄ Corega Max Sigilare",
+        "price_new": 22.49,
+        "price_old": 29.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12514324_sed.jpg",
+        "local_image_path": "data/images/carrefour/crem_adeziv_pentru_proteza_dentar_corega_max_sigilare.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CremÄ adezivÄ pentru proteza dentarÄ Neutro Corega",
+        "price_new": 19.49,
+        "price_old": 26.29,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/13001283_sed.jpg",
+        "local_image_path": "data/images/carrefour/crem_adeziv_pentru_proteza_dentar_neutro_corega.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PastÄ de dinÈi Active Gum Repair fresh mint, Parodontax",
+        "price_new": 18.09,
+        "price_old": 24.29,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/12522729.jpg",
+        "local_image_path": "data/images/carrefour/past_de_din_i_active_gum_repair_fresh_mint_parodontax.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PastÄ de dinÈi Active Gum Repair white, Parodontax",
+        "price_new": 18.99,
+        "price_old": 24.89,
+        "discount": 0.24,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12526364_sed.jpg",
+        "local_image_path": "data/images/carrefour/past_de_din_i_active_gum_repair_white_parodontax.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "ApÄ de gurÄ Daily Gum Care Fresh Mint Parodontax",
+        "price_new": 19.99,
+        "price_old": 26.89,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/12517209.jpg",
+        "local_image_path": "data/images/carrefour/ap_de_gur_daily_gum_care_fresh_mint_parodontax.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PeriuÈÄ de dinÈi Gum & teeth Extra Soft Parodontax",
+        "price_new": 11.99,
+        "price_old": 15.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/12515205.jpg",
+        "local_image_path": "data/images/carrefour/periu_de_din_i_gum_teeth_extra_soft_parodontax.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PeriuÈÄ de dinÈi Complete Protection Soft Parodontax",
+        "price_new": 14.99,
+        "price_old": 19.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/12517210.jpg",
+        "local_image_path": "data/images/carrefour/periu_de_din_i_complete_protection_soft_parodontax.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PastÄ de dinti Advanced White Deep Clean / Enamel Defence Sensodyne",
+        "price_new": 27.49,
+        "price_old": 36.99,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/12526956_sed.jpg",
+        "local_image_path": "data/images/carrefour/past_de_dinti_advanced_white_deep_clean_enamel_defence_sensodyne.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent automat lichid Dero 2in1, 40 spÄlÄri",
+        "price_new": 35.9,
+        "price_old": 47.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/11504335_1.jpg",
+        "local_image_path": "data/images/carrefour/detergent_automat_lichid_dero_2in1_40_sp_l_ri.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent gel pentru spÄlare automata Dero Pro Express Activ / Color , 54 spÄlÄri",
+        "price_new": 62.99,
+        "price_old": 90.49,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/11508510.jpg",
+        "local_image_path": "data/images/carrefour/detergent_gel_pentru_sp_lare_automata_dero_pro_express_activ_color_54_sp_l_ri.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "SoluÈie îndepÄrtare pete Ace Booster Colors",
+        "price_new": 35.9,
+        "price_old": 47.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/11508099.jpg",
+        "local_image_path": "data/images/carrefour/solu_ie_ndep_rtare_pete_ace_booster_colors.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent automat capsule LevÄnÈicÄ Èi Iasomie Dero",
+        "price_new": 29.9,
+        "price_old": 54.99,
+        "discount": 0.46,
+        "requires_card": false,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/11507761.jpg",
+        "local_image_path": "data/images/carrefour/detergent_automat_capsule_lev_n_ic_i_iasomie_dero.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent tablete Ace Booster Colors",
+        "price_new": 35.9,
+        "price_old": 47.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/02/12/11508126_1.jpg",
+        "local_image_path": "data/images/carrefour/detergent_tablete_ace_booster_colors.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent capsule Witte Reus 3+1",
+        "price_new": 75.49,
+        "price_old": 100.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/11508356.jpg",
+        "local_image_path": "data/images/carrefour/detergent_capsule_witte_reus_3_1.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent automat capsule Universal / Color Persil 2",
+        "price_new": 121.0,
+        "price_old": 161.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/08/28/11508176_1.jpg",
+        "local_image_path": "data/images/carrefour/detergent_automat_capsule_universal_color_persil_2.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent bandÄ Magic Clean",
+        "price_new": 24.45,
+        "price_old": 48.9,
+        "discount": 0.5,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/11506699_1.jpg",
+        "local_image_path": "data/images/carrefour/detergent_band_magic_clean.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "SÄpun pentru rufe Chanteclair",
+        "price_new": 7.4,
+        "price_old": 14.79,
+        "discount": 0.5,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/12/10/11508371_1.jpg",
+        "local_image_path": "data/images/carrefour/s_pun_pentru_rufe_chanteclair.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Balsam de rufe Frosch",
+        "price_new": 12.49,
+        "price_old": 16.99,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/11021891.jpg",
+        "local_image_path": "data/images/carrefour/balsam_de_rufe_frosch.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Balsam pentru rufe Lenor",
+        "price_new": 25.12,
+        "price_old": 33.5,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/11507863_1.jpg",
+        "local_image_path": "data/images/carrefour/balsam_pentru_rufe_lenor.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Perle parfumate pentru rufe Lenor",
+        "price_new": 20.24,
+        "price_old": 26.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/11507853_1.jpg",
+        "local_image_path": "data/images/carrefour/perle_parfumate_pentru_rufe_lenor.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Perle parfumate pentru rufe Lenor",
+        "price_new": 30.35,
+        "price_old": 40.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/11507854.jpg",
+        "local_image_path": "data/images/carrefour/perle_parfumate_pentru_rufe_lenor.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Perle parfumate pentru rufe Lenor",
+        "price_new": 48.36,
+        "price_old": 64.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/11507844.jpg",
+        "local_image_path": "data/images/carrefour/perle_parfumate_pentru_rufe_lenor.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Perle parfumate Spring Awakening / Fresh Breeze Lenor",
+        "price_new": 79.42,
+        "price_old": 105.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/01/29/11508529_1.jpg",
+        "local_image_path": "data/images/carrefour/perle_parfumate_spring_awakening_fresh_breeze_lenor.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent automat pentru maÈina de spÄlat vase All in One Frosch",
+        "price_new": 31.9,
+        "price_old": 42.99,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/11506747.jpeg",
+        "local_image_path": "data/images/carrefour/detergent_automat_pentru_ma_ina_de_sp_lat_vase_all_in_one_frosch.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent pentru maÈina de spÄlat vase All in 1 Extra Somat",
+        "price_new": 96.9,
+        "price_old": 129.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/11507332_1.jpg",
+        "local_image_path": "data/images/carrefour/detergent_pentru_ma_ina_de_sp_lat_vase_all_in_1_extra_somat.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent automat pentru maÈina de spÄlat vase Fairy Platinium /",
+        "price_new": 89.99,
+        "price_old": 120.9,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/11507592.jpg",
+        "local_image_path": "data/images/carrefour/detergent_automat_pentru_ma_ina_de_sp_lat_vase_fairy_platinium.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent de vase lamâie / aloe vera / mÄr",
+        "price_new": 6.14,
+        "price_old": 8.19,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/11500068_4.jpg",
+        "local_image_path": "data/images/carrefour/detergent_de_vase_lam_ie_aloe_vera_m_r.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent ecologic pentru vase cu aloe vera Frosch",
+        "price_new": 11.24,
+        "price_old": 14.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/11501713_1.jpg",
+        "local_image_path": "data/images/carrefour/detergent_ecologic_pentru_vase_cu_aloe_vera_frosch.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent pentru vase Frosch",
+        "price_new": 11.24,
+        "price_old": 14.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/11501714_1.jpeg",
+        "local_image_path": "data/images/carrefour/detergent_pentru_vase_frosch.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Spray igienizare suprafeÈe Frosch",
+        "price_new": 14.9,
+        "price_old": 20.99,
+        "discount": 0.29,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/11508343.jpg",
+        "local_image_path": "data/images/carrefour/spray_igienizare_suprafe_e_frosch.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "LavetÄ universalÄ Appa",
+        "price_new": 3.51,
+        "price_old": 4.69,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/11508667.jpg",
+        "local_image_path": "data/images/carrefour/lavet_universal_appa.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "SoluÈie universalÄ de curÄÈat podele Èi pereÈi Mr. Pro",
+        "price_new": 33.68,
+        "price_old": 44.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/11508574.jpg",
+        "local_image_path": "data/images/carrefour/solu_ie_universal_de_cur_at_podele_i_pere_i_mr_pro.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "SoluÈie spray anticalcar / baie Ace",
+        "price_new": 13.9,
+        "price_old": 19.29,
+        "discount": 0.28,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/02/12/11507369_1.jpg",
+        "local_image_path": "data/images/carrefour/solu_ie_spray_anticalcar_baie_ace.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "SoluÈie spray degresant / universal Ace",
+        "price_new": 13.9,
+        "price_old": 19.49,
+        "discount": 0.29,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/12/27/11507257_1.jpg",
+        "local_image_path": "data/images/carrefour/solu_ie_spray_degresant_universal_ace.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Spray anticalcar pentru baie / degresant pentru aragaz Power&Shine Cif",
+        "price_new": 16.9,
+        "price_old": 22.99,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/11504871.jpg",
+        "local_image_path": "data/images/carrefour/spray_anticalcar_pentru_baie_degresant_pentru_aragaz_power_shine_cif.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Spray spumÄ curaÈare multisuprafeÈe Cif",
+        "price_new": 16.9,
+        "price_old": 22.99,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/11507683.jpg",
+        "local_image_path": "data/images/carrefour/spray_spum_cura_are_multisuprafe_e_cif.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Spray spumÄ curaÈare cu aromÄ de lÄmâie Cif",
+        "price_new": 17.9,
+        "price_old": 24.99,
+        "discount": 0.28,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/11508642_sed.jpg",
+        "local_image_path": "data/images/carrefour/spray_spum_cura_are_cu_arom_de_l_m_ie_cif.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent spray universal Mandarin / Blossom Mr. Proper",
+        "price_new": 17.18,
+        "price_old": 22.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/11506184_1.jpg",
+        "local_image_path": "data/images/carrefour/detergent_spray_universal_mandarin_blossom_mr_proper.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent spray pentru baie universal Mr. Proper",
+        "price_new": 18.37,
+        "price_old": 24.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/11507694.jpg",
+        "local_image_path": "data/images/carrefour/detergent_spray_pentru_baie_universal_mr_proper.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Dezinfectant uinversal Pine / Atlantic Domestos",
+        "price_new": 14.9,
+        "price_old": 19.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/11021717_1.jpg",
+        "local_image_path": "data/images/carrefour/dezinfectant_uinversal_pine_atlantic_domestos.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Spray spumÄ pentru curÄÈare Domestos",
+        "price_new": 12.9,
+        "price_old": 17.49,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/11507018_1.jpg",
+        "local_image_path": "data/images/carrefour/spray_spum_pentru_cur_are_domestos.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Odorizant pentru vasul de toaletÄ Domestos",
+        "price_new": 14.61,
+        "price_old": 19.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/11507691_edt_1.jpg",
+        "local_image_path": "data/images/carrefour/odorizant_pentru_vasul_de_toalet_domestos.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "RezervÄ odorizant camerÄ Freshmatic Air Wick",
+        "price_new": 34.99,
+        "price_old": 48.99,
+        "discount": 0.29,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/12/11021346_1.jpg",
+        "local_image_path": "data/images/carrefour/rezerv_odorizant_camer_freshmatic_air_wick.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "ServeÈele cutie cube Kleenex",
+        "price_new": 4.11,
+        "price_old": 5.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/11505571_3.jpg",
+        "local_image_path": "data/images/carrefour/serve_ele_cutie_cube_kleenex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Hârtie igienicÄ Zewa 4 straturi, 8 role",
+        "price_new": 21.36,
+        "price_old": 28.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/11502806.jpg",
+        "local_image_path": "data/images/carrefour/h_rtie_igienic_zewa_4_straturi_8_role.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Absorbante zilnice Kotex 40 / 52 /",
+        "price_new": 7.49,
+        "price_old": 9.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/11505750_1.jpg",
+        "local_image_path": "data/images/carrefour/absorbante_zilnice_kotex_40_52.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Absorbante Kotex 7 / 8 /",
+        "price_new": 5.76,
+        "price_old": 7.69,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/11505989.jpg",
+        "local_image_path": "data/images/carrefour/absorbante_kotex_7_8.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Absorbante Kotex /",
+        "price_new": 7.68,
+        "price_old": 10.25,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/11503930_1.jpg",
+        "local_image_path": "data/images/carrefour/absorbante_kotex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Absorbante Ultra Always 36 / 40 / 48 /",
+        "price_new": 29.24,
+        "price_old": 38.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/01/29/11508514_1.jpg",
+        "local_image_path": "data/images/carrefour/absorbante_ultra_always_36_40_48.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Absorbante Platinium Always 42 /",
+        "price_new": 29.24,
+        "price_old": 38.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/12/17/11508517_1.jpg",
+        "local_image_path": "data/images/carrefour/absorbante_platinium_always_42.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Hârtie igienicÄ umedÄ Classic Clean Kleenex",
+        "price_new": 6.51,
+        "price_old": 8.69,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/11504577_4.jpg",
+        "local_image_path": "data/images/carrefour/h_rtie_igienic_umed_classic_clean_kleenex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "ServeÈele umede Huggies All Over Clean",
+        "price_new": 6.74,
+        "price_old": 8.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/11504031.jpg",
+        "local_image_path": "data/images/carrefour/serve_ele_umede_huggies_all_over_clean.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece-chilotel Huggies nr.4 / 5 / 6 Jumbo, Girl/Boy, 30 / 34 /",
+        "price_new": 53.99,
+        "price_old": 71.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/12/17/11504070_1.jpg",
+        "local_image_path": "data/images/carrefour/scutece_chilotel_huggies_nr_4_5_6_jumbo_girl_boy_30_34.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece tip chilot pentru adulÈi Pants Normal, mÄrime XL, Tena",
+        "price_new": 99.99,
+        "price_old": 133.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/01/15/11508029_1.jpg",
+        "local_image_path": "data/images/carrefour/scutece_tip_chilot_pentru_adul_i_pants_normal_m_rime_xl_tena.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece pentru adulÈi tip chilot Seni Active Classic, L",
+        "price_new": 95.92,
+        "price_old": 119.9,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/24/11507022.jpg",
+        "local_image_path": "data/images/carrefour/scutece_pentru_adul_i_tip_chilot_seni_active_classic_l.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece pentru adulÈi tip chilot Seni Active Classic, XL",
+        "price_new": 94.32,
+        "price_old": 117.9,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/11507020.jpg",
+        "local_image_path": "data/images/carrefour/scutece_pentru_adul_i_tip_chilot_seni_active_classic_xl.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece pentru adulÈi tip chilot Seni Classic, M",
+        "price_new": 25.19,
+        "price_old": 31.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/11507025.jpg",
+        "local_image_path": "data/images/carrefour/scutece_pentru_adul_i_tip_chilot_seni_classic_m.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece pentru adulÈi tip chilot Seni Classic, L",
+        "price_new": 30.39,
+        "price_old": 37.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/11507026.jpg",
+        "local_image_path": "data/images/carrefour/scutece_pentru_adul_i_tip_chilot_seni_classic_l.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece pentru adulÈi tip chilot Seni Classic, XL",
+        "price_new": 38.39,
+        "price_old": 47.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/11507024.jpg",
+        "local_image_path": "data/images/carrefour/scutece_pentru_adul_i_tip_chilot_seni_classic_xl.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece pentru adulÈi tip chilot Seni Super, M",
+        "price_new": 58.39,
+        "price_old": 72.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/11508228.jpg",
+        "local_image_path": "data/images/carrefour/scutece_pentru_adul_i_tip_chilot_seni_super_m.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece pentru adulÈi tip chilot Seni Super, L",
+        "price_new": 59.99,
+        "price_old": 74.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/11508227.jpg",
+        "local_image_path": "data/images/carrefour/scutece_pentru_adul_i_tip_chilot_seni_super_l.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece pentru adulÈi tip chilot Seni Super, XL",
+        "price_new": 62.79,
+        "price_old": 78.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/20/11508236.jpg",
+        "local_image_path": "data/images/carrefour/scutece_pentru_adul_i_tip_chilot_seni_super_xl.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Buchet de flori de primÄvarÄ",
+        "price_new": 24.99,
+        "price_old": 34.99,
+        "discount": 0.29,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/02/05/22502955.jpg",
+        "local_image_path": "data/images/carrefour/buchet_de_flori_de_prim_var.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pijama pentru fete 9/16 ani Tex",
+        "price_new": 29.99,
+        "price_old": 49.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/62521813.jpg",
+        "local_image_path": "data/images/carrefour/pijama_pentru_fete_9_16_ani_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pijama pentru bÄieÈi 3/8 ani Tex",
+        "price_new": 29.99,
+        "price_old": 49.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/62521650.jpg",
+        "local_image_path": "data/images/carrefour/pijama_pentru_b_ie_i_3_8_ani_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "TeniÈi adulÈi Tex, mÄrimi 36-46",
+        "price_new": 49.99,
+        "price_old": 79.99,
+        "discount": 0.38,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/60518444.jpg",
+        "local_image_path": "data/images/carrefour/teni_i_adul_i_tex_m_rimi_36_46.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BluzÄ pentru damÄ mÄrimi S/XXL Tex",
+        "price_new": 69.99,
+        "price_old": 129.99,
+        "discount": 0.46,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/63516836.jpg",
+        "local_image_path": "data/images/carrefour/bluz_pentru_dam_m_rimi_s_xxl_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CÄmaÈÄ pentru bÄrbaÈi mÄrimi S/XXL Tex",
+        "price_new": 79.99,
+        "price_old": 149.99,
+        "discount": 0.47,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/64515227.jpg",
+        "local_image_path": "data/images/carrefour/c_ma_pentru_b_rba_i_m_rimi_s_xxl_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Tricou pentru bÄrbaÈi mÄrimi S/3XL Tex",
+        "price_new": 38.99,
+        "price_old": 59.99,
+        "discount": 0.35,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/64515381.jpg",
+        "local_image_path": "data/images/carrefour/tricou_pentru_b_rba_i_m_rimi_s_3xl_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pantaloni pentru bÄrbaÈi mÄrimi S/3XL Tex",
+        "price_new": 49.99,
+        "price_old": 79.99,
+        "discount": 0.38,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/64514132.jpg",
+        "local_image_path": "data/images/carrefour/pantaloni_pentru_b_rba_i_m_rimi_s_3xl_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Trening pentru bÄrbaÈi mÄrimi S/3XL Tex",
+        "price_new": 99.99,
+        "price_old": 149.99,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/64515815.jpg",
+        "local_image_path": "data/images/carrefour/trening_pentru_b_rba_i_m_rimi_s_3xl_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Halat pentru bÄrbaÈi mÄrimi S/XXL Tex diverse culori",
+        "price_new": 69.99,
+        "price_old": 114.99,
+        "discount": 0.39,
+        "requires_card": false,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/64508223.jpg",
+        "local_image_path": "data/images/carrefour/halat_pentru_b_rba_i_m_rimi_s_xxl_tex_diverse_culori.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pijama pentru damÄ mÄrimi S/5XL Tex",
+        "price_new": 49.99,
+        "price_old": 69.99,
+        "discount": 0.29,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/63517594_1.jpg",
+        "local_image_path": "data/images/carrefour/pijama_pentru_dam_m_rimi_s_5xl_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pijama pentru damÄ mÄrimi S/XXL Tex",
+        "price_new": 59.99,
+        "price_old": 89.99,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/63517577.jpg",
+        "local_image_path": "data/images/carrefour/pijama_pentru_dam_m_rimi_s_xxl_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pijama pentru bÄrbaÈi mÄrimi S/3XL Tex",
+        "price_new": 59.99,
+        "price_old": 89.99,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/64515394.jpg",
+        "local_image_path": "data/images/carrefour/pijama_pentru_b_rba_i_m_rimi_s_3xl_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Figurine Pokemon",
+        "price_new": 39.9,
+        "price_old": 54.9,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/33532972.jpg",
+        "local_image_path": "data/images/carrefour/figurine_pokemon.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Figurine Clip' N' Go Pokemon",
+        "price_new": 39.9,
+        "price_old": 66.9,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/33532973_corect.jpg",
+        "local_image_path": "data/images/carrefour/figurine_clip_n_go_pokemon.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PÄpuÈÄ surprizÄ Disney Princess Cupcake",
+        "price_new": 39.9,
+        "price_old": 69.9,
+        "discount": 0.43,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/33545635.jpg",
+        "local_image_path": "data/images/carrefour/p_pu_surpriz_disney_princess_cupcake.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set 5 maÈinuÈe Hot Wheels Mattel 80th",
+        "price_new": 49.9,
+        "price_old": 74.9,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/33545624.jpg",
+        "local_image_path": "data/images/carrefour/set_5_ma_inu_e_hot_wheels_mattel_80th.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "JucÄrie de pluÈ Squishmallows",
+        "price_new": 39.9,
+        "price_old": 59.9,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/33543808_1.jpg",
+        "local_image_path": "data/images/carrefour/juc_rie_de_plu_squishmallows.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "JucÄrie de plus Squishmallows 19cm",
+        "price_new": 79.9,
+        "price_old": 109.0,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/33543800_1.jpg",
+        "local_image_path": "data/images/carrefour/juc_rie_de_plus_squishmallows_19cm.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CanÄ filtrantÄ Carrefour Home",
+        "price_new": 44.9,
+        "price_old": 69.9,
+        "discount": 0.36,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/31534160.jpg",
+        "local_image_path": "data/images/carrefour/can_filtrant_carrefour_home.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set 6 cartuÈe filtrante Carrefour Home",
+        "price_new": 89.9,
+        "price_old": 129.0,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/31534157.jpg",
+        "local_image_path": "data/images/carrefour/set_6_cartu_e_filtrante_carrefour_home.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set de igheane pÄtrate",
+        "price_new": 14.9,
+        "price_old": 29.9,
+        "discount": 0.5,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/31516994.jpg",
+        "local_image_path": "data/images/carrefour/set_de_igheane_p_trate.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Raft pentru pantofi cu 3 poliÈe",
+        "price_new": 29.9,
+        "price_old": 39.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/31539073.jpg",
+        "local_image_path": "data/images/carrefour/raft_pentru_pantofi_cu_3_poli_e.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Raft dublu pentru pantofi cu 5 poliÈe",
+        "price_new": 39.9,
+        "price_old": 56.9,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/31539072.jpg",
+        "local_image_path": "data/images/carrefour/raft_dublu_pentru_pantofi_cu_5_poli_e.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set maturÄ cu fÄraÈ pliabil",
+        "price_new": 14.9,
+        "price_old": 19.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/31519493.jpg",
+        "local_image_path": "data/images/carrefour/set_matur_cu_f_ra_pliabil.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set mÄturÄ + fÄraÈ cu coadÄ Regina Apex",
+        "price_new": 59.9,
+        "price_old": 86.9,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/31019150.jpg",
+        "local_image_path": "data/images/carrefour/set_m_tur_f_ra_cu_coad_regina_apex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Mop Ultramax Vileda",
+        "price_new": 99.9,
+        "price_old": 159.0,
+        "discount": 0.37,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/31021455_2.jpg",
+        "local_image_path": "data/images/carrefour/mop_ultramax_vileda.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "SpÄlÄtor geamuri Apex",
+        "price_new": 39.9,
+        "price_old": 59.9,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/31019149.jpg",
+        "local_image_path": "data/images/carrefour/sp_l_tor_geamuri_apex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "UscÄtor de rufe Eva 18m, aluminiu",
+        "price_new": 99.9,
+        "price_old": 179.0,
+        "discount": 0.44,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/31517630_3.jpg",
+        "local_image_path": "data/images/carrefour/usc_tor_de_rufe_eva_18m_aluminiu.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set 8 umeraÈe, Carrefour",
+        "price_new": 19.9,
+        "price_old": 27.9,
+        "discount": 0.29,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/31501164.jpg",
+        "local_image_path": "data/images/carrefour/set_8_umera_e_carrefour.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Cutie depozitare cu roÈi Èi capac, transparent",
+        "price_new": 49.9,
+        "price_old": 79.9,
+        "discount": 0.38,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/31527985_2.jpg",
+        "local_image_path": "data/images/carrefour/cutie_depozitare_cu_ro_i_i_capac_transparent.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Cutie depozitare cu capac, mÄrimea M, transparent",
+        "price_new": 24.9,
+        "price_old": 34.9,
+        "discount": 0.29,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/31527982_2.jpg",
+        "local_image_path": "data/images/carrefour/cutie_depozitare_cu_capac_m_rimea_m_transparent.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Perie pentru îngrijire animale de companie 3 in 1 Carrefour",
+        "price_new": 7.99,
+        "price_old": 14.9,
+        "discount": 0.46,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/34517359.jpg",
+        "local_image_path": "data/images/carrefour/perie_pentru_ngrijire_animale_de_companie_3_in_1_carrefour.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set 2 boluri din ceramicÄ pentru pisici Èi suport bambus Carrefour",
+        "price_new": 24.9,
+        "price_old": 34.9,
+        "discount": 0.29,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/34516505.jpg",
+        "local_image_path": "data/images/carrefour/set_2_boluri_din_ceramic_pentru_pisici_i_suport_bambus_carrefour.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Minge cu sÄrituri pentru câini mici Carrefour",
+        "price_new": 17.9,
+        "price_old": 26.9,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/34517353.jpg",
+        "local_image_path": "data/images/carrefour/minge_cu_s_rituri_pentru_c_ini_mici_carrefour.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Minge rotativÄ pentru pisici Carrefour",
+        "price_new": 17.9,
+        "price_old": 29.9,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/34517354.jpg",
+        "local_image_path": "data/images/carrefour/minge_rotativ_pentru_pisici_carrefour.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "JucÄrie smart retractabilÄ pentru pisici",
+        "price_new": 9.99,
+        "price_old": 17.9,
+        "discount": 0.44,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/34517356.jpg",
+        "local_image_path": "data/images/carrefour/juc_rie_smart_retractabil_pentru_pisici.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CombinÄ frigorificÄ Arctic AK54270M40W",
+        "price_new": 1359.99,
+        "price_old": 1699.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/40501934.jpg",
+        "local_image_path": "data/images/carrefour/combin_frigorific_arctic_ak54270m40w.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "UscÄtor de rufe Candy CSOE H9A2DE-S",
+        "price_new": 1519.99,
+        "price_old": 1899.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/40502088.jpg",
+        "local_image_path": "data/images/carrefour/usc_tor_de_rufe_candy_csoe_h9a2de_s.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Aspirator fÄrÄ sac Samsung VCC45T0S3R",
+        "price_new": 298.49,
+        "price_old": 397.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/41502810.jpg",
+        "local_image_path": "data/images/carrefour/aspirator_f_r_sac_samsung_vcc45t0s3r.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Espressor manual Delonghi ECP3121",
+        "price_new": 444.53,
+        "price_old": 716.99,
+        "discount": 0.38,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2025/06/11/41503233.jpg",
+        "local_image_path": "data/images/carrefour/espressor_manual_delonghi_ecp3121.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Espressor Tassimo TAS1620",
+        "price_new": 185.99,
+        "price_old": 299.99,
+        "discount": 0.38,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/41507121.jpg",
+        "local_image_path": "data/images/carrefour/espressor_tassimo_tas1620.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Blender de masÄ Carrefour Home HSB3202B-25",
+        "price_new": 69.43,
+        "price_old": 111.99,
+        "discount": 0.38,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/41506828.jpg",
+        "local_image_path": "data/images/carrefour/blender_de_mas_carrefour_home_hsb3202b_25.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Cântar de bucÄtÄrie Zokura Z1011",
+        "price_new": 48.99,
+        "price_old": 69.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/01/29/41506078.jpg",
+        "local_image_path": "data/images/carrefour/c_ntar_de_buc_t_rie_zokura_z1011.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Televizor Smart QLED Samsung 43Q7F2",
+        "price_new": 1359.99,
+        "price_old": 1599.99,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/44502971.jpg",
+        "local_image_path": "data/images/carrefour/televizor_smart_qled_samsung_43q7f2.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Televizor LED Smart TV 32HH01K",
+        "price_new": 497.99,
+        "price_old": 599.99,
+        "discount": 0.17,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/44503076.jpg",
+        "local_image_path": "data/images/carrefour/televizor_led_smart_tv_32hh01k.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BoxÄ portabilÄ Blaupunkt MB10",
+        "price_new": 846.59,
+        "price_old": 1019.99,
+        "discount": 0.17,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/43501601.jpg",
+        "local_image_path": "data/images/carrefour/box_portabil_blaupunkt_mb10.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Radio cu ceas Poss PSDACRW142-25",
+        "price_new": 123.49,
+        "price_old": 189.99,
+        "discount": 0.35,
+        "requires_card": true,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/43502418.jpg",
+        "local_image_path": "data/images/carrefour/radio_cu_ceas_poss_psdacrw142_25.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Radio cu ceas Poss PSCR16BK",
+        "price_new": 69.99,
+        "price_old": 99.99,
+        "discount": 0.3,
+        "requires_card": false,
+        "image_url": "https://c4paygcp.carrefour.ro/images/loyaltyproducts/2026/03/19/43502321.jpg",
+        "local_image_path": "data/images/carrefour/radio_cu_ceas_poss_pscr16bk.jpg"
+    }
+]

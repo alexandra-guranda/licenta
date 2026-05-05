@@ -1,0 +1,1262 @@
+[
+    {
+        "store": "Carrefour",
+        "raw_name": "Carrefour",
+        "price_new": 25.03,
+        "price_old": 25.03,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:11:29"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Carrefour",
+        "price_new": 25.03,
+        "price_old": 25.03,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:11:29"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PRIN ACT FOR GOOD",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:11:32"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "porții:",
+        "price_new": 22.5,
+        "price_old": 22.5,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:11:41"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "porție:",
+        "price_new": 15.0,
+        "price_old": 15.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:11:41"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "identice",
+        "price_new": 81.5,
+        "price_old": 81.5,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:11:41"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "GC",
+        "price_new": 3.52,
+        "price_old": 3.52,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:11:55"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Chefir Carrefour Classic",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:11:55"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pret",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:11"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "inscriptionat De hon_",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:20"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Eugenia cookie",
+        "price_new": 4.79,
+        "price_old": 4.79,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:23"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "25L",
+        "price_new": 0.75,
+        "price_old": 0.75,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:39"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "408, 0.7L",
+        "price_new": 0.33,
+        "price_old": 0.33,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:39"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Clausthaler",
+        "price_new": 0.33,
+        "price_old": 0.33,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:39"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "#[",
+        "price_new": 0.33,
+        "price_old": 0.33,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:44"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pepsi Zero zahăr",
+        "price_new": 40.33,
+        "price_old": 40.33,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:44"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "6 x 2L, per pachet",
+        "price_new": 18.65,
+        "price_old": 18.65,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:44"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "mineralf",
+        "price_new": 3.73,
+        "price_old": 3.73,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:44"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Bere Heineken",
+        "price_new": 0.33,
+        "price_old": 0.33,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Preț pachet:",
+        "price_new": 30.85,
+        "price_old": 30.85,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "buc:",
+        "price_new": 6.17,
+        "price_old": 6.17,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "3LEI",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "3LEI",
+        "price_new": 0.0,
+        "price_old": 24.9,
+        "discount": 1.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Bere Ursus",
+        "price_new": 13.56,
+        "price_old": 13.56,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "reiesit din",
+        "price_new": 60.33,
+        "price_old": 60.33,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Bere Madri",
+        "price_new": 60.33,
+        "price_old": 60.33,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "per",
+        "price_new": 60.33,
+        "price_old": 60.33,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "pachet:",
+        "price_new": 26.45,
+        "price_old": 26.45,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "pachet:",
+        "price_new": 26.45,
+        "price_old": 23.95,
+        "discount": -0.1,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "buc.;",
+        "price_new": 5.29,
+        "price_old": 5.29,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "5",
+        "price_new": 4.78,
+        "price_old": 4.78,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "6x05 L, per pachet",
+        "price_new": 19.79,
+        "price_old": 19.79,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "per buc.",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ciucjc Ciltc",
+        "price_new": 0.33,
+        "price_old": 0.33,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CiuC",
+        "price_new": 31.99,
+        "price_old": 31.99,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "buc:",
+        "price_new": 6.4,
+        "price_old": 6.4,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "per pachet",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "per pachet",
+        "price_new": 0.0,
+        "price_old": 30.65,
+        "discount": 1.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "8x 0.33 L, per pachet",
+        "price_new": 30.65,
+        "price_old": 33.99,
+        "discount": 0.1,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Preț per buc.",
+        "price_new": 6.13,
+        "price_old": 6.13,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Preț per buc.",
+        "price_new": 6.13,
+        "price_old": 4.85,
+        "discount": -0.26,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:51"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ovidiu",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:55"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ovidiu",
+        "price_new": 0.0,
+        "price_old": 0.75,
+        "discount": 1.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:55"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "diverse",
+        "price_new": 0.75,
+        "price_old": 0.75,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:55"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "perioada:",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:55"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "perioada:",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:55"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Rasova La",
+        "price_new": 0.75,
+        "price_old": 0.75,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:55"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "sortimente",
+        "price_new": 0.75,
+        "price_old": 0.75,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:55"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Angelli",
+        "price_new": 0.75,
+        "price_old": 0.75,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:55"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Superiore",
+        "price_new": 0.75,
+        "price_old": 0.75,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:55"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "perioada:",
+        "price_new": 0.75,
+        "price_old": 0.75,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:55"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "perioada:",
+        "price_new": 0.75,
+        "price_old": 0.75,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:12:55"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "disponibil , Oferta valabila",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:06"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "deschisalmedie,",
+        "price_new": 43.99,
+        "price_old": 43.99,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:06"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pret -",
+        "price_new": 69.99,
+        "price_old": 69.99,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:06"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Preț",
+        "price_new": 69.99,
+        "price_old": 69.99,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:06"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Preț -",
+        "price_new": 17.99,
+        "price_old": 17.99,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:06"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Preț -",
+        "price_new": 17.99,
+        "price_old": 117.99,
+        "discount": 0.85,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:06"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Preț",
+        "price_new": 11.37,
+        "price_old": 11.37,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:06"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pret",
+        "price_new": 6.69,
+        "price_old": 6.69,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:06"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "ETRONG",
+        "price_new": 19.99,
+        "price_old": 19.99,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:26"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "buc:",
+        "price_new": 19.99,
+        "price_old": 19.99,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:26"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "comercialveare",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:26"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PROMO",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:28"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "SoogTim",
+        "price_new": 5.38,
+        "price_old": 5.38,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:32"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "%",
+        "price_new": 28.97,
+        "price_old": 28.97,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:32"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "ululdoorinoood",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:32"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "deHoored",
+        "price_new": 53.9,
+        "price_old": 53.9,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:32"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Ursus",
+        "price_new": 8.0,
+        "price_old": 8.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:32"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "lel",
+        "price_new": 60.33,
+        "price_old": 60.33,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:32"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "1795",
+        "price_new": 1.98,
+        "price_old": 1.98,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:32"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "1795",
+        "price_new": 1.98,
+        "price_old": 9.591,
+        "discount": 0.79,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:32"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Colco aics",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:32"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "899|",
+        "price_new": 91.65,
+        "price_old": 91.65,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:38"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Kopohone",
+        "price_new": 8.78,
+        "price_old": 8.78,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:38"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Kopohone",
+        "price_new": 8.78,
+        "price_old": 35.88,
+        "discount": 0.76,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:38"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "8,78",
+        "price_new": 35.88,
+        "price_old": 15.73,
+        "discount": -1.28,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:38"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Avoode",
+        "price_new": 5.89,
+        "price_old": 5.89,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "100g",
+        "price_new": 49.9,
+        "price_old": 49.9,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "100g",
+        "price_new": 49.9,
+        "price_old": 4.58,
+        "discount": -9.9,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "99",
+        "price_new": 12.48,
+        "price_old": 12.48,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Pătrunjel",
+        "price_new": 1.48,
+        "price_old": 1.48,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "19\"",
+        "price_new": 45.89,
+        "price_old": 45.89,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "fructe in pericada",
+        "price_new": 0.0,
+        "price_old": 0.0,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "/100g",
+        "price_new": 86.1119,
+        "price_old": 86.1119,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "/100g",
+        "price_new": 86.1119,
+        "price_old": 65.9019,
+        "discount": -0.31,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "86,11/1k9",
+        "price_new": 65.9019,
+        "price_old": 11.88,
+        "discount": -4.55,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "65,90/1k9",
+        "price_new": 11.88,
+        "price_old": 5.79,
+        "discount": -1.05,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "12%",
+        "price_new": 43.9,
+        "price_old": 43.9,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Tomate",
+        "price_new": 4.88,
+        "price_old": 4.88,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Ibue din camcanie",
+        "price_new": 8.88,
+        "price_old": 8.88,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "4269",
+        "price_new": 18.6019,
+        "price_old": 18.6019,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "4269",
+        "price_new": 18.6019,
+        "price_old": 6.94,
+        "discount": -1.68,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "18,60/1k9",
+        "price_new": 6.94,
+        "price_old": 9.3,
+        "discount": 0.25,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "6,94",
+        "price_new": 9.3,
+        "price_old": 38.95,
+        "discount": 0.76,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:43"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Doorcu",
+        "price_new": 19.93,
+        "price_old": 19.93,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:46"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "509",
+        "price_new": 8.79,
+        "price_old": 8.79,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:46"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "160g",
+        "price_new": 42.44,
+        "price_old": 42.44,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:46"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "carbogazoasa",
+        "price_new": 3.501,
+        "price_old": 3.501,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:46"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Doorcu",
+        "price_new": 11.48,
+        "price_old": 11.48,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:46"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "2893",
+        "price_new": 15.79,
+        "price_old": 15.79,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:46"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "El Capitan",
+        "price_new": 60.33,
+        "price_old": 60.33,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:46"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "1OOmn",
+        "price_new": 8.591,
+        "price_old": 8.591,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:46"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "209",
+        "price_new": 1.98,
+        "price_old": 1.98,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:46"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "PASTĂ",
+        "price_new": 6.45,
+        "price_old": 6.45,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:50"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "PASTĂ",
+        "price_new": 6.45,
+        "price_old": 5.25,
+        "discount": -0.23,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:50"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "GaMA",
+        "price_new": 16.101,
+        "price_old": 16.101,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:50"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "GaMA",
+        "price_new": 16.101,
+        "price_old": 49.88,
+        "discount": 0.68,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:50"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Home Gordk",
+        "price_new": 11.88,
+        "price_old": 11.88,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:50"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "99",
+        "price_new": 8.48,
+        "price_old": 8.48,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:50"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "585g",
+        "price_new": 12.49,
+        "price_old": 12.49,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:50"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Ertra Virrin",
+        "price_new": 59.981,
+        "price_old": 59.981,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:50"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "lei",
+        "price_new": 3.89,
+        "price_old": 3.89,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:50"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "(Lggs)",
+        "price_new": 47.92,
+        "price_old": 47.92,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:55"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Saro",
+        "price_new": 8.99,
+        "price_old": 8.99,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:55"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Saro",
+        "price_new": 8.99,
+        "price_old": 7.6719,
+        "discount": -0.17,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:55"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Croissant",
+        "price_new": 3.99,
+        "price_old": 3.99,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:55"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "147g",
+        "price_new": 16.801,
+        "price_old": 16.801,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:55"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "2L",
+        "price_new": 54.95,
+        "price_old": 54.95,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:55"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Biscuiti",
+        "price_new": 11.55,
+        "price_old": 11.55,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:55"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Biscuiti",
+        "price_new": 11.55,
+        "price_old": 13.58,
+        "discount": 0.15,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:55"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "19%",
+        "price_new": 64.04,
+        "price_old": 64.04,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:55"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "nocarbogazcasa",
+        "price_new": 4.001,
+        "price_old": 4.001,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:55"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "{2,8",
+        "price_new": 8.29,
+        "price_old": 8.29,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:55"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "~11%",
+        "price_new": 4.79,
+        "price_old": 4.79,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:55"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "~11%",
+        "price_new": 4.79,
+        "price_old": 23.85,
+        "discount": 0.8,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:55"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "COCA",
+        "price_new": 9.981,
+        "price_old": 9.981,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:59"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "1659",
+        "price_new": 1.19,
+        "price_old": 1.19,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:59"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "1659",
+        "price_new": 1.19,
+        "price_old": 5.95,
+        "discount": 0.8,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:59"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "1,19",
+        "price_new": 5.95,
+        "price_old": 6.65,
+        "discount": 0.11,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:59"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "5,95",
+        "price_new": 6.65,
+        "price_old": 9.98,
+        "discount": 0.33,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:59"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Ciucas",
+        "price_new": 7.181,
+        "price_old": 7.181,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:59"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Ciucas",
+        "price_new": 7.181,
+        "price_old": 71.181,
+        "discount": 0.9,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:59"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "derute",
+        "price_new": 7.88,
+        "price_old": 7.88,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:59"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "HEditeraakEA",
+        "price_new": 1.76,
+        "price_old": 1.76,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:59"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "IOm",
+        "price_new": 10.791,
+        "price_old": 10.791,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:59"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "IOm",
+        "price_new": 10.791,
+        "price_old": 22.83,
+        "discount": 0.53,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:13:59"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "1259",
+        "price_new": 2.05,
+        "price_old": 2.05,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:14:02"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "Segcapsune",
+        "price_new": 3.35,
+        "price_old": 3.35,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:14:02"
+    },
+    {
+        "store": "Profi",
+        "raw_name": "eler",
+        "price_new": 8.48,
+        "price_old": 8.48,
+        "discount": 0.0,
+        "requires_card": false,
+        "captured_at": "2026-03-26 20:14:02"
+    }
+]

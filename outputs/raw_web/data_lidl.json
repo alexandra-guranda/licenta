@@ -1,0 +1,1132 @@
+[
+    {
+        "store": "Lidl",
+        "raw_name": "Piept de pui, dezosat, fÄrÄ piele",
+        "price_new": 16.99,
+        "price_old": 20.79,
+        "discount": 0.18,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/rx6cqyxvO_wQxbN6bE6nEstR6CpU7hVHXwjKpkD_pQk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9BRUZDNzNBM0U0QkIyMThEQTZCQ0M0Mjk/wMjkyNENGNjA2MkMyRkRFRjZFQzFEM0YwRENCMDQzQTA2OUJGREQ1LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/piept_de_pui_dezosat_f_r_piele.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CÄMARA NOASTRÄ MuÈchi crud-uscat feliat",
+        "price_new": 5.99,
+        "price_old": 7.69,
+        "discount": 0.22,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/qrktZu8fkhPdnx9fuwUzYsk-xxh-oI_A2L8gTATJHEY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzA0QzE2NkVFNEI2NDk1QTE5N0NEODFFRk/YxNzIwRjFGRTRFQUM2NDE3NjMxQjMzRTVCMEJDMjJBOTNBQTE1N0IucG5n.png",
+        "local_image_path": "data/images/lidl/c_mara_noastr_mu_chi_crud_uscat_feliat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "NAUTICA Hamsii marinate",
+        "price_new": 9.99,
+        "price_old": 12.49,
+        "discount": 0.2,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/gt3utFyyBAlLow-PDH4u4vGX_BTqpbrHSrn6iUre4vc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9GQTczQjk3RjlEOTc1OEE3QjlCQ0NFOTI/0OEU1RjkyNzJDMUM2REJDMDMwQUJFODk1QUJDRUFEMkY5MkUzRDUzLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/nautica_hamsii_marinate.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PulpÄ de porc, fÄrÄ os",
+        "price_new": 1.59,
+        "price_old": 2.29,
+        "discount": 0.31,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/k3052radyoD8ukLYHdywx7qD-gBH5nVeotNj47wg-2E/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS8wNzlGMDFDREYzMjU3RURCRTQxM0YyNjA/xMjg5NTAxMzdEMjBCM0I5RUQ2NUM5NDEwQ0ZBRDMxMTk3MTlDMDhBLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/pulp_de_porc_f_r_os.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "Trunchi de merluciu",
+        "price_new": 12.99,
+        "price_old": 16.89,
+        "discount": 0.23,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/dRKGa9xOjFLv0OuV1F1lGsX4N8ULA-DDYzDPny90xE0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS82NTJEQURGRUYxNzA4OTA5REE4NDQ4QzZ/ERDhDNUMzNjM1RDY3Rjg4Mjc2RjY3MTJGRDM5RTAxQkVBNDkwMTg4LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/trunchi_de_merluciu.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "Cotlet de porc, fÄrÄ os, feliat",
+        "price_new": 10.99,
+        "price_old": 14.25,
+        "discount": 0.23,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/i1LrVLu7OFRMS2FDkxe0jL1_VwsQh8ydSEGrV9kahRY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9GNTQ5RjJFMkI2RDMyNzE0MzJFMjEyNDV/BMjhDRTIwNzM2RUU5QjYyNkYxMDQzOUYyNUNEQTJENzEyNTUxODA4LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/cotlet_de_porc_f_r_os_feliat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "Aripi de pui",
+        "price_new": 8.9,
+        "price_old": 10.49,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/uE9UwrPiq9a4ix6OikxwcVpEvdhaADzmKGL_k8G1B_Y/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS81Mzg3NERFRjlEODMzRDA2RThERUYwMzB/ENDU2OEQyNEVDM0ZDRUNFMkQzRDE1NTQ5RTc3RjIyNEUzN0M1RDc5LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/aripi_de_pui.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PIKOK Salam pÄtrat",
+        "price_new": 18.99,
+        "price_old": 23.99,
+        "discount": 0.21,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/pnqbJt3WITNx_4ds-MEtGjUSFz39lS--nN_djdIe0rk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9BQjgyRUJDQ0JCOEEyODk5RUM3ODJFMTg/wM0JCMjVFRjlERjAwMDg5M0RFQzc2MTNBMEQyOUQ0QUQ1NURCMkVCLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/pikok_salam_p_trat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PIKOK CârnaÈi Silezia",
+        "price_new": 13.99,
+        "price_old": 18.99,
+        "discount": 0.26,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/l10BkZTnKT38hbArmzMk9CiZZ6m3GvR3FmWHEdSPxq8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS8xQjlCQTM1QTYwM0Y1RUQ3QURGMEZGNjM/0NEI3NTQyNUI4QkY4NDdGMDE2QUMzQUFBODJDNEYyQkFCNEYzREU3LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/pikok_c_rna_i_silezia.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "BARONI Parizer feliat",
+        "price_new": 3.4,
+        "price_old": 4.85,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/_0ndLRCnnrgF-Y24pVZ2zwDY3pFas6R1pvtktN_Q9Lg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0FFRjNFMDEwQjIxMzhGMTQ2REU0MDA5ME/Q2MDE0RkZDMEJFRkU4Q0E4RTBBMjIwRTZCODZGNDdFMkE3M0YzRDAucG5n.png",
+        "local_image_path": "data/images/lidl/baroni_parizer_feliat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "FRESH FISH TODAY DoradÄ evisceratÄ",
+        "price_new": 4.49,
+        "price_old": 5.49,
+        "discount": 0.18,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/Zzcu1ouau-tbxF_4__QDCVqpG4tIgAcGXfvFQkukL88/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS83Q0I2NTk5QTExREFEOTU1RDYzRjk4Q0M/xNzkyNDIwNzk2OTc2Q0I5QzkwNjU5NzIxQzJEREU2MkY0RjhCQzgxLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/fresh_fish_today_dorad_eviscerat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "DULANO CubuleÈe din ÈuncÄ de porc",
+        "price_new": 11.99,
+        "price_old": 15.25,
+        "discount": 0.21,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/8QRjxMTsN6Lt9Pve2OD7T4jNrK5KT8uJZ9GnXAJFxY8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzI0QUM2Mjk4QTA3OTIwRjQwMjMyNjBBMk/VENkU0NUE1QTg1NzdBODU0REQwMTI2N0EzQTIyQkM1Mzc3Rjg1QjYucG5n.png",
+        "local_image_path": "data/images/lidl/dulano_cubule_e_din_unc_de_porc.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "NAUTICA Macrou file afumat la cald",
+        "price_new": 6.39,
+        "price_old": 7.19,
+        "discount": 0.11,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/lz6-EkrMv5HWRwhnwDcEpiSZ8t6Hf25kzOsRzRVMWwY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS8zN0RDOEFFMzAxRTUxMkREODRGNEU0Q0J/DRDNFNUI5MEI2MjFFRDIzNkU3OEQ4M0MwMTRFM0Y1RkVBM0UzQ0UzLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/nautica_macrou_file_afumat_la_cald.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "Pui Grill condimentat",
+        "price_new": 1.59,
+        "price_old": 1.99,
+        "discount": 0.2,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/QOlG__nW5zw4oXhcF4aQemyWiZD4O3aoJCjTQqsatrQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzdDQUMwQjBENjcxNkIzMkM5OUNFQ0JEOU/M0RTQ5NkVGOEY2NEUxMjEyNDVEN0EzRTQ1Q0EzMDE5QUQ1NTNBMEUucG5n.png",
+        "local_image_path": "data/images/lidl/pui_grill_condimentat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CeafÄ de porc, fÄrÄ os, feliatÄ",
+        "price_new": 2.59,
+        "price_old": 3.25,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/fMWQrJ1SfqGfGswgFONlScmqNeCMejawOcSGtE3eFAw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS85MUZDNTNEMkJGNzBCODM5NTU0NEM0Q0E/1MEQ1QjY5RDA0REIwRTkwQTVEMENBREE2RDdFNjA3NDA3QzEwOEYyLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/ceaf_de_porc_f_r_os_feliat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "NAUTICA SalatÄ cu icre de cod",
+        "price_new": 3.29,
+        "price_old": 4.29,
+        "discount": 0.23,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/nPJ6bMZuw0-PdzHRb4_ooT5Und1d_ZWK1zP_BbSVvsg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9BNzI5QTY1NTIxM0FFRUM5NkQzQUQ4Q0E/1NkNFMUQyNTREQUIzNDVFOUZGRTNEN0EzQUZBMzgwNTNDQUU0MkZCLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/nautica_salat_cu_icre_de_cod.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "MuÈchiuleÈ de porc",
+        "price_new": 2.99,
+        "price_old": 4.05,
+        "discount": 0.26,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/uSISxmLcGLSMZku5RSuhlILBIdWAKCMFhYRY6onTuxA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS80MEE5OUI4RDlCNTgyMUYyQjUxMDc1MkM/xQzU5NkRFMDEzMkU3MTI2MTk3MUNDMUY2N0Q0OTVGMjkzOEM3NjJELmpwZw.jpg",
+        "local_image_path": "data/images/lidl/mu_chiule_de_porc.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PIKOK ÈuncÄ de pui",
+        "price_new": 3.99,
+        "price_old": 4.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/_VNacmjeXXhbvLR0nt72C9mSCGquhe3DO348RVZYzmQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9EOTA4ODM3QTNGQUI3NDcyMTBDQUFFNkQ/3OEMzNkREQzhBRkRGNzYzQ0FBMzExQjgxOTQwQThBNkRGRkIxQzM0LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/pikok_unc_de_pui.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PIKOK ConservÄ din ÈuncÄ de Praga",
+        "price_new": 9.49,
+        "price_old": 12.19,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/3p1fwCsKwiJ_eFWgNHtBsjYYD9OLGzMdpdkiZWqKfoo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9DMTZBQUU5MDc3NkQzMTQxRjYxODExODR/FRjUwODc3NENFNDExMjNGRTZEOUU5MkZDNTU4Njc1RjYxRjk4MzE5LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/pikok_conserv_din_unc_de_praga.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "NAUTICA SardeluÈe marinate",
+        "price_new": 7.99,
+        "price_old": 10.15,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/GuzYM4QgzuAh1fkwvpTdP3oWgIWn-TscOQPCLWCFwb8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzAwQ0VBNjkzQUQ0QTBDRkYxRjNFQUJBQk/U0QTVFRjEwOUFCRUI0RDdEOUI4OEU5OTUxMUI0MDA2QjJBRjcxNjcucG5n.png",
+        "local_image_path": "data/images/lidl/nautica_sardelu_e_marinate.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "NIXE Hering în sos tomat",
+        "price_new": 3.89,
+        "price_old": 4.59,
+        "discount": 0.15,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/_PwJ0Oun-B2CXpxohjkcOkooFcSLuTIMksaTUCHoOZ4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0FGMDBCMzYzMTdEQzhCMTQzRUY5RTdDNj/hBNDgzRDI3NzI1QjYzMTM4NkMzNzk2RDY3MzE1QzYzM0UxNzRFRjgucG5n.png",
+        "local_image_path": "data/images/lidl/nixe_hering_n_sos_tomat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "BARONI Chiftele cu carne de pui separatÄ mecanic",
+        "price_new": 3.18,
+        "price_old": 5.09,
+        "discount": 0.38,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/UNI4JRTPD8NOQi_FUknQNxH40yDAMRukDMC-mw7rAWo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS84NThGQjU0NEVDOTZDODAzRUNEREE4OUE/1QUMxNTdBMjQxN0VEMjExRUM4RDdGM0I1RDFGQzE3RTZFRkU0OEVFLnBuZw.png",
+        "local_image_path": "data/images/lidl/baroni_chiftele_cu_carne_de_pui_separat_mecanic.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "OCEAN SEA Burger din somon",
+        "price_new": 12.49,
+        "price_old": 15.99,
+        "discount": 0.22,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/Gi12xaom0pqyBkauPv2BrIJlBbRkrY-6Z8fj-_nQi3o/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzVCODRGODYwQzNCQjhEODJBNUQwNUIwNj/kxODI4MzJFQzk5MTg3QzE2N0NFNzA3NjM1NUQ1NkFBNDc3MEY1RjQucG5n.png",
+        "local_image_path": "data/images/lidl/ocean_sea_burger_din_somon.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "DULANO SELECTION Salam internaÈional",
+        "price_new": 7.49,
+        "price_old": 9.49,
+        "discount": 0.21,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/57M1DoY2VmWOOXNEjutAWQK8rw5UBcFTDBuDGVvqzV0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzQyMkIzQUY5MDdCRTkzOENEOUJERkVFQz/FFQjAxMDZENTBEQUM1ODU5Q0ZBRTU3RTZBMDAwQ0VCMURFOTE4NDAucG5n.png",
+        "local_image_path": "data/images/lidl/dulano_selection_salam_interna_ional.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "FRESHONA SfeclÄ roÈie fâÈii",
+        "price_new": 4.99,
+        "price_old": 6.69,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/ZArqBiGLFex4e4qJvPG9QTu_U3Yn91bwi49p4yY6RbE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0I3ODYyRTdDQjlDQTkxODUwQTYxNUNCND/FENDY5QzY4RkM4QjZCOUE3RDNGQkYzRDFBMTI2QjM5MENENTEwMkIucG5n.png",
+        "local_image_path": "data/images/lidl/freshona_sfecl_ro_ie_f_ii.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "LÄmâi cu coajÄ netratatÄ",
+        "price_new": 5.99,
+        "price_old": 8.69,
+        "discount": 0.31,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/9AVWQOKCl1KaC9mqDL-fg6JHBlkjgJZjhLMRYucKLRk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS8wQkQzNzFCOUU0M0U4M0VERkZFRTZFMDQ/4MzMxNEQzMUY1ODg1RDc2MjMzMkVFNUQyMzRGNjg5MzNFNDYzRDFDLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/l_m_i_cu_coaj_netratat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "Usturoi",
+        "price_new": 14.99,
+        "price_old": 17.99,
+        "discount": 0.17,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/ibt0PUvuDhMao4gKA5HgAU2VpiFLwARsk61pkyO3aMs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzgzRjFGOTE4RTdCOTYxMzQ4M0RFNjBEN0/ZBRThGQjk1RUZFQzQwQzFFNTdFMENGRDg2NDRERjdDMjQyMTZEN0QucG5n.png",
+        "local_image_path": "data/images/lidl/usturoi.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "Portocale",
+        "price_new": 4.99,
+        "price_old": 6.99,
+        "discount": 0.29,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/bZ4cFhRGKyMv5mAS7gmblG7FSwFtEPmoHMKZGhuPIyQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzBCRjcxQ0RBNzJGRDg4QjA5NTVDRjMyOE/RFMEE1MEQ1ODFBNUE0MEQ2QTkyNkVCQ0Y4REQ1ODgyNUIxQkI3RUUucG5n.png",
+        "local_image_path": "data/images/lidl/portocale.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CÄMARA NOASTRÄ Afine de culturÄ",
+        "price_new": 14.99,
+        "price_old": 17.29,
+        "discount": 0.13,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/eerqW6G4YGJ9XoWX5Feh38Oe9LYZ-DPpT_jgFvP7EF4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS85QUE5RjhGOUVDNzYwNjRBODA4QTc4MDB/BRTkxMjkzODUzQUEwNzQ5NEU0RjE2NzdFQ0I3Rjk3RjNBNTg0MzQ3LnBuZw.png",
+        "local_image_path": "data/images/lidl/c_mara_noastr_afine_de_cultur.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CastraveÈi Fabio",
+        "price_new": 2.49,
+        "price_old": 3.99,
+        "discount": 0.38,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/ndSor7_PGEpeygRU2cOjGWEcpxE8f2Y0dwBUwQ5nmSM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9GOUExN0E1MkFEMDU1QTJFRTlGNDI5RDI/xMTFDNzZCNTIwQkQ4OTE1N0Q2OTQ2MzRDNDZFOTY4RDYyRjMwOTAyLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/castrave_i_fabio.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "Mere roÈii",
+        "price_new": 7.69,
+        "price_old": 10.99,
+        "discount": 0.3,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/XYioJZi8BI0zDcY7OhHXIieTWIePby_wddxELm6Qf5Y/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzQ0MDJDQ0FCRTFDQkVBOTQ3QzY2M0YwRD/NFMzFEODgyNTYyNkM4MUMzMTY1RjM2NjYzODQyNzFBRDBFRTc4RTUucG5n.png",
+        "local_image_path": "data/images/lidl/mere_ro_ii.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "GOLDEN SUN Orez Basmati",
+        "price_new": 8.39,
+        "price_old": 11.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/fQlJDP_azqNNUeOoO4BiuZEt0_2CIFt6T71wL5IfUn4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9CNjVEOEQ0RDJCRkMwMDAwMDVFQzlBMjc/5NTk1ODFGQzc2MjMwRTFFOERDNjNFNjBFQzBDRUJBQTdEMEQ2QzM3LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/golden_sun_orez_basmati.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "MILBONA CremÄ de brânzÄ",
+        "price_new": 5.99,
+        "price_old": 7.99,
+        "discount": 0.25,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/HK8Vr41Vvab6907Rsu28cb-QLYs_ZpOQ0f9SupSVk1M/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzlGMDQwNjVERDNGMDgzRTRFOUQ3RjA4Mz/MyOUJCODBERkVCRjQ0REE2NUVCNEI3NjU5OTM4MjQ1RUI5N0NEMTIucG5n.png",
+        "local_image_path": "data/images/lidl/milbona_crem_de_br_nz.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CÄMARA NOASTRÄ Iaurt cremos de bivoliÈÄ",
+        "price_new": 5.29,
+        "price_old": 6.69,
+        "discount": 0.21,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/tQBoG98ZZGukJRdvali6XeUez_MssJlWMVkRRYze7NQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS8yM0RCQzQ2RDE0QTdFOUE0MTMxOUZDNkM/wMTdCQjM5NzI5M0YwQzBERTM0QTc4QjM4RkY0REFBRTc2RjJDOUZGLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/c_mara_noastr_iaurt_cremos_de_bivoli.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CAMPO LARGO NÄut",
+        "price_new": 7.49,
+        "price_old": 9.69,
+        "discount": 0.23,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/pQtCJfkmdTCZutzTbr4-PJxi_Ofu7nsqJBclFMNZMbw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS81NDdDNjVGRTAxMjdBNEI3QzhFRDY2QjQ/2MTU4QUI4NUFGQ0IwRTc4OUQ0MDAwM0JBRTNEMEQ2NUQ0MzNCMDI3LnBuZw.png",
+        "local_image_path": "data/images/lidl/campo_largo_n_ut.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PILOS BrânzÄ Edam",
+        "price_new": 8.49,
+        "price_old": 11.19,
+        "discount": 0.24,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/WYva_b38k-aiWMpuGW4gg3g9ni-ea5AyvOaoWuHVbpo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0FFMDg2NDE1ODdFNTczMjM1RjIxRTBGOD/E2NTk2RkIzODREM0FCREU2MEIyMTIyRENDNTg0NEI4M0VBNzVDNTIucG5n.png",
+        "local_image_path": "data/images/lidl/pilos_br_nz_edam.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CÄMARA NOASTRÄ Lapte integral de vacÄ",
+        "price_new": 7.99,
+        "price_old": 9.15,
+        "discount": 0.13,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/iU6j4WIryJ1vGOMDrgLzokgTtl5oq-NCE4m9PEaPPf0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0E3QkNENEJDM0VCNTlFMEUzNDFGQjlGNj/g1QUJFNjBGQzU3ODY2MEM4MzE3Q0Y0OUVDOUJFOTFCNEFBQjRGQTUucG5n.png",
+        "local_image_path": "data/images/lidl/c_mara_noastr_lapte_integral_de_vac.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "BELBAKE FÄinÄ albÄ de grâu",
+        "price_new": 1.69,
+        "price_old": 1.98,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/2Ah4_54nVDQorSgA0tvHwfe5RS_xCu88m1wqrM-Zu4o/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS8xRjU0Q0Q1MEZEQTIxNzEyMDFBRjdFRTh/FNjU0NkJDNkUyOTQ1MzQxMkVDMTdBMjY2MkYzNTMxODE2RUVDNUU3LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/belbake_f_in_alb_de_gr_u.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CAMPO LARGO ArpacaÈ",
+        "price_new": 2.39,
+        "price_old": 3.49,
+        "discount": 0.32,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/gjuBYH2Nl6eUJFpZUwFc3Xb146LpRt_tI8b9OgdtzZ0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS83OUI0QjNGRjBDQjVCQzEyRjE5OUE3NUE/2NzFCRkRBMDAwRjhGM0IyM0Q4OUZFRUMyMTNFRjM0Q0FENDZBNTg5LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/campo_largo_arpaca.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "MILBONA Specialitate tartinabilÄ",
+        "price_new": 6.59,
+        "price_old": 7.45,
+        "discount": 0.12,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/IlnQoWYwbMi5fd5isVi0ywVduJIoJsy1qamX6sKz1NM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS8wMkI4MEMxOUNEMzgwNkU1REQ0QzExMzA/1RjJGNzM1Rjk5QjhBN0RBQzU4RDQ3NDk4MzM5MkU4QjQzNzNCREM1LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/milbona_specialitate_tartinabil.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "MILBONA Cheddar ras",
+        "price_new": 13.99,
+        "price_old": 17.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/dO1C7fKtyzUNiBzluuvhPulENC2K6tpuSiY7mxRie9M/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzhFMDQzODJFQUI3QTAxQjAyRTZBODJFNE/U3RTBCMDY3NUQwRjg1MkQyNTI0MDA3OEFDQkQ0MzIzRUE5RTI5QTIucG5n.png",
+        "local_image_path": "data/images/lidl/milbona_cheddar_ras.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PILOS Iaurt de bÄut",
+        "price_new": 2.09,
+        "price_old": 2.69,
+        "discount": 0.22,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/SSU9W3r3QoKwtU8-YHnolCszJPwJWd91LLTDx8q-FYs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS85RjA5RkFERkFFNjE5QUJGQzU3NzRBMEV/GMTk2Q0YzRkRDQkQ1MTk1NjJDOTQ2MEY1MzlFMTM3REUxQkUzRERBLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/pilos_iaurt_de_b_ut.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "COMBINO Sos pentru paste",
+        "price_new": 5.31,
+        "price_old": 7.59,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/JCGyhWJTY_CZtVumrpg3L_8Thy_W0GXDFCI8qOAcAAM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzc4Qjg2MzhEMThBMEJGMzNFNEU2RkMxQz/k5RTdGNTM3MUM0RThDODFFQUM0RkM1M0UxRTQyRkE0NDg2MTZERUEucG5n.png",
+        "local_image_path": "data/images/lidl/combino_sos_pentru_paste.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PILOS CaÈcaval RucÄr",
+        "price_new": 14.99,
+        "price_old": 19.95,
+        "discount": 0.25,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/aREkakKZ4I9rkMaSejNchnEyL17ZBj631_7pf9O-x_k/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzY5RDRDMUFEMTc3Q0YwRTU3MTk1RDg4MT/cxQzg5RjdEN0RCRkFBOTcyMjA5QTk5QUU4NENFMDU3NUUwMDk2N0MucG5n.png",
+        "local_image_path": "data/images/lidl/pilos_ca_caval_ruc_r.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "MILBONA BrânzÄ topitÄ",
+        "price_new": 5.29,
+        "price_old": 6.59,
+        "discount": 0.2,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/SW9zgAfKjNM0vm9Z8jzJ4UzzFyhEs1wZomlDjWTWHWw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0UyMEVGQjYxQzVBRTg5Q0RCNzE4NDM5RU/E5N0U0RkRGQzMxMTgxRjUwQzREODc4OEFBMEIxNTJDMEQ3QjNCRkMucG5n.png",
+        "local_image_path": "data/images/lidl/milbona_br_nz_topit.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "MILBONA BrânzÄ ricotta",
+        "price_new": 6.49,
+        "price_old": 8.99,
+        "discount": 0.28,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/rZ-pytcEGBtHj1f4no5aiuV0qm4Tmh6VlzEuQPeO8gE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0JGQzA3Q0YwMDQzOEIwNkZFMTZDODU3NT/dDQkFFMjdFNDI5Nzc2RkFFQzZBODRDM0VCRTAxNTI3RTc5ODAxNjQucG5n.png",
+        "local_image_path": "data/images/lidl/milbona_br_nz_ricotta.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PILOS Iaurt cu fructe",
+        "price_new": 3.89,
+        "price_old": 4.85,
+        "discount": 0.2,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/nv3CQHZ1gPG-QhshzL7NEuk4fYoRl_ujospTQ79FRHg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS81MTQ4ODREMjczODBGNDNBODc4MTU5RDU/wOTU1MTAyOEVDNkEyOEJBQTRFMEUwMTkwOTQyQzYyRENBMkYyNENGLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/pilos_iaurt_cu_fructe.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PILOS CaÈcaval feliat",
+        "price_new": 12.49,
+        "price_old": 20.99,
+        "discount": 0.4,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/DaDotWP85QXE0cCApol4YwM1c502sSZWlE5rNU2y2TA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzJEMzU2NUMyMDNGRkM2OTI4N0Y3RkFEQj/VGRkQ3MDM4NzUxOThFM0IzNDAwMzI3ODU0QzlDRTEwNzJFMzg4MTgucG5n.png",
+        "local_image_path": "data/images/lidl/pilos_ca_caval_feliat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CHEF SELECT SalatÄ de vinete cu maionezÄ",
+        "price_new": 6.29,
+        "price_old": 7.99,
+        "discount": 0.21,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/_A8QOjQ7wM09whJ9qcVkqqeG4mftGaa0Ke0LJ5J30LE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS81M0FFNzg0RUU0NzI3MjQ0QzdCOTMwMUM/zRTEyNjM2MjVDRTAzREJBMjBEMTFFMDY3QTJFMUE5ODk0RTUzM0YxLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/chef_select_salat_de_vinete_cu_maionez.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PIKOK Pate",
+        "price_new": 3.35,
+        "price_old": 4.79,
+        "discount": 0.3,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/i3JbjzkHlpSmpmIAGEivSVqvFWCWwMyQfrqYWmRaMuU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9GOUM2NDM2OTE4NkMzMTJERkEwNDY1RDU/zODQ0ODg4REZEMTUyMkYxNzdENUE4OUY1NjAwNzVDQzE2NTVBMzRGLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/pikok_pate.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CHEF SELECT Wrap cu piept de pui",
+        "price_new": 5.99,
+        "price_old": 7.59,
+        "discount": 0.21,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/kcjjlrkjvxZAJrke1IQRppUDkrEnfC1EdAVcyo_biXo/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0NFRkZENUFGRTYyNkJDNzUxMTYzRjk4Nz/g4NjgxOEM2NzY2ODcxM0M5ODVENjgyRTA2REYxQjNDMkRFOTlEODYucG5n.png",
+        "local_image_path": "data/images/lidl/chef_select_wrap_cu_piept_de_pui.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "Cartofi pentru copt sau piure",
+        "price_new": 6.49,
+        "price_old": 9.49,
+        "discount": 0.32,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/Y3gUpAg6rTyJ6uhMqcLHhAu9Y8GtZfR4qGzJKeidVIM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS84NjAwM0Q3MUZGMDBFQzBENjU3MjcwODV/COTA1RTM4MUZEMUU2RUU3NzU4NkJBRTA1QjY2QkM2RUVEMzcyMkYwLnBuZw.png",
+        "local_image_path": "data/images/lidl/cartofi_pentru_copt_sau_piure.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "NIXE Ton bucÄÈi în sos cu ceapÄ Èi mazÄre",
+        "price_new": 4.29,
+        "price_old": 5.59,
+        "discount": 0.23,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/RqTopnfW7zpLYE59dLDiJEmL5vqd45rUE4ec8dWdMdY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzU3MkM3QTVCMjI5QUQyNEREQURBN0QyND/A1OTAxRjdFMTQ2RjE1ODk0NDM3MDI5QzVCQTFBMEVBRTcyQTVFQzkucG5n.png",
+        "local_image_path": "data/images/lidl/nixe_ton_buc_i_n_sos_cu_ceap_i_maz_re.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "FRESHONA Amestec legume pentru supÄ",
+        "price_new": 3.09,
+        "price_old": 3.55,
+        "discount": 0.13,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/iC1OK78f6H4bzxJ_IjQ1oKgCTy15AWs3egksswlzqB4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9FOEI4N0MzQ0FFRjczMTBGQkNGMjU3RjE/xMzQ3QzNDQzg3OUYyNkE5RjJGQjlGQUMzN0RENzUwMjlCREVGRTU0LnBuZw.png",
+        "local_image_path": "data/images/lidl/freshona_amestec_legume_pentru_sup.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CHEF SELECT SalatÄ cu ciuperci Èi piept de pui",
+        "price_new": 8.49,
+        "price_old": 10.99,
+        "discount": 0.23,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/biXJYccax8ksNwdRWWm6Nc0adG_Sosf3RPP4XFpEYtc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzhCRDdDNzAyNjBBRkUwOUUyQURGQkJBQT/VBMzkzQjQ0QzgwMjI3MzFEN0Y2MTJDRjYwRDMwMzIwMTNBMzREMzcucG5n.png",
+        "local_image_path": "data/images/lidl/chef_select_salat_cu_ciuperci_i_piept_de_pui.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "OCEAN SEA Batoane din file de cod",
+        "price_new": 10.49,
+        "price_old": 13.19,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/TNtYJ_2eyH6frdIXpnN6YqcdwFtti_1f9Jpmdumm6-Y/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9BRjEwNzdEM0NGNzUxMTkzNDkzRDdGQTB/BMzkzQjY3RThGMjlCREZEQkM2NUY2ODkwQTlDQ0UzRTFDMTI5QTA0LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/ocean_sea_batoane_din_file_de_cod.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "HARVEST BASKET Cartofi Wedges picanÈi",
+        "price_new": 7.49,
+        "price_old": 9.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/B0IDGBRrEBKmFwaKdjKphhd81nS560mhXqt-WKAOlZ4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzA1RkFFREVCM0EwMjBGNzhDNkQ3MDVEQT/I4MTNFQTJDNjIzNDVCNzc5OEEzRTU1REE4OEEyODJCNTg4NDE4RjUucG5n.png",
+        "local_image_path": "data/images/lidl/harvest_basket_cartofi_wedges_pican_i.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CHEF SELECT Aluat foitaj proaspÄt",
+        "price_new": 3.69,
+        "price_old": 4.85,
+        "discount": 0.24,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/6aWFyP48THffz_qwFi7FzHvkXWtqzAiWUPhp85ph72s/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0QzQzIyOTFDOTgyOUI4Q0YxMjZGODhCQz/gyQUU0NDNCNDBDNzI5NzYzRTBGMkIwRUIxRDZFNTI3Mjg0NDUzRTcucG5n.png",
+        "local_image_path": "data/images/lidl/chef_select_aluat_foitaj_proasp_t.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "SOLEVITA Suc de portocale roÈii",
+        "price_new": 12.49,
+        "price_old": 15.49,
+        "discount": 0.19,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/3_mor-ArN9Lp0lo_G9YaI0VWG4YUau585VZ9MfVneBc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzhDNUREQzVGMkQ5RThDRDgwMDJBQzk2RT/Q4NkFDRUIxM0IzQkFDN0M5REREQjUzODQwQjIwNDYyQUVCQUFFRkYucG5n.png",
+        "local_image_path": "data/images/lidl/solevita_suc_de_portocale_ro_ii.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "AVEREÈTI ZghiharÄ de HuÈi",
+        "price_new": 11.99,
+        "price_old": 15.99,
+        "discount": 0.25,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/h7Xw5JnhJh-0QNUkVIVniMk9AZa_Uw4zyxpwWedIZNM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzlBMzI0QThCQTc2RDc5OUVEQzM4NDY3ME/MwM0E4MkNBMUEzMDRDOEE5MDZDMjI5OUI2MzFFMEZFOTZBMkZFQTEucG5n.png",
+        "local_image_path": "data/images/lidl/avere_ti_zghihar_de_hu_i.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PATRONUS Bere blondÄ nefiltratÄ",
+        "price_new": 4.49,
+        "price_old": 5.99,
+        "discount": 0.25,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/w0DwoCuHGZL7x0cO6B3fDqLyd4KRL0MooQ3Obe-YFjw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9DMTczNTIyMzk2RTJCMUU3NkYyNTVGRjh/DQ0VGRjBGNTJEMzA2OEZBRDA2OTU3MzBFNTI5NjA2QjUyMUJFMUMyLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/patronus_bere_blond_nefiltrat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PERLENBACHER Bere blondÄ Pils",
+        "price_new": 1.59,
+        "price_old": 1.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/oUauU9-wk_EewgdI5zjjaz2K_dmcRi7SnpI-Ip2Zoz4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS85N0IxOEU0MDgwQUEyQkY1QjU1ODU3OTY/xNTE4QkNEOTg2RkIxQUY5QUUwMjhCRDcxNkZDRDE3RUI1QzY5OTMyLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/perlenbacher_bere_blond_pils.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "SOLEVITA Nectar de portocale",
+        "price_new": 9.99,
+        "price_old": 13.99,
+        "discount": 0.29,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/skLvsDY2sVnE8C9iP_kryk098nzekgJpBF7TGrdLOy0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS85N0E4QjJFQUFEMzk5RDM1QzZGQUMzMDJ/FNTY3MzBDNkZFNUMwRjAxNDU1RTA4QUVGMTc5RjREQzA5MDI3RDc2LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/solevita_nectar_de_portocale.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "ARGUS Bere blondÄ amÄruie",
+        "price_new": 3.99,
+        "price_old": 5.49,
+        "discount": 0.27,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/Ayz6rVi9PJ5TxffFutNUiSvJs8rAJgAqOpl8_OU-Rgc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS8wQThEQkMxMkUwQkVGODczNjI4Mjk3REM/3MEI1RjMzMUUyNjY3RjZERUZGRDZGRTNFNDI4NDNGNjE5RjhFMUNBLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/argus_bere_blond_am_ruie.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "BONAGA Lambrusco dell'Emilia Vin petiant rose",
+        "price_new": 11.99,
+        "price_old": 19.99,
+        "discount": 0.4,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/TEleL21bYN3vtbO7CzinqfliwEzexsI0Wc69WSJrqLQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzY5MzEzRjkxOEI2NDk5NkQ5NDVGNDYwMT/lDQUJFQzNCRkQxQjJENTI3MzFGOUFERjFCNjI2QTJDM0RBNTNDNzUucG5n.png",
+        "local_image_path": "data/images/lidl/bonaga_lambrusco_dell_emilia_vin_petiant_rose.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "VEMONDO BÄuturÄ bio pe bazÄ de migdale",
+        "price_new": 5.49,
+        "price_old": 8.79,
+        "discount": 0.38,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/EECR0VqWxvN1BXakQv2ihvH-mdJRy_ds4eoQEr6jo-o/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS82Rjc4QzIyMTYyMUU0NkQ3NTZEOEJBODF/EMDQ2QkE3ODgzRkRCNUYxQUJDNDZGMTgzREE2QjczQjc4MjRFRjcwLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/vemondo_b_utur_bio_pe_baz_de_migdale.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "SÃNGE DE TAUR Vin dulce roÈu",
+        "price_new": 11.99,
+        "price_old": 15.19,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/BgUxmALNShnIrJa4F3WF-xPOha-4XajIp5HJPeFNJN8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzg0NkZENDVENkNEOUI5NjVCNzIwRjdFRT/ZEMkQ4RTI4RDBENEE1ODVGQUZFREM3MTNCOTNDQTc3OUQxMURDMjgucG5n.png",
+        "local_image_path": "data/images/lidl/s_nge_de_taur_vin_dulce_ro_u.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "COTNARI EtichetÄ GalbenÄ",
+        "price_new": 15.99,
+        "price_old": 21.39,
+        "discount": 0.25,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/oy27XJ9-Ca81DZ4nDbJ6jeNc9qlXvzSFhNlkKnC8JeU/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS8xREJCN0EzQUI4MDc4OEE2NjRBMDBDMkF/GNUU5OTBCRTVEQTM2Q0YyRkFGNzk0RjY0QTA2MkNCMzdDMTUyQkVELmpwZw.jpg",
+        "local_image_path": "data/images/lidl/cotnari_etichet_galben.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "BIRRA MORETTI Bere blondÄ",
+        "price_new": 3.39,
+        "price_old": 4.49,
+        "discount": 0.24,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/Au_tpJ2MYR6l1b_wbVT1euPjcnhN9WE13eQknUQS-l0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9CRUQwMzdDOTdDN0REOEUxQzNDNkQ3NDE/zRjgxN0U4NEExRTcyMUE2ODlFM0RGNDk0NzMwOEJEODgwNTY5QUVELnBuZw.png",
+        "local_image_path": "data/images/lidl/birra_moretti_bere_blond.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "ARGUS BÄuturÄ Radler fÄrÄ alcool",
+        "price_new": 2.49,
+        "price_old": 2.99,
+        "discount": 0.17,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/asQ5qv6KuLx4-dw8ONW1ppeBxO2193mXJLTdaMF16h4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9FODJEOURGNjk2NDZCM0UyNDI5QUQ4MzA/0RTU0NjAzOTZFNkE3QzY0MzFDNjk5NENGNzREMEYyOUNDNDRCQkExLnBuZw.png",
+        "local_image_path": "data/images/lidl/argus_b_utur_radler_f_r_alcool.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "FRESH Mix bere fÄrÄ alcool",
+        "price_new": 3.99,
+        "price_old": 4.99,
+        "discount": 0.2,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/89zdzmBMjosUb0rl75HOlfNIQ4SBZei0GGK_SK1eQ0U/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS8zNEJDOUNGNjgwNEU1RDY3MDEyMDMwRUU/2MTMyRTZDQTkzMUFFOERBNjRBNkMxRTRGMzMyMzhBMzJGOTdBOEQ5LnBuZw.png",
+        "local_image_path": "data/images/lidl/fresh_mix_bere_f_r_alcool.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "DOMENIILE TOHANI FeteascÄ NeagrÄ",
+        "price_new": 14.99,
+        "price_old": 18.89,
+        "discount": 0.21,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/Rl-MgcR_xV9c1ipKgl2xL1Od6h10skaRlgCUlITR8nk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0NFOTQxRjUzMUY0MDI2REYwMDc1RTAwQk/VEODc0QkVERDJCNEFDMkEwMTFGNDE1QjJCMkY0ODdENzA0NzlDNEEucG5n.png",
+        "local_image_path": "data/images/lidl/domeniile_tohani_feteasc_neagr.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PURCARI 1827 Chardonnay",
+        "price_new": 26.99,
+        "price_old": 35.59,
+        "discount": 0.24,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/XReO24_wvtLu_lsFg219CbGdkWpIL52uq_4SkQecQJg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0Y1M0NCNkQ5NzUyQzFFODg2N0U4ODY0OE/VDNTVCQTAyODI4OUY0MEU5NTZGMUVERkZEMjU4NEYwMDM5RkVCOEQucG5n.png",
+        "local_image_path": "data/images/lidl/purcari_1827_chardonnay.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CERVUS Vin demisec alb / rose / roÈu",
+        "price_new": 11.99,
+        "price_old": 15.19,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/iPxR9E8RSRcWUUXJbzScvXkutrBJ8FwWd_YLzpgAwMs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzZCNjY1RTFBREMzNThENUE3RUZEN0I0NU/IzQjFERERGRUFFRjA2MDA5RTU4OUFBNjkxODMzMkU5RTRBODE4NjkucG5n.png",
+        "local_image_path": "data/images/lidl/cervus_vin_demisec_alb_rose_ro_u.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CIMAROSA Chardonnay Australia Vin alb sec",
+        "price_new": 8.64,
+        "price_old": 13.29,
+        "discount": 0.35,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/wuDLrooDuxo4o_dJXByU0Qg2LTVEesVq7SuzkK3UbY8/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9GQjgwNUY0OTM2OEExMjU2QzY4QjIzQjU/wQTQ0RTA0ODIzMjRDREQ2NTZDMkY2Mzc5MzhBMjVFQTM5QzUzNjY5LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/cimarosa_chardonnay_australia_vin_alb_sec.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CIMAROSA Shiraz Australia Vin roÈu sec",
+        "price_new": 10.39,
+        "price_old": 15.99,
+        "discount": 0.35,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/xj-WOHAVTg3SsXYqRJEYsiwAFeELggtpZTeh-cMGzDE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9EMzU4NzE0MDdDQzY1OUYxN0M3NjhFMjJ/CRkExQkRDMTY4NEUzOUExNkVEQTU0OEYxNUNEQTVBNTVFNTMxMjBELmpwZw.jpg",
+        "local_image_path": "data/images/lidl/cimarosa_shiraz_australia_vin_ro_u_sec.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CIMAROSA Zinfandel California Vin rose demisec",
+        "price_new": 10.57,
+        "price_old": 16.26,
+        "discount": 0.35,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/Bcz9ocxoTGV03kz2NI9Lay3WaCMnfqx8PTABbbsa69M/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzRCNTczQTVFM0JFMDEyQzAyMkM1MzdFQT/FDMjVGQTMxRTY5MTgyRUI0OUUzRkFDQUNFQTE3MjIxOUQxQzFGRDUucG5n.png",
+        "local_image_path": "data/images/lidl/cimarosa_zinfandel_california_vin_rose_demisec.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "FREEWAY COLA BÄuturÄ rÄcoritoare carbogazoasÄ",
+        "price_new": 3.49,
+        "price_old": 4.85,
+        "discount": 0.28,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/XbmR1knVLRegSVFaD-izaZ6K__K2IhXlMT9J0Dr1o7c/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0ZDOTM0Nzc0NEQzRjA1N0ZFODI2MUU0OE/I2QTUxMkNGN0MwNTlGQUEwMkZFRDBDMzY3NkE1NzcwOTNDOUMyOEEucG5n.png",
+        "local_image_path": "data/images/lidl/freeway_cola_b_utur_r_coritoare_carbogazoas.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "BELLAROM Cafea mÄcinatÄ, bio",
+        "price_new": 35.99,
+        "price_old": 45.99,
+        "discount": 0.22,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/DBpMPkT9V1_y1IPQ5aLSofyDj6n2eVYVucIDbQXVwoc/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9FQzUxMjU3Q0MwNjAwNzBENEM0NDQyMzk/5QjI4RUI1NDY4QUI2MkZCNzY3OTc5NUE5QzRFMzBBN0U3NDk5RTIwLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/bellarom_cafea_m_cinat_bio.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "COTNARI BusuioacÄ",
+        "price_new": 12.99,
+        "price_old": 17.29,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/BhEAHS1Ng8GbY6dcXZSEV5uFQ-59at6RFcijWXvj9R0/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzE4OTQ2RTY1MUFFNzYyMUYxQTg1RDE3Qj/hFQzgxMDEwNDcxQkU1MzMyMzlBQzFFMzdCQTdDREJDODEwMTAwMEUucG5n.png",
+        "local_image_path": "data/images/lidl/cotnari_busuioac.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PRIMADONNA Ulei de mÄsline extravirgin",
+        "price_new": 29.99,
+        "price_old": 39.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/TwmTBp7FVPbonicw25JKdq5J5eSYTeZbIE7Qu_ZsLIk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0M5N0Y2MDNFQ0Q0NDM2RTNBM0ZDNDJCQT/M2ODg4QTBERTQ2MTBCOENDRjlCRTc4MTVCNzNFOEY1NTAxODNGNkQucG5n.png",
+        "local_image_path": "data/images/lidl/primadonna_ulei_de_m_sline_extravirgin.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "FRESHONA CastraveÈi muraÈi în oÈet",
+        "price_new": 5.49,
+        "price_old": 7.09,
+        "discount": 0.23,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/Zh03NagyCEn9fsxdWJi1YOyLdAdOerxBPr0OJ5_Mnbg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzg3ODQzNkNGMzQ0RERBRkI0NTlENjI1RU/M3MjBGNzBBQzNGQjVBQzkxQTJEMTk4QTg2MThFQUUwNzRCRTIyMDcucG5n.png",
+        "local_image_path": "data/images/lidl/freshona_castrave_i_mura_i_n_o_et.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CHEF SELECT MÄsline fÄrÄ sâmburi",
+        "price_new": 7.99,
+        "price_old": 10.19,
+        "discount": 0.22,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/wxozdASJHLgfVJ2MvIrtKQKJSWz1i0-lGvv7xpC7xto/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzdBRkVCRDE5MDQzNkFCN0E2MjUwRjRFQz/czMTdEOThBRjJGODQxN0RGN0VDRTQ3NzI3MUM1ODBBMDg0QTQ1NDQucG5n.png",
+        "local_image_path": "data/images/lidl/chef_select_m_sline_f_r_s_mburi.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "BARESA RoÈii pasate",
+        "price_new": 2.79,
+        "price_old": 3.55,
+        "discount": 0.21,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/ouFLjZ-MczjnEW9zMNO8d8asMvqq2g8fkZm36bJyiDg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzIyQjU5NDQxQTVBMzFDNDAzODM5OTMyNT/BCMkE2NTI5MkQwNTE1NEEwODI2ODlDODUwNDU4MzMwRUYwNTAyMUIucG5n.png",
+        "local_image_path": "data/images/lidl/baresa_ro_ii_pasate.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "SWEET CORNER Bomboane gumate",
+        "price_new": 3.81,
+        "price_old": 6.09,
+        "discount": 0.37,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/K8AyW3aRWsM4vInlQa1PLmsuknDcMh-Xp4BKLArgK0Q/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0NGNEY3NkRFRDI4QzNCMjYyMTEwNkY0MT/REQjZFREI3MTVERDRERERDOUNDNjk1OTVGRUY1ODY1QjcyRTkzQ0QucG5n.png",
+        "local_image_path": "data/images/lidl/sweet_corner_bomboane_gumate.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CONFISERIE FIRENZE Ètrudel",
+        "price_new": 11.99,
+        "price_old": 14.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/z_wIft01ghsjubPg0v7aCKiLgH4xpctKOpCnQT45OYk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0VCM0YwODQxMDYyRThERUJGMzc3QzUxQz/Y2MkUyMzg0NjJCMEQ0NDMzNzA1NUY3RDVCQ0ZBNTg4NTBEOTRBMTgucG5n.png",
+        "local_image_path": "data/images/lidl/confiserie_firenze_trudel.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "ALESTO Mix nuci caju Èi arahide",
+        "price_new": 6.99,
+        "price_old": 8.65,
+        "discount": 0.19,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/PLOPZYI1-17mnu3f9vD-ElLMs7RrH1rlNll3mhKoJrM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9FNEY5RjBERkY2RkQ2QTAxRUM5RjcwMDR/GNzNDMDhCQjMwMTY1NzFGM0ZDQUYwOUQxREU2MzNFNjk0NjA4OUQxLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/alesto_mix_nuci_caju_i_arahide.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "SONDEY BiscuiÈi Cantuccini",
+        "price_new": 8.99,
+        "price_old": 10.99,
+        "discount": 0.18,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/DKjcyq3YBxsSt7bjCPdoVMPUp6mOv-nxM-hIpPC8L6A/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzE2MEJGMEVGMDExMjNCMUZBOTE1RUI5NU/ZDMUFFNjk3OTI5RkZBMzExMEE1QkJDNkVGNkZCOUIwQzQ3QzVDNTYucG5n.png",
+        "local_image_path": "data/images/lidl/sondey_biscui_i_cantuccini.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "FAVORINA Drajeuri de ciocolatÄ în figurinÄ",
+        "price_new": 14.99,
+        "price_old": 19.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/ueQl2MSSCbXC0IX1jKwT6oTiSj8Rk4iAEInBLHYAw2A/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzU1MjBBMzk2MDYxNzE5NEUzMjI1Q0NEQT/VCQjAzNDNDRjA5NDU4QTRGM0I0QTczNzY5MjY2REZBOURBODBDRTEucG5n.png",
+        "local_image_path": "data/images/lidl/favorina_drajeuri_de_ciocolat_n_figurin.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "Figurine din lemn, cu ouÄ de ciocolatÄ",
+        "price_new": 24.99,
+        "price_old": 34.99,
+        "discount": 0.29,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/uG4okKaA8oSLpcS350jsiiGAZhmoNt6LLK68ddy36to/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzY5MkIyNDU0NDZGODMwQjFCMThBNkQzRj/U2MjM1NkY1ODkyQTg5MURDOEE5MzA0QjBGREVBRjNBRTU2RDU0MkYucG5n.png",
+        "local_image_path": "data/images/lidl/figurine_din_lemn_cu_ou_de_ciocolat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "FAVORINA BÄnuÈi din ciocolatÄ",
+        "price_new": 7.99,
+        "price_old": 11.99,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/LiUIgLiW_fysqwQWOEXtNOm11dHi9p-ZEDxO2i-Cilg/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0FFMjE3RTk1OUUzOTU5QjQyQTVERTA4NE/QzODQ5NEE2NzE4OEUwNTBDRTg4RUFDMjkwQzhGRDBGMTQxQkEzNUMucG5n.png",
+        "local_image_path": "data/images/lidl/favorina_b_nu_i_din_ciocolat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "FAVORINA IepuraÈ din ciocolatÄ",
+        "price_new": 3.99,
+        "price_old": 4.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/7R8TBicLrV2cSfwlf1Ru7qWTBgnx-uwCbcNNpYKUhiw/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0FBMjcwMEUxODY1MEU1MkM3QTg2Qzc4ME/U2Njg4RDA4NjEzODBDMUZDRjQyOTk4MURCMTEzMzU0OTIyRTIxMDYucG5n.png",
+        "local_image_path": "data/images/lidl/favorina_iepura_din_ciocolat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "SONDEY BiscuiÈi sandwich cu cremÄ de vanilie",
+        "price_new": 7.99,
+        "price_old": 9.95,
+        "discount": 0.2,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/c6KIGutN-7_ut220UQR_vLkWgJe9_sMLiAf3-c4KsUE/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0YzMTc5MTdBOUIyQkU2REIxM0NDQUFBQz/U4RUMwNUFFMzMxNEM0OUFBQkM1Q0Y1RTc1MkZEQUEzNDNDQTA0ODgucG5n.png",
+        "local_image_path": "data/images/lidl/sondey_biscui_i_sandwich_cu_crem_de_vanilie.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "DELUXE Nuga",
+        "price_new": 7.49,
+        "price_old": 9.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/QWf3HwO0lYmRDRqbk7AgaX_BXoxZzTOIcax5Jc9Y3_Y/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0ZGMjExRTczMDMxQjc0NzZGQTVBREMwOD/U3RDg3NjA2MTM4ODUxQzQ3MEI1MjIzQjM0NUI1QjlBRTc0OTg5NDEucG5n.png",
+        "local_image_path": "data/images/lidl/deluxe_nuga.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "FAVORINA Mix de ouÄ de ciocolatÄ,cu umpluturÄ",
+        "price_new": 8.99,
+        "price_old": 12.99,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/iQs5-wkRECKodl1mYBSjIDdf3vdebEWODl8ZEUlnDnQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzAwRkY5NzFERThDRDY5QThFMjlFQTQ3Nj/c5QjU1QTAyMjc5REY5RkY5NDFDMUE4MDUxNEVDMDk4NTk1QjQwQTQucG5n.png",
+        "local_image_path": "data/images/lidl/favorina_mix_de_ou_de_ciocolat_cu_umplutur.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "FAVORINA BiscuiÈi cu unt",
+        "price_new": 11.99,
+        "price_old": 16.99,
+        "discount": 0.29,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/lREKiDrNw3AGH2uGk9fPvIfksK9FlJxOs9MleogRC8g/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzRFOEU5QjRCQzkxREQ4NjI3NjREQUFFMz/g5QTZDRkFCRjk0MzZBRDlCRjBCREQ2MTJBQzZDNEE3OTI1MUYyQ0IucG5n.png",
+        "local_image_path": "data/images/lidl/favorina_biscui_i_cu_unt.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CROWNFIELD BiluÈe cu gust de ciocolatÄ",
+        "price_new": 7.29,
+        "price_old": 8.39,
+        "discount": 0.13,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/IkaDfOIE-7I7wruCXTS8UswA-yPyB73MrTZBgCW1PJs/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0RCQjcyMUM4QTg3NkE0MTlEOUE5NDM0MD/ExRENGOTFBRUNEREYxRjY1RDdGNTE2MzYxQjg1RDk5M0YyMjFENjMucG5n.png",
+        "local_image_path": "data/images/lidl/crownfield_bilu_e_cu_gust_de_ciocolat.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "LACTOVIT Gel de duÈ",
+        "price_new": 10.89,
+        "price_old": 16.89,
+        "discount": 0.36,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/TwHTKNa-k-AmPgZ6yq4cK9r413bt7RXTdxjINHIuxhY/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS82NjJCOEUxMzVGQjM5MDZGMDE0REJDNkM/5RUVEQjA5NTQ0QUMwMTVEMjc2NTMzOTU5N0MwOUQ5MDdGMUMwNkJBLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/lactovit_gel_de_du.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "FLORALYS ÈerveÈele cosmetice",
+        "price_new": 3.49,
+        "price_old": 5.99,
+        "discount": 0.42,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/52HRjMESWpsIlhwevfu-YMkjfCPV7lUtnTRz6gE-o78/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzZGRjg2MEFGMDBDMzlCMjdCQkEyREZCQ0/YyNDFCNDc3QjBCRUUzRkEyQ0JCRjdBNzZGRjJBRUJFRTkwODY3NzMucG5n.png",
+        "local_image_path": "data/images/lidl/floralys_erve_ele_cosmetice.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "DOVE Gel de duÈ",
+        "price_new": 19.99,
+        "price_old": 31.99,
+        "discount": 0.38,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/w9s445XvOKo2SDjOChStqD8WOCepM0T2nf-G_wMY2Y4/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9CRjA3MzBEOENGOUEwMjBDMzc5MzE0QzA/2OTQ4RDZDODlBM0I4QzczNkFERkVGOEM2ODEyQzE5ODJDRDM1RDBCLmpwZw.jpg",
+        "local_image_path": "data/images/lidl/dove_gel_de_du.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "OMO Detergent lichid",
+        "price_new": 59.99,
+        "price_old": 99.99,
+        "discount": 0.4,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/lXL300FD6F4EP6Q8hq8iFwhZx8fb5dOy_4BvjSBfQoA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9GN0VCRTRGOEZDRjc3ODk1QjZFNkZEOEU/wQ0EyOTI4QzI5ODkwQ0VENTYxMzE0RTY4QzlFRDcxOEYyRDFCMzhBLnBuZw.png",
+        "local_image_path": "data/images/lidl/omo_detergent_lichid.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "HEAD & SHOULDERS Èampon antimÄtreaÈÄ",
+        "price_new": 29.99,
+        "price_old": 45.75,
+        "discount": 0.34,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/O-fcD5PF20eI6YH2ocdmqyKEH5AjCS1R2nG9hzBLv6I/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS82Rjk5M0VEMEM4RDgyRTEzNTY4M0FDQUE/1NUZERkU3NjREMjBDNDAyMEVBNkYwQjQ2QTNDRkYxM0U5MjE2QTRCLnBuZw.png",
+        "local_image_path": "data/images/lidl/head_shoulders_ampon_antim_trea.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PARODONTAX PastÄ de dinÈi",
+        "price_new": 17.99,
+        "price_old": 22.99,
+        "discount": 0.22,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/svTx8fwld2KciyeUX9aVbFcHz-LwkBOOlVQGCunLAqA/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzhGMkM5RDQ1OUNBNUE1Njc5OTQwNzYxRE/UxOTUwQzcwMTdBQkMwNEMxNzg2Njg3REZCOTUxN0JFNTc3NzA5RTcucG5n.png",
+        "local_image_path": "data/images/lidl/parodontax_past_de_din_i.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PROTEX SÄpun antibacterian",
+        "price_new": 3.49,
+        "price_old": 5.55,
+        "discount": 0.37,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/Vsf3VrrZX8Nhb86dnctej_u0P0dIlkMRaqPWobvLl9M/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS85QTYxRDcxN0JFN0IzMzc5M0QzREE4MEI/1NDI3QzlDOUM2OTcyODkyRjgyOEQ0MzM4NkU0NDU1ODFBNzRBQTQ3LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/protex_s_pun_antibacterian.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "SENSODYNE PastÄ de dinÈi",
+        "price_new": 18.39,
+        "price_old": 23.99,
+        "discount": 0.23,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/BlBp1yrxM_miwgWi-9ypHJjNV6o8rH-8xoO-QPCIVsM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzgzOTNDODkzQjI4RjRFNEM2QTlFNjFGME/E2QUM2MTgzRDI0QjcwQ0UzODEyODQ1NUQ2NDkwNERFRTBCRDVBNTEucG5n.png",
+        "local_image_path": "data/images/lidl/sensodyne_past_de_din_i.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "CIEN CremÄ de faÈÄ antirid Q10",
+        "price_new": 7.99,
+        "price_old": 11.59,
+        "discount": 0.31,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/1-bQN5W7E4Gg__1MZCBzEyURNt8jsXrPC1uMnVfdOGQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzJENTBFNzRBMTBDOERFN0E3OUVFRTk5OU/VDQTlEREM0MjFCRTdCMDg0RDA3QTM2OEM0MDdBMDZENDIwMzA2OTUucG5n.png",
+        "local_image_path": "data/images/lidl/cien_crem_de_fa_antirid_q10.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "W5 SoluÈie spÄlat podele",
+        "price_new": 5.99,
+        "price_old": 7.99,
+        "discount": 0.25,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/OJ-vVzEnhdA48Ym6q7tq_lxBuONCR_PSZhHEY-7d42o/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzk0RUI2MjcwRkU0RkY5OEZGN0FENDE3MU/Y1QUIxNjZEOTA5Mzc0MURERkY1ODk0MTI2N0M1RTE1RDUxRjhDRkMucG5n.png",
+        "local_image_path": "data/images/lidl/w5_solu_ie_sp_lat_podele.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "PARKSIDE ÃncÄrcÄtor",
+        "price_new": 39.99,
+        "price_old": 49.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/9WV-evfZSwXk4ZvS9M8dUDH5qCNPdaYnR1QXLebYzxM/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzM0QkZBMTFCM0I1MEQ0RTMwNDZENTgzRk/YzN0RCOUNENEFCRUU5OUFGOTY1NDhBODdBNUJFRTI5QkM1M0I1NjgucG5n.png",
+        "local_image_path": "data/images/lidl/parkside_nc_rc_tor.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "Pâinea Campionilor",
+        "price_new": 4.49,
+        "price_old": 5.79,
+        "discount": 0.22,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/mMZlsD_GgUVyFq8Ez78NcFmBg88tPiQJ1vJofCdAqtQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvcm8vMS9GRDczMDlEMDFDNDNFOUQwQjE5MjI0MTR/FQTY2NkE4NTIxQURBMEY3Qjc4MkQ0RDczNUEyQkIxOTExNDA3QjQ4LmpwZw.jpg",
+        "local_image_path": "data/images/lidl/p_inea_campionilor.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "ORLANDO HranÄ uscatÄ pentru câini junior",
+        "price_new": 6.99,
+        "price_old": 9.49,
+        "discount": 0.26,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/jHgBdlPFd0-QnqpZVfPvX-h4kh06uTHk-dhh-f-hoeQ/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzZCNkI3RUVCQkRBQzhCMjI5NEExQ0RBOT/RDMDZCNzREREU0QjJBRkY4NkFGRERCMjU2NzAwRDUxODU1MjY0MjgucG5n.png",
+        "local_image_path": "data/images/lidl/orlando_hran_uscat_pentru_c_ini_junior.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "COSHIDA PURE TASTE Pate pentru pisici",
+        "price_new": 5.99,
+        "price_old": 7.55,
+        "discount": 0.21,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/lQrlAtk40yb1poEcghn--3fqDqM0h8WMBVpQ_C_HBLk/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50L0NBRjYzREJGRTUyMzk2NzUwMkY3MjI4ND/RGQTMyQ0I0QTdDQjRDRjQ4OTkyNkFCRkU1Q0ZENDNERDk4MUZDMjMucG5n.png",
+        "local_image_path": "data/images/lidl/coshida_pure_taste_pate_pentru_pisici.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "BUNÄTÄÈI DE TOPOLOVENI ZacuscÄ",
+        "price_new": 7.49,
+        "price_old": 9.65,
+        "discount": 0.22,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/KjdU5cVYLJxku5q3vRTMOZCADoTI9mXbZ3rpFV0uN5c/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50LzE4NjJGNjY2NjQ1QUQ0RTJFMjA4NjhBMz/BGMzcwNUYwOTNCNjUwRkVFOTBEQ0ExNTdCRjQ3OEIyMDFCNjBCQUIucG5n.png",
+        "local_image_path": "data/images/lidl/bun_t_i_de_topoloveni_zacusc.jpg"
+    },
+    {
+        "store": "Lidl",
+        "raw_name": "TIRADELL Paste Alfabet",
+        "price_new": 1.99,
+        "price_old": 2.99,
+        "discount": 0.33,
+        "requires_card": false,
+        "image_url": "https://imgproxy-retcat.assets.schwarz/5uFA3DLhuKkFue1Zic7tuh_DXBkxqC3-Tp_uP7H6eFI/sm:1/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvaW50Lzc2MjBCQTNERjc2NzcyQkQ2MzVGMDI2MD/M5N0U0NEQzRUI4QkE2RjJGMzYyN0NDQTExNzRBNUE0NDQyQTU2Q0QucG5n.png",
+        "local_image_path": "data/images/lidl/tiradell_paste_alfabet.jpg"
+    }
+]
