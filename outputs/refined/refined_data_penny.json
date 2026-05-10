@@ -9,7 +9,7 @@
         "price_old": 2.29,
         "discount": 0.22,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-965672-0108833578-72nt7gq-.jpg",
-        "image_local": "data/images/penny/gogoasa_cu_glazura_de_capsuni_56g_la_lorraine_srl.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -22,7 +22,7 @@
         "price_old": 7.09,
         "discount": 0.21,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-967410-0199669051-btlOQuhu.jpg",
-        "image_local": "data/images/penny/hb_paine_multicereale_fabrica_de_paine_serban_srl.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -35,7 +35,7 @@
         "price_old": 16.29,
         "discount": 0.17,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-911490-0416194384-eehdK5st.jpg",
-        "image_local": "data/images/penny/gran_mare_hering_picant.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -48,7 +48,7 @@
         "price_old": 15.89,
         "discount": 0.18,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-914501-743765594-7gSjmQIr.jpg",
-        "image_local": "data/images/penny/hanul_boieresc_pulpe_de_pui_super_dezosate_fara_piele.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -61,7 +61,7 @@
         "price_old": 10.99,
         "discount": 0.18,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-914970-0101598836-x364UueO.jpg",
-        "image_local": "data/images/penny/hanul_boieresc_pulpe_de_pui_inferioare.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -74,7 +74,7 @@
         "price_old": 1.99,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-921669-0827534945-0FTkodqc.jpg",
-        "image_local": "data/images/penny/gran_mare_salata_icre_hering_cu_ceapa.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -87,7 +87,7 @@
         "price_old": 1.99,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-921670-2068920373-IH471fAP.jpg",
-        "image_local": "data/images/penny/gran_mare_salata_icre_crap_cu_ceapa.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -100,7 +100,7 @@
         "price_old": 23.09,
         "discount": 0.22,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-922550-1379372729-tFpeYnyb.jpg",
-        "image_local": "data/images/penny/hanul_boieresc_cotlet_porc_fara_os_feliat.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -113,7 +113,7 @@
         "price_old": 16.99,
         "discount": 0.18,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-930850-268159130-b65TmSXS.jpg",
-        "image_local": "data/images/penny/cristim_salam_uscat.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -126,7 +126,7 @@
         "price_old": 24.99,
         "discount": 0.2,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-944829-1162027527-j4gsI-3_.jpg",
-        "image_local": "data/images/penny/fox_salam_sarbesc.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -139,7 +139,7 @@
         "price_old": 13.75,
         "discount": 0.11,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-952575-271662389-XttShiI-.jpg",
-        "image_local": "data/images/penny/hanul_boieresc_piept_pui_dezosat_feliat.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -152,7 +152,7 @@
         "price_old": 13.25,
         "discount": 0.17,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-955367-1307078783-b55s-M8r.jpg",
-        "image_local": "data/images/penny/peris_carnati_subtiri_de_porc.jpg",
+        "image_local": "data/images_verified/penny/peris_carnati_subtiri_de_porc.jpg",
         "requires_card": false
     },
     {
@@ -165,7 +165,7 @@
         "price_old": 8.29,
         "discount": 0.33,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-956510-1567770230-ABewSkPr.jpg",
-        "image_local": "data/images/penny/matache_macelaru_muschi_file.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -178,7 +178,7 @@
         "price_old": 12.89,
         "discount": 0.22,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-959876-184382514-x4fzuw3z.jpg",
-        "image_local": "data/images/penny/caroli_carnati_cabanos.jpg",
+        "image_local": "data/images_verified/penny/caroli_carnati_cabanos.jpg",
         "requires_card": true
     },
     {
@@ -191,7 +191,7 @@
         "price_old": 17.99,
         "discount": 0.28,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-961886-950400164-67D8470D.jpg",
-        "image_local": "data/images/penny/integra_mici_ca_la_dedulesti.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -204,7 +204,7 @@
         "price_old": 8.59,
         "discount": 0.24,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-963039-0199177113-IPpDRgct.jpg",
-        "image_local": "data/images/penny/sissi_sunca_praga_felii.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -217,7 +217,7 @@
         "price_old": 17.29,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964956-0201453934-WEMIkVCK.jpg",
-        "image_local": "data/images/penny/aldis_crenvursti_curcan.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -230,7 +230,7 @@
         "price_old": 29.99,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-966029-0143315284-BH5dSfVV.jpg",
-        "image_local": "data/images/penny/coaste_porc_comtim_kg.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -243,7 +243,7 @@
         "price_old": 14.99,
         "discount": 0.1,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-966483-6637894-cnhY4sY_.jpg",
-        "image_local": "data/images/penny/caroli_salam_victoria.jpg",
+        "image_local": "data/images_verified/penny/caroli_salam_victoria.jpg",
         "requires_card": false
     },
     {
@@ -256,7 +256,7 @@
         "price_old": 7.99,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-971857-1031677473-7nPoUuK6.jpg",
-        "image_local": "data/images/penny/salam_crud_uscat_feliat_div_sort_250g.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -269,7 +269,7 @@
         "price_old": 6.99,
         "discount": 0.29,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-989142-2008620719-PJ464jlH.jpg",
-        "image_local": "data/images/penny/angst_sunca_porc_in_crusta_de_piper.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -282,7 +282,7 @@
         "price_old": 7.49,
         "discount": 0.33,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-989930-0121694128-eMreX5z1.jpg",
-        "image_local": "data/images/penny/berlinki_carnati_sticks_de_pui.jpg",
+        "image_local": "data/images_verified/penny/berlinki_carnati_sticks_de_pui.jpg",
         "requires_card": true
     },
     {
@@ -295,7 +295,7 @@
         "price_old": 7.49,
         "discount": 0.33,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-989931-0206141315-u7lurEPM.jpg",
-        "image_local": "data/images/penny/berlinki_carnati_sticks_de_chilli.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -308,7 +308,7 @@
         "price_old": 7.49,
         "discount": 0.33,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-989932-1389082268-LUD7oEvJ.jpg",
-        "image_local": "data/images/penny/berlinki_carnati_sticks_de_classic.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -321,7 +321,7 @@
         "price_old": 7.49,
         "discount": 0.33,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-989933-544610397-KtNXD12Y.jpg",
-        "image_local": "data/images/penny/berlinki_carnati_sticks_de_curcan_si_porc.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -334,7 +334,7 @@
         "price_old": 7.49,
         "discount": 0.33,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-989934-0299861474-Lt7YmPFi.jpg",
-        "image_local": "data/images/penny/berlinki_carnati_sticks_kids.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -347,7 +347,7 @@
         "price_old": 12.99,
         "discount": 0.23,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-100225-0883758626-EuzdDgZe.jpg",
-        "image_local": "data/images/penny/kiwi.jpg",
+        "image_local": "data/images_verified/penny/kiwi.jpg",
         "requires_card": true
     },
     {
@@ -360,7 +360,7 @@
         "price_old": 8.49,
         "discount": 0.24,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-100231-1873547022-fALMMxOI.jpg",
-        "image_local": "data/images/penny/pere_conference.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -373,7 +373,7 @@
         "price_old": 11.99,
         "discount": 0.25,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-100259-0191599127-GKMp2eXF.jpg",
-        "image_local": "data/images/penny/castraveti_cornichon.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -386,7 +386,7 @@
         "price_old": 2.79,
         "discount": 0.29,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-102408-0386782601-_CdTZXtG.jpg",
-        "image_local": "data/images/penny/ceapa_galbena.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -399,7 +399,7 @@
         "price_old": 9.99,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-102566-836268634-gSzaY_Ul.jpg",
-        "image_local": "data/images/penny/pepeni_verzi.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -412,7 +412,7 @@
         "price_old": 7.99,
         "discount": 0.19,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-102842-0429029083-kfsMYDzX.jpg",
-        "image_local": "data/images/penny/fasole_alba.jpg",
+        "image_local": "data/images_verified/penny/fasole_alba.jpg",
         "requires_card": true
     },
     {
@@ -425,7 +425,7 @@
         "price_old": 3.49,
         "discount": 0.2,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-912684-0191325778-OvIEvd_H.jpg",
-        "image_local": "data/images/penny/cartofi_albi.jpg",
+        "image_local": "data/images_verified/penny/cartofi_albi.jpg",
         "requires_card": true
     },
     {
@@ -438,7 +438,7 @@
         "price_old": 18.99,
         "discount": 0.32,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-924061-0132019107-Cjjxtc7U.jpg",
-        "image_local": "data/images/penny/avocado_plasa.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -451,7 +451,7 @@
         "price_old": 11.99,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-946370-958768778-XgyVUzZ5.jpg",
-        "image_local": "data/images/penny/spanac_punga.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -464,7 +464,7 @@
         "price_old": 8.99,
         "discount": 0.24,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-966522-857871803-By-FvXE5.jpg",
-        "image_local": "data/images/penny/lamai_netratate_plasa.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -477,7 +477,7 @@
         "price_old": 11.49,
         "discount": 0.13,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-902065-79724111-5stjjlLj.jpg",
-        "image_local": "data/images/penny/boni_de_tot_cascaval_dalia.jpg",
+        "image_local": "data/images_verified/penny/boni_de_tot_cascaval_dalia.jpg",
         "requires_card": true
     },
     {
@@ -490,7 +490,7 @@
         "price_old": 5.39,
         "discount": 0.1,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-905486-0112161887-mIIx8loN.jpg",
-        "image_local": "data/images/penny/boni_de_tot_lapte_batut_2_grasime.jpg",
+        "image_local": "data/images_verified/penny/boni_de_tot_lapte_batut_2_grasime.jpg",
         "requires_card": true
     },
     {
@@ -503,7 +503,7 @@
         "price_old": 4.79,
         "discount": 0.17,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-912653-1259508554-axjgKTNN.jpg",
-        "image_local": "data/images/penny/boni_de_tot_lapte_uht_1_5_grasime.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -516,7 +516,7 @@
         "price_old": 8.49,
         "discount": 0.12,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-913069-1543276665-IFMH1opD.jpg",
-        "image_local": "data/images/penny/la_dorna_smantana_de_gatit_32_grasime.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -529,7 +529,7 @@
         "price_old": 15.99,
         "discount": 0.31,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-929418-987173596-u_KOihfm.jpg",
-        "image_local": "data/images/penny/san_fabio_grana_padano_fulgi.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -542,7 +542,7 @@
         "price_old": 15.99,
         "discount": 0.31,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-929419-952048351-ASz8nkW5.jpg",
-        "image_local": "data/images/penny/san_fabio_grana_padano_ras.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -555,7 +555,7 @@
         "price_old": 15.99,
         "discount": 0.31,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-929420-1202311396-iwfZXd1n.jpg",
-        "image_local": "data/images/penny/at_san_fabio_mix_grana_padano_ras_fulgi.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -568,7 +568,7 @@
         "price_old": 5.65,
         "discount": 0.12,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-943122-0128727709-dTrgSUTh.jpg",
-        "image_local": "data/images/penny/activia_iaurt_natur_de_baut.jpg",
+        "image_local": "data/images_verified/penny/activia_iaurt_natur_de_baut.jpg",
         "requires_card": false
     },
     {
@@ -581,7 +581,7 @@
         "price_old": 15.45,
         "discount": 0.1,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-943135-0772789772-zrsFAGX0.jpg",
-        "image_local": "data/images/penny/zuzu_lapte_1_8l_integral_3_5_grasime.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -594,7 +594,7 @@
         "price_old": 10.99,
         "discount": 0.14,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-948469-1176026527-VNDBAa0O.jpg",
-        "image_local": "data/images/penny/hanul_boieresc_burduf_cu_cas_de_oaie.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -607,7 +607,7 @@
         "price_old": 9.59,
         "discount": 0.17,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-956596-673761653-5659QZDw.jpg",
-        "image_local": "data/images/penny/danonino_capsuni_cirese_zmeura.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -620,7 +620,7 @@
         "price_old": 10.69,
         "discount": 0.16,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-957494-2087921381-l-LehL9t.jpg",
-        "image_local": "data/images/penny/cvl_smantana_20.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -633,7 +633,7 @@
         "price_old": 7.65,
         "discount": 0.15,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-959512-0172808260-vHhzDcd7.jpg",
-        "image_local": "data/images/penny/delaco_desenvis_cascaval_felii.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -646,7 +646,7 @@
         "price_old": 14.49,
         "discount": 0.1,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-959923-0187674182-q6KMGxnd.jpg",
-        "image_local": "data/images/penny/president_branza_cremoasa_de_vaca.jpg",
+        "image_local": "data/images_verified/penny/president_branza_cremoasa_de_vaca.jpg",
         "requires_card": true
     },
     {
@@ -659,7 +659,7 @@
         "price_old": 7.39,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-962859-885403246-K7eB_TWv.jpg",
-        "image_local": "data/images/penny/zuzu_frappe_1_5.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -672,7 +672,7 @@
         "price_old": 12.59,
         "discount": 0.21,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-967348-024626801-YmvpFo1t.jpg",
-        "image_local": "data/images/penny/hochland_br_rasa_pt_pizza.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -685,7 +685,7 @@
         "price_old": 16.69,
         "discount": 0.16,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-116856-0475221705-mDOwjFlh.jpg",
-        "image_local": "data/images/penny/scandia_sibiu_ciorba_de_burta_dreasa_cu_smantana.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -698,7 +698,7 @@
         "price_old": 6.09,
         "discount": 0.11,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-966399-695464889-hDngP2op.jpg",
-        "image_local": "data/images/penny/cris_tim_salata_humus.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -711,7 +711,7 @@
         "price_old": 10.19,
         "discount": 0.12,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-967923-964220922-W5q1nr7R.jpg",
-        "image_local": "data/images/penny/masline_fara_samburi_div_sortimente_150g.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -724,7 +724,7 @@
         "price_old": 10.25,
         "discount": 0.12,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-969083-1122939369-lsXgBU6d.jpg",
-        "image_local": "data/images/penny/casa_antonie_rulada_crema_arahide.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -737,7 +737,7 @@
         "price_old": 3.99,
         "discount": 0.1,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-958152-1147734515-a73u4OV6.jpg",
-        "image_local": "data/images/penny/penny_mazare_verde.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -750,7 +750,7 @@
         "price_old": 32.55,
         "discount": 0.14,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-967625-0391937803-9TWbtvUt.jpg",
-        "image_local": "data/images/penny/fornetti_mini_painici_cu_ciocolata.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -763,7 +763,7 @@
         "price_old": 20.35,
         "discount": 0.12,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-968689-0355281760-905t9jaG.jpg",
-        "image_local": "data/images/penny/filoxenia_placinta_greceasca_spirala_din_foi_cu_branza.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -776,7 +776,7 @@
         "price_old": 9.99,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-972634-1675119499-krjtSBGo.jpg",
-        "image_local": "data/images/penny/rusty_cartofi_in_coaja.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -789,7 +789,7 @@
         "price_old": 9.05,
         "discount": 0.25,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-950976-0397523895-TwtBua9k.jpg",
-        "image_local": "data/images/penny/bucovina_apa_minerala_plata.jpg",
+        "image_local": "data/images_verified/penny/bucovina_apa_minerala_plata.jpg",
         "requires_card": false
     },
     {
@@ -802,7 +802,7 @@
         "price_old": 23.95,
         "discount": 0.21,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-963853-0126274547-RRI1qqxb.jpg",
-        "image_local": "data/images/penny/staropramen_bere_5_alc_6x500ml_5_1.jpg",
+        "image_local": "data/images_verified/penny/staropramen_bere_5_alc_6x500ml_5_1.jpg",
         "requires_card": false
     },
     {
@@ -815,7 +815,7 @@
         "price_old": 32.99,
         "discount": 0.27,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-963892-296218527-QP579h0W.jpg",
-        "image_local": "data/images/penny/budureasca_feteasca_neagra_vin_dms.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -828,7 +828,7 @@
         "price_old": 32.99,
         "discount": 0.27,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-963893-0967881459-yas_eZVg.jpg",
-        "image_local": "data/images/penny/budureasca_vin_rose_dms.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -841,7 +841,7 @@
         "price_old": 32.45,
         "discount": 0.23,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-963907-1869597509-hyrdgNqK.jpg",
-        "image_local": "data/images/penny/carlsberg_bere_blonda_5_2_alc_6x500ml_5_1.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -854,7 +854,7 @@
         "price_old": 3.59,
         "discount": 0.22,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-963939-0155830372-_z79nbmA.jpg",
-        "image_local": "data/images/penny/neumarkt_bere_blonda_5_2_alc.jpg",
+        "image_local": "data/images_verified/penny/neumarkt_bere_blonda_5_2_alc.jpg",
         "requires_card": true
     },
     {
@@ -867,7 +867,7 @@
         "price_old": 38.89,
         "discount": 0.31,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-963945-1075855744-vS2PUu0r.jpg",
-        "image_local": "data/images/penny/heineken_bere_blonda_5_alc_se_poate_achiz_si_la_bucata_6x330_ml.jpg",
+        "image_local": "data/images_verified/penny/heineken_bere_blonda_5_alc_se_poate_achiz_si_la_bucata_6x330_ml.jpg",
         "requires_card": false
     },
     {
@@ -880,7 +880,7 @@
         "price_old": 7.55,
         "discount": 0.27,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-963948-706908676-wESnOkwl.jpg",
-        "image_local": "data/images/penny/desperados_bere_blonda_cu_alcool_din_agave_5_9_alc.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -893,7 +893,7 @@
         "price_old": 32.45,
         "discount": 0.17,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-963953-1688112980-9V0KHd9j.jpg",
-        "image_local": "data/images/penny/heineken_bere_blonda_5_alc_6x330ml_5_1.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -906,7 +906,7 @@
         "price_old": 37.49,
         "discount": 0.31,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-963958-1715968704-bUbMdzcW.jpg",
-        "image_local": "data/images/penny/heineken_bere_blonda_5_alc_6x500ml.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -919,7 +919,7 @@
         "price_old": 31.25,
         "discount": 0.17,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-963971-1920393404-dQ659C8p.jpg",
-        "image_local": "data/images/penny/heineken_bere_blonda_5_alc_6x500ml_5_1.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -932,7 +932,7 @@
         "price_old": 61.99,
         "discount": 0.16,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964002-025734800-QXNfEYh5.jpg",
-        "image_local": "data/images/penny/teachers_whisky_40_alc.jpg",
+        "image_local": "data/images_verified/penny/teachers_whisky_40_alc.jpg",
         "requires_card": true
     },
     {
@@ -945,7 +945,7 @@
         "price_old": 12.49,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964006-0157844636-YUmPqkuX.jpg",
-        "image_local": "data/images/penny/ciucas_bere_blonda_4_6_alc.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -958,7 +958,7 @@
         "price_old": 8.89,
         "discount": 0.36,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964107-635746476-qR0SkRsO.jpg",
-        "image_local": "data/images/penny/tymbark_bautura_necarbogazoasa_cool_piersici_12.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -971,7 +971,7 @@
         "price_old": 8.89,
         "discount": 0.36,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964108-0208725395-1trhpJqi.jpg",
-        "image_local": "data/images/penny/tymbark_bautura_necarbogazoasa_cool_visine_5.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -984,7 +984,7 @@
         "price_old": 8.89,
         "discount": 0.36,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964109-0105319726-MN07ZL59.jpg",
-        "image_local": "data/images/penny/tymbark_bautura_necarbogazoasa_cool_mar_verde_5.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -997,7 +997,7 @@
         "price_old": 3.99,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964142-1263815991-j7cIvo48.jpg",
-        "image_local": "data/images/penny/perla_harghitei_apa_minerala_carbogazificata.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1010,7 +1010,7 @@
         "price_old": 4.49,
         "discount": 0.27,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964177-298712468-00dlRkV2.jpg",
-        "image_local": "data/images/penny/pepsi_bautura_carbo_zero.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1023,7 +1023,7 @@
         "price_old": 7.89,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964185-0124391007-aAy7iMiS.jpg",
-        "image_local": "data/images/penny/pepsi_bautura_carbogazoasa_regular.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1036,7 +1036,7 @@
         "price_old": 26.89,
         "discount": 0.27,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964193-0516026479-ErKOVvTW.jpg",
-        "image_local": "data/images/penny/pepsi_bautura_carbo_6x330ml_zero.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1049,7 +1049,7 @@
         "price_old": 7.89,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964199-0890310744-R73wmghr.jpg",
-        "image_local": "data/images/penny/mirinda_bautura_carbogazoasa_portocale.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1062,7 +1062,7 @@
         "price_old": 12.19,
         "discount": 0.26,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964219-0164136686-mPMQ_339.jpg",
-        "image_local": "data/images/penny/coca_cola_zero_bautura_carbo.jpg",
+        "image_local": "data/images_verified/penny/coca_cola_zero_bautura_carbo.jpg",
         "requires_card": true
     },
     {
@@ -1075,7 +1075,7 @@
         "price_old": 24.35,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964225-168828341--C3X9Gu-.jpg",
-        "image_local": "data/images/penny/coca_cola_zero_nrgb.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1088,7 +1088,7 @@
         "price_old": 6.09,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964226-199828785-c1CgLkB5.jpg",
-        "image_local": "data/images/penny/coca_cola_zero_nrgb.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1101,7 +1101,7 @@
         "price_old": 26.89,
         "discount": 0.37,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964490-2112880163-URczzFNd.jpg",
-        "image_local": "data/images/penny/bergenbier_bere_blonda_5_alc_6x330ml.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1114,7 +1114,7 @@
         "price_old": 19.95,
         "discount": 0.15,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-965168-0174380471-7hmvGa7V.jpg",
-        "image_local": "data/images/penny/caraiman_bere_blona_4_6_alc_6x500ml_5_1.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1127,7 +1127,7 @@
         "price_old": 3.99,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-965372-0768664521-ukr3sRRg.jpg",
-        "image_local": "data/images/penny/hell_bautura_carbogazoasa_vitaminizata_ar_tutti_frutti_cont_cafeina.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1140,7 +1140,7 @@
         "price_old": 11.79,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-965429-0270046073-880NzrRr.jpg",
-        "image_local": "data/images/penny/coca_cola_bautura_carbogazoaza_cu_gust_de_lamaie_2l.jpg",
+        "image_local": "data/images_verified/penny/coca_cola_bautura_carbogazoaza_cu_gust_de_lamaie_2l.jpg",
         "requires_card": true
     },
     {
@@ -1153,7 +1153,7 @@
         "price_old": 21.49,
         "discount": 0.16,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-966340-256472303-2tY8Wz-Y.jpg",
-        "image_local": "data/images/penny/alexandrion_5bautura_spirtoasa_37_5_alc_200ml.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1166,7 +1166,7 @@
         "price_old": 12.19,
         "discount": 0.26,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-966719-1126498876-xUXA9Q2F.jpg",
-        "image_local": "data/images/penny/sprite_bautura_carbogazoasa_cu_aroma_de_lamaie_si_lamaie_verde_2_5l.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1179,7 +1179,7 @@
         "price_old": 18.99,
         "discount": 0.21,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-967778-0182163632-uAp6HpRW.jpg",
-        "image_local": "data/images/penny/ferma_noua_vin_merlotfeteasca_neagra.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1192,7 +1192,7 @@
         "price_old": 18.99,
         "discount": 0.21,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-967779-1628859098-39FDMlgu.jpg",
-        "image_local": "data/images/penny/ferma_noua_vin_sauvignon_blanc_demisec.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1205,7 +1205,7 @@
         "price_old": 19.15,
         "discount": 0.27,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-968126-837717973-V4stE3gF.jpg",
-        "image_local": "data/images/penny/fanta_pere_bautura_racoritoare_carbogazoasa_cu_suc_de_pere_4x330ml_4x.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1218,7 +1218,7 @@
         "price_old": 4.79,
         "discount": 0.27,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-968127-0759267082-DnaWAc6C.jpg",
-        "image_local": "data/images/penny/fanta_pere_bautura_racoritoare_carbogazoasa_cu_suc_de_pere_330ml_doza.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1231,7 +1231,7 @@
         "price_old": 7.19,
         "discount": 0.31,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-972815-073726994-2kIlw9sD.jpg",
-        "image_local": "data/images/penny/birra_moretti_bere_blonda_4_6_alc_660ml.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1244,7 +1244,7 @@
         "price_old": 4.39,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-989121-0624226256-u95-LyRI.jpg",
-        "image_local": "data/images/penny/alcalia_apa_minerala_naturala_necarbogazoasa_natural_alcalina_1_5l_garantia.jpg",
+        "image_local": "data/images_verified/penny/alcalia_apa_minerala_naturala_necarbogazoasa_natural_alcalina_1_5l_garantia.jpg",
         "requires_card": false
     },
     {
@@ -1257,7 +1257,7 @@
         "price_old": 7.79,
         "discount": 0.3,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-108836-548022344-O6vft7s3.jpg",
-        "image_local": "data/images/penny/bucegi_pate_de_porc_20_ficat.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1270,7 +1270,7 @@
         "price_old": 7.79,
         "discount": 0.3,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-110570-0210276748-VVgxGj7W.jpg",
-        "image_local": "data/images/penny/bucegi_pate_de_pui_20_ficat.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1283,7 +1283,7 @@
         "price_old": 39.99,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-114913-0198854565-M_NjpuXW.jpg",
-        "image_local": "data/images/penny/san_fabio_ulei_de_masline_extravirgin.jpg",
+        "image_local": "data/images_verified/penny/san_fabio_ulei_de_masline_extravirgin.jpg",
         "requires_card": true
     },
     {
@@ -1296,7 +1296,7 @@
         "price_old": 4.95,
         "discount": 0.19,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-116459-0176404761--7H-TpvN.jpg",
-        "image_local": "data/images/penny/defne_masline_negre.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1309,7 +1309,7 @@
         "price_old": 3.65,
         "discount": 0.18,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-912530-401520568-667yWkW7.jpg",
-        "image_local": "data/images/penny/sultan_pasta_de_tomate.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1322,7 +1322,7 @@
         "price_old": 5.59,
         "discount": 0.21,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-913051-0211572138-53CZlEuY.jpg",
-        "image_local": "data/images/penny/marinna_ton_maruntit_in_ulei_greutate_masa_neta_scursa_135gr.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1335,7 +1335,7 @@
         "price_old": 44.99,
         "discount": 0.26,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-914651-46219307-XnGcDXmg.jpg",
-        "image_local": "data/images/penny/tchibo_exclusive_cafea_macinata.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1348,7 +1348,7 @@
         "price_old": 17.59,
         "discount": 0.26,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-918252-0359136387-NO2u0XjT.jpg",
-        "image_local": "data/images/penny/delikat_legume_baza_pentru_mancaruri.jpg",
+        "image_local": "data/images_verified/penny/delikat_legume_baza_pentru_mancaruri.jpg",
         "requires_card": true
     },
     {
@@ -1361,7 +1361,7 @@
         "price_old": 3.49,
         "discount": 0.11,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-923645-950229047-8-4qWBJe.jpg",
-        "image_local": "data/images/penny/penny_fasole_boabe_alba_in_sos_tomat_greutate_masa_neta_scursa_240gr.jpg",
+        "image_local": "data/images_verified/penny/penny_fasole_boabe_alba_in_sos_tomat_greutate_masa_neta_scursa_240gr.jpg",
         "requires_card": true
     },
     {
@@ -1374,7 +1374,7 @@
         "price_old": 4.49,
         "discount": 0.22,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-926984-028619364-tYCOGkT-.jpg",
-        "image_local": "data/images/penny/bucegi_pasta_vegetala_cu_ardei_tartinabila.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1387,7 +1387,7 @@
         "price_old": 0.85,
         "discount": 0.31,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-929523-1799830888-FOaRlTcu.jpg",
-        "image_local": "data/images/penny/penny_cereale_expandate_aroma_fructe.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1400,7 +1400,7 @@
         "price_old": 6.59,
         "discount": 0.12,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-952709-0618101720-Yj-fWpGO.jpg",
-        "image_local": "data/images/penny/san_fabio_sos_de_rosii_cu_busuioc.jpg",
+        "image_local": "data/images_verified/penny/san_fabio_sos_de_rosii_cu_busuioc.jpg",
         "requires_card": true
     },
     {
@@ -1413,7 +1413,7 @@
         "price_old": 6.59,
         "discount": 0.12,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-952710-0213592128-DofkVbqU.jpg",
-        "image_local": "data/images/penny/san_fabio_sos_de_rosii_rustic.jpg",
+        "image_local": "data/images_verified/penny/san_fabio_sos_de_rosii_rustic.jpg",
         "requires_card": true
     },
     {
@@ -1426,7 +1426,7 @@
         "price_old": 19.39,
         "discount": 0.23,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-959687-1022090073-nla3JQe1.jpg",
-        "image_local": "data/images/penny/rio_mare_ton_in_ulei_de_masline_greutate_masa_neta_scursa_104gr.jpg",
+        "image_local": "data/images_verified/penny/rio_mare_ton_in_ulei_de_masline_greutate_masa_neta_scursa_104gr.jpg",
         "requires_card": true
     },
     {
@@ -1439,7 +1439,7 @@
         "price_old": 8.05,
         "discount": 0.26,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-961259-738202727-OHyZY88p.jpg",
-        "image_local": "data/images/penny/hanul_boieresc_castraveti_intregi_in_otet_greutate_masa_neta_scursa_350gr.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1452,7 +1452,7 @@
         "price_old": 15.99,
         "discount": 0.13,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-961260-0922290929-KGPhZ7i7.jpg",
-        "image_local": "data/images/penny/nestle_cereale_nesquik.jpg",
+        "image_local": "data/images_verified/penny/nestle_cereale_nesquik.jpg",
         "requires_card": true
     },
     {
@@ -1465,7 +1465,7 @@
         "price_old": 2.59,
         "discount": 0.12,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964026-1206368354-utX34o0B.jpg",
-        "image_local": "data/images/penny/pentru_tine_de_la_penny_spaghetti.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1478,7 +1478,7 @@
         "price_old": 4.19,
         "discount": 0.17,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-966356-0157215867-GBcY30n3.jpg",
-        "image_local": "data/images/penny/margaritar_zahar_cristal_alb.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1491,7 +1491,7 @@
         "price_old": 1.99,
         "discount": 0.15,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-966366-1576977913-QKPfD8kC.jpg",
-        "image_local": "data/images/penny/hanul_boieresc_faina_de_grau_alba_tip_000.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1504,7 +1504,7 @@
         "price_old": 11.19,
         "discount": 0.29,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-968141-1998760411-WOLm-WKL.jpg",
-        "image_local": "data/images/penny/penny_piersici_jumatati_in_sirop_greutate_masa_neta_scursa_480gr.jpg",
+        "image_local": "data/images_verified/penny/penny_piersici_jumatati_in_sirop_greutate_masa_neta_scursa_480gr.jpg",
         "requires_card": true
     },
     {
@@ -1517,7 +1517,7 @@
         "price_old": 4.99,
         "discount": 0.2,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-971988-0827916160-Yp1Hocwk.jpg",
-        "image_local": "data/images/penny/bonito_ketchup_dulce_460g.jpg",
+        "image_local": "data/images_verified/penny/bonito_ketchup_dulce_460g.jpg",
         "requires_card": true
     },
     {
@@ -1530,7 +1530,7 @@
         "price_old": 4.99,
         "discount": 0.2,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-971989-0167238803-2EcKXnns.jpg",
-        "image_local": "data/images/penny/bonito_ketchup_picant_460g.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1543,7 +1543,7 @@
         "price_old": 4.59,
         "discount": 0.24,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-953567-1782577446-rMrr33xL.jpg",
-        "image_local": "data/images/penny/croco_brezel_sare.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1556,7 +1556,7 @@
         "price_old": 7.59,
         "discount": 0.21,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-957114-1537018808-L1vhrvxA.jpg",
-        "image_local": "data/images/penny/soocitzi_cu_sare_de_mare_si_miere.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1569,7 +1569,7 @@
         "price_old": 7.49,
         "discount": 0.11,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-959150-2138571119-GbfwIMZS.jpg",
-        "image_local": "data/images/penny/suportero_spirale_cu_cascaval.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1582,7 +1582,7 @@
         "price_old": 7.49,
         "discount": 0.11,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-959151-1893685083-DStUNRtR.jpg",
-        "image_local": "data/images/penny/suportero_spirale_simple.jpg",
+        "image_local": "data/images_verified/penny/suportero_spirale_simple.jpg",
         "requires_card": true
     },
     {
@@ -1595,7 +1595,7 @@
         "price_old": 0.89,
         "discount": 0.34,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-961255-0119643731-VFQAnGyR.jpg",
-        "image_local": "data/images/penny/croco_biscuiti_crema_cacao_25g.jpg",
+        "image_local": "data/images_verified/penny/croco_biscuiti_crema_cacao_25g.jpg",
         "requires_card": true
     },
     {
@@ -1608,7 +1608,7 @@
         "price_old": 1.99,
         "discount": 0.2,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-962674-532177955-JbnHIwzj.jpg",
-        "image_local": "data/images/penny/roshen_baton_ciocolata_neagra_cu_umplutura.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1621,7 +1621,7 @@
         "price_old": 1.99,
         "discount": 0.2,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-962675-2138050494-bagZY7Jt.jpg",
-        "image_local": "data/images/penny/roshen_baton_ciocolata_lapte_umplutura_crema_zahar_ars.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1634,7 +1634,7 @@
         "price_old": 1.99,
         "discount": 0.2,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-962677-0152088787-b_7G_Hh0.jpg",
-        "image_local": "data/images/penny/roshen_baton_ciocolata_lapte_umplutura_crema_caramel.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1647,7 +1647,7 @@
         "price_old": 4.89,
         "discount": 0.18,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-962680-1377515318-_GMentSL.jpg",
-        "image_local": "data/images/penny/goldfischli_crackers_susan_snack_cu_susan.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1660,7 +1660,7 @@
         "price_old": 5.75,
         "discount": 0.13,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-962831-769736793-Rmxxe3A8.jpg",
-        "image_local": "data/images/penny/pentru_tine_de_la_penny_biscuiti_petit_beurre.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1673,7 +1673,7 @@
         "price_old": 19.99,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-963007-0824963305-Hl3K3O11.jpg",
-        "image_local": "data/images/penny/chokotoff_caramele_invel_in_ciocolata_cu_lapte.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1686,7 +1686,7 @@
         "price_old": 4.05,
         "discount": 0.26,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-963095-0145772012-8p00oZx7.jpg",
-        "image_local": "data/images/penny/lotto_snack_cu_gust_de_pizza.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1699,7 +1699,7 @@
         "price_old": 9.75,
         "discount": 0.16,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964346-78862062-Haz8h4fU.jpg",
-        "image_local": "data/images/penny/penny_arahide_in_coaja_coapte_nesarate.jpg",
+        "image_local": "data/images_verified/penny/penny_arahide_in_coaja_coapte_nesarate.jpg",
         "requires_card": false
     },
     {
@@ -1712,7 +1712,7 @@
         "price_old": 8.99,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-965152-653606474-CfPYZjlm.jpg",
-        "image_local": "data/images/penny/lays_chips_cartofi_ondulati_cu_gust_picant.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1725,7 +1725,7 @@
         "price_old": 8.99,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-965153-2062683880-KwLpTBa_.jpg",
-        "image_local": "data/images/penny/lays_chips_cartofi_ondulati_cu_sare.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1738,7 +1738,7 @@
         "price_old": 7.59,
         "discount": 0.21,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-969034-1224481556-utlG38y1.jpg",
-        "image_local": "data/images/penny/soocitzi_cu_masline_si_rozmarin.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1751,7 +1751,7 @@
         "price_old": 15.99,
         "discount": 0.13,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-969036-1631200278-bjYdUg2J.jpg",
-        "image_local": "data/images/penny/bounty_baton_miez_cocos_fraged_invelit_in_ciocolata_cu_lapte.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1764,7 +1764,7 @@
         "price_old": 7.99,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-969334-0160934494-IrV0c8sz.jpg",
-        "image_local": "data/images/penny/roshen_2crack_biscuti_crocanti_cu_umplutura_cacao_alune.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1777,7 +1777,7 @@
         "price_old": 7.99,
         "discount": 0.25,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-969343-0117369729-OMxgDPo7.jpg",
-        "image_local": "data/images/penny/roshen_2crack_biscuti_crocanti_cu_umplutura_de_lapte_si_vanilie.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1790,7 +1790,7 @@
         "price_old": 4.99,
         "discount": 0.2,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-112274-0644678176-mgZLHZ7V.jpg",
-        "image_local": "data/images/penny/palmolive_sapun_solid_musetel_masline.jpg",
+        "image_local": "data/images_verified/penny/palmolive_sapun_solid_musetel_masline.jpg",
         "requires_card": true
     },
     {
@@ -1803,7 +1803,7 @@
         "price_old": 13.79,
         "discount": 0.24,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-921576-1141970370-ad21YMBZ.jpg",
-        "image_local": "data/images/penny/gerovital_h3_deo_spray_diverse_sortimente.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1816,7 +1816,7 @@
         "price_old": 13.79,
         "discount": 0.24,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-921764-1068486839-GR_L2n55.jpg",
-        "image_local": "data/images/penny/gerovital_h3_men_deo_spray_diverse_sortimente.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1829,7 +1829,7 @@
         "price_old": 4.59,
         "discount": 0.13,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-928663-1313218071-4ff2rWb3.jpg",
-        "image_local": "data/images/penny/penny_servetele_cosmetice_3_straturi_100buc.jpg",
+        "image_local": "data/images_verified/penny/penny_servetele_cosmetice_3_straturi_100buc.jpg",
         "requires_card": true
     },
     {
@@ -1842,7 +1842,7 @@
         "price_old": 21.99,
         "discount": 0.25,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-930445-0218871511-y0vmO5pN.jpg",
-        "image_local": "data/images/penny/nivea_gel_ras_diverse_sortimente.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1855,7 +1855,7 @@
         "price_old": 12.69,
         "discount": 0.21,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-931188-1505427616-jx2E6n7h.jpg",
-        "image_local": "data/images/penny/elmiplant_gel_dus_diverse_sortimente.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1868,7 +1868,7 @@
         "price_old": 24.19,
         "discount": 0.21,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-958377-1970651902-0sLjqBTG.jpg",
-        "image_local": "data/images/penny/garnier_apa_micelara_diverse_sortimente.jpg",
+        "image_local": "data/images_verified/penny/garnier_apa_micelara_diverse_sortimente.jpg",
         "requires_card": false
     },
     {
@@ -1881,7 +1881,7 @@
         "price_old": 16.15,
         "discount": 0.3,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-961250-231236440-bAbQaH9e.jpg",
-        "image_local": "data/images/penny/wg_sampon_diverse_sortimente.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1894,7 +1894,7 @@
         "price_old": 20.19,
         "discount": 0.21,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-970024-843847450-jnVD69VB.jpg",
-        "image_local": "data/images/penny/borotalco_deo_spray_diverse_sortimente.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1907,7 +1907,7 @@
         "price_old": 12.99,
         "discount": 0.15,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-958985-0117430716-ScnDLe2f.jpg",
-        "image_local": "data/images/penny/seni_servetele_umede.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1920,7 +1920,7 @@
         "price_old": 24.99,
         "discount": 0.15,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-961248-1321414235-o6maqJwu.jpg",
-        "image_local": "data/images/penny/seni_aleze_90x60cm.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1933,7 +1933,7 @@
         "price_old": 17.99,
         "discount": 0.33,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-908676-0975623313-80KJPMHn.jpg",
-        "image_local": "data/images/penny/cif_solutie_pentru_suprafete_diverse_sortimente.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1946,7 +1946,7 @@
         "price_old": 15.19,
         "discount": 0.28,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-916365-0863822152-qNqooLKi.jpg",
-        "image_local": "data/images/penny/mr_proper_solutie_suprafete_diverse_sortimente.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -1959,7 +1959,7 @@
         "price_old": 9.99,
         "discount": 0.2,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/RR-931201-1230794511-UbQGycnd.jpg",
-        "image_local": "data/images/penny/bref_wc_gel_fresh_dezinfectant_pentru_wc.jpg",
+        "image_local": "data/images_verified/penny/bref_wc_gel_fresh_dezinfectant_pentru_wc.jpg",
         "requires_card": true
     },
     {
@@ -1972,7 +1972,7 @@
         "price_old": 11.59,
         "discount": 0.22,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-960354-1296934400-4O8n9Lp9.jpg",
-        "image_local": "data/images/penny/penny_hartie_igienica_8_role_3_straturi_piersica.jpg",
+        "image_local": "data/images_verified/penny/penny_hartie_igienica_8_role_3_straturi_piersica.jpg",
         "requires_card": true
     },
     {
@@ -1985,7 +1985,7 @@
         "price_old": 108.99,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-962494-0219544271-6M6LJoOK.jpg",
-        "image_local": "data/images/penny/persil_det_lich_reg_88sp.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -1998,7 +1998,7 @@
         "price_old": 78.99,
         "discount": 0.43,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-962495-2113937656-75Pv5jOP.jpg",
-        "image_local": "data/images/penny/persil_det_power_caps_univ.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -2011,7 +2011,7 @@
         "price_old": 24.59,
         "discount": 0.32,
         "image_url": "https://ed81c57e5d0b9c68f8fb-65959e0cf0c4860a1192ede71ec65f56.ssl.cf3.rackcdn.com/rr-962804-0167354452-66I-ZFq5.jpg",
-        "image_local": "data/images/penny/dero_detergent_manual_2in1_lavanda_28_spalari.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -2024,7 +2024,7 @@
         "price_old": 33.49,
         "discount": 0.35,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964662-1290633057-yZKGYYSj.jpg",
-        "image_local": "data/images/penny/perwoll_detergent_lichid_renew_black.jpg",
+        "image_local": "data/images_verified/penny/perwoll_detergent_lichid_renew_black.jpg",
         "requires_card": true
     },
     {
@@ -2037,7 +2037,7 @@
         "price_old": 92.49,
         "discount": 0.35,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-964941-0161293045-QTiEQsuh.jpg",
-        "image_local": "data/images/penny/perwoll_detergent_lichid_diverse_sortiment_60sp.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -2050,7 +2050,7 @@
         "price_old": 20.29,
         "discount": 0.21,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-966007-082349797-TxccnnNt.jpg",
-        "image_local": "data/images/penny/bref_odorizant_wc_color_active_diverse_sortimente.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -2063,7 +2063,7 @@
         "price_old": 26.29,
         "discount": 0.28,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-966471-0619879445-9-kaJIza.jpg",
-        "image_local": "data/images/penny/vanish_pudra_indepartat_pete_diverse_sortimente.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -2076,7 +2076,7 @@
         "price_old": 36.99,
         "discount": 0.19,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-966839-0599986565-bguouHDI.jpg",
-        "image_local": "data/images/penny/torre_detregent_pudra_automat_lavanda_si_liliac_80sp.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -2089,7 +2089,7 @@
         "price_old": 36.99,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-967752-0289493783-en2P0iar.jpg",
-        "image_local": "data/images/penny/ariel_all_in_one_capsule_mountain_spring.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -2102,7 +2102,7 @@
         "price_old": 67.89,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-967754-1307068205-qM0NQ0tY.jpg",
-        "image_local": "data/images/penny/ariel_detergent_lichid_sensitive_40_spalari.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -2115,7 +2115,7 @@
         "price_old": 36.99,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-967757-099349637-XwQT9gj9.jpg",
-        "image_local": "data/images/penny/ariel_detergent_pudra_automat_mountain_20_spalari.jpg",
+        "image_local": "data/images_verified/penny/ariel_detergent_pudra_automat_mountain_20_spalari.jpg",
         "requires_card": true
     },
     {
@@ -2128,7 +2128,7 @@
         "price_old": 23.35,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-967758-798988827-Nwh1fwPd.jpg",
-        "image_local": "data/images/penny/lenor_gold_balsam_rufe_orchidvanilla_59sp.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -2141,7 +2141,7 @@
         "price_old": 23.35,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-967759-443483956-Runjz_PU.jpg",
-        "image_local": "data/images/penny/lenor_balsam_rufe_spring_awakening_71_spalari.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -2154,7 +2154,7 @@
         "price_old": 131.0,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-968521-675695837-Joc3ZMbX.jpg",
-        "image_local": "data/images/penny/ariel_detergent_de_rufe_pudr_mountain_spring_100_spalari.jpg",
+        "image_local": "data/images_verified/penny/ariel_detergent_de_rufe_pudr_mountain_spring_100_spalari.jpg",
         "requires_card": true
     },
     {
@@ -2167,7 +2167,7 @@
         "price_old": 64.99,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-968555-240478491-RieAdfEv.jpg",
-        "image_local": "data/images/penny/ariel_detergent_automat_pudra_mountain_spring_40_spalari.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -2180,7 +2180,7 @@
         "price_old": 90.99,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-968556-0142954163-lDHUuNXa.jpg",
-        "image_local": "data/images/penny/ariel_capsule_mountain_spring_44_spalari.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": true
     },
     {
@@ -2193,7 +2193,7 @@
         "price_old": 67.89,
         "discount": 0.3,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-968557-028513611-MLVPje-2.jpg",
-        "image_local": "data/images/penny/ariel_detergent_lichid_mountain_spring_40_spalari.jpg",
+        "image_local": "assets/logos/penny.png",
         "requires_card": false
     },
     {
@@ -2206,7 +2206,7 @@
         "price_old": 21.99,
         "discount": 0.41,
         "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/3dd00c6e-62c7-4330-9c1a-0067ba317084/rr-969764-0766649565-jC0uSaS9.jpg",
-        "image_local": "data/images/penny/clina_lichid_parbriz_iarna_5l.jpg",
+        "image_local": "data/images_verified/penny/clina_lichid_parbriz_iarna_5l.jpg",
         "requires_card": false
     }
 ]

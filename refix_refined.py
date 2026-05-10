@@ -11,7 +11,7 @@ from reparator import fix_item, VALID_CATEGORIES
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
 
-REFINED_DIR  = Path("outputs/refined")
+REFINED_DIR  = Path("outputs/refined_llama")
 COMBINED_OUT = REFINED_DIR / "REFINED_WEB_DATA.json"
 
 STORE_FILES = [
