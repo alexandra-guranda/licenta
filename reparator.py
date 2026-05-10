@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 log = logging.getLogger(__name__)
 
 INPUT_DIR  = Path("outputs/raw_web")
-OUTPUT_DIR = Path("outputs/refined")
+OUTPUT_DIR = Path("outputs/refined_llama")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 AI_MODEL      = "llama3.2:3b"
@@ -66,7 +66,7 @@ BRAND_TO_CATEGORY: dict[str, str] = {
     "Cartofi": "Legume & Fructe", "Fasole": "Legume & Fructe", "Mazare": "Legume & Fructe",
     "Gogosari": "Legume & Fructe", "Castraveti": "Legume & Fructe", "Masline": "Legume & Fructe",
     "Ardei": "Legume & Fructe", "Ananas": "Legume & Fructe",
-    "Migdale": "Bacanie & Alimente de baza", "Stafide": "Bacanie & Alimente de baza",
+    "Migdale": "Bacanie & Alimente de baza", "Stafide": "Legume & Fructe",
     "Arahide": "Bacanie & Alimente de baza", "Alune": "Bacanie & Alimente de baza",
     "Faina": "Bacanie & Alimente de baza", "Zahar": "Bacanie & Alimente de baza",
     "Orez": "Bacanie & Alimente de baza", "Paste": "Bacanie & Alimente de baza",
@@ -76,12 +76,12 @@ BRAND_TO_CATEGORY: dict[str, str] = {
     "Miere": "Bacanie & Alimente de baza", "Sirop": "Bacanie & Alimente de baza",
     "Drojdie": "Bacanie & Alimente de baza", "Malai": "Bacanie & Alimente de baza",
     "Ton": "Bacanie & Alimente de baza",
-    "Vin": "Bauturi", "Bere": "Bauturi", "Cafea": "Bauturi", "Capsule": "Bauturi",
+    "Vin": "Bauturi", "Bere": "Bauturi", "Cafea": "Bacanie & Alimente de baza", "Capsule": "Bacanie & Alimente de baza",
     "Suc": "Bauturi", "Nectar": "Bauturi", "Apa": "Bauturi", "Bautura": "Bauturi",
     "Rom": "Bauturi", "Gin": "Bauturi", "Vodca": "Bauturi", "Vodka": "Bauturi",
     "Whisky": "Bauturi", "Whiskey": "Bauturi", "Lichior": "Bauturi", "Cidru": "Bauturi",
     "Prosecco": "Bauturi", "Rachiu": "Bauturi", "Palinca": "Bauturi", "Vinars": "Bauturi",
-    "Cocktail": "Bauturi", "Aperitiv": "Bauturi", "Ceai": "Bauturi", "Vermut": "Bauturi",
+    "Cocktail": "Bauturi", "Aperitiv": "Bauturi", "Ceai": "Bacanie & Alimente de baza", "Vermut": "Bauturi",
 }
 
 # All categories are overridable — keyword rules always beat AI when they match.
@@ -99,7 +99,7 @@ KEYWORD_CATEGORIES: dict[str, list[str]] = {
         "protex", "colgate", "ariel", "persil", "dero", "domestos", "lenor",
         "perwoll", "vanish", "bref ", "cif ", "ajax", "fairy", "clin ",
         "sano ", "mr. proper", "mr proper", "torre detergent",
-        "deodorant", "deo spray", "antiperspirant", "vopsea par", "vopsea oua",
+        "deodorant", "deo spray", "antiperspirant", "vopsea par", "vopsea de oua",
         "odorizant", "dezinfectant", "igienizant", "spray forte",
         "nivea", "garnier", "loreal", "elmiplant", "gerovital", "borotalco",
         "palmolive", "apa micelara", "solutie suprafete", "solutie curatat",
@@ -128,7 +128,7 @@ KEYWORD_CATEGORIES: dict[str, list[str]] = {
         "coaste porc", "fleica", "ceafa porc", "ceafa de porc", "antricot",
         "slanina", "scaricica",
         "salam ", "parizer", "cremwursti", "crenvursti", "sunca",
-        "mici ", "carnati", "cabanos", "kaiser", "pate ", "pateu",
+        "mici ", "carnati", "cabanos", "kaiser",
         "mezeluri", "bacon", "muschi file", "salata icre", "hering picant",
         "obrajori", "carcasa de", "iepure",
         "vita tocata", "carne tocata", "carne de porc", "carne de vita",
@@ -163,13 +163,9 @@ KEYWORD_CATEGORIES: dict[str, list[str]] = {
         "milka", "oreo", "kinder", "snickers", "twix", "bounty", "kitkat",
         "roshen", "bomboane", "caramele", "praline", "drajeuri", "halva",
         "inghetata", "cereale ", "cereale mic dejun", "brezel", "cracker",
-        "chips cartofi", "chipsuri cartofi", "chips cascaval", "chipsuri cascaval",
-        "chips", "chipsuri", "stickletti", "tortilla chips", "spirale",
-        "seminte floarea", "snack ",
         "panettone", "baigli", "strudel",
         "lindt", "ferrero", "raffaello",
         "acadea", "dropsuri",
-        "covrigei", "covrig ", "stick sarate", "grisine",
         "cantuccini", "amaretti",
     ],
     "Bauturi": [
@@ -184,29 +180,13 @@ KEYWORD_CATEGORIES: dict[str, list[str]] = {
         "red bull", "limonada", "bautura racoritoare", "bautura energizanta",
         "bautura carbo", "bautura necarbogazoasa", "bautura carbogazoasa",
         "bautura vitaminizata",
-        "ceai de munte", "ceai rece", "ceai instant", "ceai verde", "ceai negru",
-        "cafea boabe", "cafea macinata", "cafea solubila", "capsule cafea",
-        "nescafe", "jacobs", "3 in 1", "cafea instant", "cafea ",
         "tymbark", "hell ", "coca-cola", "coca cola",
         "cidru", "rachiu", "palinca", "vinars", "aperitiv ",
         "cocktail", "vermut", "schweppes", "tonic",
         "coniac", "cognac", "hennessy", "martell", "courvoisier",
         "bautura tare",
     ],
-    "Legume & Fructe": [
-        "ceapa", "usturoi", "cartofi vrac", "cartofi albi", "cartofi in coaja",
-        "morcovi", "patrunjel", "telina radacina",
-        "ardei capia", "ardei ", "rosii decojite", "rosii vrac", "vinete",
-        "dovlecel", "varza murata", "varza ", "salata verde", "spanac",
-        "broccoli", "conopida", "fasole verde pastai", "mazare verde boabe",
-        "castraveti in otet", "castraveti cornichon", "castraveti intregi",
-        "ciuperci taiate", "ciuperci champignon",
-        "mere ", "pere vrac", "banane", "portocale", "mandarine", "lamai",
-        "grapefruit", "kiwi", "mango", "avocado", "ananas rondele",
-        "capsuni", "zmeura ", "afine", "visine", "cirese",
-        "piersici", "caise", "prune", "struguri", "pepene", "pepeni",
-        "masline ", "dovleac placintar", "sparanghel",
-    ],
+    # Bacanie ÎNAINTE de Legume — legumele conservate/murate câștigă față de cele proaspete
     "Bacanie & Alimente de baza": [
         "ulei de masline", "ulei floarea soarelui", "ulei de", "ulei ",
         "faina alba", "faina de grau", "faina graham", "faina ", "malai",
@@ -219,13 +199,41 @@ KEYWORD_CATEGORIES: dict[str, list[str]] = {
         "drojdie", "praf de copt", "bicarbonat",
         "gem ", "dulceata", "miere", "sirop de agave", "sirop de artar",
         "conserva", "fasole boabe", "fasole alba", "fasole rosie",
-        "fasole in sos", "linte", "naut", "mazare boabe",
+        "fasole in sos", "fasole cu", "linte", "naut", "mazare boabe", "mazare la conserva",
         "ton ", "sardine", "macrou", "hering", "icre",
         "hrean", "capere", "supa instant", "fidea", "margarina",
         "pasta vegetala", "salata humus",
-        "migdale crude", "migdale prajite", "arahide", "alune prajite", "stafide",
+        "migdale crude", "migdale prajite", "arahide", "alune prajite",
         "seminte dovleac", "seminte floarea soarelui vrac",
         "nuci ", "nuci caju", "nuci pecan",
+        "cafea boabe", "cafea macinata", "cafea solubila", "capsule cafea",
+        "nescafe", "jacobs", "3 in 1", "cafea instant", "cafea ",
+        "ceai de munte", "ceai rece", "ceai instant", "ceai verde", "ceai negru", "ceai ",
+        "chips cartofi", "chipsuri cartofi", "chips cascaval", "chipsuri cascaval",
+        "chips", "chipsuri", "stickletti", "tortilla chips", "spirale",
+        "seminte floarea", "snack ", "covrigei", "covrig ", "stick sarate", "grisine",
+        # legume murate/conservate — mai specific decât keyword-urile din Legume
+        "castraveti in otet", "castraveti cornichon",
+        "ardei capia in otet", "ardei in otet",
+        "rosii decojite", "rosii in suc", "rosii la conserva",
+        "vinete coapte", "vinete in otet",
+        # pate si pateu — conserve, nu carne proaspata
+        "pate ", "pateu",
+    ],
+    "Legume & Fructe": [
+        "ceapa", "usturoi", "cartofi vrac", "cartofi albi", "cartofi in coaja",
+        "morcovi", "patrunjel", "telina radacina",
+        "ardei capia", "ardei ", "rosii vrac", "rosii ", "vinete",
+        "dovlecel", "varza murata", "varza ", "salata verde", "spanac",
+        "broccoli", "conopida", "fasole verde pastai", "mazare verde boabe",
+        "castraveti intregi", "castraveti ",
+        "ciuperci taiate", "ciuperci champignon",
+        "mere ", "pere vrac", "banane", "portocale", "mandarine", "lamai",
+        "grapefruit", "kiwi", "mango", "avocado", "ananas rondele",
+        "capsuni", "zmeura ", "afine", "visine", "cirese",
+        "piersici", "caise", "prune", "struguri", "pepene", "pepeni",
+        "masline ", "dovleac placintar", "sparanghel",
+        "stafide",
     ],
     "Casa & Diverse": [
         "jucarie", "figurine", "excavator", "sosete", "ciorapi",
@@ -294,8 +302,7 @@ BRAND_OVERRIDES: list[tuple[str, str]] = [
 ]
 
 NON_BRAND_PREFIXES = [
-    "marca neidentificabila", "marca necunoscuta", "marca ",
-    "penny ", "pikok", "pilos", "fără", "fara",
+    "marca neidentificabila", "marca necunoscuta", "marca ", "fără", "fara",
 ]
 
 NOISE_SUFFIXES = re.compile(
@@ -312,31 +319,31 @@ GRAMAJ_RE = re.compile(
 
 SINGLE_WORD_OK = {
     "bere", "vodca", "cafea", "mazare", "ketchup", "otet",
-    "margarina", "malai", "miere", "sana", "kiwi",
+    "margarina", "malai", "miere", "sana", "kiwi","portocale"
 }
 
 
 _FEW_SHOT = """Exemple:
 INPUT: "Piept de pui dezosat fara piele Ferma Noua, +/- 1kg"
-OUTPUT: {"nume_curat": "Piept de pui dezosat fara piele", "brand": "Ferma Noua", "categorie": "Carne & Mezeluri"}
+OUTPUT: {"nume_curat": "Piept de pui dezosat fara piele Ferma Noua 1 kg", "brand": "Ferma Noua", "categorie": "Carne & Mezeluri"}
 
 INPUT: "Lapte UHT integral ZuZu, 3.5% grasime, 1L"
-OUTPUT: {"nume_curat": "Lapte UHT integral", "brand": "ZuZu", "categorie": "Lactate & Oua"}
+OUTPUT: {"nume_curat": "Lapte ZuZu UHT ", "brand": "ZuZu", "categorie": "Lactate & Oua"}
 
 INPUT: "Cafea macinata Jacobs Kronung, 500g"
-OUTPUT: {"nume_curat": "Cafea macinata Kronung", "brand": "Jacobs", "categorie": "Bauturi"}
+OUTPUT: {"nume_curat": "Cafea macinata Kronung 500g", "brand": "Jacobs", "categorie": "Bacanie & Alimente de baza"}
 
 INPUT: "Vin rosu sec Beciul Domnesc Cabernet Sauvignon, 0.75L"
 OUTPUT: {"nume_curat": "Vin rosu sec Cabernet Sauvignon", "brand": "Beciul Domnesc", "categorie": "Bauturi"}
 
 INPUT: "Detergent automat Ariel Pods Color, 30 capsule"
-OUTPUT: {"nume_curat": "Detergent automat Pods Color", "brand": "Ariel", "categorie": "Ingrijire & Curatenie"}
+OUTPUT: {"nume_curat": "Detergent automat Airel Pods Color 30 capsule", "brand": "Ariel", "categorie": "Ingrijire & Curatenie"}
 
 INPUT: "Branza cheddar felii Auchan, 150g"
-OUTPUT: {"nume_curat": "Branza cheddar felii", "brand": "Auchan", "categorie": "Lactate & Oua"}
+OUTPUT: {"nume_curat": "Branza cheddar felii 150g", "brand": "Auchan", "categorie": "Lactate & Oua"}
 
 INPUT: "Ton bucati in ulei Rio Mare, 160g"
-OUTPUT: {"nume_curat": "Ton bucati in ulei", "brand": "Rio Mare", "categorie": "Bacanie & Alimente de baza"}
+OUTPUT: {"nume_curat": "Ton bucati in ulei Rio Mare 160g", "brand": "Rio Mare", "categorie": "Bacanie & Alimente de baza"}
 
 INPUT: "Mere Golden, +/- 1kg"
 OUTPUT: {"nume_curat": "Mere Golden", "brand": "Generic", "categorie": "Legume & Fructe"}
@@ -344,30 +351,38 @@ OUTPUT: {"nume_curat": "Mere Golden", "brand": "Generic", "categorie": "Legume &
 
 _CATEGORY_GUIDE = """Ghid categorii (alege EXACT una):
 - Carne & Mezeluri: carne proaspata (pui, porc, vita, miel), mezeluri (salam, sunca, carnati), peste proaspat/congelat
-- Lactate & Oua: lapte, iaurt, branza (orice tip), smantana, unt, oua, kefir
-- Legume & Fructe: legume si fructe proaspete, congelate sau uscate (mere, cartofi, rosii, migdale crude, stafide)
-- Bacanie & Alimente de baza: conserve (ton, macrou, sardine, fasole, mazare), paste, orez, faina, ulei, sos, gem, miere, nuci prajite, snacks sarate
-- Bauturi: apa, sucuri, bere, vin, spirtoase, cafea (boabe/macinata/capsule/solubila), ceai, bauturi energizante
+- Lactate & Oua: lapte, iaurt, branza (orice tip), smantana, unt, oua, kefir, crema, 
+- Legume & Fructe: legume si fructe proaspete, congelate sau uscate (mere, cartofi, rosii, stafide)
+- Bacanie & Alimente de baza: conserve (ton, macrou, sardine, fasole, mazare, rosii decojite, castraveti in otet), paste, orez, faina, ulei, sos, gem, miere, nuci prajite, snacks sarate, migdale crude, cafea (boabe/macinata/capsule/solubila), ceai, pate, pasta vegetala
+- Bauturi: apa, sucuri, bere, vin, spirtoase, bauturi energizante (NU ceai)
 - Panificatie & Dulciuri: paine, croissant, cozonac, prajituri, ciocolata, biscuiti, inghetata, cereale mic dejun
-- Ingrijire & Curatenie: detergenti, sapunuri, sampoane, cosmetice, hartie igienica, scutece
+- Ingrijire & Curatenie: detergenti, sapunuri, sampoane, cosmetice, hartie igienica, scutece, gel de dus, sapun, absorbante
 - Casa & Diverse: jucarii, electrocasnice, hrana animale, articole menaj, imbracaminte
 """
+
+
+_RAW_PREFIXES_TO_STRIP = re.compile(
+    r"^(pentru\s+tine\s+de\s+la\s+penny|marca\s+neidentificabil[ae]|marca\s+neidentificata)\s*",
+    re.IGNORECASE,
+)
 
 
 def ai_refine_batch(batch: list[dict]) -> list[dict]:
     results = []
     for item in batch:
         raw = item.get("raw_name", "").strip()
-        # Strip +/- before sending to AI so model doesn't include it in name
-        raw_clean = re.sub(r"\s*\+\/\-?\s*", " ", raw).strip()
+        # Strip retail noise prefixes before sending to AI
+        raw_clean = _RAW_PREFIXES_TO_STRIP.sub("", raw).strip()
+        # Strip +/- (variable weight marker)
+        raw_clean = re.sub(r"\s*\+/-?\s*", " ", raw_clean).strip()
         prompt = (
             f"Esti un expert in retail romanesc. Analizeaza numele de produs si returneaza DOAR JSON.\n\n"
             f"{_CATEGORY_GUIDE}\n"
             f"{_FEW_SHOT}\n"
             f"REGULI STRICTE:\n"
-            f"- nume_curat: numele produsului fara brand, fara gramaj (g/kg/ml/L), fara +/-\n"
-            f"- brand: primul nume propriu din input (ex: Milka, Jacobs, Ferma Noua). Daca nu exista brand clar, pune \"Generic\".\n"
-            f"- categorie: EXACT una din cele 8 categorii de mai sus, fara modificari\n"
+            f"- nume_curat: numele produsului cu brand, cu gramaj (g/kg/ml/L), fara +/-\n"
+            f"- brand: primul nume propriu din input (ex: Milka, Jacobs, Ferma Noua). De obicei e in partea din mijloc sau spre final, si e scris cu litere mari. Daca nu exista brand clar, pune \"Generic\". De exemplu Detergent automat Ariel 5, Ariel este brandul. \n"
+            f"- categorie: EXACT una din cele 8 categorii de mai sus, fara modificari. De obicei primele 1-2 cuvinte indica categoria. \n"
             f"- Raspunde DOAR cu JSON, fara text suplimentar\n\n"
             f"INPUT: \"{raw_clean}\"\n"
             f"OUTPUT:"
@@ -534,6 +549,17 @@ def fix_item(item: dict) -> dict:
         fixed["category"] = correct_cat
     elif not correct_cat and cur_cat not in VALID_CATEGORIES:
         fixed["category"] = FALLBACK_CATEGORY
+
+    # Corecții de context: keyword-urile Carne prind și preparate conservate
+    raw_low = raw_name.lower()
+    if fixed.get("category") == "Carne & Mezeluri":
+        # Fasole cu carnati = conserva → Bacanie
+        if raw_low.startswith("fasole cu") or raw_low.startswith("fasole in"):
+            fixed["category"] = "Bacanie & Alimente de baza"
+    # Snack-uri cu gust de cascaval nu sunt Lactate
+    if fixed.get("category") == "Lactate & Oua":
+        if any(kw in raw_low for kw in ["chips", "sticks cu", "chio ", "lay", "popcorn"]):
+            fixed["category"] = "Bacanie & Alimente de baza"
 
     correct_brand = extract_brand(truth_source)
     current_brand = fixed.get("brand") or "Generic"

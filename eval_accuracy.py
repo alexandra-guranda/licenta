@@ -1,111 +1,140 @@
 import json
-import os
 import re
 import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-# Accepta directorul ca argument: python eval_accuracy.py outputs/refined_gemma
-REFINED_DIR = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("outputs/refined")
+REFINED_DIR = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("outputs/refined_llama")
 
-# Keywords per category for category validation
 CATEGORY_KEYWORDS = {
-    "Carne & Mezeluri": [
-        "pui", "porc", "vita", "miel", "rata", "vitel", "curcan", "iepure",
-        "salam", "sunca", "parizer", "carnat", "carnati", "babic", "kaizer",
-        "muschi", "cotlet", "piept", "pulpa", "aripi", "ceafa", "scaricica",
-        "mici", "prosciutto", "bacon", "pastrama", "lebarvurst", "lebărvurst",
-        "hamsii", "merluciu", "dorada", "macrou", "somon", "ton", "crap",
-        "hering", "calcan", "file de", "file ", "trunchi", "pește", "peste",
-        "pastrav", "halibut", "tilapia", "somn ",
-        "cubulețe", "cubule", "jambon",
+    # Ordinea contează când scorurile sunt egale — primul câștigă.
+    "Ingrijire & Curatenie": [
+        "detergent", "balsam", "sampon", "șampon", "sapun", "săpun",
+        "gel de dus", "deodorant", "pasta de dinti", "pasta de dinți",
+        "servetele", "șervețele", "scutece", "pampers",
+        "prosop hartie", "hartie igienica", "hârtie igienică",
+        "dezinfectant", "clor", "inalbitor", "înălbitor",
+        "saci menajeri", "burete","absorbante"
     ],
-    "Lactate & Oua": [
-        "lapte", "iaurt", "smantana", "branza", "unt", "oua", "ou ", "ou,",
-        "kefir", "telemea", "cascaval", "mozzarella", "ricotta", "mascarpone",
-        "feta", "crema de branza", "cheddar", "parmezan", "emmental",
-        "budinca", "frisca", "frișcă",
-    ],
-    "Legume & Fructe": [
-        "legume", "fructe", "cartofi", "mere", "pere", "rosii", "roșii",
-        "castraveti", "ceapa", "telina", "dovleac", "ciuperci", "stafide",
-        "migdale", "nuci", "alune", "banane", "portocale", "lamaie", "lămâie",
-        "capsuni", "căpșuni", "zmeura", "zmeuă", "afine", "prune", "piersici",
-        "mango", "ananas", "avocado", "ardei", "broccoli", "conopida",
-        "spanac", "salata ", "salată", "varza", "vinete", "usturoi",
-        "patrunjel", "marar", "ghimbir", "hrean", "ridichi", "mazare ",
-        "fasole verde", "kiwi", "grepfrut", "grapefruit",
-    ],
-    "Bacanie & Alimente de baza": [
-        "paste", "orez", "faina", "făină", "zahar", "zahăr", "ulei", "otet",
-        "oțet", "sos", "gem", "dulceata", "dulceată", "miere", "cafea",
-        "ceai", "napolitana", "napolitane", "biscuiti", "biscuiți",
-        "ciocolata", "ciocolată", "mazare", "fasole", "linte",
-        "conserva", "conservă", "naut", "ton la conserva",
-        "ketchup", "mustar", "muștar", "maioneza", "maioneză",
-        "sare", "piper", "condiment", "muesli", "granola", "fulgi",
-        "pesmet", "amidon", "bicarbonat", "drojdie",
-        "noodles", "couscous",
-    ],
-    "Bauturi": [
-        "apa ", "apă", "suc", "vin ", "bere", "limonada", "limonadă",
-        "bautura", "băutură", "nectar", "smoothie", "energizant",
-        "cola", "sprite", "pepsi", "fanta", "aqua", "natural",
-        "whisky", "vodka", "rom ", "gin ", "tequila", "prosecco",
-        "sampanie", "șampanie", "cidru", "kombucha",
-        "carbogazoasa", "carbogazoasă", "necarbogazoasa",
-    ],
+    # Panificatie ÎNAINTE de Carne/Lactate/Bauturi — strudel/foietaj cu ingrediente câștigă la egalitate
     "Panificatie & Dulciuri": [
         "paine", "pâine", "cozonac", "prajitura", "prăjitură", "tort",
         "gogoasa", "gogoașă", "croissant", "briosa", "brioșă", "cornuri",
-        "franzelă", "franzela", "chec", "tarta", "tartă", "ecler",
-        "foietaj", "placinta", "plăcintă", "pasca", "pască",
+        "franzelă", "franzela", "chec", "tarta", "tartă", "ecler", "chifla",
+        "foietaj", "placinta", "plăcintă", "pasca", "pască", "strudel",
         "multicereale", "secara", "secară", "graham",
-        "halva", "rahat", "dropsuri",
+        "halva", "rahat", "dropsuri", "napolitane", "napolitana",
+        "biscuiti", "biscuiți", "ciocolata", "ciocolată",
+        "inghetata", "înghețată", "wafer", "praline", "bomboane",
+        "cereale mic dejun", "pernuta", "pernita",
     ],
-    "Ingrijire & Curatenie": [
-        "detergent", "balsam", "șampon", "sampon", "sapun", "săpun",
-        "gel de dus", "deodorant", "pasta de dinti", "pasta de dinți",
-        "servetele", "șervețele", "hartie", "hârtie", "scutece",
-        "pampers", "saci menajeri", "saci ", "prosop", "burete",
-        "dezinfectant", "clor", "inalbitor", "înălbitor",
+    "Carne & Mezeluri": [
+        "pui", "porc", "vita", "miel", "vitel", "curcan", "iepure",
+        "carne de rata", "piept de rata", "pulpa de rata",
+        "salam", "sunca", "parizer", "carnat", "carnati", "babic", "kaizer",
+        "muschi", "cotlet", "piept", "pulpa", "aripi", "ceafa", "scaricica",
+        "mici", "prosciutto", "bacon", "pastrama", "lebarvurst", "lebărvurst",
+        "hamsii", "merluciu", "dorada", "somon",
+        "calcan", "file de", "trunchi", "pește", "peste",
+        "pastrav", "halibut", "tilapia", "jambon",
+        "cubulețe", "cubule",
     ],
-    "Hrana animale": [
-        "hrana pentru", "hrană pentru", "caini", "câini", "pisici",
+    "Lactate & Oua": [
+        "lapte", "iaurt", "smantana", "branza", "branzica",
+        "unt", "oua", "ou",
+        "kefir", "telemea", "cascaval", "mozzarella", "ricotta", "mascarpone",
+        "feta", "crema de branza", "cheddar", "parmezan", "emmental",
+        "grana padano", "budinca", "frisca", "frișcă", "danonino",
+    ],
+    # Bauturi ÎNAINTE de Legume — prinde sucuri cu fructe corect
+    "Bauturi": [
+        "apa", "suc", "vin", "bere", "limonada", "limonadă",
+        "bautura", "băutură", "nectar", "smoothie", "energizant",
+        "whisky", "vodka", "gin", "tequila", "prosecco", "brandy",
+        "sampanie", "șampanie", "cidru", "kombucha", "rachiu", "palinca",
+        "carbogazoasa", "carbogazoasă", "necarbogazoasa",
+        "pepsi", "fanta", "sprite", "coca-cola",
+    ],
+    "Legume & Fructe": [
+        "legume", "fructe", "cartofi", "mere", "pere", "rosii", "roșii",
+        "castraveti", "ceapa", "telina", "dovleac", "ciuperci",
+        "banane", "portocale", "lamaie", "lămâie",
+        "capsuni", "căpșuni", "zmeura", "zmeuă", "afine", "prune", "piersici",
+        "mango", "ananas", "avocado", "ardei", "broccoli", "conopida",
+        "spanac", "varza", "vinete", "usturoi",
+        "patrunjel", "marar", "ghimbir", "ridichi",
+        "fasole verde", "mazare verde", "kiwi", "grepfrut", "grapefruit",
+    ],
+    "Bacanie & Alimente de baza": [
+        "paste", "orez", "faina", "făină", "zahar", "zahăr", "ulei", "otet", "oțet",
+        "gem", "dulceata", "dulceată", "miere",
+        "linte", "naut",
+        "conserva", "conservă",
+        "ketchup", "mustar", "muștar", "maioneza", "maioneză",
+        "piper", "condiment", "muesli", "granola", "fulgi",
+        "pesmet", "amidon", "bicarbonat", "drojdie",
+        "noodles", "couscous",
+        "cafea",
+        "chips", "chipsuri", "covrigei", "grisine", "stickletti",
+        "migdale", "arahide", "nuci",
+        "legume baza", "salata humus", "supa instant",
+        # conserve pește — crap/hering/macrou/ton doar aici, nu și în Carne
+        "ton in", "ton bucati", "macrou in", "macrou sos", "hering in",
+        "fasole boabe", "fasole alba", "fasole rosie", "mazare boabe",
+        "ton la conserva",
+        "macrou", "hering", "ton", "crap",
+        # ceai (aliment de baza, nu bautura)
+        "ceai",
+        # legume conservate/murate — mai specific decat keyword-urile din Legume
+        "in otet", "decojite", "rosii decojite", "vinete coapte", "coapte",
+        "castraveti in otet", "ardei capia in otet",
+        # fasole/mazare preparata/conserva
+        "fasole cu", "mazare",
+        # pate si produse tartinabile
+        "pate", "pate de", "pasta vegetala",
+        # snacks cu branza (nu lactate)
+        "sticks", "cu cascaval",
+    ],
+    "Casa & Diverse": [
+        "hrana pentru", "hrană pentru", "hrana caini", "hrana pisici",
         "friskies", "purina", "whiskas", "pedigree", "royal canin",
+        "jucarie", "jucărie", "figurine", "puzzle", "lego",
+        "folie aluminiu", "saci menajeri", "lumanare", "lumânare",
+        "electrocasnic", "baterie", "sosete", "șosete",
+        "vopsea", "vopsea de",
     ],
 }
 
 NOISE_NAME_PATTERNS = [
-    r"^\+\/?-?$",           # just "+/-"
-    r"^[^\w]{0,3}$",        # too short / non-word
-    r"Cä'",                  # encoding artifact
+    r"^\+\/?-?$",
+    r"^[^\w]{0,3}$",
+    r"Cä'",
     r"\bCä\b",
 ]
 
-VALID_CATEGORIES = set(CATEGORY_KEYWORDS.keys())
+VALID_CATEGORIES = set(CATEGORY_KEYWORDS.keys()) | {"Necategorizat"}
 
 
 def normalize(text: str) -> str:
     return text.lower().strip()
 
 
+def _kw_match(kw: str, text: str) -> bool:
+    return bool(re.search(r"\b" + re.escape(kw) + r"\b", text, re.IGNORECASE))
+
+
 def name_is_correct(raw_name: str, name: str) -> tuple[bool, str]:
-    """Check if the extracted name is a reasonable derivation of raw_name."""
     raw_low = normalize(raw_name)
     name_low = normalize(name)
 
-    # Check for obvious noise/artifacts
     for pattern in NOISE_NAME_PATTERNS:
         if re.search(pattern, name, re.IGNORECASE):
             return False, f"artifact in name: '{name}'"
 
-    # Name must not be empty
     if len(name_low) < 3:
         return False, f"name too short: '{name}'"
 
-    # Check for repeated text (duplication artifacts like "Cămara Cä'Mara")
     words = name_low.split()
     if len(words) >= 4:
         first_half = " ".join(words[: len(words) // 2])
@@ -113,10 +142,11 @@ def name_is_correct(raw_name: str, name: str) -> tuple[bool, str]:
         if first_half and first_half in second_half:
             return False, f"repeated text detected: '{name}'"
 
-    # The significant words from name should appear in raw_name
-    STOP_WORDS = {"de", "si", "și", "cu", "la", "pe", "a", "o", "al", "ale", "pentru", "din",
-                  "fara", "fără", "sau", "ori", "ca", "dar", "ci", "nici", "deci", "dupa",
-                  "după", "sub", "prin", "între", "între", "despre"}
+    STOP_WORDS = {
+        "de", "si", "și", "cu", "la", "pe", "a", "o", "al", "ale", "pentru", "din",
+        "fara", "fără", "sau", "ori", "ca", "dar", "ci", "nici", "deci", "dupa",
+        "după", "sub", "prin", "între", "despre",
+    }
     name_words = [w for w in re.findall(r"\w+", name_low) if w not in STOP_WORDS and len(w) > 2]
 
     if not name_words:
@@ -132,23 +162,20 @@ def name_is_correct(raw_name: str, name: str) -> tuple[bool, str]:
 
 
 def category_is_correct(raw_name: str, category: str) -> tuple[bool, str]:
-    """Check if the category matches the product based on raw_name keywords."""
     if category not in VALID_CATEGORIES:
         return False, f"unknown category: '{category}'"
 
     raw_low = normalize(raw_name)
 
-    # Find which category the keywords suggest
     best_category = None
     best_score = 0
     for cat, keywords in CATEGORY_KEYWORDS.items():
-        score = sum(1 for kw in keywords if kw in raw_low)
+        score = sum(1 for kw in keywords if _kw_match(kw, raw_low))
         if score > best_score:
             best_score = score
             best_category = cat
 
     if best_score == 0:
-        # No keywords matched at all - can't determine, give benefit of doubt
         return True, "no keywords matched (unclassifiable)"
 
     if best_category == category:
@@ -158,15 +185,14 @@ def category_is_correct(raw_name: str, category: str) -> tuple[bool, str]:
 
 
 def evaluate_file(filepath: Path) -> dict:
-    with open(filepath, encoding="utf-8") as f:
-        products = json.load(f)
+    with open(filepath, encoding="utf-8") as fh:
+        products = json.load(fh)
 
     store = filepath.stem.replace("refined_data_", "").capitalize()
     total = len(products)
-    name_ok = 0
-    cat_ok = 0
-    errors_name = []
-    errors_cat = []
+    name_ok = cat_ok = 0
+    errors_name: list[dict] = []
+    errors_cat: list[dict] = []
 
     for p in products:
         raw = p.get("raw_name", "")
@@ -179,20 +205,12 @@ def evaluate_file(filepath: Path) -> dict:
         if n_ok:
             name_ok += 1
         else:
-            errors_name.append({
-                "raw_name": raw,
-                "name": name,
-                "reason": n_reason,
-            })
+            errors_name.append({"raw_name": raw, "name": name, "reason": n_reason})
 
         if c_ok:
             cat_ok += 1
         else:
-            errors_cat.append({
-                "raw_name": raw,
-                "category": cat,
-                "reason": c_reason,
-            })
+            errors_cat.append({"raw_name": raw, "category": cat, "reason": c_reason})
 
     return {
         "store": store,
@@ -217,7 +235,6 @@ def main():
         result = evaluate_file(fp)
         all_results.append(result)
 
-    # Print summary table
     print("=" * 75)
     print(f"{'Magazin':<18} {'Total':>6} {'Nume OK':>8} {'Acur. Nume':>12} {'Cat OK':>8} {'Acur. Cat':>11}")
     print("=" * 75)
@@ -239,7 +256,6 @@ def main():
     )
     print()
 
-    # Print detailed errors per store
     for r in all_results:
         print(f"\n{'='*75}")
         print(f"  {r['store'].upper()} — Erori Nume ({len(r['name_errors'])} din {r['total']})")

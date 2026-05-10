@@ -34,7 +34,7 @@ log = logging.getLogger(__name__)
 
 REFINED_DIR    = Path("outputs/refined")
 IMAGE_BASE     = Path("outputs/data/images")           # sursa originala (read-only)
-IMAGE_VERIFIED = Path("outputs/data/images_verified")  # destinatie verificata
+IMAGE_VERIFIED = Path("outputs/data/images_verified_v2")  # destinatie verificata
 CHECKPOINT     = Path("outputs/image_verify_checkpoint.json")
 
 STORE_FILES = [
@@ -82,7 +82,7 @@ def describe_image(image_path: Path) -> str:
         img_b64 = base64.b64encode(f.read()).decode()
 
     prompt = (
-        "You are a retail expert. Look at this supermarket product image.\n"
+        "Esti un expert in retail romanesc. Analizeaza fiecare poza, brand, descriere, orice cuvinte gasesti in poza sunt un indiciu.\n"
         "Reply with ONLY two parts separated by | :\n"
         "  1. The brand name (e.g. Carlsberg, Agricola, Milka)\n"
         "  2. The product type in Romanian (e.g. bere blonda, piept de pui, ciocolata lapte)\n"
