@@ -49,7 +49,7 @@ def main():
     log.info("Normalizare AI + reguli deterministe (%d fisiere)...", len(files))
     apply_normalization(files)
 
-    log.info("✅ Gata! Datele rafinate sunt in: %s", REFINED_DIR)
+    log.info(" Gata! Datele rafinate sunt in: %s", REFINED_DIR)
     log.info("   Ruleaza acum refix_realtime.py.")
 
 

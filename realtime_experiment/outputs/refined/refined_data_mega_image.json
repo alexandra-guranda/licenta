@@ -1003,7 +1003,7 @@
     {
         "store": "Mega Image",
         "raw_name": "Colectar Lapte de bivolita min. 6.2% grasime",
-        "name": "Colectar Lapte de bivolita min. 6",
+        "name": "Colectar Lapte de bivolita min. 6.2% grasime",
         "brand": "Colectar",
         "category": "Lactate & Oua",
         "price_new": 26.09,
@@ -1016,7 +1016,7 @@
     {
         "store": "Mega Image",
         "raw_name": "Colectar Branza tartinabila de bivolita 25% grasime",
-        "name": "Colectar Branza tartinabila de bivolita",
+        "name": "Colectar Branza tartinabila de bivolita 25% grasime",
         "brand": "Colectar",
         "category": "Lactate & Oua",
         "price_new": 17.67,
@@ -1341,8 +1341,8 @@
     {
         "store": "Mega Image",
         "raw_name": "(bucata) Inghetata Klassiker Mix",
-        "name": "(Bucata Inghetata Klassiker Mix",
-        "brand": "(Bucata",
+        "name": "(bucata Inghetata Klassiker Mix",
+        "brand": "(bucata",
         "category": "Panificatie & Dulciuri",
         "price_new": 31.44,
         "price_old": 36.99,
@@ -4188,8 +4188,8 @@
     {
         "store": "Mega Image",
         "raw_name": "MEGA Prajituri cu unt",
-        "name": "Mega Prajituri cu unt",
-        "brand": "Mega",
+        "name": "MEGA Prajituri cu unt",
+        "brand": "MEGA",
         "category": "Lactate & Oua",
         "price_new": 9.89,
         "price_old": 10.99,
@@ -4565,8 +4565,8 @@
     {
         "store": "Mega Image",
         "raw_name": "Nairn's Porridge cu fulgi de ovaz integral fara gluten",
-        "name": "Nairn's Porridge cu fulgi de ovaz integral",
-        "brand": "Nairn's",
+        "name": "Nairn’s Porridge cu fulgi de ovaz integral",
+        "brand": "Nairn’s",
         "category": "Panificatie & Dulciuri",
         "price_new": 22.49,
         "price_old": 29.99,
@@ -4760,7 +4760,7 @@
     {
         "store": "Mega Image",
         "raw_name": "Wawel Ciocolata amaruie 70% cacao cu bucati de portocala",
-        "name": "Wawel Ciocolata amaruie cacao cu bucati de portocala",
+        "name": "Wawel Ciocolata amaruie 70% cacao cu bucati de portocala",
         "brand": "Wawel",
         "category": "Panificatie & Dulciuri",
         "price_new": 15.29,
@@ -6879,8 +6879,8 @@
     {
         "store": "Mega Image",
         "raw_name": "(bucata) Legume de plus, diverse modele, 16cm",
-        "name": "(Bucata Legume de plus",
-        "brand": "(Bucata",
+        "name": "(bucata Legume de plus",
+        "brand": "(bucata",
         "category": "Legume & Fructe",
         "price_new": 26.38,
         "price_old": 37.69,
@@ -7256,8 +7256,8 @@
     {
         "store": "Mega Image",
         "raw_name": "MEGA Lichid parbriz pentru iarna",
-        "name": "Mega Lichid parbriz",
-        "brand": "Mega",
+        "name": "MEGA Lichid parbriz",
+        "brand": "MEGA",
         "category": "Ingrijire & Curatenie",
         "price_new": 23.49,
         "price_old": 33.56,
@@ -7308,8 +7308,8 @@
     {
         "store": "Mega Image",
         "raw_name": "MEGA Eco Cutite biodegradabile",
-        "name": "Mega Eco Cutite",
-        "brand": "Mega",
+        "name": "MEGA Eco Cutite",
+        "brand": "MEGA",
         "category": "Ingrijire & Curatenie",
         "price_new": 4.26,
         "price_old": 6.09,
@@ -7438,7 +7438,7 @@
     {
         "store": "Mega Image",
         "raw_name": "epack Laveta microfibra bucatarie",
-        "name": "epack Laveta microfibra bucatarie",
+        "name": "epack Laveta microfibra",
         "brand": "epack",
         "category": "Casa & Diverse",
         "price_new": 4.49,
@@ -8829,8 +8829,8 @@
     {
         "store": "Mega Image",
         "raw_name": "(bucata) Cos cadou Tricolor",
-        "name": "(Bucata Cos cadou Tricolor",
-        "brand": "(Bucata",
+        "name": "(bucata Cos cadou Tricolor",
+        "brand": "(bucata",
         "category": "Casa & Diverse",
         "price_new": 118.3,
         "price_old": 169.0,
@@ -8842,8 +8842,8 @@
     {
         "store": "Mega Image",
         "raw_name": "(bucata) Cos cadou Gentleman Experience",
-        "name": "(Bucata Cos cadou Gentleman Experience",
-        "brand": "(Bucata",
+        "name": "(bucata Cos cadou Gentleman Experience",
+        "brand": "(bucata",
         "category": "Casa & Diverse",
         "price_new": 279.3,
         "price_old": 399.0,
