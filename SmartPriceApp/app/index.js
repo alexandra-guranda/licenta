@@ -55,7 +55,7 @@ function DealCard({ item, index, onPress }) {
                     <Text style={styles.dealBadgeText}>-{Math.round(item.discount * 100)}%</Text>
                 </View>
                 <View style={styles.dealImageWrap}>
-                    <Image source={{ uri: `${API_BASE}/static/${item.image_local}` }} style={styles.dealImage} resizeMode="contain" />
+                    <Image source={{ uri: (item.image_local && item.image_local !== 'null') ? `${API_BASE}/static/${item.image_local}` : item.image_url }} style={styles.dealImage} resizeMode="contain" />
                 </View>
                 <View style={styles.dealBody}>
                     <View style={styles.dealStorePill}><Text style={styles.dealStoreText}>{item.store}</Text></View>
@@ -85,7 +85,7 @@ function SmallProductCard({ item, onPress }) {
                 </View>
             )}
             <View style={styles.smallImageWrap}>
-                <Image source={{ uri: `${API_BASE}/static/${item.image_local}` }} style={styles.smallImage} resizeMode="contain" />
+                <Image source={{ uri: (item.image_local && item.image_local !== 'null') ? `${API_BASE}/static/${item.image_local}` : item.image_url }} style={styles.smallImage} resizeMode="contain" />
             </View>
             <View style={styles.smallBody}>
                 <Text style={styles.smallName} numberOfLines={2}>{item.name}</Text>
@@ -199,7 +199,7 @@ export default function HomeScreen() {
                             <Animated.Text style={[styles.greeting, { opacity: subOpacity }]}>{getGreeting()}</Animated.Text>
                             <Animated.Text style={[styles.logoText, { transform: [{ scale: logoScale }] }]}>SmartPrice</Animated.Text>
                         </View>
-                        <TouchableOpacity style={styles.notifBtn} activeOpacity={0.8}>
+                        <TouchableOpacity style={styles.notifBtn} activeOpacity={0.8} onPress={() => router.push('/notify')}>
                             <Bell size={20} color={COLORS.white} />
                             <View style={styles.notifDot} />
                         </TouchableOpacity>
@@ -226,8 +226,8 @@ export default function HomeScreen() {
                 <View style={styles.sectionRow}>
                     <View style={styles.sectionIconWrap}><Percent size={16} color={COLORS.red} /></View>
                     <Text style={styles.sectionTitle}>Oferte de Neratat</Text>
-                    <View style={styles.sectionBadge}><Text style={styles.sectionBadgeText}>35%</Text></View>
-                    <TouchableOpacity style={styles.seeAllBtn}><Text style={styles.seeAllText}>Vezi toate</Text></TouchableOpacity>
+                    <View style={styles.sectionBadge}><Text style={styles.sectionBadgeText}>≥ 35%</Text></View>
+                    <TouchableOpacity style={styles.seeAllBtn} onPress={() => router.push({ pathname: '/products', params: { deals: 'true' } })}><Text style={styles.seeAllText}>Vezi toate</Text></TouchableOpacity>
                 </View>
 
                 {loading ? (

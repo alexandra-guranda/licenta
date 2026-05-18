@@ -89,7 +89,11 @@ function DealCard({ item, index, onPress }) {
                     <Text style={styles.dealBadgeText}>-{Math.round(item.discount * 100)}%</Text>
                 </View>
                 <View style={styles.dealImageWrap}>
-                    <Image source={{ uri: `${API_BASE}/static/${item.image_local}` }} style={styles.dealImage} resizeMode="contain" />
+                    <Image
+                        source={{ uri: (item.image_local && item.image_local !== 'null') ? `${API_BASE}/static/${item.image_local}` : item.image_url }}
+                        style={styles.dealImage}
+                        resizeMode="contain"
+                    />
                 </View>
                 <View style={styles.dealBody}>
                     <View style={styles.dealStorePill}><Text style={styles.dealStoreText}>{item.store}</Text></View>
@@ -172,7 +176,7 @@ export default function HomeScreen() {
                             <Animated.Text style={[styles.greeting, { opacity: subOpacity }]}>{getGreeting()}</Animated.Text>
                             <Animated.Text style={[styles.logoText, { transform: [{ scale: logoScale }] }]}>SmartPrice</Animated.Text>
                         </View>
-                        <TouchableOpacity style={styles.notifBtn} activeOpacity={0.8}>
+                        <TouchableOpacity style={styles.notifBtn} activeOpacity={0.8} onPress={() => router.push('/notify')}>
                             <Bell size={20} color={COLORS.gold} />
                             <View style={styles.notifDot} />
                         </TouchableOpacity>
@@ -208,7 +212,7 @@ export default function HomeScreen() {
                     <View style={styles.sectionIconWrap}><Percent size={14} color={COLORS.red} /></View>
                     <Text style={styles.sectionTitle}>Oferte de neratat</Text>
                     <View style={styles.sectionBadge}><Text style={styles.sectionBadgeText}>HOT</Text></View>
-                    <TouchableOpacity style={styles.seeAllBtn}><Text style={styles.seeAllText}>Vezi toate</Text></TouchableOpacity>
+                    <TouchableOpacity style={styles.seeAllBtn} onPress={() => goToProducts('__deals__')}><Text style={styles.seeAllText}>Vezi toate</Text></TouchableOpacity>
                 </View>
 
                 {loading ? (

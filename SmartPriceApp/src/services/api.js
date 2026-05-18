@@ -1,4 +1,4 @@
-export const API_BASE = "http://127.0.0.1:8000";
+export const API_BASE = "http://192.168.1.134:8001";
 
 export const fetchProducts = async (category = null, query = null, store = null) => {
     try {

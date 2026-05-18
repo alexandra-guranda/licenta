@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import { ChevronLeft, SlidersHorizontal, Tag, CreditCard } from 'lucide-react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
-import { fetchProducts, API_BASE } from '../src/services/api';
+import { fetchProducts, fetchTopDeals, API_BASE } from '../src/services/api';
 
 const { width } = Dimensions.get('window');
 
@@ -52,7 +52,7 @@ function ProductCard({ item, index, onPress }) {
                     <View style={styles.cardBadge}><CreditCard size={10} color={COLORS.white} /></View>
                 )}
                 <View style={styles.imageWrapper}>
-                    <Image source={{ uri: `${API_BASE}/static/${item.image_local}` }} style={styles.image} resizeMode="contain" />
+                    <Image source={{ uri: (item.image_local && item.image_local !== 'null') ? `${API_BASE}/static/${item.image_local}` : item.image_url }} style={styles.image} resizeMode="contain" />
                 </View>
                 <View style={styles.cardBody}>
                     <View style={styles.storePill}><Text style={styles.storeText}>{item.store}</Text></View>
@@ -70,7 +70,8 @@ function ProductCard({ item, index, onPress }) {
 /* ── Products Screen ───────────────────────────────────── */
 export default function ProductsScreen() {
     const router = useRouter();
-    const { category, store } = useLocalSearchParams();
+    const { category, store, deals } = useLocalSearchParams();
+    const isDeals = deals === 'true';
 
     const [data, setData]           = useState({ products: [], count: 0 });
     const [loading, setLoading]     = useState(true);
@@ -86,10 +87,13 @@ export default function ProductsScreen() {
             Animated.timing(headerSlide,   { toValue: 0, duration: 400, useNativeDriver: true }),
         ]).start();
         setLoading(true);
-        fetchProducts(category, null, null)
+        const loader = isDeals
+            ? fetchTopDeals(500).then((products) => ({ products: products || [], count: (products || []).length }))
+            : fetchProducts(category, null, null);
+        loader
             .then((res) => { setData(res); setLoading(false); })
             .catch(() => setLoading(false));
-    }, [category]);
+    }, [category, isDeals]);
 
     const storesInCategory = React.useMemo(() => {
         const present = new Set((data.products || []).map(p => p.store));
@@ -124,7 +128,7 @@ export default function ProductsScreen() {
                         <ChevronLeft size={22} color={COLORS.white} />
                     </TouchableOpacity>
                     <View style={styles.headerTitleWrap}>
-                        <Text style={styles.headerTitle} numberOfLines={1}>{category}</Text>
+                        <Text style={styles.headerTitle} numberOfLines={1}>{isDeals ? 'Oferte de Neratat' : category}</Text>
                         {!loading && (
                             <Text style={styles.headerCount}>{displayedProducts.length} produse</Text>
                         )}

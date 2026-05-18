@@ -34,7 +34,7 @@ function SimilarCard({ item, onPress }) {
                 </View>
             )}
             <Image
-                source={{ uri: `${API_BASE}/static/${item.image_local}` }}
+                source={{ uri: (item.image_local && item.image_local !== 'null') ? `${API_BASE}/static/${item.image_local}` : item.image_url }}
                 style={styles.simImage}
                 resizeMode="contain"
             />
@@ -117,7 +117,7 @@ export default function ProductDetailsScreen() {
                         </View>
                     )}
                     <Image
-                        source={{ uri: `${API_BASE}/static/${product.image_local}` }}
+                        source={{ uri: (product.image_local && product.image_local !== 'null') ? `${API_BASE}/static/${product.image_local}` : product.image_url }}
                         style={styles.image}
                         resizeMode="contain"
                     />

@@ -56,7 +56,7 @@ export default function SearchScreen() {
             onPress={() => router.push({ pathname: '/product-details', params: { id: item.id } })}
         >
             <Image
-                source={{ uri: `${API_BASE}/static/${item.image_local}` }}
+                source={{ uri: (item.image_local && item.image_local !== 'null') ? `${API_BASE}/static/${item.image_local}` : item.image_url }}
                 style={styles.productImg}
                 resizeMode="contain"
             />

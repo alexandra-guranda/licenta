@@ -4,13 +4,19 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 import json
 import os
+import re
 import random
 import ollama
+from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DATABASE_PATH = "outputs/refined/REFINED_WEB_DATA.json"
-AI_MODEL = "llama3.2:3b"
+AI_MODEL      = "llama3.2:3b"
+TABLE         = "products"
 
-app = FastAPI(title="SmartPrice API", version="1.2.0")
+app = FastAPI(title="SmartPrice API", version="1.3.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -19,22 +25,124 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+if os.path.exists("assets"):
+    app.mount("/static/assets", StaticFiles(directory="assets"), name="static_assets")
 if os.path.exists("outputs"):
     app.mount("/static", StaticFiles(directory="outputs"), name="static")
 
 _db: list[dict] = []
+_stores: list[dict] = []
 _categories: list[str] = []
+_source: str = "none"
+
+
+def _supabase_client():
+    url = os.environ.get("SUPABASE_URL")
+    key = os.environ.get("SUPABASE_KEY")
+    if not url or not key:
+        raise RuntimeError("Credentiale Supabase lipsa in .env")
+    from supabase import create_client
+    return create_client(url, key)
+
+
+def _paginate(client, table: str) -> list[dict]:
+    """Citeste toate randurile dintr-un tabel cu paginare."""
+    all_rows, page, page_size = [], 0, 1000
+    while True:
+        resp = client.table(table).select("*").range(page * page_size, (page + 1) * page_size - 1).execute()
+        rows = resp.data or []
+        all_rows.extend(rows)
+        if len(rows) < page_size:
+            break
+        page += 1
+    return all_rows
+
+
+IMAGES_FIXED_DIR = Path("outputs/data/images_fixed")
+STORE_SLUG_MAP = {
+    "auchan": "auchan", "kaufland": "kaufland", "penny": "penny",
+    "profi": "profi", "carrefour": "carrefour",
+    "mega image": "mega_image", "mega_image": "mega_image", "lidl": "lidl",
+}
+
+_images_index: dict[str, set[str]] = {}
+
+
+def _build_images_index() -> None:
+    if not IMAGES_FIXED_DIR.exists():
+        return
+    for folder in IMAGES_FIXED_DIR.iterdir():
+        if folder.is_dir():
+            _images_index[folder.name] = {p.stem for p in folder.glob("*.jpg")}
+
+
+def _slugify(name: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "_", (name or "").lower()).strip("_")
+
+
+def _patch_image_local(products: list[dict]) -> None:
+    """Suprascrie image_local cu imaginea din images_fixed daca exista local."""
+    if not _images_index:
+        _build_images_index()
+    for p in products:
+        store_folder = STORE_SLUG_MAP.get((p.get("store") or "").lower().strip())
+        if not store_folder:
+            p["image_local"] = None
+            continue
+        stems = _images_index.get(store_folder, set())
+        for field in ("raw_name", "name"):
+            slug = _slugify(p.get(field, ""))
+            if slug in stems:
+                p["image_local"] = f"data/images_fixed/{store_folder}/{slug}.jpg"
+                break
+        else:
+            p["image_local"] = None
+
+
+def _load_from_supabase() -> tuple[list[dict], list[dict]]:
+    client = _supabase_client()
+    products = _paginate(client, "products")
+    stores   = _paginate(client, "stores")
+    return products, stores
+
+
+def _load_from_json() -> list[dict]:
+    if not os.path.exists(DATABASE_PATH):
+        raise RuntimeError(f"Fisier local lipsa: {DATABASE_PATH}")
+    with open(DATABASE_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    for i, item in enumerate(data):
+        item["id"] = i
+    return data
+
+
+def _init_db(data: list[dict], stores: list[dict] = None) -> None:
+    global _db, _stores, _categories
+    _db = data
+    _stores = stores or []
+    _categories = sorted({p["category"] for p in _db if p.get("category")})
 
 
 @app.on_event("startup")
 def startup():
-    global _db, _categories
-    if os.path.exists(DATABASE_PATH):
-        with open(DATABASE_PATH, "r", encoding="utf-8") as f:
-            _db = json.load(f)
-        for i, item in enumerate(_db):
-            item["id"] = i
-        _categories = sorted({p["category"] for p in _db if p.get("category")})
+    global _source
+    _build_images_index()
+    try:
+        products, stores = _load_from_supabase()
+        _patch_image_local(products)
+        _init_db(products, stores)
+        _source = "supabase"
+        print(f"[DB] Incarcat din Supabase: {len(_db)} produse, {len(_stores)} magazine")
+    except Exception as e:
+        print(f"[DB] Supabase indisponibil ({e}), folosesc JSON local...")
+        try:
+            data = _load_from_json()
+            _patch_image_local(data)
+            _init_db(data)
+            _source = "local"
+            print(f"[DB] Incarcat din JSON local: {len(_db)} produse")
+        except Exception as e2:
+            print(f"[DB] EROARE CRITICA: {e2}")
 
 
 def search_products(q: str = None, category: str = None, store: str = None) -> list[dict]:
@@ -52,15 +160,44 @@ def search_products(q: str = None, category: str = None, store: str = None) -> l
 class ChatRequest(BaseModel):
     message: str
 
+class SubscribeRequest(BaseModel):
+    email: str
+
 
 @app.get("/")
 def root():
-    return {"status": "online", "total_products": len(_db)}
+    return {"status": "online", "total_products": len(_db), "source": _source}
+
+
+@app.post("/reload")
+def reload_db():
+    """Reincarca datele (Supabase cu fallback la JSON)."""
+    global _source
+    try:
+        products, stores = _load_from_supabase()
+        _patch_image_local(products)
+        _init_db(products, stores)
+        _source = "supabase"
+    except Exception:
+        data = _load_from_json()
+        _patch_image_local(data)
+        _init_db(data)
+        _source = "local"
+    return {"status": "reloaded", "total_products": len(_db), "source": _source}
+
+
+@app.get("/stores")
+def get_stores():
+    if _stores:
+        return {"stores": _stores}
+    # fallback: genereaza din datele in-memory
+    names = sorted({p["store"] for p in _db if p.get("store")})
+    return {"stores": [{"name": n} for n in names]}
 
 
 @app.get("/products")
 def get_products(q: str = None, category: str = None, store: str = None,
-                 skip: int = 0, limit: int = 50):
+                 skip: int = 0, limit: int = 200):
     results = search_products(q, category, store)
     if not q:
         results = random.sample(results, len(results))
@@ -69,9 +206,10 @@ def get_products(q: str = None, category: str = None, store: str = None,
 
 @app.get("/products/{product_id}")
 def get_product(product_id: int):
-    if product_id < 0 or product_id >= len(_db):
+    matches = [p for p in _db if p.get("id") == product_id]
+    if not matches:
         raise HTTPException(status_code=404, detail="Produs negăsit")
-    return _db[product_id]
+    return matches[0]
 
 
 @app.get("/top-deals")
@@ -84,6 +222,24 @@ def get_top_deals(limit: int = 15):
 @app.get("/categories")
 def get_categories():
     return {"categories": _categories}
+
+
+SUBSCRIBERS_PATH = "outputs/subscribers.json"
+
+@app.post("/subscribe")
+def subscribe(req: SubscribeRequest):
+    email = req.email.strip().lower()
+    if not email or "@" not in email:
+        raise HTTPException(status_code=400, detail="Email invalid")
+    subscribers = []
+    if os.path.exists(SUBSCRIBERS_PATH):
+        with open(SUBSCRIBERS_PATH, "r", encoding="utf-8") as f:
+            subscribers = json.load(f)
+    if email not in subscribers:
+        subscribers.append(email)
+        with open(SUBSCRIBERS_PATH, "w", encoding="utf-8") as f:
+            json.dump(subscribers, f, ensure_ascii=False, indent=2)
+    return {"status": "ok", "email": email}
 
 
 @app.post("/ai/chat")
@@ -117,10 +273,10 @@ async def ai_chat(request: ChatRequest):
     try:
         response = ollama.generate(model=AI_MODEL, system=system_prompt, prompt=request.message)
         return {"reply": response["response"]}
-    except Exception as e:
-        return {"reply": "Momentan nu pot accesa AI-ul. Încearcă căutarea manuală! 🛠️"}
+    except Exception:
+        return {"reply": "Momentan nu pot accesa AI-ul. Încearcă căutarea manuală!"}
 
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8001)

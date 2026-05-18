@@ -1,0 +1,3042 @@
+[
+    {
+        "store": "Carrefour",
+        "raw_name": "Prune deshidratate, cu sâmburi Carrefour",
+        "price_new": 15.99,
+        "price_old": 19.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/21cbc16766068d1ef38e90f453ff5c72b8d6e26d69f816bb9160e1faded14238",
+        "image_local": "data/images/carrefour/prune_deshidratate_cu_s_mburi_carrefour.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pulpe dezosate cu piele Agricola",
+        "price_new": 2.35,
+        "price_old": 2.8,
+        "discount": 0.16,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/e03f2833a448d90b3b86572ac20f38010252a25e01c2ea61df9fe37fa872d98b",
+        "image_local": "data/images/carrefour/pulpe_dezosate_cu_piele_agricola.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Carne tocată din spată de porc, Carrefour La PiaÈă",
+        "price_new": 10.79,
+        "price_old": 13.5,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/a3afb1766835da203fb605c0984c1d1ad5e1539a3b7eb08caf6100cff487d408",
+        "image_local": "data/images/carrefour/carne_tocat_din_spat_de_porc_carrefour_la_pia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Piept de curcan dezosat, PeneÈ",
+        "price_new": 4.92,
+        "price_old": 5.79,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/0e4f59ff4c37b2a29a357db9a5aaaf81215d31a0154a5c61544cda731c3aaa1e",
+        "image_local": "data/images/carrefour/piept_de_curcan_dezosat_pene.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ciolan afumat de porc",
+        "price_new": 2.19,
+        "price_old": 2.79,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/0e198bc1fecda37cc2a9f15bf728bbf0cf6b286e1482fa021c66e72fd422e65b",
+        "image_local": "data/images/carrefour/ciolan_afumat_de_porc.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Mici din carne de porc Èi vită cu extra usturoi, Diana",
+        "price_new": 12.99,
+        "price_old": 16.5,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/9f7b9ed77a642d3bcc117cd985980b5b9ec79764b1dab2ff908ef6d5da302d67",
+        "image_local": "data/images/carrefour/mici_din_carne_de_porc_i_vit_cu_extra_usturoi_diana.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CârnaÈi pentru grill, Comtim",
+        "price_new": 11.99,
+        "price_old": 15.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/a816388c6963b1d640c03de1b78f12c3d40d1286f0dd4453245986e3da87cf22",
+        "image_local": "data/images/carrefour/c_rna_i_pentru_grill_comtim.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ceafă de porc dezosată, marinată, Carrefour La PiaÈă",
+        "price_new": 15.99,
+        "price_old": 19.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/e3e589483427b767b003315eb41f1d51a36e1101fea1673a703d3d7435ed688b",
+        "image_local": "data/images/carrefour/ceaf_de_porc_dezosat_marinat_carrefour_la_pia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Hamburger de porc, PeriÈ",
+        "price_new": 8.79,
+        "price_old": 10.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d3b16b878efa39bdad16ec5e36667103f432bae9f149db2b573c66a4451d3239",
+        "image_local": "data/images/carrefour/hamburger_de_porc_peri.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pui gătit lent Extra Tasty, Food Glory",
+        "price_new": 25.49,
+        "price_old": 31.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/da8c9a2884a65aae254f3d98dd9e82d5f1c5063279c23b8da2a56c524ed33d1a",
+        "image_local": "data/images/carrefour/pui_g_tit_lent_extra_tasty_food_glory.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CreveÈi roz",
+        "price_new": 4.99,
+        "price_old": 6.29,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/aa8cc86d3d3446809bbab516d4859b2a37ab357774ec42e9c87f4d41339ae079",
+        "image_local": "data/images/carrefour/creve_i_roz.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Coaste de miel, gătite lent Agroline",
+        "price_new": 45.49,
+        "price_old": 56.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/2335a8f6fcb84938453caa99cdeda0c0f4c439490f9c61a3f3e59909eef7897f",
+        "image_local": "data/images/carrefour/coaste_de_miel_g_tite_lent_agroline.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Struguri roze",
+        "price_new": 18.99,
+        "price_old": 21.99,
+        "discount": 0.14,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/a39796e835323bb01427a607a061ee6f0b8220354ad40d544373a69d3d4d9a0d",
+        "image_local": "data/images/carrefour/struguri_roze.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "RoÈii cocktail, Carrefour La PiaÈă",
+        "price_new": 17.99,
+        "price_old": 22.99,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/92ee566ee4f8200fc6d09fe3fab6d3d1445264179e5d9e2b3db258e5112bf402",
+        "image_local": "data/images/carrefour/ro_ii_cocktail_carrefour_la_pia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Usturoi Carrefour La PiaÈă",
+        "price_new": 6.39,
+        "price_old": 7.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/f9dbf1b96d5006eea33cbd55d8ddedd1434967587cf87a6b167dc6fa78ac30d4",
+        "image_local": "data/images/carrefour/usturoi_carrefour_la_pia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Legume pentru ghiveci Carrefour La PiaÈă",
+        "price_new": 5.59,
+        "price_old": 6.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/1dee84abdc8999296f2929126752e8a5215ef0ee6c62034e8f05d05825cf73f2",
+        "image_local": "data/images/carrefour/legume_pentru_ghiveci_carrefour_la_pia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Cartofi albi Carrefour La PiaÈă",
+        "price_new": 15.99,
+        "price_old": 19.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ad77f9548631250dbc5b2083f0f1a2eaa84782fe00e68e5b4011640ffdc03102",
+        "image_local": "data/images/carrefour/cartofi_albi_carrefour_la_pia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Rucola Carrefour Bio",
+        "price_new": 5.59,
+        "price_old": 6.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/f8c3b987f4892159d90e53f1076fb6931e9c74ceeab483f63101431673d738af",
+        "image_local": "data/images/carrefour/rucola_carrefour_bio.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Salată Baby Batavia Carrefour La PiaÈă",
+        "price_new": 5.59,
+        "price_old": 6.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/521d221528a60b52a2f5386d060cfc899c45d0dee832cb5789fe737b526af589",
+        "image_local": "data/images/carrefour/salat_baby_batavia_carrefour_la_pia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Salată Latino Carrefour La PiaÈă",
+        "price_new": 5.19,
+        "price_old": 6.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/bf77536549f5f6798f3e13d5e114681cb0d75fd3a39bed527c22df3724b378df",
+        "image_local": "data/images/carrefour/salat_latino_carrefour_la_pia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Stafide brune Carrefour La PiaÈă",
+        "price_new": 9.19,
+        "price_old": 11.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/16aa698ebfa402cba9cce66406a92069facc3dd9ad9a16aa2f083c79093e84d4",
+        "image_local": "data/images/carrefour/stafide_brune_carrefour_la_pia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Meniu ciolan cu varză",
+        "price_new": 29.99,
+        "price_old": 39.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/8e9f22494a7773a4789a12b7fc423a8378110af8c6be595c8a2a52026f71ecbe",
+        "image_local": "data/images/carrefour/meniu_ciolan_cu_varz.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ouă mărimea L Rikado",
+        "price_new": 12.39,
+        "price_old": 15.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/72ddb09f83b7e384bf15bbb3f3c4ca430f4552659fe9b2dae9505b778b51290c",
+        "image_local": "data/images/carrefour/ou_m_rimea_l_rikado.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Lapte de vacă ecologic Artesana",
+        "price_new": 11.99,
+        "price_old": 15.49,
+        "discount": 0.23,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5d32ae8bd19012220c9e703fe05a6d54b4ac1742b7db8488e3a5dea4124ae2d8",
+        "image_local": "data/images/carrefour/lapte_de_vac_ecologic_artesana.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Băutură vegetală pe bază de cocos / bază de migdale Muller",
+        "price_new": 12.99,
+        "price_old": 17.49,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/317d54e5ce6e5c163676a609a8daf38ee2d90936d04417a0045568daa3324f11",
+        "image_local": "data/images/carrefour/b_utur_vegetal_pe_baz_de_cocos_baz_de_migdale_muller.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Kefir Bio 3.5% grăsime Olympus",
+        "price_new": 3.99,
+        "price_old": 5.09,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/7c86e307a28633d82cc127348d2467e4ffc89cfa9d745982c1f2beda89ed88ac",
+        "image_local": "data/images/carrefour/kefir_bio_3_5_gr_sime_olympus.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Iaurt Mic Dejun cu fibre Èi fructe roÈii / fibre Èi măr Activia",
+        "price_new": 3.99,
+        "price_old": 6.19,
+        "discount": 0.36,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/14f171f622354c7b16b1a6396d4e438af92d24285b1d31dc53b13d65564c63e2",
+        "image_local": "data/images/carrefour/iaurt_mic_dejun_cu_fibre_i_fructe_ro_ii_fibre_i_m_r_activia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Untul cel lăptos 80% grăsime Lăptăria cu Caimac",
+        "price_new": 15.49,
+        "price_old": 18.6,
+        "discount": 0.17,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/de4b393199fef94d052cce1eb0b77f4e5aab94e8b4c343c1343029b92133d52f",
+        "image_local": "data/images/carrefour/untul_cel_l_ptos_80_gr_sime_l_pt_ria_cu_caimac.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Iaurt de 10, 10% grăsime Lăptăria cu Caimac",
+        "price_new": 7.99,
+        "price_old": 9.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5aeda98a9053633ca43ee185fbe604dbe8e926b560cb13d156da9feea9716747",
+        "image_local": "data/images/carrefour/iaurt_de_10_10_gr_sime_l_pt_ria_cu_caimac.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Brânză grasă Raraul",
+        "price_new": 2.7,
+        "price_old": 3.39,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/8bcf355c219929ecce0dec65bca1508400af0ee57f60eafde7a7a94f7af45c0d",
+        "image_local": "data/images/carrefour/br_nz_gras_raraul.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Brânză slabă Rarăul",
+        "price_new": 2.99,
+        "price_old": 3.79,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/fe596b85235ba35a515d878a8cb805b394dec6182ea2723b5f136821a910e7be",
+        "image_local": "data/images/carrefour/br_nz_slab_rar_ul.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Telemea de vacă Hochland",
+        "price_new": 3.59,
+        "price_old": 4.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/b46c3bd087cba59a0ab2e7ef2dcaf52c3166adf3331bee779486edf26ad86264",
+        "image_local": "data/images/carrefour/telemea_de_vac_hochland.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Brânză Ciobănească Chitriuc",
+        "price_new": 4.79,
+        "price_old": 5.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/0a8905ea90c0b3f2b7b877dc7ff3b51f254a259e17b94be46df986c6eaa88bb3",
+        "image_local": "data/images/carrefour/br_nz_ciob_neasc_chitriuc.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Brânză maturată Chitriuc",
+        "price_new": 6.39,
+        "price_old": 7.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/64d9f6dbb6e9857210dda523a8b1e372b24c7556c9b6267442afe62f64a442d8",
+        "image_local": "data/images/carrefour/br_nz_maturat_chitriuc.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Brânză Mărgăitar Chitriuc",
+        "price_new": 7.99,
+        "price_old": 9.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/12e87d2fa3e3a217919f5115596bd08e3903ae67043614150156049f61db1bcb",
+        "image_local": "data/images/carrefour/br_nz_m_rg_itar_chitriuc.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Brânză de vaci 0.2% grăsime, Delaco",
+        "price_new": 6.59,
+        "price_old": 9.49,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/6aedaacae0e1df278f566f088d29f2e9f5775814a9b3bb667d67233b82361e5a",
+        "image_local": "data/images/carrefour/br_nz_de_vaci_0_2_gr_sime_delaco.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Brânză de vaci 4.4% grăsime Delaco",
+        "price_new": 6.99,
+        "price_old": 8.29,
+        "discount": 0.16,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/3cc77c5fc7964b2fcaf3bb642ccaf7ab83374ddbe97563e1cf06ac81eae2d56e",
+        "image_local": "data/images/carrefour/br_nz_de_vaci_4_4_gr_sime_delaco.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Brânză Cheddar, felii Carrefour Classic",
+        "price_new": 10.39,
+        "price_old": 12.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/b5446d66072ebf2355a3d0b7b90446d3477f7850cf408b83a9184d96e747d12e",
+        "image_local": "data/images/carrefour/br_nz_cheddar_felii_carrefour_classic.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CaÈcaval DeSenviÈ calup Delaco",
+        "price_new": 4.19,
+        "price_old": 5.29,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/31bb75e86be61e72475033bef4778d9b55f5442354f787ae0d2b5a5c19623c96",
+        "image_local": "data/images/carrefour/ca_caval_desenvi_calup_delaco.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CaÈcaval DeSenviÈ, felii Delaco",
+        "price_new": 12.99,
+        "price_old": 16.25,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/1adb527cc6e2edeb0dad2c6f2cd555fcbed4f0746cc6af8c88f83980b92b70a6",
+        "image_local": "data/images/carrefour/ca_caval_desenvi_felii_delaco.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Salam Muscel Caroli",
+        "price_new": 3.89,
+        "price_old": 5.19,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/f7af6b72b62e117c4c6bc484d58387da505440eaaf5288dc82b68b6b6a04f250",
+        "image_local": "data/images/carrefour/salam_muscel_caroli.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Cotlet Haiducesc Malina",
+        "price_new": 11.99,
+        "price_old": 14.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/96bfbf6a1e5c1b310f476626ed4847ffdda5b3056d59c1d390d59a084f2633e5",
+        "image_local": "data/images/carrefour/cotlet_haiducesc_malina.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Afumătură Angst",
+        "price_new": 5.25,
+        "price_old": 6.59,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/06cc2796e8497a9a0e15fc97ea610dd0781358a5eadc8387da301fb6f4752041",
+        "image_local": "data/images/carrefour/afum_tur_angst.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CrenvurÈti din piept de pui Extra Cris-Tim",
+        "price_new": 3.3,
+        "price_old": 4.16,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/7dfbacbd643c7d2320a3b09e6b9c23a5662ac53246f633d5ed1d86a7e2059079",
+        "image_local": "data/images/carrefour/crenvur_ti_din_piept_de_pui_extra_cris_tim.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CârnaÈi afumaÈi Maestro",
+        "price_new": 4.6,
+        "price_old": 5.79,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/fc9265a81fa6c1678a0c457c4d65e0ef3ceee1231cb93a3f3b2c00b9d135aa1d",
+        "image_local": "data/images/carrefour/c_rna_i_afuma_i_maestro.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CârnaÈi Cabanos Aldis",
+        "price_new": 14.79,
+        "price_old": 18.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/dfb3a8ad5a60b9fdc9096e76af736ede5eaabd535a6fd06997fbacf0b8c8a27e",
+        "image_local": "data/images/carrefour/c_rna_i_cabanos_aldis.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CârnaÈi Sticks Aldis",
+        "price_new": 12.29,
+        "price_old": 16.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/63248642817cb3ba1cb87f1c48861a7a67fa8ebf3d48ea9490e6daac04a5de47",
+        "image_local": "data/images/carrefour/c_rna_i_sticks_aldis.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Salam Napoli Cris-Tim",
+        "price_new": 25.59,
+        "price_old": 31.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/2cb7db01c50010b9a724056d3efb6b1aea3616f301108a8a0de0da7517b56e0c",
+        "image_local": "data/images/carrefour/salam_napoli_cris_tim.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pizza prosciutto Carrefour",
+        "price_new": 11.25,
+        "price_old": 14.09,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d04edf5ac9fbfb8f300b921914d664e20a83e96e7746b583cfa9bdbdb6ec010c",
+        "image_local": "data/images/carrefour/pizza_prosciutto_carrefour.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Creveti fierÈi decorticaÈi Carrefour Classic",
+        "price_new": 18.39,
+        "price_old": 23.15,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/8ccbf813a44f78d7fbb03c3284f521c7270903642b17013750e1eb1a16011903",
+        "image_local": "data/images/carrefour/creveti_fier_i_decortica_i_carrefour_classic.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Amestec de legume pentru ciorbă Casa Țărănească",
+        "price_new": 5.19,
+        "price_old": 6.99,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/c49559dcf8807f15c34f173e15486581202e0c2d3545ae95543595e69901a480",
+        "image_local": "data/images/carrefour/amestec_de_legume_pentru_ciorb_casa_r_neasc.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gălbiori Savoarea Bunătlor Fermecate",
+        "price_new": 24.09,
+        "price_old": 30.49,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/dcf7f05458b733780cdfb25ef6716b0f55008c2a16e0f4eaa78f932f53142fac",
+        "image_local": "data/images/carrefour/g_lbiori_savoarea_bun_tlor_fermecate.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Apa minerală necarbogazoasă Artesia",
+        "price_new": 3.24,
+        "price_old": 4.05,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/8fb7608cb21b607b04c00d9d6b70ff6e94a8ffeb75f7b122b9520bbe441d5ce6",
+        "image_local": "data/images/carrefour/apa_mineral_necarbogazoas_artesia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Apă vitaminizată Plusssz Isotonic Sportcap",
+        "price_new": 4.9,
+        "price_old": 7.59,
+        "discount": 0.35,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/e4513982d9ed3ade985f92309de5591fe83d7d3f1c24bf4a3630f220c343dd62",
+        "image_local": "data/images/carrefour/ap_vitaminizat_plusssz_isotonic_sportcap.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Bautura răcoritoare carbogazoasă Pop Cola Classic",
+        "price_new": 5.19,
+        "price_old": 6.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/c1a6956b3cbb743e38b916868f41c72c45e2fd5e8bb57bedcc180f535999acd0",
+        "image_local": "data/images/carrefour/bautura_r_coritoare_carbogazoas_pop_cola_classic.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Băutură răcoritoare cabogazoasă Coca Cola Zero",
+        "price_new": 12.9,
+        "price_old": 16.14,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/52341e3dee2fbf7e002582c549abef327ad15810b849e7895e765aaa3147c94a",
+        "image_local": "data/images/carrefour/b_utur_r_coritoare_cabogazoas_coca_cola_zero.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Băutură răcoritoare cabogazoasă Coca Cola Regular",
+        "price_new": 14.8,
+        "price_old": 18.51,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/6d87baadbe9c4ebab2f23640f77f31a75c30669b9f5559241d8899eb0d561d0a",
+        "image_local": "data/images/carrefour/b_utur_r_coritoare_cabogazoas_coca_cola_regular.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Băutură energizantă Hell",
+        "price_new": 10.99,
+        "price_old": 14.52,
+        "discount": 0.24,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/b4a67a35751cdf5aa0664ce356e9071cbfe15c382ac90b09751d917dc73dff8c",
+        "image_local": "data/images/carrefour/b_utur_energizant_hell.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Bere Eichbaum Red",
+        "price_new": 4.76,
+        "price_old": 5.29,
+        "discount": 0.1,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/85ddd742b448056dabd6fe08e7da906b14b7834cdcbea322dbfa0aeab38b1c1d",
+        "image_local": "data/images/carrefour/bere_eichbaum_red.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin spumant rose Prosecco Grande Vento",
+        "price_new": 29.36,
+        "price_old": 36.7,
+        "discount": 0.2,
+        "requires_card": false,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/04c05eb4653c39645cf7dcad72099e1f0c58f1dd3c70108d785e43bd8dfd6a05",
+        "image_local": "data/images/carrefour/vin_spumant_rose_prosecco_grande_vento.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb sec, Domeniile UrlaÈi Sauvignon Blanc",
+        "price_new": 33.43,
+        "price_old": 41.79,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/e609ac81e38b15ba143714f1a6c3bab5e4a62fb17e9489bf3107025a82a49132",
+        "image_local": "data/images/carrefour/vin_alb_sec_domeniile_urla_i_sauvignon_blanc.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin roÈu Domeniile UrlaÈi Fetească Neagră, Sec",
+        "price_new": 27.12,
+        "price_old": 33.9,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/847c9cda5c55268d8bc1483a77777f0a495d46c49967bb650ec177d825fb5c3d",
+        "image_local": "data/images/carrefour/vin_ro_u_domeniile_urla_i_feteasc_neagr_sec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin roÈu Domeniile UrlaÈi Cabernet Sauvignon, Sec",
+        "price_new": 28.56,
+        "price_old": 35.7,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/a94e805026fa09014996e4da3c661ea4183e1dc6fc1d80a9ea08bb7eedfed223",
+        "image_local": "data/images/carrefour/vin_ro_u_domeniile_urla_i_cabernet_sauvignon_sec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb Domeniile UrlaÈi Răsarit Fetească Albă, demisec",
+        "price_new": 19.76,
+        "price_old": 24.7,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/12fa6f4ea4da9e6b77b49713bd4c13496c5754a3db372fd71946565b24f41d8a",
+        "image_local": "data/images/carrefour/vin_alb_domeniile_urla_i_r_sarit_feteasc_alb_demisec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin roÈu Domeniile UrlaÈi Răsarit Fetească Neagră demisec",
+        "price_new": 21.52,
+        "price_old": 26.9,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/b658eaf48371d0877256faa55dfe0a0de45c414be02bc7f853754abaa719c628",
+        "image_local": "data/images/carrefour/vin_ro_u_domeniile_urla_i_r_sarit_feteasc_neagr_demisec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb, Eclipse Basilescu, Sauvignon Blanc Sec",
+        "price_new": 19.12,
+        "price_old": 23.9,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/85eae126670fa9a1781ff496fa95659ee99b05d3e04812cadc3bf37ca53b1fe5",
+        "image_local": "data/images/carrefour/vin_alb_eclipse_basilescu_sauvignon_blanc_sec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb Eclipse Basilescu, Riesling Italian Sec",
+        "price_new": 19.12,
+        "price_old": 23.9,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5068d6a19aef21b6ca57437d611d8b787b5543cfed5f1d5b5e56e701a26de738",
+        "image_local": "data/images/carrefour/vin_alb_eclipse_basilescu_riesling_italian_sec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin alb Basilescu Eclipse Fetească Albă, Sec",
+        "price_new": 19.12,
+        "price_old": 23.9,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/05ff55199dedf161ca861b8b53c2cef830ffae77f7a85c6f2423084545e974d6",
+        "image_local": "data/images/carrefour/vin_alb_basilescu_eclipse_feteasc_alb_sec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin roÈu Siel, Domeniile Tohani, Fetească Neagră",
+        "price_new": 28.08,
+        "price_old": 35.1,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/356e6eb2051481e936beab028be028fc64326bbec6cc7552dc8545847747bafd",
+        "image_local": "data/images/carrefour/vin_ro_u_siel_domeniile_tohani_feteasc_neagr.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Sauvignon Balnc&Fetească Albă Domeniile Dealu Mare alb sec",
+        "price_new": 28.8,
+        "price_old": 33.99,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/7336843bf20d933a3f15b9f6f157b6c887448f7011531f51e793260c5e4edca3",
+        "image_local": "data/images/carrefour/vin_sauvignon_balnc_feteasc_alb_domeniile_dealu_mare_alb_sec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Cabernet Sauvignon&Fetească Neagră Domeniile Dealu Mare rose sec",
+        "price_new": 28.8,
+        "price_old": 33.99,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/cbee0d258da1646660b0a5fcf46fda8d8734bc1baadd4699fdda684ca6142b22",
+        "image_local": "data/images/carrefour/vin_cabernet_sauvignon_feteasc_neagr_domeniile_dealu_mare_rose_sec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin Cabernet Sauvignon&Fetească Neagră, Domeniile Dealu Mare roÈu sec",
+        "price_new": 28.8,
+        "price_old": 33.99,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/a3aa3e50f3f2ded4eb5db660579ace1ac2dfaa65ae52e355bb1168971facde68",
+        "image_local": "data/images/carrefour/vin_cabernet_sauvignon_feteasc_neagr_domeniile_dealu_mare_ro_u_sec.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin cutie bag in box Fetească Albă demisec Sigilium Moldavie",
+        "price_new": 36.9,
+        "price_old": 50.49,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/301edde41f880e521911a90cd8661e7e9b753cc17f4212eb3275d451e00cdbe7",
+        "image_local": "data/images/carrefour/vin_cutie_bag_in_box_feteasc_alb_demisec_sigilium_moldavie.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vin cutie bag in box Fetească Neagra Sigilium Moldavie",
+        "price_new": 36.9,
+        "price_old": 50.49,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/269fcb42473f9f058617afe5542194a30197e9657c37867b6fb91db17413198a",
+        "image_local": "data/images/carrefour/vin_cutie_bag_in_box_feteasc_neagra_sigilium_moldavie.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Aperitiv fără alcool Hugo",
+        "price_new": 24.99,
+        "price_old": 36.49,
+        "discount": 0.32,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/8eb3f6ab4b0734de043ba5ee1ea6babd78031175be82d82dcd2c6a90ba99241c",
+        "image_local": "data/images/carrefour/aperitiv_f_r_alcool_hugo.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Aperitiv Ambo Spritz, 10% alc.",
+        "price_new": 49.99,
+        "price_old": 59.99,
+        "discount": 0.17,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5189c23fb459c4644d0c5b0836e3c9540b8d2bd6a37a38bb5a0e737269054fe2",
+        "image_local": "data/images/carrefour/aperitiv_ambo_spritz_10_alc.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Cocktail Bacardi Cola",
+        "price_new": 10.99,
+        "price_old": 12.99,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ffddb07e3e9fecafa2587123b0fcfdb5291016a466a6fb60dbe322ec760d4fe8",
+        "image_local": "data/images/carrefour/cocktail_bacardi_cola.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Cocktail fără alcool Ambo Negroni",
+        "price_new": 49.99,
+        "price_old": 73.99,
+        "discount": 0.32,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/2e51807d472d3dca4ef3f00f90366b498fa8d3854a52e4967eb6f224748467a9",
+        "image_local": "data/images/carrefour/cocktail_f_r_alcool_ambo_negroni.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Lichior Bumbu Cream",
+        "price_new": 127.99,
+        "price_old": 150.9,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/3aa7f0a8f550de6fe6225aad19ecacff98c79f52f25a5f48374a90444d54c251",
+        "image_local": "data/images/carrefour/lichior_bumbu_cream.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Brandy Metaxa 5 stele Greek Orange",
+        "price_new": 54.99,
+        "price_old": 64.99,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d4e944a78f595a5146aae22e28a3efb2a8275fb4ba548f8961c53c0c17505cf2",
+        "image_local": "data/images/carrefour/brandy_metaxa_5_stele_greek_orange.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Brandy Saint Remy Authentic VSOP",
+        "price_new": 61.99,
+        "price_old": 72.99,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/9946be46e90839ce3f75069215a976f2d9b007ab0d8cd0c197e46729bde0992d",
+        "image_local": "data/images/carrefour/brandy_saint_remy_authentic_vsop.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vinars 1912 VSO Zarea",
+        "price_new": 99.99,
+        "price_old": 120.75,
+        "discount": 0.17,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ce11550e89f3a1edab7cfc17aa5e6c5513b985bf4fd2eb54ec109b853e4ab355",
+        "image_local": "data/images/carrefour/vinars_1912_vso_zarea.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Tequila, Camino Real Blanco",
+        "price_new": 61.49,
+        "price_old": 72.49,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d1e34867892cde474b9c3e55a5b6259b74bdaa4b91b01e63de4c87406f72a916",
+        "image_local": "data/images/carrefour/tequila_camino_real_blanco.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gin cu grapefruit, Beefeater",
+        "price_new": 71.99,
+        "price_old": 84.85,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/738df2e197f76d2b9a9167742d79f77173c76efa565c8aa1e0525ce724c2b706",
+        "image_local": "data/images/carrefour/gin_cu_grapefruit_beefeater.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set Gin Malfy",
+        "price_new": 44.99,
+        "price_old": 59.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/4fe42e9299238692ed013de11b05924d08fcc2a6ab3817cbe89c113456a375cf",
+        "image_local": "data/images/carrefour/set_gin_malfy.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gin Con Limone Malfy",
+        "price_new": 139.99,
+        "price_old": 192.69,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/62092bf3e89a0c7930cb409148a4284ac63d67744855e40a0974890f4c436456",
+        "image_local": "data/images/carrefour/gin_con_limone_malfy.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gin Rosa Malfy",
+        "price_new": 139.99,
+        "price_old": 192.69,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/eddb24065b2dc822d3890ae35e6fe099d2911f47efd32c6b51decd73aab35d62",
+        "image_local": "data/images/carrefour/gin_rosa_malfy.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gin Con Arancia Malfy",
+        "price_new": 139.99,
+        "price_old": 192.69,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/157956927e36bc301c7f44215075a4cf9e67a04890db88e7200ccc4d12de1892",
+        "image_local": "data/images/carrefour/gin_con_arancia_malfy.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gin Originale Malfy",
+        "price_new": 139.99,
+        "price_old": 192.69,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/e5e181d8751f507aca8fa3cd23a14f03f2df5eb93b1b71c95b6372ded2e5aaea",
+        "image_local": "data/images/carrefour/gin_originale_malfy.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vodka Absolut",
+        "price_new": 21.59,
+        "price_old": 29.49,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/7477a04776014dd53c4e27456b0edf6115149b48c5180a3e43d9ce463ab063cd",
+        "image_local": "data/images/carrefour/vodka_absolut.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vodka Wyborowa",
+        "price_new": 14.99,
+        "price_old": 19.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5078c4c6ebbba86c21b52340b3a6fcb326bd818941e3441da7b4c173b4cdc976",
+        "image_local": "data/images/carrefour/vodka_wyborowa.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vodka Finlandia",
+        "price_new": 19.9,
+        "price_old": 23.49,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/8567e191c8241a9d2a05b5349f7e33ed08935626ca593aea8ef896118e5bebf4",
+        "image_local": "data/images/carrefour/vodka_finlandia.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vodka Wyborowa",
+        "price_new": 59.49,
+        "price_old": 69.99,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/04bba42747343247526ecddbafd789ca900daa01cedc0427a142555c0160e0b1",
+        "image_local": "data/images/carrefour/vodka_wyborowa.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vodka Ostoya",
+        "price_new": 119.99,
+        "price_old": 141.6,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/c25c0fa3ad7caf95bf7cbcd0c0e6cbf8482fb50531eace20b232a78638429995",
+        "image_local": "data/images/carrefour/vodka_ostoya.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Vodka Absolut WildBerri",
+        "price_new": 72.99,
+        "price_old": 86.75,
+        "discount": 0.16,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ef8c2787567b5fd785dfef4ad2fc13765cc92e8f223a687e68ac5cce90f2308a",
+        "image_local": "data/images/carrefour/vodka_absolut_wildberri.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Rom Especial Havana Club",
+        "price_new": 25.99,
+        "price_old": 31.99,
+        "discount": 0.19,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/9a1d509aceec4beab7412726577c92ac9961146b4a437e8605aa7a71e4487ed2",
+        "image_local": "data/images/carrefour/rom_especial_havana_club.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Rom Cuban Spiced Havana Club",
+        "price_new": 70.99,
+        "price_old": 83.55,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/509e8d2c149f0376414c3a35e7443f7aa672a42c5e9925e2bcc08428cd021b61",
+        "image_local": "data/images/carrefour/rom_cuban_spiced_havana_club.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Rom Black Spiced Captain Morgan",
+        "price_new": 77.99,
+        "price_old": 91.99,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/3bf506aadeaf11e0a5fca7f30dbb695b80b4a8eb3b724fa5445ff56d290c6112",
+        "image_local": "data/images/carrefour/rom_black_spiced_captain_morgan.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Rom Centenario 23 YO Zacapa Solera",
+        "price_new": 199.99,
+        "price_old": 242.99,
+        "discount": 0.18,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/13005a352c47ba8ed9955a2b843abd093ae91de3efc92e7131915c112a86e26b",
+        "image_local": "data/images/carrefour/rom_centenario_23_yo_zacapa_solera.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Ballantine'S",
+        "price_new": 20.9,
+        "price_old": 28.49,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/386536fd073253693760b9d0f856a8a0747e41c74cb0d074275d73e0d2f6c44e",
+        "image_local": "data/images/carrefour/whisky_ballantine_s.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Ballantine's",
+        "price_new": 59.99,
+        "price_old": 73.49,
+        "discount": 0.18,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/4d71e980ba59adf368bed8db9732bee43cc099d8fcfa2f315f4aff19c55b90ab",
+        "image_local": "data/images/carrefour/whisky_ballantine_s.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Ballantine's",
+        "price_new": 78.99,
+        "price_old": 92.95,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/7bbe2f2e1675b8865b1f9eee6a0b9e853b462ca39bed06537ad2374a5d93c77b",
+        "image_local": "data/images/carrefour/whisky_ballantine_s.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Jameson",
+        "price_new": 25.99,
+        "price_old": 33.49,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/9fb2918b1a425eafc11d6fc3020b98b97f3c6b014f4439ae0e762c50e92f2c0d",
+        "image_local": "data/images/carrefour/whisky_jameson.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whiskey Screwball Peanut Butter",
+        "price_new": 99.99,
+        "price_old": 119.9,
+        "discount": 0.17,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/b54bdaa58f22b6d38822f6fe32866bf7c60ee1ffa9c8998debbe110d569a1625",
+        "image_local": "data/images/carrefour/whiskey_screwball_peanut_butter.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Woodford Reserve Distillers Select, Bourbon",
+        "price_new": 133.99,
+        "price_old": 157.65,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/a04423be9acbbcb5b61446bcfcd34f4b589e0f0b158c3398ec31e5c4bd48fd52",
+        "image_local": "data/images/carrefour/whisky_woodford_reserve_distillers_select_bourbon.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Black Barrel Jameson",
+        "price_new": 135.99,
+        "price_old": 160.9,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/cdb50ebdbed8f5fda5df72d38632bc54f2122380374d97ea3c7f9561032393b1",
+        "image_local": "data/images/carrefour/whisky_black_barrel_jameson.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Teeling Irish Small Batch",
+        "price_new": 149.99,
+        "price_old": 184.39,
+        "discount": 0.19,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/bd249e3bf2df92a6a96a2b1fd41de17e90457e3097ab546d39a09ac4ecd83508",
+        "image_local": "data/images/carrefour/whisky_teeling_irish_small_batch.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky 12 YO Scotch Single Malt Highland Park Viking Honour",
+        "price_new": 193.99,
+        "price_old": 228.9,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/0ec663a1b2e0538f90ee0ebaf6b210fc7c5cb42c10b3a5aaac7c4506b6e2faa1",
+        "image_local": "data/images/carrefour/whisky_12_yo_scotch_single_malt_highland_park_viking_honour.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky 12 YO Chivas Regal",
+        "price_new": 115.99,
+        "price_old": 136.9,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/f03d53c06339c0a02c8137cbd3f83155e3f54b8fc6624e171ba52bc029136b52",
+        "image_local": "data/images/carrefour/whisky_12_yo_chivas_regal.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Chivas Regal Extra",
+        "price_new": 124.99,
+        "price_old": 179.39,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/e59b49681ba3f19ebd276f2d813a879143a436e7afee8606ba2195ca11022b8f",
+        "image_local": "data/images/carrefour/whisky_chivas_regal_extra.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky Blended 15 YO Chivas Regal XV",
+        "price_new": 225.99,
+        "price_old": 266.9,
+        "discount": 0.15,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5e61c28cd7329b546045c98df5257854150e8eec44763dc2a7a8697a13b94a65",
+        "image_local": "data/images/carrefour/whisky_blended_15_yo_chivas_regal_xv.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Whisky 18 YO Chivas Regal",
+        "price_new": 299.99,
+        "price_old": 355.9,
+        "discount": 0.16,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/711de31e6d20217954483b43bd33cd164d9f0de46eb0487c6c73226a5de0b482",
+        "image_local": "data/images/carrefour/whisky_18_yo_chivas_regal.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ulei de măsline extra virgin Monini Delicato",
+        "price_new": 34.79,
+        "price_old": 43.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/a5997752dfabaeb733aaf2ffd07dd1fd587a9c01de99b0a8deda1aafc60983cc",
+        "image_local": "data/images/carrefour/ulei_de_m_sline_extra_virgin_monini_delicato.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "OÈet balsamic Carrefour Bio",
+        "price_new": 11.49,
+        "price_old": 14.45,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/46ab9008e3b2890ab8b16b4683c0bc6e38a646165ed0040f9a17bb0d6400217c",
+        "image_local": "data/images/carrefour/o_et_balsamic_carrefour_bio.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Penne Rigate Bio / Spaghetti no.5 Bio Barilla",
+        "price_new": 8.99,
+        "price_old": 12.05,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/f14663cccabac49f0dd43856f0b896a690761bede04d2fbe484d662fe38bbeda",
+        "image_local": "data/images/carrefour/penne_rigate_bio_spaghetti_no_5_bio_barilla.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Făină de grâu semialbă Bio Carrefour",
+        "price_new": 5.59,
+        "price_old": 6.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/cdccc72d97ed8a92bba996aa7e5879712421fac2841d8885ee4dab895acfd50d",
+        "image_local": "data/images/carrefour/f_in_de_gr_u_semialb_bio_carrefour.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Paste chinezeÈti Asian Flavours",
+        "price_new": 3.69,
+        "price_old": 4.99,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ce0e409042e01f4b73836c4f709ffb74a469a55d9604b271868521c8e5c635d1",
+        "image_local": "data/images/carrefour/paste_chineze_ti_asian_flavours.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Salată de ton mexicană / asiatică / năut Èi legume High Protein, Home Garden",
+        "price_new": 12.69,
+        "price_old": 16.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/df6fd29f10f1cccbcc36181fafa4c79b2c3601a342c99d812055e95cdd8e62d4",
+        "image_local": "data/images/carrefour/salat_de_ton_mexican_asiatic_n_ut_i_legume_high_protein_home_garden.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "DulceaÈă de smochine / mix 4 fructe Carrefour Bio",
+        "price_new": 12.79,
+        "price_old": 15.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/2d0bd062d66754e914a120b4fec8c58653638c26576d36da9b8177e931b02e53",
+        "image_local": "data/images/carrefour/dulcea_de_smochine_mix_4_fructe_carrefour_bio.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ananas buc în suc propriu, Tropical Gold Dole",
+        "price_new": 13.29,
+        "price_old": 18.99,
+        "discount": 0.3,
+        "requires_card": false,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/c16a661f1d9e9b10370b20fddcb2c4e68117551d1ddae76c647ce6b21e057b7a",
+        "image_local": "data/images/carrefour/ananas_buc_n_suc_propriu_tropical_gold_dole.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Caju prăjit Èi sărat, Carrefour Bio",
+        "price_new": 7.59,
+        "price_old": 9.59,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/1194c33ebe20a3bf6dd24b4905ccc99c5b524e01387d5369856cdbc8084291a9",
+        "image_local": "data/images/carrefour/caju_pr_jit_i_s_rat_carrefour_bio.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "BiscuiÈi cu cremă de lapte, Choco Mini Stars, Milka",
+        "price_new": 5.49,
+        "price_old": 7.49,
+        "discount": 0.27,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/0eedd184ec649b027273e3aeb4873dce9eefd4320ede8847f0d596795295eca3",
+        "image_local": "data/images/carrefour/biscui_i_cu_crem_de_lapte_choco_mini_stars_milka.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Napolitana cu cacao Èi cremă Roshen diverse sortimente",
+        "price_new": 4.89,
+        "price_old": 8.19,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/f143d5dce120dd024022ba612c3164e822e02399bccd16e8396aca86fdda7ad7",
+        "image_local": "data/images/carrefour/napolitana_cu_cacao_i_crem_roshen_diverse_sortimente.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Migdale coapte si sărate Nutline",
+        "price_new": 21.84,
+        "price_old": 31.69,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/75280a008cc9ffa138e4d664bfc0ee132d635fa056694ef028f5b5ef873d930b",
+        "image_local": "data/images/carrefour/migdale_coapte_si_s_rate_nutline.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Granola cu ovăz Èi seminÈe, fructe de pădure Èi cocos bio Bettr",
+        "price_new": 14.59,
+        "price_old": 19.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/b269a1e75ece3ad3eca0b6f883fb3fb1f8e5d4a4a399c1102157d900a8067cb4",
+        "image_local": "data/images/carrefour/granola_cu_ov_z_i_semin_e_fructe_de_p_dure_i_cocos_bio_bettr.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Mix pentru budinca de ciocolata / vanilie Bio Bettr",
+        "price_new": 3.69,
+        "price_old": 4.99,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d1c39cb302fdc974624144b5f43d329b44312b25982a9fa4f85f273c54aff64c",
+        "image_local": "data/images/carrefour/mix_pentru_budinca_de_ciocolata_vanilie_bio_bettr.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Nuci caju coapte si sărate Nutline",
+        "price_new": 20.62,
+        "price_old": 27.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5c7dd1d3cdaf2d57be5a9a1ef6a9222e0b9c95f21a7a7bc0195416c2f8a19c33",
+        "image_local": "data/images/carrefour/nuci_caju_coapte_si_s_rate_nutline.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Absorbante Always Ultra diverse sortimente Èi număr de buc",
+        "price_new": 13.8,
+        "price_old": 17.25,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/1e8b085c9813d74b61e74fdfb693fd78fdc09625048a20c39f262e4204d98fb5",
+        "image_local": "data/images/carrefour/absorbante_always_ultra_diverse_sortimente_i_num_r_de_buc.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Sapun lichid Carrefour Soft",
+        "price_new": 5.79,
+        "price_old": 7.59,
+        "discount": 0.24,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ff2b5b41debd2a84d812b7031ce8bb600a522ca3905bce96071081527e05d160",
+        "image_local": "data/images/carrefour/sapun_lichid_carrefour_soft.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Șampon regenerant Gerovital",
+        "price_new": 12.79,
+        "price_old": 15.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/c1f67613f4804b4f0b7f4d6a5d949022b604907dd7bca6d65c99e3c4f3b02165",
+        "image_local": "data/images/carrefour/ampon_regenerant_gerovital.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "LoÈiune regenerantă cu Petroleum Gerovital Tratament Expert",
+        "price_new": 17.59,
+        "price_old": 21.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/c54de82a36679140c72fbeaa2543b6bad25b8696c26884ea5ab47490efc3f1b2",
+        "image_local": "data/images/carrefour/lo_iune_regenerant_cu_petroleum_gerovital_tratament_expert.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Șampon Wash & Go",
+        "price_new": 13.19,
+        "price_old": 16.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/df5443a7d59bf65b65d192a4cf2dcb52295eafb810338083bda24bf5cdfe4c89",
+        "image_local": "data/images/carrefour/ampon_wash_go.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Șampon Wash & Go",
+        "price_new": 17.59,
+        "price_old": 21.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/10485ff5fa6f877a5aac87588f100b7bd9f218b95e89f784918c88de7a544600",
+        "image_local": "data/images/carrefour/ampon_wash_go.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Șampon uscat Carrefour Soft",
+        "price_new": 8.99,
+        "price_old": 11.59,
+        "discount": 0.22,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/0e791ade9753d6da6158b4081fe592d82a476bfec2a5fa7268618cd878a3af82",
+        "image_local": "data/images/carrefour/ampon_uscat_carrefour_soft.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Șampon anti mătreaÈă Head & Shoulders",
+        "price_new": 31.09,
+        "price_old": 44.49,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ec60b52a6c82d475e299727e09340af8ba718c170c6e3236df85158481380424",
+        "image_local": "data/images/carrefour/ampon_anti_m_trea_head_shoulders.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Șampon cu biotina Lift'N'Volume / Miracles Silky & Glowing Pantene",
+        "price_new": 33.29,
+        "price_old": 44.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/9dc3b6678877ab92264504c5149c453f6a17b157443794371f8ba74062fc9a6f",
+        "image_local": "data/images/carrefour/ampon_cu_biotina_lift_n_volume_miracles_silky_glowing_pantene.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Șampon uscat pentru volum It's So High / Hawaiian Manoi Paradise Urban Care",
+        "price_new": 20.59,
+        "price_old": 27.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/309c75b4feb42f8a8f48cdc953ee29c87adcc0d81966cf8b1da279479065d283",
+        "image_local": "data/images/carrefour/ampon_uscat_pentru_volum_it_s_so_high_hawaiian_manoi_paradise_urban_care.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Balsam pentru păr fragil cu ulei de Argan si Keratina, Urban Care",
+        "price_new": 30.69,
+        "price_old": 40.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/65a53ad882ae8ffdb8f588e67bcdf5897d9a648f840e5e9c8bcb45fcd162cde0",
+        "image_local": "data/images/carrefour/balsam_pentru_p_r_fragil_cu_ulei_de_argan_si_keratina_urban_care.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Balsam spray fără clătire cu ulei de Argan Èi Keratina,Urban Care",
+        "price_new": 35.99,
+        "price_old": 47.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/da9d99ceba2426f202e1632669dc9800a986b81b49830bf1598836fffa5986d9",
+        "image_local": "data/images/carrefour/balsam_spray_f_r_cl_tire_cu_ulei_de_argan_i_keratina_urban_care.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Mască pentru păr pre-Èamponare cu ulei de Argan si Keratina, Urban Care",
+        "price_new": 10.09,
+        "price_old": 13.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/65600c31bbf2cc1049502282a2230541f23f830e3e640083e339c6753f68c000",
+        "image_local": "data/images/carrefour/masc_pentru_p_r_pre_amponare_cu_ulei_de_argan_si_keratina_urban_care.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Apă micelară Carrefour Soft",
+        "price_new": 10.49,
+        "price_old": 13.19,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/92eba415666816ea9bcf521ff5d8e660f24d69bf045ae0ca3fc76c40e7a69603",
+        "image_local": "data/images/carrefour/ap_micelar_carrefour_soft.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Crema de zi / noapte Elmiplant Multicollagen",
+        "price_new": 24.39,
+        "price_old": 30.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/06498d87364049fc001818515dc08da9e8a5f6f4d4f288282eeae0aa2c584d8d",
+        "image_local": "data/images/carrefour/crema_de_zi_noapte_elmiplant_multicollagen.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ser pentru faÈă Elmiplant Multicollagen",
+        "price_new": 25.19,
+        "price_old": 31.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/84aeadcecab36400f07f67b498cbb8e6ea6b3c4f9fc1e3e635efe2a0ebc8c902",
+        "image_local": "data/images/carrefour/ser_pentru_fa_elmiplant_multicollagen.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ser pentru păr Bond Protein Repair",
+        "price_new": 55.19,
+        "price_old": 68.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/9dcd43794db21bf7a07720bd936d656fd5279979dff437cb21bc814abdf217a8",
+        "image_local": "data/images/carrefour/ser_pentru_p_r_bond_protein_repair.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Blasam pemtru păr Bond Protein Repair",
+        "price_new": 46.39,
+        "price_old": 57.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5ab9b5c058980cd879c6940856381c5e02eb6752251b3d99ea59dc31a63593d8",
+        "image_local": "data/images/carrefour/blasam_pemtru_p_r_bond_protein_repair.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Șampon Bond Protein Repair",
+        "price_new": 46.39,
+        "price_old": 57.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/1e80ba69bef8af6f6cf2368a7053e4e5947bae86efff3a5770e3b7f102e918bb",
+        "image_local": "data/images/carrefour/ampon_bond_protein_repair.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "ProtecÈie termică pentru păr Bond Protein Repair",
+        "price_new": 63.59,
+        "price_old": 79.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/66734d6862e2e57e602a5123d33839427ec7559d7b0d4cfda7fedb10fc594b6e",
+        "image_local": "data/images/carrefour/protec_ie_termic_pentru_p_r_bond_protein_repair.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ser pentru faÈă cu vitamina C Sinergy Therm",
+        "price_new": 30.99,
+        "price_old": 61.99,
+        "discount": 0.5,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/587c7e5c3b92db46b8683af76ca3b4a7fb5b6080fc163ad8e4e4863916afaf9c",
+        "image_local": "data/images/carrefour/ser_pentru_fa_cu_vitamina_c_sinergy_therm.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ser hidratant pentru faÈă Sinergy Therm",
+        "price_new": 27.29,
+        "price_old": 54.49,
+        "discount": 0.5,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/f418c5b7d9aadb33df84ac9281a1a34107281c78b217a675ab7545bfa08e79a5",
+        "image_local": "data/images/carrefour/ser_hidratant_pentru_fa_sinergy_therm.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Cremă pentru faÈă hidratantă Hydra Therm",
+        "price_new": 28.49,
+        "price_old": 56.99,
+        "discount": 0.5,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/f0e69193da6b7bc8265ce96961e96ff5608b2edf17941f721e5a4ea4bd0d7115",
+        "image_local": "data/images/carrefour/crem_pentru_fa_hidratant_hydra_therm.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Cremă pentru ochi anti age Sinergy Therm",
+        "price_new": 24.99,
+        "price_old": 49.99,
+        "discount": 0.5,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/04cfa277604744d5c5ac29339a5e4f6568daa17d52578236be5ebcb57aaa42d7",
+        "image_local": "data/images/carrefour/crem_pentru_ochi_anti_age_sinergy_therm.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pastă de dinÈi pentru albire Expert Purifying Power",
+        "price_new": 20.49,
+        "price_old": 27.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/31de682c8eaf1bee9d83dc3352b8819eba2d5eec1f082f69ddc0185385e7f500",
+        "image_local": "data/images/carrefour/past_de_din_i_pentru_albire_expert_purifying_power.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gel de duÈ Èi Èampon Old Spice Captain",
+        "price_new": 14.59,
+        "price_old": 19.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/3524b0436cedca20709146a7cb8c2f528de4fee5afd5454523299bb5015bc60e",
+        "image_local": "data/images/carrefour/gel_de_du_i_ampon_old_spice_captain.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Spray de corp pentru bărbaÈi deodorant Old Spice Captain",
+        "price_new": 14.99,
+        "price_old": 19.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/2fc17c0eb1ba12a5c46a31aad67ab3b5311670dee96846102c5e8e8f6c143ec5",
+        "image_local": "data/images/carrefour/spray_de_corp_pentru_b_rba_i_deodorant_old_spice_captain.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Deodorant solid pentru bărbaÈi Old Spice Captain / Wolfthorn",
+        "price_new": 13.86,
+        "price_old": 18.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/cdfdef9c5b5e4b24bc4109c8b9251666d11ec04f6933e9420661cdf55d8a52f8",
+        "image_local": "data/images/carrefour/deodorant_solid_pentru_b_rba_i_old_spice_captain_wolfthorn.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pastă de dinÈi pentru albire Expert Original Colgate Max White / Expert Purifying Power",
+        "price_new": 18.99,
+        "price_old": 27.49,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d29a23655fefcb107877e36e88b89854dcd6c4c256d5028f61835eb00f71bb83",
+        "image_local": "data/images/carrefour/past_de_din_i_pentru_albire_expert_original_colgate_max_white_expert_purifying_power.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pastă de dinÈi Colgate Max White Ultra",
+        "price_new": 18.99,
+        "price_old": 28.49,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/b2418e6f29e4f26e1189cfef21d89b8e059a54729186cf3d5acc9ecc99149e39",
+        "image_local": "data/images/carrefour/past_de_din_i_colgate_max_white_ultra.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Ser pentru albire Colgate Max White Purple",
+        "price_new": 42.99,
+        "price_old": 86.59,
+        "discount": 0.5,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/423a3ebeec002af4e107dc4fd86c01fc0fbb168374acea12ed4cae5aecabd22b",
+        "image_local": "data/images/carrefour/ser_pentru_albire_colgate_max_white_purple.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PeriuÈă de dinti, Oral-B, 40 peri de duritate medie",
+        "price_new": 6.99,
+        "price_old": 9.39,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/229225dfe69310b14e3788097cbf9d4bc2319fbf9f15686faf873a5a2c8be285",
+        "image_local": "data/images/carrefour/periu_de_dinti_oral_b_40_peri_de_duritate_medie.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PeriuÈă de dinÈi Oral-B Junior 6+ peri cu duritate extra moale / Pro-3D White Charcoal, peri de duritate medie",
+        "price_new": 9.69,
+        "price_old": 12.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d3e74317138b972be4d6ab40c05d12bd56e1a82ee9783660e32d54643f3b9f3a",
+        "image_local": "data/images/carrefour/periu_de_din_i_oral_b_junior_6_peri_cu_duritate_extra_moale_pro_3d_white_charcoal_peri_de_duritate_medie.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PeriuÈă de dinÈi manuală Oral-B Pro-3DWhite Advanced / Pro-Expert Advanced / Pro-Expert peri de duritate medie",
+        "price_new": 12.29,
+        "price_old": 16.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/464ebf53cad1426cfb74b70f75b499b6f6485feb1cd26e3ea146617430b7c2f6",
+        "image_local": "data/images/carrefour/periu_de_din_i_manual_oral_b_pro_3dwhite_advanced_pro_expert_advanced_pro_expert_peri_de_duritate_medie.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PeriuÈă de dinÈi manuală Oral-B Cross Action Pro-Expert Clinic, peri de duritate medie",
+        "price_new": 19.39,
+        "price_old": 25.89,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/f045044c5a70f5ca6d6f9ea57274ab55c7c8c826825c8db8436a3862b637dbb0",
+        "image_local": "data/images/carrefour/periu_de_din_i_manual_oral_b_cross_action_pro_expert_clinic_peri_de_duritate_medie.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PeriuÈă de dinÈi manuală Oral-B Pro-3DWhite Clinical, peri de duritate medie",
+        "price_new": 19.79,
+        "price_old": 26.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/64d38b5feb956b83114e7a879d5dad775a503d49817d0bbf86b1125a5f1ccce6",
+        "image_local": "data/images/carrefour/periu_de_din_i_manual_oral_b_pro_3dwhite_clinical_peri_de_duritate_medie.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PeriuÈă de dinÈi manuală Oral-B Pro-Expert / Pro-3DWhite Charcoal peri cu duritate medie",
+        "price_new": 14.59,
+        "price_old": 19.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d203a478be640f7a633ae1e3b2446421f61c67bd05b25c59feafbaf7ba53fb1d",
+        "image_local": "data/images/carrefour/periu_de_din_i_manual_oral_b_pro_expert_pro_3dwhite_charcoal_peri_cu_duritate_medie.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PeriuÈă de dinÈi manuală Oral-B Black, peri cu duritate medie",
+        "price_new": 16.49,
+        "price_old": 21.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/3f66a9e753998f42dd49b8b740fce31a6a4136c97c37bde22812f9454df450ff",
+        "image_local": "data/images/carrefour/periu_de_din_i_manual_oral_b_black_peri_cu_duritate_medie.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PeriuÈă de dinÈi manuală Oral-B Cross Action Pro-Expert Clinic, peri de duritate medie",
+        "price_new": 23.59,
+        "price_old": 31.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5002e0a3d86918d1f97a6141ead21ccdf16c64f677d0c0e01c499d2359a42029",
+        "image_local": "data/images/carrefour/periu_de_din_i_manual_oral_b_cross_action_pro_expert_clinic_peri_de_duritate_medie.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PeriuÈă de dinÈi manuală Oral-B peri cu duritate medie",
+        "price_new": 17.59,
+        "price_old": 23.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ca59d70c82c4269d93a506c1964f9203438de80bb28be17f76d5b29ef374453d",
+        "image_local": "data/images/carrefour/periu_de_din_i_manual_oral_b_peri_cu_duritate_medie.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Periută de dinÈi manuală Oral- B Pro Sensi Clinical, peri extra moi",
+        "price_new": 20.99,
+        "price_old": 27.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/f482a7f6e91df1ebffeb649a3b61bb2ea7237f66a3334e7af23e04cc9fd50b39",
+        "image_local": "data/images/carrefour/periut_de_din_i_manual_oral_b_pro_sensi_clinical_peri_extra_moi.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gel de ras Gillette Series",
+        "price_new": 17.99,
+        "price_old": 24.29,
+        "discount": 0.26,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/8b2535550a5f9dd56f479e2156a860e11b3438db857b968b06b73bcf92687a33",
+        "image_local": "data/images/carrefour/gel_de_ras_gillette_series.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Gel de ras Sensitive cu aloe vera, damă, Satin Care, Gillette Venus",
+        "price_new": 19.49,
+        "price_old": 25.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/80063862e29f4eb9ee54159337b7c02037a617ec1e70a685d84b825840bb8207",
+        "image_local": "data/images/carrefour/gel_de_ras_sensitive_cu_aloe_vera_dam_satin_care_gillette_venus.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Aparat de ras Flex4 Comfort Bic",
+        "price_new": 12.49,
+        "price_old": 24.99,
+        "discount": 0.5,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/e4660179ececc829528c869cf1de22350f32c704ff7d82e8335f1d2c1a6b9d74",
+        "image_local": "data/images/carrefour/aparat_de_ras_flex4_comfort_bic.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Aparat de ras pentru femei Gillette Simply Venus 3 Miami, mâner + rezerve",
+        "price_new": 17.59,
+        "price_old": 23.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/356a93e29909eee85772a6f2453462eca5648424ed5e4982b97c7cff36a8c173",
+        "image_local": "data/images/carrefour/aparat_de_ras_pentru_femei_gillette_simply_venus_3_miami_m_ner_rezerve.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Frozen, apă de parfum, + gel de duÈ Èi Èampon",
+        "price_new": 33.99,
+        "price_old": 48.69,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/b88c6e7e2a1d7cd8fecfc84a1d6c550c77d67c08aade78ecdc6cb92b5117bb61",
+        "image_local": "data/images/carrefour/set_cadou_frozen_ap_de_parfum_gel_de_du_i_ampon.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou The Luxury Bathing Company cremă pentru mâini Èi unghii",
+        "price_new": 15.99,
+        "price_old": 22.89,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/447dcc918c2702f25b995a55f23e9cd867d3d218c58ce8abf2c271075dfac82f",
+        "image_local": "data/images/carrefour/set_cadou_the_luxury_bathing_company_crem_pentru_m_ini_i_unghii.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Cremă pentru mâini Èi unghii, The Luxury Bathing Company",
+        "price_new": 25.99,
+        "price_old": 37.49,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/0420059424479128e1dea31c0c416381793fea8d2395f89cd760e18b425573d9",
+        "image_local": "data/images/carrefour/crem_pentru_m_ini_i_unghii_the_luxury_bathing_company.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Nivea Creme, gel de duÈ, + cremă pentru corp, faÈă Èi mâini",
+        "price_new": 17.99,
+        "price_old": 25.79,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/f29babd4679255aba6d48671754b96da8ec698868980781cd8d6e2f3d98bdf28",
+        "image_local": "data/images/carrefour/set_cadou_nivea_creme_gel_de_du_crem_pentru_corp_fa_i_m_ini.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Nivea Feel Fresh: gel de duÈ, + deodorant spray",
+        "price_new": 21.69,
+        "price_old": 30.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ea8eb1579ea23cf9a4375ee6186d2d6fd9aa6c1034a4420a90a93f35398bfe6f",
+        "image_local": "data/images/carrefour/set_cadou_nivea_feel_fresh_gel_de_du_deodorant_spray.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Nivea Moment of Care, gel de duÈ, + lapte pentru corp",
+        "price_new": 26.59,
+        "price_old": 37.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/59ed696e6140f9c1e86e02dbc767c82814c04a12f7c52b95779583456953f578",
+        "image_local": "data/images/carrefour/set_cadou_nivea_moment_of_care_gel_de_du_lapte_pentru_corp.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Nivea Men Active Energy: gel de duÈ, + deodorant spray",
+        "price_new": 22.99,
+        "price_old": 32.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/3cf1f1af8397d910653258d74cee636da8fdb0aea527fd9eeed7a769e784f7f5",
+        "image_local": "data/images/carrefour/set_cadou_nivea_men_active_energy_gel_de_du_deodorant_spray.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Nivea Care & Protection, gel de duÈ, + deodorant spray",
+        "price_new": 22.99,
+        "price_old": 32.99,
+        "discount": 0.3,
+        "requires_card": false,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/c05fa4592a67f75fadeb25a660418b8050f061a2770e2651fbd91458f3648088",
+        "image_local": "data/images/carrefour/set_cadou_nivea_care_protection_gel_de_du_deodorant_spray.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Nivea Soft Rose, gel de duÈ, + deodorant spray",
+        "price_new": 21.99,
+        "price_old": 31.79,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/91a1b7ac85df3b7c45ee9513cd97b539d46e390912f8d96a6f3aaa02595ad2b6",
+        "image_local": "data/images/carrefour/set_cadou_nivea_soft_rose_gel_de_du_deodorant_spray.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Dove, gel de duÈ, + săpun, + burete duÈ",
+        "price_new": 19.99,
+        "price_old": 28.69,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/08d3f4dc4b3215e418ec558afdf9b9b37e5cb28e263575ea853c9d7645946c5e",
+        "image_local": "data/images/carrefour/set_cadou_dove_gel_de_du_s_pun_burete_du.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Dove Advanced Care, gel de duÈ + deodorant spray",
+        "price_new": 27.99,
+        "price_old": 39.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/61d9dfd180d7e6cadaf682620f2ea5ac5a6477215dd8949817e0ee63e5693f3d",
+        "image_local": "data/images/carrefour/set_cadou_dove_advanced_care_gel_de_du_deodorant_spray.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Dove Relax, gel de duÈ + săpun + burete duÈ",
+        "price_new": 19.99,
+        "price_old": 28.69,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/78eee4793832079396b0a9fc7df60e637cd93e6b0b54c35e2afa5bb8d4ff376f",
+        "image_local": "data/images/carrefour/set_cadou_dove_relax_gel_de_du_s_pun_burete_du.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set pentru păr Brushworks Slick & Style",
+        "price_new": 34.99,
+        "price_old": 49.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/9ae357360864a437b937672454780c98353b14ec41f12590bc6d8de22dc19646",
+        "image_local": "data/images/carrefour/set_pentru_p_r_brushworks_slick_style.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou The Luxury Bathing Company, gel de duÈ, + loÈiune de corp",
+        "price_new": 25.99,
+        "price_old": 37.39,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/88dfd36dd4c7cbaf7124412cd141a922ae3ffc4c48d8196c04318a998683cefe",
+        "image_local": "data/images/carrefour/set_cadou_the_luxury_bathing_company_gel_de_du_lo_iune_de_corp.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou The Luxury Bathing Company, gel de duÈ, + Èampon pentru păr Èi barbă, + Burete exfoliant corp",
+        "price_new": 42.99,
+        "price_old": 61.69,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/a245b3d49009f1a5f127f0dbe47197bc4ac010f426f4f2d0410e13c8200bacd6",
+        "image_local": "data/images/carrefour/set_cadou_the_luxury_bathing_company_gel_de_du_ampon_pentru_p_r_i_barb_burete_exfoliant_corp.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set pentru unghii Brushworks",
+        "price_new": 34.99,
+        "price_old": 50.59,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/40ed703200efb31dfba5823e8a7a96d3de68e122ecaddd8d5a036d8dd87bd8ef",
+        "image_local": "data/images/carrefour/set_pentru_unghii_brushworks.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Gerocossen Manuka Bio, crema Antirid 65+, + apă micelară",
+        "price_new": 32.99,
+        "price_old": 47.19,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5a6b685cdbc1d3125b50dce9e021b757894f13281270ac3fa67235acc062ac0e",
+        "image_local": "data/images/carrefour/set_cadou_gerocossen_manuka_bio_crema_antirid_65_ap_micelar.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Sensitive Gerocossen, cremă antirid, + apă micelară",
+        "price_new": 41.99,
+        "price_old": 59.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ba4bb2acc3d8e6efd2b63f091f7cee2c532db26fd8c2d581e94253e81affedb0",
+        "image_local": "data/images/carrefour/set_cadou_sensitive_gerocossen_crem_antirid_ap_micelar.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou L'Oreal -Revitalift Laser, cremă pentru faÈă, + Èampon",
+        "price_new": 57.99,
+        "price_old": 82.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/47cc0e99f3c16d34edd100870f9d26e4bc47fd9698460c3f45dabab1a9aae56c",
+        "image_local": "data/images/carrefour/set_cadou_l_oreal_revitalift_laser_crem_pentru_fa_ampon.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Gerocossen, cremă antirid +65, + apă micelară",
+        "price_new": 32.99,
+        "price_old": 47.39,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/00feaa82288c8b0c4c1a3b9768b7bf2250840cf06f51f815636d4ee03d5e3d11",
+        "image_local": "data/images/carrefour/set_cadou_gerocossen_crem_antirid_65_ap_micelar.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Nivea Blooming Beauty gel de duÈ, + deodorant spray + mască",
+        "price_new": 28.99,
+        "price_old": 41.49,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/6a78af0d3a3e9fdfdd49416e5e2d27e5de12ff89ac94fc792c75872dc20596c6",
+        "image_local": "data/images/carrefour/set_cadou_nivea_blooming_beauty_gel_de_du_deodorant_spray_masc.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Dove, gel de duÈ, + deodorant",
+        "price_new": 21.99,
+        "price_old": 31.49,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/7848d185f197b2d219608bedc797d0287e38cdf1368c4e72829425b1228f77c7",
+        "image_local": "data/images/carrefour/set_cadou_dove_gel_de_du_deodorant.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Nivea Cashmere Touch, loÈiune de corp, + gel de duÈ, + deodorant stick",
+        "price_new": 39.99,
+        "price_old": 57.49,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5a4f26e78b0c70f4d8338967bd2a6febcb8fa10f8b8f7fab8432babb71a37315",
+        "image_local": "data/images/carrefour/set_cadou_nivea_cashmere_touch_lo_iune_de_corp_gel_de_du_deodorant_stick.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Nivea Refresh Skin, lapte de corp, + gel de duÈ, + deodorant roll-on, + cremă de mâini",
+        "price_new": 49.99,
+        "price_old": 71.99,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d94387025e003664538491fb6120b987c424f919995c252e566e176b5740a015",
+        "image_local": "data/images/carrefour/set_cadou_nivea_refresh_skin_lapte_de_corp_gel_de_du_deodorant_roll_on_crem_de_m_ini.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Nivea Soft Care: gel-cremă cu apă de trandafir, + apă micelara cu apă de trandafiri, + balsam de buze",
+        "price_new": 47.99,
+        "price_old": 68.89,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/547bc509403add54957c18a5776b50d388c2ee671a0768f0ed1b2266e91dc51a",
+        "image_local": "data/images/carrefour/set_cadou_nivea_soft_care_gel_crem_cu_ap_de_trandafir_ap_micelara_cu_ap_de_trandafiri_balsam_de_buze.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Nivea Q10: crema anti-rid de zi SPF 15, + serum dual-action anti-age si anti-glycation",
+        "price_new": 72.99,
+        "price_old": 104.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/95e795c65bbeb6e8f044e9c7a50c7a56d54155dfc22c561899af55d464302d4e",
+        "image_local": "data/images/carrefour/set_cadou_nivea_q10_crema_anti_rid_de_zi_spf_15_serum_dual_action_anti_age_si_anti_glycation.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou STR8, apă de toaletă, + deodorant spray, + borsetă",
+        "price_new": 47.99,
+        "price_old": 68.89,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/e31505e9119f612692e40e6b5d678ced197a827d31f376840b313d039ea37025",
+        "image_local": "data/images/carrefour/set_cadou_str8_ap_de_toalet_deodorant_spray_borset.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Nivea Men, balsam după ras, + gel pentru ras, + deodorant roll-on, + geantă",
+        "price_new": 49.99,
+        "price_old": 71.49,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/bf22fbc3821bd207b9876f98d7e60f17d547cb4979f1012c32ea5aa05bea45f7",
+        "image_local": "data/images/carrefour/set_cadou_nivea_men_balsam_dup_ras_gel_pentru_ras_deodorant_roll_on_geant.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Nivea Deep, loÈiune după ras, + gel de duÈ, + deodorant stick",
+        "price_new": 41.99,
+        "price_old": 59.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/9074bf6871a86934bc0a542c66368f5aa79e9348db449e532e87ce1f9e269a0d",
+        "image_local": "data/images/carrefour/set_cadou_nivea_deep_lo_iune_dup_ras_gel_de_du_deodorant_stick.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Dove Men+Care, gel de duÈ, + deodorant stick",
+        "price_new": 22.99,
+        "price_old": 32.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/74e54ee7bd0ac992461ee5abbb2c1ba395566a56ecc9f706a7a1c886b68bda74",
+        "image_local": "data/images/carrefour/set_cadou_dove_men_care_gel_de_du_deodorant_stick.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Dove Men+Care, gel de duÈ, +deodorant spray",
+        "price_new": 25.99,
+        "price_old": 37.49,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/c8faef2de9ceaf298f89568c757cdc1546310a94d49a21aa9845604f58dc81e6",
+        "image_local": "data/images/carrefour/set_cadou_dove_men_care_gel_de_du_deodorant_spray.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Dove Men+ Care, gel de duÈ, + deodorant spray + sticlă de apă",
+        "price_new": 33.99,
+        "price_old": 48.99,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/bdd171c08e8f2ad49c8c7c21dcb9fc5421973959d833a0390c2acff96060ee20",
+        "image_local": "data/images/carrefour/set_cadou_dove_men_care_gel_de_du_deodorant_spray_sticl_de_ap.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Old Spice Fanii Sportului, deodorant stick, + gel de duÈ",
+        "price_new": 22.99,
+        "price_old": 33.19,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/c515b3516d5fa1df0b53738f3f51ea50123a25565603518abe24a54d5891fec1",
+        "image_local": "data/images/carrefour/set_cadou_old_spice_fanii_sportului_deodorant_stick_gel_de_du.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Old Spice Astronaut, gel de dus, + deodorant stick",
+        "price_new": 22.99,
+        "price_old": 33.19,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/8f79e7f2d1f6d8ecbfb7686921d70255681accccf91b844be8b587f79f64344e",
+        "image_local": "data/images/carrefour/set_cadou_old_spice_astronaut_gel_de_dus_deodorant_stick.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Old Spice Fotbalist, deodorant stick, + gel de duÈ, + Èosete",
+        "price_new": 30.99,
+        "price_old": 44.29,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/b3541e685e6a08d5d2a27c79ee8020b4e6a646c1c67ebf9fed92216fe0efb207",
+        "image_local": "data/images/carrefour/set_cadou_old_spice_fotbalist_deodorant_stick_gel_de_du_osete.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Old Spice Gentleman, deodorant spray, + gel de duÈ",
+        "price_new": 22.99,
+        "price_old": 33.19,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/11ace8c1c81757e2d621f2107f3bb9ac961022ca689697f7eaffe603e217dc17",
+        "image_local": "data/images/carrefour/set_cadou_old_spice_gentleman_deodorant_spray_gel_de_du.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Old Spice Knight, deodorant stick, + gel de duÈ",
+        "price_new": 22.99,
+        "price_old": 33.19,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/c950935f8f4157de6e10e9eb0296ed2c2fe9e48d513259339947f48615f8a46b",
+        "image_local": "data/images/carrefour/set_cadou_old_spice_knight_deodorant_stick_gel_de_du.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Old Spice Captain, deodorant stick, + gel de duÈ",
+        "price_new": 22.99,
+        "price_old": 33.19,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5c69be5b78ff22d7e4f7ffee206c7afde17189b4b783a044889b775710727573",
+        "image_local": "data/images/carrefour/set_cadou_old_spice_captain_deodorant_stick_gel_de_du.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou Adidas UEFA GOAL, apă de parfum, + gel de duÈ",
+        "price_new": 25.99,
+        "price_old": 37.19,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d2b21e740d75975280a498639235103cde1956da6d6f68c22c473ed511b43132",
+        "image_local": "data/images/carrefour/set_cadou_adidas_uefa_goal_ap_de_parfum_gel_de_du.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set Adidas Vibes Energy Drive, apă de toaletă, + gel de duÈ",
+        "price_new": 37.99,
+        "price_old": 54.99,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/f51eae4acc1824659d121657e5991ca3730c2770041107c8a7601c1a89c6b32a",
+        "image_local": "data/images/carrefour/set_adidas_vibes_energy_drive_ap_de_toalet_gel_de_du.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set Adidas Vibes Happy Feels: apă de toaletă, + gel de duÈ",
+        "price_new": 37.99,
+        "price_old": 54.79,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/9feaddf15fde96ee239b6bc5922a0e790510c7aeddb757fd74f413a46b8a6423",
+        "image_local": "data/images/carrefour/set_adidas_vibes_happy_feels_ap_de_toalet_gel_de_du.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou STR8 Game, LoÈiune după ras, + deodorant spray, + gel de duÈ",
+        "price_new": 29.99,
+        "price_old": 42.89,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ff1ad8a452b8f6a41ea99799617d8cee2519a3182270db5efbb9902089a18c10",
+        "image_local": "data/images/carrefour/set_cadou_str8_game_lo_iune_dup_ras_deodorant_spray_gel_de_du.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set cadou STR8 Game, loÈiune după ras, + deodorant spray pentru corp",
+        "price_new": 29.99,
+        "price_old": 42.89,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/268de6ae97bf11bc757fd6fe32ba2ab5be0f3369b0282b603b682695eac19076",
+        "image_local": "data/images/carrefour/set_cadou_str8_game_lo_iune_dup_ras_deodorant_spray_pentru_corp.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent lichid aloe Carrefour Essential 37 spălări",
+        "price_new": 19.99,
+        "price_old": 25.45,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/7fd0b0eeaa7467e38bcf604b76da9cd1e293c5e486b4058a7bab308cd385dc1a",
+        "image_local": "data/images/carrefour/detergent_lichid_aloe_carrefour_essential_37_sp_l_ri.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent lichid delicat Carrefour Exprert, 25 spălări",
+        "price_new": 11.99,
+        "price_old": 15.49,
+        "discount": 0.23,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/452919343c0729c2f7f09b98b957fb1940aa8cddfc4b8916e21dff3021b5de6c",
+        "image_local": "data/images/carrefour/detergent_lichid_delicat_carrefour_exprert_25_sp_l_ri.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent Perfect Clean Vanilie Relaxantă / Perfect Clean White Musk",
+        "price_new": 26.99,
+        "price_old": 35.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/70bb9cad5fa2810b98d3ff69dfd67e66d59bd7e630d1a3aac6706b9f1302af28",
+        "image_local": "data/images/carrefour/detergent_perfect_clean_vanilie_relaxant_perfect_clean_white_musk.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent dezinfectant Mountain Fresh Igienol",
+        "price_new": 27.37,
+        "price_old": 36.5,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/3ffef9204a83c9451249107da7af45da477e5948cbbf3923cb78c838984d233b",
+        "image_local": "data/images/carrefour/detergent_dezinfectant_mountain_fresh_igienol.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent dezinfectant Spring Fresh Igienol",
+        "price_new": 33.29,
+        "price_old": 44.39,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ea7f2f7158bc942319c02bf903eddf6dcc01bd5dedbf8bfe551951bde37a7a04",
+        "image_local": "data/images/carrefour/detergent_dezinfectant_spring_fresh_igienol.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent dezinfectant Igienol",
+        "price_new": 47.61,
+        "price_old": 63.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/da53896a4514c8893afb385519b734f2a7cd5ff88652f482d6d436a2566011ad",
+        "image_local": "data/images/carrefour/detergent_dezinfectant_igienol.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "SoluÈie îndepartare pete Vanish Pink / White gel",
+        "price_new": 18.74,
+        "price_old": 24.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/6e83dbf2f1fb0a9e30b080f72c570caa07c1ac0dbd677c65d36627f414d45dd3",
+        "image_local": "data/images/carrefour/solu_ie_ndepartare_pete_vanish_pink_white_gel.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pudră pentru îndepărtarea petelor pentru haine albe / colorate Vanish",
+        "price_new": 19.59,
+        "price_old": 24.49,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/3e7eb003e308679e26d74940b40ba054245816b58eab9b39ec46cd9c8309ea95",
+        "image_local": "data/images/carrefour/pudr_pentru_ndep_rtarea_petelor_pentru_haine_albe_colorate_vanish.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Balsam pentru rufe Carrefour Essential",
+        "price_new": 9.49,
+        "price_old": 11.99,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/4433b399b552bd036b1540553266e0c9d1f5d18e616a706aec8e16d3c9a6248c",
+        "image_local": "data/images/carrefour/balsam_pentru_rufe_carrefour_essential.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent pentru maÈina de spălat vase Finish Quantum All in 1 caps",
+        "price_new": 113.9,
+        "price_old": 151.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/13bbd3bb6e00fe845b6e787e82e2e64f56cb6efa16a093ae646bb0c3c6c41fc3",
+        "image_local": "data/images/carrefour/detergent_pentru_ma_ina_de_sp_lat_vase_finish_quantum_all_in_1_caps.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent Universal Carrefour Essential",
+        "price_new": 7.25,
+        "price_old": 9.15,
+        "discount": 0.21,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/69c14b140e8b762a4140ca2dd9840069f670104e26a4a3a2b65b2868ee021f55",
+        "image_local": "data/images/carrefour/detergent_universal_carrefour_essential.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Detergent universal pentru pardoseli Igienol",
+        "price_new": 12.2,
+        "price_old": 15.25,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d4835e3b6f3b78608669bf321b8dd2f758bb700ca70bb3d09ab469c2e29aa140",
+        "image_local": "data/images/carrefour/detergent_universal_pentru_pardoseli_igienol.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "SoluÈie pentru curăÈare baie anti-calcar, Ace",
+        "price_new": 15.35,
+        "price_old": 19.19,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/6899ce0d997e97b70cca85f76efc6ebe5341caea17f9016ff7121b4d5718f3ea",
+        "image_local": "data/images/carrefour/solu_ie_pentru_cur_are_baie_anti_calcar_ace.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "ȘerveÈele umede All Over Clean Huggies",
+        "price_new": 6.74,
+        "price_old": 8.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/373f1a0a7735c762f17ee0a6b81a7e07f86fe8f7b43bf8c6419982fdfe175ed4",
+        "image_local": "data/images/carrefour/erve_ele_umede_all_over_clean_huggies.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece Extra Care Jumbo, mărimi 3 / 4 / 5 Huggies //",
+        "price_new": 38.99,
+        "price_old": 51.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/e07aec04f71e8e185c313265b374ed5b9aa84e5a62c96b86eff54c1fcfb72eb8",
+        "image_local": "data/images/carrefour/scutece_extra_care_jumbo_m_rimi_3_4_5_huggies.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece Extra Care Jumbo, mărimea 1, 2-, Huggies",
+        "price_new": 40.49,
+        "price_old": 53.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/7916fc16c9bc5a6476ff1b81d9339a065a448ed0d770b5f191fac683847d2a9a",
+        "image_local": "data/images/carrefour/scutece_extra_care_jumbo_m_rimea_1_2_huggies.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece Extra Care Jumbo, mărimea 2, 3-, Huggies",
+        "price_new": 55.86,
+        "price_old": 74.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/e0cf30d712e9853d1f8a033bcafeddd3e22b0e5623cfb0cf3a0e60aa653bc7cb",
+        "image_local": "data/images/carrefour/scutece_extra_care_jumbo_m_rimea_2_3_huggies.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scutece chiloÈel Jumbo Pack, mărimi 3 / 4 / 5 / 6 / 7 / 8 Pampers // / / /",
+        "price_new": 70.11,
+        "price_old": 93.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/1f1f3b72756b56c012476f02d1117098987a89ef8f591969ab1a867a67b56389",
+        "image_local": "data/images/carrefour/scutece_chilo_el_jumbo_pack_m_rimi_3_4_5_6_7_8_pampers.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "ȘerveÈele umede Pampers Fresh Clean, 4 pachete",
+        "price_new": 36.46,
+        "price_old": 50.36,
+        "discount": 0.28,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ab9807f9f05a5b367418389958ede847797c561395a998014acb9feccae0156e",
+        "image_local": "data/images/carrefour/erve_ele_umede_pampers_fresh_clean_4_pachete.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Roll On loÈiune Autan Family&Kids",
+        "price_new": 17.54,
+        "price_old": 26.99,
+        "discount": 0.35,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d535c40ae1906a852539829cecb5420a5527ace446616793c6b0cdd9471dc00a",
+        "image_local": "data/images/carrefour/roll_on_lo_iune_autan_family_kids.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Odorizant pentru cameră cu beÈe de ratan Air Wick /",
+        "price_new": 15.36,
+        "price_old": 20.49,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/f00b5e110763a31f4cf6f949bdaa3c2030ac32d06879352ccc6896616e6729bd",
+        "image_local": "data/images/carrefour/odorizant_pentru_camer_cu_be_e_de_ratan_air_wick.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Buchet de crizanteme",
+        "price_new": 12.99,
+        "price_old": 19.99,
+        "discount": 0.35,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/060cb900979ecea163041521810244d699b0c275a24d3dcb954af4454dac93b4",
+        "image_local": "data/images/carrefour/buchet_de_crizanteme.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scaun auto ISFX RS76-150cm",
+        "price_new": 399.99,
+        "price_old": 599.99,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/684cb2d5149f3b6017dec21189c7952f24f218d3326b4d1b8b5c70126fadef68",
+        "image_local": "data/images/carrefour/scaun_auto_isfx_rs76_150cm.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Scaun auto ISFX RS76-150cm",
+        "price_new": 399.99,
+        "price_old": 699.99,
+        "discount": 0.43,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/fffe97eb2ecde34584dee83449a84061d38837ff0e9c31ddb0181245d2cd04d6",
+        "image_local": "data/images/carrefour/scaun_auto_isfx_rs76_150cm.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set bebe 0/uni Tex Baby",
+        "price_new": 39.99,
+        "price_old": 64.99,
+        "discount": 0.38,
+        "requires_card": false,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/57a5de40c6b4ad892cb4966b1ac43a7c8f073994a59153325d6ea2ef94082d6a",
+        "image_local": "data/images/carrefour/set_bebe_0_uni_tex_baby.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Body bebe 0/uni Tex Baby",
+        "price_new": 39.99,
+        "price_old": 59.99,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/09af3fdc6267fdd27fdaeadbd49e2f90c9bd0f87535b89cd876abe05aa6cd285",
+        "image_local": "data/images/carrefour/body_bebe_0_uni_tex_baby.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Body bebe 0/uni Tex Baby",
+        "price_new": 29.99,
+        "price_old": 49.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/16f4f62e9e30dd518d31d4a1c166c2ed5edde037c44b6361aaaeb9e3ba17b2f2",
+        "image_local": "data/images/carrefour/body_bebe_0_uni_tex_baby.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Salopeta fete mărimi 3/14 ani Tex",
+        "price_new": 24.99,
+        "price_old": 39.99,
+        "discount": 0.38,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/fafd29442d7315145509f28346814f0bf79c6083ab886a6e702f3ddefff2db3f",
+        "image_local": "data/images/carrefour/salopeta_fete_m_rimi_3_14_ani_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Rochie fete mărimi 3/12 ani Tex",
+        "price_new": 29.99,
+        "price_old": 39.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d4fef22cd502b86493813919500c286d739cfb49ee12ae94fd020589c4a1af2a",
+        "image_local": "data/images/carrefour/rochie_fete_m_rimi_3_12_ani_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Maiou fete mărimi 3/14 ani Tex",
+        "price_new": 24.99,
+        "price_old": 39.99,
+        "discount": 0.38,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/b4fb84e9850b938ffa6b64986e236792ac9095094e05ecba045e3584549cf2ac",
+        "image_local": "data/images/carrefour/maiou_fete_m_rimi_3_14_ani_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Tricou băieÈi mărimi 3/14 ani Tex",
+        "price_new": 29.99,
+        "price_old": 39.99,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/c1c6fc29b13b667dfdd53c44f7d633500eb66d05e15eaea0678f6a490d2ec114",
+        "image_local": "data/images/carrefour/tricou_b_ie_i_m_rimi_3_14_ani_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pantaloni fete mărimi 3/14 ani Tex",
+        "price_new": 39.99,
+        "price_old": 49.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/dc26853d86c411a071a3caf6de7dee746a2010c2c0854c10832dcd51496b1fd9",
+        "image_local": "data/images/carrefour/pantaloni_fete_m_rimi_3_14_ani_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pantaloni fete mărimi 3/14 ani Tex",
+        "price_new": 39.99,
+        "price_old": 49.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/7b63e0c3eb71b7516cdfee26102526c6d5674bb4a3907c5180296c2670c77ecd",
+        "image_local": "data/images/carrefour/pantaloni_fete_m_rimi_3_14_ani_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pantaloni fete mărimi 3/14 ani Tex",
+        "price_new": 39.99,
+        "price_old": 59.99,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/989ac7cfe236567b82b54307f3cdb95d95cd5473fa75500a2b5a889edf82d9b1",
+        "image_local": "data/images/carrefour/pantaloni_fete_m_rimi_3_14_ani_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set 2 pantaloni copii mărimi 3/14 ani Tex",
+        "price_new": 24.99,
+        "price_old": 39.99,
+        "discount": 0.38,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/cc4d828159b82c0622abb761cbf9bf2eb8cc0465022432c1ea51009091d02f13",
+        "image_local": "data/images/carrefour/set_2_pantaloni_copii_m_rimi_3_14_ani_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pantaloni scurÈi mărimi 3/14 ani Tex",
+        "price_new": 34.99,
+        "price_old": 49.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/3db888711fa46621f26188ce892886adc16934fc431fc158a7953b5dc8f789c1",
+        "image_local": "data/images/carrefour/pantaloni_scur_i_m_rimi_3_14_ani_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Tricou damă, mărimi S/3XL Tex",
+        "price_new": 19.99,
+        "price_old": 24.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/52b0a0e8452752682c12a01a4fe4dffb44ee85089f0a503d654fb63d15f04627",
+        "image_local": "data/images/carrefour/tricou_dam_m_rimi_s_3xl_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Tricou polo bărbaÈi, mărimi S/3XL Tex",
+        "price_new": 29.99,
+        "price_old": 49.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/297bd92e0ce8a612a45338673ef180184e1d2c20f36bd74defdc41096cae0858",
+        "image_local": "data/images/carrefour/tricou_polo_b_rba_i_m_rimi_s_3xl_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Tricou pentru bărbaÈi, mărimi S/3XL Tex",
+        "price_new": 19.99,
+        "price_old": 24.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/50f0948d3094c4c7eebcd00c08f809beb465633278806fae55411b6b835c6cd8",
+        "image_local": "data/images/carrefour/tricou_pentru_b_rba_i_m_rimi_s_3xl_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pijama bărbaÈi mărimi S/3XL Tex",
+        "price_new": 59.99,
+        "price_old": 89.99,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/42b162d014d9cf8fbd86cdc864a0b8882a0977d736ddbc2c6757f2e7959dc027",
+        "image_local": "data/images/carrefour/pijama_b_rba_i_m_rimi_s_3xl_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pantofi copii mărimi 26/39 Tex",
+        "price_new": 59.99,
+        "price_old": 99.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/bfd066513d26817cdf79187416c989449f8fa804edf1377f907d4d06b950312e",
+        "image_local": "data/images/carrefour/pantofi_copii_m_rimi_26_39_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pantofi copii mărimi 26/39 Tex",
+        "price_new": 47.99,
+        "price_old": 59.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/74b88e31c83e1d2c91bd1bc114f541b1815c446d08b09ad021149e65891fc51d",
+        "image_local": "data/images/carrefour/pantofi_copii_m_rimi_26_39_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Balerini damă mărimi 36/41 Tex",
+        "price_new": 69.99,
+        "price_old": 99.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/8e4a3193418f95f4f46d4d12cd1f97962576908a0d3103df12930b5b9ef8ee6b",
+        "image_local": "data/images/carrefour/balerini_dam_m_rimi_36_41_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pantofi damă mărimi 36/41 Tex",
+        "price_new": 69.99,
+        "price_old": 99.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/535cf8dd948ff3f974430fa1851f4aad2c8a26050b268a137b480327ca20c099",
+        "image_local": "data/images/carrefour/pantofi_dam_m_rimi_36_41_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pantofi damă mărimi 36/41 Tex",
+        "price_new": 69.99,
+        "price_old": 99.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/d4a1db8c9c5588ccbb74a1780a5e0ddb866e3011fb68aa7fef693ad018635e38",
+        "image_local": "data/images/carrefour/pantofi_dam_m_rimi_36_41_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pantofi adulÈi mărimi 36/46 Tex",
+        "price_new": 69.99,
+        "price_old": 99.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/253f4e78d91cd33ecddd35754cd90ce7ea103bff5df28c3a4b56de88428054a3",
+        "image_local": "data/images/carrefour/pantofi_adul_i_m_rimi_36_46_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pantofi sport adulÈi mărimi 40/46 Tex",
+        "price_new": 99.99,
+        "price_old": 149.99,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/edefbdeeab8dd06792f118a0df20028ac733523c6c4df573b111908bbfcc12a4",
+        "image_local": "data/images/carrefour/pantofi_sport_adul_i_m_rimi_40_46_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pantofi adulÈi mărimi 36/46 Tex",
+        "price_new": 59.99,
+        "price_old": 99.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/8105ff2e1d945d2ab736e734e5a6ba5ddd0bd0849039c3571131715ec2547c05",
+        "image_local": "data/images/carrefour/pantofi_adul_i_m_rimi_36_46_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pantofi adulÈi mărimi 36/46 Tex",
+        "price_new": 51.99,
+        "price_old": 64.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/3c4312d29f412470ed27d311c58a4d6b51b6419cdd338793b1d86af1a5ff5e90",
+        "image_local": "data/images/carrefour/pantofi_adul_i_m_rimi_36_46_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Mocasini bărbaÈi cu memory foam mărimi 40/46 Tex",
+        "price_new": 69.99,
+        "price_old": 99.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/32729b3a181aa23702a64a998d953ce34a756f7a811ac616da45ea30372fb30c",
+        "image_local": "data/images/carrefour/mocasini_b_rba_i_cu_memory_foam_m_rimi_40_46_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set 2 perne Tex 50x70 cm",
+        "price_new": 39.99,
+        "price_old": 59.99,
+        "discount": 0.33,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/6d793381ba8e4b94e80dd7a7c44514e64d3b04e7b5b2df58cb5236d68f114c98",
+        "image_local": "data/images/carrefour/set_2_perne_tex_50x70_cm.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pernă cu senzaÈie de răcorire Tex",
+        "price_new": 71.99,
+        "price_old": 119.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/6fd35c3d098deb85d865401642faa7a761784bb79c2c2d4e9ab5e172227dc6d3",
+        "image_local": "data/images/carrefour/pern_cu_senza_ie_de_r_corire_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pilotă Tex 150x200cm, albă",
+        "price_new": 89.99,
+        "price_old": 149.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/fd87bb59b51e36f4ed6e4fcbde56d9e69ceb5aa294685d690c5796ab7f34d23d",
+        "image_local": "data/images/carrefour/pilot_tex_150x200cm_alb.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pilotă Tex 200x200cm, albă",
+        "price_new": 113.99,
+        "price_old": 189.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5074fd5c6d624e6f22f86f4d0bde720844743a420a8b1db4d4709b728aebd592",
+        "image_local": "data/images/carrefour/pilot_tex_200x200cm_alb.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pilotă 4 anotimpuri 150x200cm, albă",
+        "price_new": 95.99,
+        "price_old": 159.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/9d2229da2f9fc16988b0a7ab0dbba72eb54cca3c9a8d493030068258e3443a33",
+        "image_local": "data/images/carrefour/pilot_4_anotimpuri_150x200cm_alb.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pilotă 4 anotimpuri 200x200cm, albă",
+        "price_new": 107.99,
+        "price_old": 179.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/9832c74747c342630ec5855ce0f34f32956e12f4417ff96c970fbf13fbe18bf3",
+        "image_local": "data/images/carrefour/pilot_4_anotimpuri_200x200cm_alb.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pilotă 4 anotimpuri 240x220cm, albă",
+        "price_new": 119.99,
+        "price_old": 199.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/e08f7f1b47110ff75dec7f4a1a3f17ea4a1809272811ca5fb2fbfbd75f8a22be",
+        "image_local": "data/images/carrefour/pilot_4_anotimpuri_240x220cm_alb.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pilotă Tex 150x200cm, albă",
+        "price_new": 29.99,
+        "price_old": 49.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/1aef9f25dbc948c34a9d863ab7b2e09a8bcccdb570cdba3e84a59d5a0245bd94",
+        "image_local": "data/images/carrefour/pilot_tex_150x200cm_alb.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pilotă Tex 200x200cm, albă",
+        "price_new": 35.99,
+        "price_old": 59.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/55c342b6225dff8ff9d76c5e55be90762672b093d385ec15ada5b43d47cb4bbb",
+        "image_local": "data/images/carrefour/pilot_tex_200x200cm_alb.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Pilotă Tex 240x220cm, albă",
+        "price_new": 47.99,
+        "price_old": 79.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/b7abad7e8010c242d53d2f585f9c043616a739f99ea12495af3be4a212ced99a",
+        "image_local": "data/images/carrefour/pilot_tex_240x220cm_alb.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set 2 slipi / tanga / boxeri pentru damă mărimi 34/48 Tex",
+        "price_new": 17.99,
+        "price_old": 29.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/1bbebc51695dc7585f7009b51db94d59fcff2d904913d249e25ec23488f00737",
+        "image_local": "data/images/carrefour/set_2_slipi_tanga_boxeri_pentru_dam_m_rimi_34_48_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Sutien damă mărimi 85/110D Tex",
+        "price_new": 29.99,
+        "price_old": 49.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/2a8c50bcb9a524cb3a79f06492a4bddf80805577e16aa7f262df98ff620c5f8e",
+        "image_local": "data/images/carrefour/sutien_dam_m_rimi_85_110d_tex.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Joc de rol, Miraculous Buburuza",
+        "price_new": 79.9,
+        "price_old": 129.0,
+        "discount": 0.38,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/1aea190041ff8aec4a69481951a677042350d01b52449f4e63fe90bcd40dfe66",
+        "image_local": "data/images/carrefour/joc_de_rol_miraculous_buburuza.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Casa de păpuÈi Gabby Film Urechi Muzicale",
+        "price_new": 79.9,
+        "price_old": 129.0,
+        "discount": 0.38,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/b21be49023cdd0f6735dda390a1aac85e1be5f85c59399772e739e893ad26356",
+        "image_local": "data/images/carrefour/casa_de_p_pu_i_gabby_film_urechi_muzicale.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "PluÈ papagal vorbaret Chatty Parrot",
+        "price_new": 74.9,
+        "price_old": 109.0,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/fd3d6d06d73179f9e1a290ea11b83b33c769e5e7ec3dce485f749befe347bb84",
+        "image_local": "data/images/carrefour/plu_papagal_vorbaret_chatty_parrot.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Plus Club Petz Whiny",
+        "price_new": 89.9,
+        "price_old": 129.0,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/33f22aae9c39b493b1f27690c122590f386058ead64ded3e768bcc144ac39684",
+        "image_local": "data/images/carrefour/plus_club_petz_whiny.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Set 3 figurine Sponge Bob",
+        "price_new": 47.9,
+        "price_old": 69.9,
+        "discount": 0.31,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/928931817c9dcb75cdb46c145357b88e76861270d22289fa48293dceff5fdaf3",
+        "image_local": "data/images/carrefour/set_3_figurine_sponge_bob.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "MonstruleÈul care se întinde Monsterflex Sponge Bob",
+        "price_new": 29.9,
+        "price_old": 39.9,
+        "discount": 0.25,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5a04cb305183429d0b7c89dd36477225690ae8ddac9c4e28a6ffb242e6776d0a",
+        "image_local": "data/images/carrefour/monstrule_ul_care_se_ntinde_monsterflex_sponge_bob.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Joc de memorie Memorace - Primele mele litere",
+        "price_new": 44.94,
+        "price_old": 74.9,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/761dc95addbe6fca2b0b8ed1ef6d37969600f6e2cf35c2ee632a7fee9fda928f",
+        "image_local": "data/images/carrefour/joc_de_memorie_memorace_primele_mele_litere.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Joc de memorie Memorace - Primii paÈi în mate",
+        "price_new": 44.94,
+        "price_old": 74.9,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/3f7de95ffd8b8c73f21dfd9d45cc59381cb233d7f0ca5fa56d6e3b6460d5f816",
+        "image_local": "data/images/carrefour/joc_de_memorie_memorace_primii_pa_i_n_mate.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Joc de memorie Memorace - Să învăÈăm mate",
+        "price_new": 44.94,
+        "price_old": 74.9,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/ec054e7d10aca7f70824155d9875f4e906254f5a3298f72b447692204aeffa74",
+        "image_local": "data/images/carrefour/joc_de_memorie_memorace_s_nv_m_mate.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Joc de memorie Memorace - Descoperă Europa",
+        "price_new": 44.94,
+        "price_old": 74.9,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/09606cd9fb8376b6683376465ed340aa9e1a6e74e3d7326fd4a147a326659e16",
+        "image_local": "data/images/carrefour/joc_de_memorie_memorace_descoper_europa.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Joc de memorie Memorace - Cele mai mari invenÈii",
+        "price_new": 44.94,
+        "price_old": 74.9,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5babffec81cbf0ea14d087994939dc12aa346e6387cc13ca5238d5c2a6003adc",
+        "image_local": "data/images/carrefour/joc_de_memorie_memorace_cele_mai_mari_inven_ii.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Joc de memorie Memorace - Corpul meu sănătos",
+        "price_new": 44.94,
+        "price_old": 74.9,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/b90a5997d65826e6a01ce020586f71b2fffdab6bbc4b0af122688bcef00a7af6",
+        "image_local": "data/images/carrefour/joc_de_memorie_memorace_corpul_meu_s_n_tos.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Joc de memorie Memorace - ȘtiinÈele Naturii",
+        "price_new": 44.94,
+        "price_old": 74.9,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/7af50722a01552cfbe1a7492fc715b591df89e3d5d32d07436bdd8eec2293295",
+        "image_local": "data/images/carrefour/joc_de_memorie_memorace_tiin_ele_naturii.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Joc de memorie Memorace - SpaÈiul Cosmic",
+        "price_new": 44.94,
+        "price_old": 74.9,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/fb7980e66733e4a46d520b6051fed8b226d92b7eceb5b46f1dff1c417ccb6177",
+        "image_local": "data/images/carrefour/joc_de_memorie_memorace_spa_iul_cosmic.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Joc de memorie Memorace - Să învăÈăm Engleză",
+        "price_new": 44.94,
+        "price_old": 74.9,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/5a4833156bb77db54af613133a071f3c6a10055f638108f22e7588d28139da59",
+        "image_local": "data/images/carrefour/joc_de_memorie_memorace_s_nv_m_englez.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Joc de memorie Memorace - Universul Banilor",
+        "price_new": 44.94,
+        "price_old": 74.9,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/593b07f3de8070967ed68e756048c4ab7a09ffc278c64a9a8d93f9f837ac1618",
+        "image_local": "data/images/carrefour/joc_de_memorie_memorace_universul_banilor.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Tigaie Carrefour Home, aluminiu forjat, 24 cm, negru",
+        "price_new": 48.9,
+        "price_old": 89.9,
+        "discount": 0.46,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/bf682c2c5c3051f68d3f9968c1e377ede61cab1197fa38b1c9b19244a460409f",
+        "image_local": "data/images/carrefour/tigaie_carrefour_home_aluminiu_forjat_24_cm_negru.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "CratiÈă cu mâner Carrefour Home, aluminiu forjat, 20cm, negru",
+        "price_new": 54.9,
+        "price_old": 99.9,
+        "discount": 0.45,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/cc81a171b9f88ee485642d8756d1bc1e5a2be2b955fb22ed76463a378b5710ad",
+        "image_local": "data/images/carrefour/crati_cu_m_ner_carrefour_home_aluminiu_forjat_20cm_negru.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Oală cu capac Carrefour Home, aluminiu forjat/sticlă, 28cm, negru",
+        "price_new": 84.9,
+        "price_old": 149.0,
+        "discount": 0.43,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/cf0d82a661012e4bb95bb4ea9a505857b63a42cdb7094d1618a4a07f141246d4",
+        "image_local": "data/images/carrefour/oal_cu_capac_carrefour_home_aluminiu_forjat_sticl_28cm_negru.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "MaÈină de spălat rufe cu uscător Samsung WD90DG5B15BBLE, Clasa A/D, AI Ecobubble, 1400 rpm, WiFi, 9/, negru",
+        "price_new": 2559.99,
+        "price_old": 3199.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/27527299b12aa11a6692a15ee5527584d0245ee275481df48ded7f3406e8a6c7",
+        "image_local": "data/images/carrefour/ma_in_de_sp_lat_rufe_cu_usc_tor_samsung_wd90dg5b15bble_clasa_a_d_ai_ecobubble_1400_rpm_wifi_9_negru.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Hotă CFB6310X, Beko 168 mc/h, 3 trepte de viteza, 1 motor, inox",
+        "price_new": 271.99,
+        "price_old": 339.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/4b3547daa71a7535dd0f4437d8e602926de64186002eb282b37f756a54aaffb2",
+        "image_local": "data/images/carrefour/hot_cfb6310x_beko_168_mc_h_3_trepte_de_viteza_1_motor_inox.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Cafetiera Carrefour HCM6011T-25, itri, 980 W, negru / inox",
+        "price_new": 77.99,
+        "price_old": 129.99,
+        "discount": 0.4,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/898c7949df68ffe75cfacffc889091b9ef8d337227696a9730d0cf631b80975d",
+        "image_local": "data/images/carrefour/cafetiera_carrefour_hcm6011t_25_itri_980_w_negru_inox.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Tocător electric Carrefour Home HMC50012L-25, itri, 500 W, negru / inox",
+        "price_new": 70.0,
+        "price_old": 139.99,
+        "discount": 0.5,
+        "requires_card": false,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/be78d420022069bbe0c85d0308fd9c0caf4eb10b91bbe57ab8260fc8fd4940f5",
+        "image_local": "data/images/carrefour/toc_tor_electric_carrefour_home_hmc50012l_25_itri_500_w_negru_inox.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Prăjitor de pâine SIMPL ST870S-24, 2 felii, alb",
+        "price_new": 48.99,
+        "price_old": 69.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/22411f8700a7dd1fe5c3a52ee2d57f8da77e822754b7f72a46d08b0fff6db4e7",
+        "image_local": "data/images/carrefour/pr_jitor_de_p_ine_simpl_st870s_24_2_felii_alb.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Sandwich maker Heinner Jadde 750 SM-2K750WH, 750 W, alb",
+        "price_new": 48.99,
+        "price_old": 69.99,
+        "discount": 0.3,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/96989f05112c94e324b0ee2769bcf27110f21ddf5695f9434e0ac40c25826fd8",
+        "image_local": "data/images/carrefour/sandwich_maker_heinner_jadde_750_sm_2k750wh_750_w_alb.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Televizor SmartTech LED 32HG01V, 81 cm, Smart Google, HD, Clasa E",
+        "price_new": 535.99,
+        "price_old": 669.99,
+        "discount": 0.2,
+        "requires_card": true,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/da757132ffbe82c42b96f2931d8d8ef37e0a6f2726cc9b30a678abf61ec18e12",
+        "image_local": "data/images/carrefour/televizor_smarttech_led_32hg01v_81_cm_smart_google_hd_clasa_e.jpg"
+    },
+    {
+        "store": "Carrefour",
+        "raw_name": "Boxă portabilă PA10, bluetooth, Blaupunkt 38W, USB/TF card",
+        "price_new": 695.99,
+        "price_old": 869.99,
+        "discount": 0.2,
+        "requires_card": false,
+        "image_url": "https://bucket.zgarcit.ro/carrefour/a4b017a620936bf5471493cc931f2847e8799ed8348f04b314cd0192d41bf56c",
+        "image_local": "data/images/carrefour/box_portabil_pa10_bluetooth_blaupunkt_38w_usb_tf_card.jpg"
+    }
+]
