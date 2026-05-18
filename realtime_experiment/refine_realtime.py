@@ -31,8 +31,8 @@ REFINED_DIR.mkdir(parents=True, exist_ok=True)
 PARENT_DIR = BASE_DIR.parent
 sys.path.insert(0, str(PARENT_DIR))
 
-from final_web_cleanup import fix_romanian_encoding  # noqa: E402
-import reparator                                      # noqa: E402
+from final_web_cleanup import fix_romanian_encoding
+import reparator
 
 TEXT_FIELDS = ("name", "raw_name", "brand", "category")
 
