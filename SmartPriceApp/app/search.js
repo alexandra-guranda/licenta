@@ -26,12 +26,10 @@ export default function SearchScreen() {
     const [recentSearches, setRecentSearches] = useState(['Lapte', 'Pui', 'Ulei floarea soarelui']);
     const inputRef = useRef(null);
 
-    // Autofocus la deschidere
     useEffect(() => {
         setTimeout(() => inputRef.current?.focus(), 100);
     }, []);
 
-    // Logica de căutare (Debouncing simplu)
     useEffect(() => {
         if (query.length > 2) {
             const delayDebounceFn = setTimeout(() => {
@@ -56,13 +54,13 @@ export default function SearchScreen() {
             onPress={() => router.push({ pathname: '/product-details', params: { id: item.id } })}
         >
             <Image
-                source={{ uri: (item.image_local && item.image_local !== 'null') ? `${API_BASE}/static/${item.image_local}` : item.image_url }}
+                source={{ uri: item.image_url }}
                 style={styles.productImg}
                 resizeMode="contain"
             />
             <View style={styles.productInfo}>
                 <Text style={styles.storeTag}>{item.store}</Text>
-                <Text style={styles.productName} numberOfLines={2}>{item.name}</Text>
+                <Text style={styles.productName} numberOfLines={3}>{item.name}</Text>
                 <View style={styles.priceRow}>
                     <Text style={styles.priceText}>{item.price_new.toFixed(2)} lei</Text>
                     {item.discount > 0 && <Text style={styles.discountText}>-{Math.round(item.discount * 100)}%</Text>}
@@ -73,7 +71,6 @@ export default function SearchScreen() {
 
     return (
         <View style={styles.container}>
-            {/* Header cu Input */}
             <View style={styles.searchHeader}>
                 <TouchableOpacity onPress={() => router.back()} style={styles.backBtn}>
                     <ArrowLeft color={COLORS.textDark} size={24} />
@@ -101,7 +98,7 @@ export default function SearchScreen() {
                     <ActivityIndicator size="large" color={COLORS.navy} />
                 </View>
             ) : query.length === 0 ? (
-                /* Istoric căutări */
+
                 <View style={styles.historyContainer}>
                     <Text style={styles.sectionTitle}>Căutări recente</Text>
                     {recentSearches.map((item, index) => (
@@ -116,7 +113,7 @@ export default function SearchScreen() {
                     ))}
                 </View>
             ) : (
-                /* Rezultate */
+
                 <FlatList
                     data={results}
                     renderItem={renderProduct}

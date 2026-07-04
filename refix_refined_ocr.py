@@ -1,22 +1,14 @@
-"""
-Re-aplica fix_item (fara AI) pe datele OCR refined existente.
-Folosit dupa imbunatatiri ale regulilor din reparator.py,
-sau dupa ce reparator_ocr.py a terminat procesarea initiala.
-
-Utilizare:
-    python refix_refined_ocr.py
-"""
 import json
 import logging
 from pathlib import Path
 
 import ftfy
-from reparator import fix_item, VALID_CATEGORIES
+from web_refiner import fix_item, VALID_CATEGORIES
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
 
-REFINED_DIR  = Path("outputs/refined")
+REFINED_DIR  = Path("outputs/refined_llama_ocr")
 COMBINED_OUT = REFINED_DIR / "REFINED_OCR_DATA.json"
 
 STORE_FILES = [
@@ -26,10 +18,10 @@ STORE_FILES = [
     "refined_ocr_profi.json",
     "refined_ocr_carrefour.json",
     "refined_ocr_mega_image.json",
+    "refined_ocr_lidl.json",
 ]
 
 TEXT_FIELDS = ("name", "raw_name", "brand", "category")
-
 
 def fix_encoding(item: dict) -> dict:
     out = dict(item)
@@ -38,7 +30,6 @@ def fix_encoding(item: dict) -> dict:
         if isinstance(val, str) and val:
             out[field] = ftfy.fix_text(val)
     return out
-
 
 def refix_file(path: Path) -> list[dict]:
     with open(path, encoding="utf-8") as f:
@@ -61,19 +52,18 @@ def refix_file(path: Path) -> list[dict]:
 
     return fixed_data
 
-
 def main():
     all_products = []
     for fname in STORE_FILES:
         path = REFINED_DIR / fname
         if not path.exists():
-            log.warning("Fisier lipsa (ruleaza mai intai reparator_ocr.py): %s", path)
+            log.warning("Fisier lipsa (ruleaza mai intai ocr_refiner.py): %s", path)
             continue
         products = refix_file(path)
         all_products.extend(products)
 
     if not all_products:
-        log.error("Niciun produs procesat. Ruleaza mai intai: python reparator_ocr.py")
+        log.error("Niciun produs procesat. Ruleaza mai intai: python ocr_refiner.py")
         return
 
     cats = set(VALID_CATEGORIES) - {"Necategorizat"}
@@ -86,7 +76,6 @@ def main():
     with open(COMBINED_OUT, "w", encoding="utf-8") as f:
         json.dump(all_products, f, indent=4, ensure_ascii=False)
     log.info("Salvat → %s (%d produse)", COMBINED_OUT, len(all_products))
-
 
 if __name__ == "__main__":
     main()

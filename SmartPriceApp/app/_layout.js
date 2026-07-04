@@ -13,9 +13,9 @@ export default function TabLayout() {
                 tabBarActiveTintColor: NAVY,
                 tabBarInactiveTintColor: GRAY,
                 tabBarStyle: {
-                    height: 62,
-                    paddingBottom: 8,
-                    paddingTop: 6,
+                    height: 76,
+                    paddingBottom: 16,
+                    paddingTop: 8,
                     backgroundColor: '#fff',
                     borderTopWidth: 0.5,
                     borderTopColor: '#e2e4ee',
@@ -41,6 +41,7 @@ export default function TabLayout() {
             />
             <Tabs.Screen name="products"        options={{ href: null }} />
             <Tabs.Screen name="product-details" options={{ href: null }} />
+            <Tabs.Screen name="notify"          options={{ href: null }} />
         </Tabs>
     );
 }

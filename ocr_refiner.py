@@ -1,196 +1,187 @@
-import ollama
 import json
-import os
+import logging
 import re
+import sys
+from pathlib import Path
 
-INPUT_DIR  = "outputs"
-OUTPUT_DIR = "outputs/refined"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+import ftfy
+from web_refiner import (
+    AI_BATCH_SIZE,
+    FALLBACK_CATEGORY,
+    ai_refine_batch,
+    fix_item,
+)
 
-MODEL = "llama3.2:3b"
-BATCH_SIZE = 5
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+log = logging.getLogger(__name__)
 
-CATEGORIES = [
-    "Panificatie & Dulciuri",
-    "Carne & Mezeluri",
-    "Lactate & Oua",
-    "Legume & Fructe",
-    "Bauturi",
-    "Bacanie & Alimente de baza",
-    "Ingrijire & Curatenie",
-    "Casa & Diverse",
-]
+INPUT_DIR  = Path("outputs")
+OUTPUT_DIR = Path("outputs/refined_llama_ocr")
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Cuvinte care par branduri dar sunt tipuri de produs
-FALSE_BRANDS = {
-    "apa", "suc", "sos", "balsam", "crema", "salam", "branza", "paine",
-    "lapte", "unt", "oua", "iaurt", "orez", "ulei", "zahar", "faina",
-    "carne", "pui", "porc", "vita", "sunca", "parizer", "cafea", "ceai",
-    "bere", "vin", "tort", "prajitura", "supa", "ciorba", "conserva",
-    "capsule", "tablete", "pungi", "folie", "hartie", "prosop", "gel",
-    "pasta", "sapun", "detergent", "sampon", "servetele", "scutece",
-    "vaza", "perna", "halat", "baterie", "figurine", "jucarie", "sticks",
-    "inghetata", "smantana", "cascaval", "telemea", "mozzarella",
-}
-
-GRAMAJ_RE = re.compile(
-    r'\b\d+\s*(kg|g|ml|l|buc|bucati|role|pachete|portii|felii|litri)\b',
+_FRAGMENT_PREFIXES = re.compile(
+    r"^(cu |și |si |fara |fără |în |in |pe |"
+    r"pentru |sau |ori |dar |ci |care |"
+    r"per pachet|lei/|lei )",
     re.IGNORECASE,
 )
 
+_NON_PRODUCT_PHRASES = {
+    "diverse", "diverse sortimente", "stoc", "limita stocului",
+    "la masa in romania", "la masă în românia", "act for good",
+    "prin act for good", "valabilitate", "oferta", "oferte",
+    "promotii", "promotie", "disponibil",
+}
 
-def ai_refine_batch(batch: list[dict]) -> list[dict]:
-    mini = [{"raw_name": x.get("raw_name", "")} for x in batch]
-    prompt = (
-        f"Esti expert in retail romanesc. Extrage BRANDUL si CATEGORIA.\n"
-        f"CATEGORII PERMISE: {CATEGORIES}\n"
-        f"REGULI:\n"
-        f"1. BRAND: Doar numele propriu al marcii (ex: Milka, Napolact, Kaufland). "
-        f"Daca nu exista brand clar, pune 'Generic'.\n"
-        f"2. NUME_CURAT: Numele produsului fara brand si fara gramaj.\n"
-        f"3. FORMAT JSON: {{\"produse\": [{{\"nume_curat\": \"...\", \"brand\": \"...\", \"categorie\": \"...\"}}]}}\n"
-        f"DATE: {json.dumps(mini, ensure_ascii=False)}"
-    )
+_BROKEN_MARKERS = (
+    "Ä‚",
+    "Ã‚",
+    "Ã¢",
+    "Ã®",
+    "È™",
+    "È",
+    "Å£",
+    "â€",
+)
+
+def fix_encoding(text: str) -> str:
     try:
-        r = ollama.generate(model=MODEL, prompt=prompt, format="json", options={"temperature": 0.1})
-        return json.loads(r["response"]).get("produse", [])
+        fixed = ftfy.fix_text(text)
+        return fixed
     except Exception:
-        return []
+        return text
 
+def is_ocr_noise(raw_name: str) -> bool:
+    s = raw_name.strip()
 
-def fix_category(cat: str, raw_name: str) -> str:
-    rn = raw_name.lower()
+    if len(s) < 3:
+        return True
 
-    if any(x in rn for x in ["bere", "suc ", "apa ", "vin ", "pepsi", "cola", "santal",
-                               "cafea", "nescafe", "jacobs", "lipton", "sprite", "fanta",
-                               "ceai ", "bautura", "red bull", "schweppes"]):
-        return "Bauturi"
-    if any(x in rn for x in ["detergent", "sapun", "pasta dinti", "absorbante", "gel de dus",
-                               "sampon", "pampers", "servetele", "protex", "colgate", "ariel",
-                               "balsam", "deodorant", "hartie igienica", "scutece", "tampoane",
-                               "periuta", "lichid vase", "lotiune", "dezinfectant"]):
-        return "Ingrijire & Curatenie"
-    if any(x in rn for x in ["iaurt", "lapte ", "branza", "unt ", "smantana", "kefir",
-                               "cascaval", "telemea", "oua ", "ou ", "mozzarella", "feta"]):
-        return "Lactate & Oua"
-    if any(x in rn for x in ["salam", "parizer", "cremwursti", "sunca", "mici ", "carnati",
-                               "pate", "pui ", "porc ", "cotlet", "aripi", "vita ", "miel ",
-                               "bacon", "muschi", "ceafa", "piept de", "pulpa de", "curcan",
-                               "kaiser", "jambon", "mezel"]):
-        return "Carne & Mezeluri"
-    if any(x in rn for x in ["paine", "croissant", "chifla", "bagheta", "gogoasa", "ciocolata",
-                               "biscuiti", "eugenia", "napolitane", "bomboane", "milka", "oreo",
-                               "cozonac", "wafer", "halva", "prajitura", "tort", "briosa"]):
-        return "Panificatie & Dulciuri"
-    if any(x in rn for x in ["ceapa", "mango", "cartofi", "mere ", "banane", "rosii", "vinete",
-                               "varza", "castraveti", "ardei", "usturoi", "lamaie", "portocale",
-                               "capsuni", "cirese", "piersici", "pepene", "broccoli", "spanac",
-                               "salata ", "legume", "fructe"]):
-        return "Legume & Fructe"
-    if any(x in rn for x in ["ulei", "faina", "zahar", "orez", "malai", "pasta tomate", "mustar",
-                               "ketchup", "conserve", "fasole", "maioneza", "otet", "sare ",
-                               "spaghete", "macaroane", "taitei", "bulion", "miere", "gem ",
-                               "dulceata", "nutella", "condiment"]):
-        return "Bacanie & Alimente de baza"
-    if any(x in rn for x in ["jucarie", "sosete", "pungi", "folie", "hrana animal", "vaza",
-                               "ghiveci", "perna", "prosop ", "halat", "baterie", "bec"]):
-        return "Casa & Diverse"
+    if re.match(r"^[\d\s\.,;:\-\+\/\\%]+$", s):
+        return True
 
-    return cat if cat in CATEGORIES else "Casa & Diverse"
+    if re.match(r"^\d+\s*(ml|l|g|kg|buc|x\s*\d)", s, re.IGNORECASE):
+        return True
 
+    if any(marker in s for marker in _BROKEN_MARKERS):
+        return True
 
-def fix_brand(brand: str, raw_name: str) -> str:
-    if not brand:
-        return "Generic"
-    b = brand.strip()
-    if b.lower() in FALSE_BRANDS:
-        # incearca sa gaseasca primul cuvant cu majuscula care nu e tip de produs
-        for word in raw_name.split():
-            w = word.strip("(),.")
-            if w[0:1].isupper() and w.lower() not in FALSE_BRANDS and len(w) > 2:
-                return w
-        return "Generic"
-    # pastreaza multi-word brands cunoscute, altfel ia primul cuvant
-    MULTI_WORD = {"mega image", "san fabio", "la dorna", "zu zu", "cris tim", "cris-tim",
-                  "napolact", "betty blue", "gitana winery", "hanul boieresc"}
-    if b.lower() in MULTI_WORD:
-        return b
-    if " " in b:
-        return b.split()[0]
-    return b
+    s_low = s.lower()
 
+    if s_low in _NON_PRODUCT_PHRASES:
+        return True
 
-def clean_name(name: str, raw_name: str) -> str:
-    if not name or len(name.strip()) < 3:
-        # fallback: sterge gramajul din raw_name
-        cleaned = GRAMAJ_RE.sub("", raw_name).strip(" ,.-")
-        return cleaned if len(cleaned) > 2 else raw_name
-    return name.strip()
+    if _FRAGMENT_PREFIXES.match(s_low):
+        return True
 
+    _PRODUSE_SCURTE_RO = {
+        "pui", "vin", "unt", "oua", "apa", "suc", "gem", "ton", "cas", "sos",
+        "rom", "gin", "bor", "sec", "ros", "alb", "mie", "otet", "zer", "ou",
+        "mac", "nuc", "smoc", "cod", "lac", "mel", "ceai", "rac", "mur",
+    }
+    if re.match(r"^[A-Z0-9]{1,4}\.?$", s) and s.lower() not in _PRODUSE_SCURTE_RO:
+        return True
 
-def process_file(filename: str):
-    store_slug = filename.replace("ocr_", "").replace(".json", "")
-    input_path  = os.path.join(INPUT_DIR, filename)
-    output_path = os.path.join(OUTPUT_DIR, f"refined_ocr_{store_slug}.json")
+    return False
 
-    with open(input_path, "r", encoding="utf-8") as f:
-        raw_data = json.load(f)
+def calc_discount(price_new, price_old, stored_discount) -> float:
+    try:
+        pn = float(price_new or 0)
+        po = float(price_old or 0)
+        sd = float(stored_discount or 0)
+    except (TypeError, ValueError):
+        return 0.0
 
-    if not raw_data:
-        print(f"  {filename}: gol, skip.")
-        return
+    if sd != 0.0:
+        return sd
 
-    print(f"Procesare {filename} ({len(raw_data)} produse)...")
-    refined = []
+    if po > pn > 0:
+        return round((po - pn) / po, 4)
 
-    for i in range(0, len(raw_data), BATCH_SIZE):
-        batch = raw_data[i:i + BATCH_SIZE]
+    return 0.0
+
+def process_file(path: Path) -> None:
+    with open(path, encoding="utf-8") as f:
+        raw_data: list[dict] = json.load(f)
+
+    repaired: list[dict] = []
+    for p in raw_data:
+        fixed_name = fix_encoding(p.get("raw_name", ""))
+        p["raw_name"] = fixed_name
+        repaired.append(p)
+
+    clean_data = [p for p in repaired if not is_ocr_noise(p.get("raw_name", ""))]
+    skipped = len(raw_data) - len(clean_data)
+
+    log.info("Procesare %s (%d produse, %d sarite ca zgomot/fragment/encoding rupt)...",
+             path.name, len(clean_data), skipped)
+
+    interim: list[dict] = []
+    for i in range(0, len(clean_data), AI_BATCH_SIZE):
+        batch = clean_data[i : i + AI_BATCH_SIZE]
         ai_results = ai_refine_batch(batch)
-
-        for j, original in enumerate(batch):
-            raw_n = original.get("raw_name", "")
-            res   = ai_results[j] if j < len(ai_results) else {}
-
-            raw_cat   = res.get("categorie") or res.get("category") or "Casa & Diverse"
-            final_cat = fix_category(raw_cat, raw_n)
-
-            raw_brand   = res.get("brand") or ""
-            final_brand = fix_brand(raw_brand, raw_n)
-
-            raw_name_clean = res.get("nume_curat") or ""
-            final_name     = clean_name(raw_name_clean, raw_n)
-
-            refined.append({
-                "store":         original.get("store"),
-                "name":          final_name,
-                "brand":         final_brand,
-                "category":      final_cat,
-                "price_new":     original.get("price_new"),
-                "price_old":     original.get("price_old"),
-                "discount":      original.get("discount"),
-                "requires_card": original.get("requires_card", False),
-                "raw_name":      raw_n,
+        for j, raw_item in enumerate(batch):
+            ai = ai_results[j] if j < len(ai_results) else {}
+            pn  = raw_item.get("price_new")
+            po  = raw_item.get("price_old")
+            sd  = raw_item.get("discount")
+            interim.append({
+                "store":         raw_item.get("store", ""),
+                "raw_name":      raw_item.get("raw_name", ""),
+                "name":          ai.get("nume_curat") or raw_item.get("raw_name", ""),
+                "brand":         ai.get("brand") or "Generic",
+                "category":      ai.get("categorie") or FALLBACK_CATEGORY,
+                "price_new":     pn,
+                "price_old":     po,
+                "discount":      calc_discount(pn, po, sd),
+                "requires_card": raw_item.get("requires_card", False),
+                "captured_at":   raw_item.get("captured_at"),
                 "source":        "ocr",
             })
+        print(f"  AI: {min(i + AI_BATCH_SIZE, len(clean_data))}/{len(clean_data)}", end="\r")
 
-        print(f"  {len(refined)}/{len(raw_data)}", end="\r")
+    print()
+    fixed_data = [fix_item(item) for item in interim]
 
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(refined, f, indent=4, ensure_ascii=False)
-    print(f"\n  Salvat: {output_path} ({len(refined)} produse)")
+    cat_fixes   = sum(1 for a, b in zip(interim, fixed_data) if a.get("category") != b.get("category"))
+    brand_fixes = sum(1 for a, b in zip(interim, fixed_data) if a.get("brand")    != b.get("brand"))
+    name_fixes  = sum(1 for a, b in zip(interim, fixed_data) if a.get("name")     != b.get("name"))
+    disc_filled = sum(1 for a, b in zip(interim, fixed_data)
+                      if b.get("discount", 0) != 0 and a.get("discount", 0) == 0)
 
+    store_slug = path.stem.replace("ocr_llama_", "").replace("ocr_", "")
+    out_path   = OUTPUT_DIR / f"refined_ocr_{store_slug}.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(fixed_data, f, indent=4, ensure_ascii=False)
 
-def run():
-    files = [f for f in os.listdir(INPUT_DIR) if f.startswith("ocr_") and f.endswith(".json")]
+    log.info("%s → sarite:%d | cat:%d brand:%d name:%d disc_calculat:%d | %d produse → %s",
+             path.name, skipped, cat_fixes, brand_fixes, name_fixes,
+             disc_filled, len(fixed_data), out_path)
+
+def main() -> None:
+    store_filter = sys.argv[1].lower() if len(sys.argv) > 1 else None
+
+    files = sorted(INPUT_DIR.glob("ocr_llama_*.json"))
+    if store_filter:
+        files = [f for f in files if store_filter in f.stem]
+
     if not files:
-        print("Niciun fisier ocr_*.json gasit in outputs/")
+        log.warning("Niciun fisier ocr_*.json gasit in %s (filtru: %s)", INPUT_DIR, store_filter)
         return
 
-    print(f"Gasit {len(files)} fisiere OCR: {files}\n")
-    for fname in sorted(files):
-        process_file(fname)
-    print("\nGata!")
+    log.info("Fisiere de procesat: %s", [f.name for f in files])
+    for path in files:
+        process_file(path)
 
+    log.info("Gata! Rezultate in %s", OUTPUT_DIR)
+
+    all_products = []
+    for f in sorted(OUTPUT_DIR.glob("refined_ocr_*.json")):
+        data = json.loads(f.read_text(encoding="utf-8"))
+        all_products.extend(data)
+    final_path = OUTPUT_DIR / "REFINED_OCR_DATA.json"
+    final_path.write_text(json.dumps(all_products, indent=4, ensure_ascii=False), encoding="utf-8")
+    log.info("REFINED_OCR_DATA.json: %d produse totale", len(all_products))
 
 if __name__ == "__main__":
-    run()
+    main()

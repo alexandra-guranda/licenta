@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 import { ArrowLeft, Tag, CreditCard, Store } from 'lucide-react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
-import { fetchProduct, fetchProducts, API_BASE } from '../src/services/api';
+import { fetchProduct, fetchProducts, compareProduct } from '../src/services/api';
 
 const COLORS = {
     navy:      '#1e3a5f',
@@ -34,12 +34,12 @@ function SimilarCard({ item, onPress }) {
                 </View>
             )}
             <Image
-                source={{ uri: (item.image_local && item.image_local !== 'null') ? `${API_BASE}/static/${item.image_local}` : item.image_url }}
+                source={{ uri: item.image_url }}
                 style={styles.simImage}
                 resizeMode="contain"
             />
             <Text style={styles.simStore}>{item.store}</Text>
-            <Text style={styles.simName} numberOfLines={2}>{item.name}</Text>
+            <Text style={styles.simName} numberOfLines={3}>{item.name}</Text>
             <Text style={styles.simPrice}>{item.price_new.toFixed(2)} lei</Text>
         </TouchableOpacity>
     );
@@ -51,6 +51,7 @@ export default function ProductDetailsScreen() {
 
     const [product, setProduct] = useState(null);
     const [similar, setSimilar] = useState([]);
+    const [compareResults, setCompareResults] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -58,6 +59,11 @@ export default function ProductDetailsScreen() {
         fetchProduct(id).then((p) => {
             setProduct(p);
             setLoading(false);
+            if (p?.name) {
+                compareProduct(p.name).then((res) => {
+                    setCompareResults(res.filter((x) => x.id !== p.id));
+                });
+            }
             if (p?.category) {
                 fetchProducts(p.category).then((res) => {
                     const others = (res.products || []).filter(
@@ -97,7 +103,6 @@ export default function ProductDetailsScreen() {
         <View style={styles.root}>
             <StatusBar barStyle="light-content" backgroundColor={COLORS.navy} />
 
-            {/* Header */}
             <View style={styles.header}>
                 <TouchableOpacity style={styles.backBtn} onPress={() => router.back()} activeOpacity={0.8}>
                     <ArrowLeft size={20} color={COLORS.white} />
@@ -108,7 +113,6 @@ export default function ProductDetailsScreen() {
 
             <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scroll}>
 
-                {/* Imagine */}
                 <View style={styles.imageCard}>
                     {discountPct && (
                         <View style={styles.discountBadge}>
@@ -117,13 +121,12 @@ export default function ProductDetailsScreen() {
                         </View>
                     )}
                     <Image
-                        source={{ uri: (product.image_local && product.image_local !== 'null') ? `${API_BASE}/static/${product.image_local}` : product.image_url }}
+                        source={{ uri: product.image_url }}
                         style={styles.image}
                         resizeMode="contain"
                     />
                 </View>
 
-                {/* Info principale */}
                 <View style={styles.infoCard}>
                     <View style={styles.pillRow}>
                         <View style={styles.storePill}>
@@ -147,7 +150,6 @@ export default function ProductDetailsScreen() {
                         <Text style={styles.brand}>{product.brand}</Text>
                     )}
 
-                    {/* Prețuri */}
                     <View style={styles.priceSection}>
                         <Text style={styles.priceNew}>{product.price_new.toFixed(2)} lei</Text>
                         {hasDiscount && (
@@ -164,7 +166,38 @@ export default function ProductDetailsScreen() {
 
                 </View>
 
-                {/* Produse similare din aceeași categorie */}
+                {compareResults.length > 0 && (
+                    <View style={styles.compareSection}>
+                        <Text style={styles.sectionTitle}>Prețuri la alte magazine</Text>
+                        {compareResults.map((item, i) => {
+                            const isCheaper = item.price_new < product.price_new;
+                            const isExpensive = item.price_new > product.price_new;
+                            return (
+                                <TouchableOpacity
+                                    key={i}
+                                    style={styles.compareRow}
+                                    onPress={() => router.push({ pathname: '/product-details', params: { id: item.id } })}
+                                    activeOpacity={0.8}
+                                >
+                                    <Image source={{ uri: item.image_url }} style={styles.compareImg} resizeMode="contain" />
+                                    <View style={styles.compareInfo}>
+                                        <Text style={styles.compareStore}>{item.store}</Text>
+                                        <Text style={styles.compareName} numberOfLines={1}>{item.name}</Text>
+                                    </View>
+                                    <View style={styles.comparePriceWrap}>
+                                        <Text style={[styles.comparePrice, isCheaper && styles.cheaperPrice, isExpensive && styles.expensivePrice]}>
+                                            {item.price_new.toFixed(2)} lei
+                                        </Text>
+                                        {isCheaper && (
+                                            <Text style={styles.savingTag}>-{(product.price_new - item.price_new).toFixed(2)} lei</Text>
+                                        )}
+                                    </View>
+                                </TouchableOpacity>
+                            );
+                        })}
+                    </View>
+                )}
+
                 {similar.length > 0 && (
                     <View style={styles.similarSection}>
                         <Text style={styles.sectionTitle}>Aceeași categorie, alte magazine</Text>
@@ -242,6 +275,18 @@ const styles = StyleSheet.create({
     savingsBadge:  { backgroundColor: '#fef9e7', paddingHorizontal: 10, paddingVertical: 4, borderRadius: 8, borderWidth: 1, borderColor: COLORS.gold },
     savingsText:   { fontSize: 12, fontWeight: '700', color: COLORS.navyDark },
 
+    compareSection:    { marginHorizontal: 20, marginBottom: 16 },
+    compareRow:        { flexDirection: 'row', alignItems: 'center', backgroundColor: COLORS.white, borderRadius: 16, padding: 12, marginBottom: 10, elevation: 2, shadowColor: '#000', shadowOpacity: 0.05, shadowRadius: 8, borderWidth: 1, borderColor: COLORS.border },
+    compareImg:        { width: 52, height: 52, borderRadius: 10 },
+    compareInfo:       { flex: 1, marginHorizontal: 12 },
+    compareStore:      { fontSize: 10, fontWeight: '800', color: COLORS.navyDark, textTransform: 'uppercase', marginBottom: 2 },
+    compareName:       { fontSize: 12, fontWeight: '600', color: COLORS.textMid },
+    comparePriceWrap:  { alignItems: 'flex-end' },
+    comparePrice:      { fontSize: 16, fontWeight: '900', color: COLORS.textDark },
+    cheaperPrice:      { color: '#16a34a' },
+    expensivePrice:    { color: COLORS.red },
+    savingTag:         { fontSize: 10, fontWeight: '700', color: '#16a34a', backgroundColor: '#f0fdf4', paddingHorizontal: 6, paddingVertical: 2, borderRadius: 6, marginTop: 2 },
+
     similarSection: { marginHorizontal: 20 },
     sectionTitle:   { fontSize: 18, fontWeight: '800', color: COLORS.textDark, marginBottom: 14 },
     simList:        { paddingBottom: 4 },
@@ -254,6 +299,6 @@ const styles = StyleSheet.create({
     simBadgeText: { fontSize: 10, fontWeight: '900', color: COLORS.navyDark },
     simImage:     { width: '100%', height: 80, marginBottom: 8 },
     simStore:     { fontSize: 9, fontWeight: '800', color: COLORS.navyDark, textTransform: 'uppercase', marginBottom: 2 },
-    simName:      { fontSize: 12, fontWeight: '600', color: COLORS.textMid, lineHeight: 16, marginBottom: 4, minHeight: 32 },
+    simName:      { fontSize: 12, fontWeight: '600', color: COLORS.textMid, lineHeight: 16, marginBottom: 4, minHeight: 48 },
     simPrice:     { fontSize: 15, fontWeight: '900', color: COLORS.red },
 });

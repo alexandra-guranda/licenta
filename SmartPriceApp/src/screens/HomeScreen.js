@@ -90,14 +90,14 @@ function DealCard({ item, index, onPress }) {
                 </View>
                 <View style={styles.dealImageWrap}>
                     <Image
-                        source={{ uri: (item.image_local && item.image_local !== 'null') ? `${API_BASE}/static/${item.image_local}` : item.image_url }}
+                        source={{ uri: item.image_url }}
                         style={styles.dealImage}
                         resizeMode="contain"
                     />
                 </View>
                 <View style={styles.dealBody}>
                     <View style={styles.dealStorePill}><Text style={styles.dealStoreText}>{item.store}</Text></View>
-                    <Text style={styles.dealName} numberOfLines={2}>{item.name}</Text>
+                    <Text style={styles.dealName} numberOfLines={3}>{item.name}</Text>
                     <View style={styles.dealPriceRow}>
                         <Text style={styles.dealPriceNew}>{item.price_new.toFixed(2)} lei</Text>
                         {item.price_old && <Text style={styles.dealPriceOld}>{item.price_old.toFixed(2)} lei</Text>}

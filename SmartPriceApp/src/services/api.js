@@ -1,8 +1,7 @@
-export const API_BASE = "http://192.168.1.134:8001";
-
-export const fetchProducts = async (category = null, query = null, store = null) => {
+export const API_BASE = "http://192.168.1.128:8002";
+export const fetchProducts = async (category = null, query = null, store = null, skip = 0, limit = 200) => {
     try {
-        let url = `${API_BASE}/products?`;
+        let url = `${API_BASE}/products?skip=${skip}&limit=${limit}&`;
         if (category) url += `category=${encodeURIComponent(category)}&`;
         if (query) url += `q=${encodeURIComponent(query)}&`;
         if (store) url += `store=${encodeURIComponent(store)}&`;
@@ -58,7 +57,18 @@ export const searchProducts = async (query) => {
     }
 };
 
-// Funcția de Chat AI
+export const compareProduct = async (name) => {
+    try {
+        const response = await fetch(`${API_BASE}/compare?name=${encodeURIComponent(name)}`);
+        if (!response.ok) return [];
+        const data = await response.json();
+        return data.results || [];
+    } catch (error) {
+        console.error("API Error Compare:", error);
+        return [];
+    }
+};
+
 export const askAI = async (message) => {
     try {
         const response = await fetch(`${API_BASE}/ai/chat`, {

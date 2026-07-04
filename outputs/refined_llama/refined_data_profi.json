@@ -9,7 +9,7 @@
         "price_old": 8.15,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/9d571872da7ed500b849a3e873d3dddc.jpg",
-        "image_local": "data/images/profi/fiigo_paine_durum.jpg",
+        "image_local": "fixed_images_llama/profi/fiigo_paine_durum.jpg",
         "requires_card": false
     },
     {
@@ -22,7 +22,7 @@
         "price_old": 3.05,
         "discount": 0.12,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/867cb1ebde456dc7b4bbaf1cbfa61131.jpg",
-        "image_local": "data/images/profi/fiigo_pernuta_cu_branza_dulce_si_caise.jpg",
+        "image_local": "fixed_images_llama/profi/fiigo_pernuta_cu_branza_dulce_si_caise.jpg",
         "requires_card": false
     },
     {
@@ -35,7 +35,7 @@
         "price_old": 3.99,
         "discount": 0.25,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/93ae81a99c9f5e13a2efee5a31ef05ad.jpg",
-        "image_local": "data/images/profi/7_days_croissant_cu_bucati_de_ciocolata_max.jpg",
+        "image_local": "fixed_images_llama/profi/7_days_croissant_cu_bucati_de_ciocolata_max.jpg",
         "requires_card": false
     },
     {
@@ -48,7 +48,7 @@
         "price_old": 1.45,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/06b34579b92ad09a9baf4de9b447d7f2.jpg",
-        "image_local": "data/images/profi/fiigo_chifla_alba_cu_cartofi.jpg",
+        "image_local": "fixed_images_llama/profi/fiigo_chifla_alba_cu_cartofi.jpg",
         "requires_card": false
     },
     {
@@ -61,7 +61,7 @@
         "price_old": 2.05,
         "discount": 0.13,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/89e0952d14a6904adb624a15df2f082b.jpg",
-        "image_local": "data/images/profi/fiigo_demibagheta_rustica.jpg",
+        "image_local": "fixed_images_llama/profi/fiigo_demibagheta_rustica.jpg",
         "requires_card": false
     },
     {
@@ -74,7 +74,7 @@
         "price_old": 3.99,
         "discount": 0.25,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/93ae81a99c9f5e13a2efee5a31ef05ad.jpg",
-        "image_local": "data/images/profi/7_days_croissant_max_double_cacao_vanilie.jpg",
+        "image_local": "fixed_images_llama/profi/7_days_croissant_max_double_cacao_vanilie.jpg",
         "requires_card": false
     },
     {
@@ -87,7 +87,7 @@
         "price_old": 3.35,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/0ac24f87a35109be2234bcedf87cd7c4.jpg",
-        "image_local": "data/images/profi/fiigo_gogoasa_cu_glazura_de_capsuni.jpg",
+        "image_local": "fixed_images_llama/profi/fiigo_gogoasa_cu_glazura_de_capsuni.jpg",
         "requires_card": false
     },
     {
@@ -100,7 +100,7 @@
         "price_old": 6.69,
         "discount": 0.1,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/0a0bd6c6cdd0e83a068666eb2b5667a8.jpg",
-        "image_local": "data/images/profi/brutaria_veche_paine_toast_alba.jpg",
+        "image_local": "fixed_images_llama/profi/brutaria_veche_paine_toast_alba.jpg",
         "requires_card": false
     },
     {
@@ -113,7 +113,7 @@
         "price_old": 0.45,
         "discount": 0.13,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/320f85b1d826bdeef1df51ece0f1878e.jpg",
-        "image_local": "data/images/profi/macromex_minibagheta_alba.jpg",
+        "image_local": "fixed_images_llama/profi/macromex_minibagheta_alba.jpg",
         "requires_card": false
     },
     {
@@ -126,7 +126,7 @@
         "price_old": 12.29,
         "discount": 0.12,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/6aeb12a513cee1d785c49fc33960e4bf.jpg",
-        "image_local": "data/images/profi/dolcini_crema_tartinabila_duo.jpg",
+        "image_local": "fixed_images_llama/profi/dolcini_crema_tartinabila_duo.jpg",
         "requires_card": false
     },
     {
@@ -139,7 +139,7 @@
         "price_old": 12.29,
         "discount": 0.12,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/6aeb12a513cee1d785c49fc33960e4bf.jpg",
-        "image_local": "data/images/profi/dolcini_crema_tartinabila_cu_alune.jpg",
+        "image_local": "fixed_images_llama/profi/dolcini_crema_tartinabila_cu_alune.jpg",
         "requires_card": false
     },
     {
@@ -152,7 +152,7 @@
         "price_old": 4.09,
         "discount": 0.22,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/cbf4fd623f4a2a8109fd56e3a95f7a7f.jpg",
-        "image_local": "data/images/profi/fiigo_pernita_sunca_branza.jpg",
+        "image_local": "fixed_images_llama/profi/fiigo_pernita_sunca_branza.jpg",
         "requires_card": false
     },
     {
@@ -165,20 +165,20 @@
         "price_old": 3.55,
         "discount": 0.1,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/7e291de51eba9127d2b255e1cf60e96e.jpg",
-        "image_local": "data/images/profi/fiigo_gogoasa_berlineza_cu_cacao.jpg",
+        "image_local": "fixed_images_llama/profi/fiigo_gogoasa_berlineza_cu_cacao.jpg",
         "requires_card": false
     },
     {
         "store": "Profi",
         "raw_name": "Marca neidentificabila Cotlet de porc dezosat feliat proaspat ambalat",
         "name": "Cotlet de porc dezosat feliat proaspat ambalat",
-        "brand": "Generic",
+        "brand": "Cotlet",
         "category": "Carne & Mezeluri",
         "price_new": 19.99,
         "price_old": 28.99,
         "discount": 0.31,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/6afb52d0d24e61987ed22c5c710667fa.jpg",
-        "image_local": "data/images/profi/marca_neidentificabila_cotlet_de_porc_dezosat_feliat_proaspat_ambalat.jpg",
+        "image_local": "fixed_images_llama/profi/marca_neidentificabila_cotlet_de_porc_dezosat_feliat_proaspat_ambalat.jpg",
         "requires_card": false
     },
     {
@@ -191,7 +191,7 @@
         "price_old": 19.99,
         "discount": 0.15,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/8d9d679cb026fe22f872bf58e0585e95.jpg",
-        "image_local": "data/images/profi/peris_mici_formati_din_porc_proaspeti_ambalati.jpg",
+        "image_local": "fixed_images_llama/profi/peris_mici_formati_din_porc_proaspeti_ambalati.jpg",
         "requires_card": false
     },
     {
@@ -204,7 +204,7 @@
         "price_old": 6.59,
         "discount": 0.24,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/cbe349522865e72b2d319386e5931c18.jpg",
-        "image_local": "data/images/profi/caroli_salam_fiert_afumat_muscel_feliat_ambalat.jpg",
+        "image_local": "fixed_images_llama/profi/caroli_salam_fiert_afumat_muscel_feliat_ambalat.jpg",
         "requires_card": false
     },
     {
@@ -217,7 +217,7 @@
         "price_old": 11.99,
         "discount": 0.33,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/3d112a7a80522c9fa67abc7ec782a547.jpg",
-        "image_local": "data/images/profi/krakus_carnati_crud_uscati_cabanos_sticks_porc_ambalati.jpg",
+        "image_local": "fixed_images_llama/profi/krakus_carnati_crud_uscati_cabanos_sticks_porc_ambalati.jpg",
         "requires_card": false
     },
     {
@@ -230,7 +230,7 @@
         "price_old": 4.99,
         "discount": 0.22,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/a4255c848b423111ed9fa7a3f042d4b0.jpg",
-        "image_local": "data/images/profi/fox_cremwursti_din_piept_de_pui_vrac.jpg",
+        "image_local": "fixed_images_llama/profi/fox_cremwursti_din_piept_de_pui_vrac.jpg",
         "requires_card": false
     },
     {
@@ -243,7 +243,7 @@
         "price_old": 19.99,
         "discount": 0.15,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/8d9d679cb026fe22f872bf58e0585e95.jpg",
-        "image_local": "data/images/profi/comtim_mici_formati_din_porc_proaspeti_ambalati.jpg",
+        "image_local": "fixed_images_llama/profi/comtim_mici_formati_din_porc_proaspeti_ambalati.jpg",
         "requires_card": false
     },
     {
@@ -256,20 +256,20 @@
         "price_old": 4.9,
         "discount": 0.19,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/7bddad13004d76ada75767e3c8addeb7.jpg",
-        "image_local": "data/images/profi/premia_elit_slanina_afumata_vrac.jpg",
+        "image_local": "fixed_images_llama/profi/premia_elit_slanina_afumata_vrac.jpg",
         "requires_card": false
     },
     {
         "store": "Profi",
         "raw_name": "Marca neidentificabila Aripi de pui proaspete ambalate",
         "name": "Aripi de pui proaspete",
-        "brand": "Generic",
+        "brand": "Aripi",
         "category": "Carne & Mezeluri",
         "price_new": 12.99,
         "price_old": 14.99,
         "discount": 0.13,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/3cf0046b2e5b4aecac9e6e9b3d1aec6a.jpg",
-        "image_local": "data/images/profi/marca_neidentificabila_aripi_de_pui_proaspete_ambalate.jpg",
+        "image_local": "fixed_images_llama/profi/marca_neidentificabila_aripi_de_pui_proaspete_ambalate.jpg",
         "requires_card": false
     },
     {
@@ -282,7 +282,7 @@
         "price_old": 15.99,
         "discount": 0.19,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/ed4351248ea9930389327da2bd6e6396.jpg",
-        "image_local": "data/images/profi/ferma_din_deal_aripi_de_pui_proaspete_ambalate.jpg",
+        "image_local": "fixed_images_llama/profi/ferma_din_deal_aripi_de_pui_proaspete_ambalate.jpg",
         "requires_card": false
     },
     {
@@ -295,7 +295,7 @@
         "price_old": 19.99,
         "discount": 0.15,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/8d9d679cb026fe22f872bf58e0585e95.jpg",
-        "image_local": "data/images/profi/teldo_mici_formati_din_porc_proaspeti_ambalati.jpg",
+        "image_local": "fixed_images_llama/profi/teldo_mici_formati_din_porc_proaspeti_ambalati.jpg",
         "requires_card": false
     },
     {
@@ -308,7 +308,7 @@
         "price_old": 3.48,
         "discount": 0.17,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/b9ba68906ab5fc650bdafe251fb8b45e.jpg",
-        "image_local": "data/images/profi/cris_tim_parizer_de_pui_taranesc_vrac.jpg",
+        "image_local": "fixed_images_llama/profi/cris_tim_parizer_de_pui_taranesc_vrac.jpg",
         "requires_card": false
     },
     {
@@ -321,7 +321,7 @@
         "price_old": 6.99,
         "discount": 0.17,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/df4251e8478fb4d55666773c259bb309.jpg",
-        "image_local": "data/images/profi/caroli_sunca_praga_feliata_ambalata.jpg",
+        "image_local": "fixed_images_llama/profi/caroli_sunca_praga_feliata_ambalata.jpg",
         "requires_card": false
     },
     {
@@ -334,7 +334,7 @@
         "price_old": 4.25,
         "discount": 0.23,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/6b7ca78610ae1ac70af00f4b207deab1.jpg",
-        "image_local": "data/images/profi/caroli_salam_fiert_afumat_casa_carolistilor_vrac.jpg",
+        "image_local": "fixed_images_llama/profi/caroli_salam_fiert_afumat_casa_carolistilor_vrac.jpg",
         "requires_card": false
     },
     {
@@ -347,7 +347,7 @@
         "price_old": 4.99,
         "discount": 0.12,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/70ba1b039ab514ad9de7f11b638995b9.jpg",
-        "image_local": "data/images/profi/meda_carnati_semiafumati_vrac.jpg",
+        "image_local": "fixed_images_llama/profi/meda_carnati_semiafumati_vrac.jpg",
         "requires_card": false
     },
     {
@@ -360,7 +360,7 @@
         "price_old": 23.99,
         "discount": 0.13,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/ee3b9361c73668628b1eb4e298958eb9.jpg",
-        "image_local": "data/images/profi/ferma_din_deal_pulpe_de_pui_dezosate_fara_piele_proaspete_ambalate.jpg",
+        "image_local": "fixed_images_llama/profi/ferma_din_deal_pulpe_de_pui_dezosate_fara_piele_proaspete_ambalate.jpg",
         "requires_card": false
     },
     {
@@ -373,7 +373,7 @@
         "price_old": 5.7,
         "discount": 0.19,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/dcf7f51e338d1ef41eefcc33e7d9d669.jpg",
-        "image_local": "data/images/profi/cris_tim_scarita_afumata_de_porc_mini_extra_vrac.jpg",
+        "image_local": "fixed_images_llama/profi/cris_tim_scarita_afumata_de_porc_mini_extra_vrac.jpg",
         "requires_card": false
     },
     {
@@ -386,7 +386,7 @@
         "price_old": 11.99,
         "discount": 0.33,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/da46bc69b65812edf4d6c53e4353869a.jpg",
-        "image_local": "data/images/profi/krakus_carnati_crud_uscati_cabanos_sticks_pui_porc_ambalati.jpg",
+        "image_local": "fixed_images_llama/profi/krakus_carnati_crud_uscati_cabanos_sticks_pui_porc_ambalati.jpg",
         "requires_card": false
     },
     {
@@ -399,7 +399,7 @@
         "price_old": 11.99,
         "discount": 0.25,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/41191e61135f5d0029dd578fd2431d5f.jpg",
-        "image_local": "data/images/profi/cris_tim_salam_fiert_afumat_rustic_ambalat.jpg",
+        "image_local": "fixed_images_llama/profi/cris_tim_salam_fiert_afumat_rustic_ambalat.jpg",
         "requires_card": false
     },
     {
@@ -412,7 +412,7 @@
         "price_old": 10.99,
         "discount": 0.18,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/2612be1d06b3e91efc4434f21a937038.jpg",
-        "image_local": "data/images/profi/masa_boiereasca_salam_crud_uscat_de_sibiu_feliat_ambalat.jpg",
+        "image_local": "fixed_images_llama/profi/masa_boiereasca_salam_crud_uscat_de_sibiu_feliat_ambalat.jpg",
         "requires_card": false
     },
     {
@@ -425,7 +425,7 @@
         "price_old": 8.49,
         "discount": 0.24,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/7243d12122e244bed6ae233e48377ac9.jpg",
-        "image_local": "data/images/profi/marca_neidentificabila_fasole_alba_bob_mare_vrac.jpg",
+        "image_local": "fixed_images_llama/profi/marca_neidentificabila_fasole_alba_bob_mare_vrac.jpg",
         "requires_card": false
     },
     {
@@ -438,7 +438,7 @@
         "price_old": 3.05,
         "discount": 0.15,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/9e503e0b83ef1473609da602a48551d3.jpg",
-        "image_local": "data/images/profi/baneasa_faina_000.jpg",
+        "image_local": "fixed_images_llama/profi/baneasa_faina_000.jpg",
         "requires_card": false
     },
     {
@@ -451,7 +451,7 @@
         "price_old": 2.29,
         "discount": 0.22,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/65c4970d92f4977bff5d2f793321bafd.jpg",
-        "image_local": "data/images/profi/marca_neidentificabila_ceapa_galbena_vrac.jpg",
+        "image_local": "fixed_images_llama/profi/marca_neidentificabila_ceapa_galbena_vrac.jpg",
         "requires_card": false
     },
     {
@@ -464,7 +464,7 @@
         "price_old": 4.19,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/94737bb02fdf7dd44ae3e2f238442dc7.jpg",
-        "image_local": "data/images/profi/baneasa_malai_extra.jpg",
+        "image_local": "fixed_images_llama/profi/baneasa_malai_extra.jpg",
         "requires_card": false
     },
     {
@@ -477,7 +477,7 @@
         "price_old": 7.49,
         "discount": 0.33,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/05d0abe26abdab281000528dda5f1a03.jpg",
-        "image_local": "data/images/profi/marca_neidentificabila_mango_vrac.jpg",
+        "image_local": "fixed_images_llama/profi/marca_neidentificabila_mango_vrac.jpg",
         "requires_card": false
     },
     {
@@ -490,7 +490,7 @@
         "price_old": 3.49,
         "discount": 0.14,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/5a5d533590ed52c02b1df956093294fe.jpg",
-        "image_local": "data/images/profi/ama_masline_negre_super_atlas_vrac.jpg",
+        "image_local": "fixed_images_llama/profi/ama_masline_negre_super_atlas_vrac.jpg",
         "requires_card": false
     },
     {
@@ -503,7 +503,7 @@
         "price_old": 3.35,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/dc630b0b9372314bab8aa2cedc853e48.jpg",
-        "image_local": "data/images/profi/laptaria_amu_kefir_3_3_grasime.jpg",
+        "image_local": "fixed_images_llama/profi/laptaria_amu_kefir_3_3_grasime.jpg",
         "requires_card": false
     },
     {
@@ -516,20 +516,20 @@
         "price_old": 3.35,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/dc630b0b9372314bab8aa2cedc853e48.jpg",
-        "image_local": "data/images/profi/laptaria_amu_sana_3_6_grasime.jpg",
+        "image_local": "fixed_images_llama/profi/laptaria_amu_sana_3_6_grasime.jpg",
         "requires_card": false
     },
     {
         "store": "Profi",
         "raw_name": "Laptaria amu Lapte batut 2% grasime",
         "name": "Lapte Batut 2% grasime",
-        "brand": "Lapte",
+        "brand": "Laptaria",
         "category": "Lactate & Oua",
         "price_new": 2.99,
         "price_old": 3.35,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/dc630b0b9372314bab8aa2cedc853e48.jpg",
-        "image_local": "data/images/profi/laptaria_amu_lapte_batut_2_grasime.jpg",
+        "image_local": "fixed_images_llama/profi/laptaria_amu_lapte_batut_2_grasime.jpg",
         "requires_card": false
     },
     {
@@ -542,7 +542,7 @@
         "price_old": 8.89,
         "discount": 0.1,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/566740e5254b0c96a3a56271140dc132.jpg",
-        "image_local": "data/images/profi/de_albalact_unt_65_grasime.jpg",
+        "image_local": "fixed_images_llama/profi/de_albalact_unt_65_grasime.jpg",
         "requires_card": false
     },
     {
@@ -555,7 +555,7 @@
         "price_old": 12.49,
         "discount": 0.21,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/2e4ea9018472b697245631f8ce10ddc2.jpg",
-        "image_local": "data/images/profi/hochland_telemea_vaca_ambalata.jpg",
+        "image_local": "fixed_images_llama/profi/hochland_telemea_vaca_ambalata.jpg",
         "requires_card": false
     },
     {
@@ -568,7 +568,7 @@
         "price_old": 7.15,
         "discount": 0.16,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/69270494f54fa3b717185a762a8fd5e1.jpg",
-        "image_local": "data/images/profi/danonino_branzica_de_vaci_piure_banane_afine.jpg",
+        "image_local": "fixed_images_llama/profi/danonino_branzica_de_vaci_piure_banane_afine.jpg",
         "requires_card": false
     },
     {
@@ -581,7 +581,7 @@
         "price_old": 7.15,
         "discount": 0.16,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/69270494f54fa3b717185a762a8fd5e1.jpg",
-        "image_local": "data/images/profi/danonino_branzica_de_vaci_piure_banane_zmeura.jpg",
+        "image_local": "fixed_images_llama/profi/danonino_branzica_de_vaci_piure_banane_zmeura.jpg",
         "requires_card": false
     },
     {
@@ -594,7 +594,7 @@
         "price_old": 7.15,
         "discount": 0.16,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/69270494f54fa3b717185a762a8fd5e1.jpg",
-        "image_local": "data/images/profi/danonino_branzica_de_vaci_piure_capsuni_caise.jpg",
+        "image_local": "fixed_images_llama/profi/danonino_branzica_de_vaci_piure_capsuni_caise.jpg",
         "requires_card": false
     },
     {
@@ -607,7 +607,7 @@
         "price_old": 6.94,
         "discount": 0.33,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/0d1264e66769fbb949bca76a2603bfd3.jpg",
-        "image_local": "data/images/profi/unirea_margarina_pentru_copt_si_gatit_original_60_grasime.jpg",
+        "image_local": "fixed_images_llama/profi/unirea_margarina_pentru_copt_si_gatit_original_60_grasime.jpg",
         "requires_card": false
     },
     {
@@ -620,7 +620,7 @@
         "price_old": 15.49,
         "discount": 0.14,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/227c15985a84180c7b4c6eb9ef522448.jpg",
-        "image_local": "data/images/profi/muller_milch_smantana_24_grasime.jpg",
+        "image_local": "fixed_images_llama/profi/muller_milch_smantana_24_grasime.jpg",
         "requires_card": false
     },
     {
@@ -633,7 +633,7 @@
         "price_old": 10.65,
         "discount": 0.15,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/2707ffc1d339674283d5ffae8aa148fb.jpg",
-        "image_local": "data/images/profi/casa_buna_smantana_20_grasime.jpg",
+        "image_local": "fixed_images_llama/profi/casa_buna_smantana_20_grasime.jpg",
         "requires_card": false
     },
     {
@@ -646,7 +646,7 @@
         "price_old": 3.85,
         "discount": 0.12,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/089ba2870eebbf63fec40cdfbcb94028.jpg",
-        "image_local": "data/images/profi/olympus_iaurt_grecesc_10_grasime.jpg",
+        "image_local": "fixed_images_llama/profi/olympus_iaurt_grecesc_10_grasime.jpg",
         "requires_card": false
     },
     {
@@ -659,7 +659,7 @@
         "price_old": 19.99,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/1a3375f622b0cfa874c530a5e1d5d75e.jpg",
-        "image_local": "data/images/profi/proxi_cascaval_din_lapte_de_vaca_ambalat.jpg",
+        "image_local": "fixed_images_llama/profi/proxi_cascaval_din_lapte_de_vaca_ambalat.jpg",
         "requires_card": false
     },
     {
@@ -672,7 +672,7 @@
         "price_old": 7.69,
         "discount": 0.22,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/1fd2953ed7c26f5f9a96caa02fe500c8.jpg",
-        "image_local": "data/images/profi/randa_vinete_coapte_tocate_congelate.jpg",
+        "image_local": "fixed_images_llama/profi/randa_vinete_coapte_tocate_congelate.jpg",
         "requires_card": false
     },
     {
@@ -685,7 +685,7 @@
         "price_old": 19.35,
         "discount": 0.17,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/bcc8dea9511ce7b8cff0f1c9ba8d50d8.jpg",
-        "image_local": "data/images/profi/fry_me_aripi_de_pui_pane_congelate_ambalate.jpg",
+        "image_local": "fixed_images_llama/profi/fry_me_aripi_de_pui_pane_congelate_ambalate.jpg",
         "requires_card": false
     },
     {
@@ -698,7 +698,7 @@
         "price_old": 8.99,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/ccd602116ec56cd8ee7121441c818342.jpg",
-        "image_local": "data/images/profi/linco_aluat_foietaj_pufos_congelat.jpg",
+        "image_local": "fixed_images_llama/profi/linco_aluat_foietaj_pufos_congelat.jpg",
         "requires_card": false
     },
     {
@@ -711,7 +711,7 @@
         "price_old": 6.65,
         "discount": 0.25,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/7af73b98bc269958795e1486cb6ec819.jpg",
-        "image_local": "data/images/profi/monster_energy_bautura_energizanta_ultra.jpg",
+        "image_local": "fixed_images_llama/profi/monster_energy_bautura_energizanta_ultra.jpg",
         "requires_card": false
     },
     {
@@ -724,7 +724,7 @@
         "price_old": 12.19,
         "discount": 0.18,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/53e73dbaab06082950717cfc1089fd4d.jpg",
-        "image_local": "data/images/profi/santal_bautura_racoritoare_necarbonatata_dulce_din_natura_ananas_lamaie.jpg",
+        "image_local": "fixed_images_llama/profi/santal_bautura_racoritoare_necarbonatata_dulce_din_natura_ananas_lamaie.jpg",
         "requires_card": false
     },
     {
@@ -737,7 +737,7 @@
         "price_old": 12.19,
         "discount": 0.18,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/53e73dbaab06082950717cfc1089fd4d.jpg",
-        "image_local": "data/images/profi/santal_bautura_racoritoare_necarbonatata_dulce_din_natura_piersici_struguri.jpg",
+        "image_local": "fixed_images_llama/profi/santal_bautura_racoritoare_necarbonatata_dulce_din_natura_piersici_struguri.jpg",
         "requires_card": true
     },
     {
@@ -750,7 +750,7 @@
         "price_old": 11.49,
         "discount": 0.39,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/3d23ce71608692cf9668f75fd407e4ed.jpg",
-        "image_local": "data/images/profi/pepsi_bautura_racoritoare_carbonatata_twist.jpg",
+        "image_local": "fixed_images_llama/profi/pepsi_bautura_racoritoare_carbonatata_twist.jpg",
         "requires_card": false
     },
     {
@@ -763,7 +763,7 @@
         "price_old": 29.93,
         "discount": 0.37,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/abb7a4d15ff554a79c2c855910e44598.jpg",
-        "image_local": "data/images/profi/ursus_bere.jpg",
+        "image_local": "fixed_images_llama/profi/ursus_bere.jpg",
         "requires_card": false
     },
     {
@@ -776,7 +776,7 @@
         "price_old": 8.49,
         "discount": 0.47,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/4b35b53287a6cc3744594da9aba36bfd.jpg",
-        "image_local": "data/images/profi/olympus_ceai_de_munte_menta.jpg",
+        "image_local": "fixed_images_llama/profi/olympus_ceai_de_munte_menta.jpg",
         "requires_card": false
     },
     {
@@ -789,7 +789,7 @@
         "price_old": 8.99,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/9384d8bb39936df451541ca1f532d85f.jpg",
-        "image_local": "data/images/profi/ciao_tymbark_bautura_racoritoare_necarbonatata_piersici.jpg",
+        "image_local": "fixed_images_llama/profi/ciao_tymbark_bautura_racoritoare_necarbonatata_piersici.jpg",
         "requires_card": false
     },
     {
@@ -802,7 +802,7 @@
         "price_old": 8.99,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/9384d8bb39936df451541ca1f532d85f.jpg",
-        "image_local": "data/images/profi/ciao_tymbark_bautura_racoritoare_necarbonatata_multifruct.jpg",
+        "image_local": "fixed_images_llama/profi/ciao_tymbark_bautura_racoritoare_necarbonatata_multifruct.jpg",
         "requires_card": false
     },
     {
@@ -815,7 +815,7 @@
         "price_old": 8.99,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/9384d8bb39936df451541ca1f532d85f.jpg",
-        "image_local": "data/images/profi/ciao_tymbark_bautura_racoritoare_necarbonatata_portocale.jpg",
+        "image_local": "fixed_images_llama/profi/ciao_tymbark_bautura_racoritoare_necarbonatata_portocale.jpg",
         "requires_card": false
     },
     {
@@ -828,7 +828,7 @@
         "price_old": 29.93,
         "discount": 0.37,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/4a03a37530c13e33663c773844dbe52c.jpg",
-        "image_local": "data/images/profi/ursus_bere.jpg",
+        "image_local": "fixed_images_llama/profi/ursus_bere.jpg",
         "requires_card": false
     },
     {
@@ -841,7 +841,7 @@
         "price_old": 12.99,
         "discount": 0.23,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/6892cd193905571381797dca2e77639f.jpg",
-        "image_local": "data/images/profi/neumarkt_bere_pet.jpg",
+        "image_local": "fixed_images_llama/profi/neumarkt_bere_pet.jpg",
         "requires_card": true
     },
     {
@@ -854,7 +854,7 @@
         "price_old": 11.49,
         "discount": 0.39,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/3d23ce71608692cf9668f75fd407e4ed.jpg",
-        "image_local": "data/images/profi/pepsi_bautura_racoritoare_carbonatata_regular.jpg",
+        "image_local": "fixed_images_llama/profi/pepsi_bautura_racoritoare_carbonatata_regular.jpg",
         "requires_card": false
     },
     {
@@ -867,7 +867,7 @@
         "price_old": 77.59,
         "discount": 0.13,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/7bb297f9644dfe28236f1c518d0a5a24.jpg",
-        "image_local": "data/images/profi/absolut_vodca_40_vol.jpg",
+        "image_local": "fixed_images_llama/profi/absolut_vodca_40_vol.jpg",
         "requires_card": false
     },
     {
@@ -880,7 +880,7 @@
         "price_old": 4.79,
         "discount": 0.17,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/90d96c385bf021bba859553511a821f1.jpg",
-        "image_local": "data/images/profi/aqua_carpatica_apa_plata.jpg",
+        "image_local": "fixed_images_llama/profi/aqua_carpatica_apa_plata.jpg",
         "requires_card": false
     },
     {
@@ -893,7 +893,7 @@
         "price_old": 47.59,
         "discount": 0.22,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/bc6b748d5c725010fbe22e0d3351af77.jpg",
-        "image_local": "data/images/profi/metaxa_brandy_5_stele.jpg",
+        "image_local": "fixed_images_llama/profi/metaxa_brandy_5_stele.jpg",
         "requires_card": false
     },
     {
@@ -906,7 +906,7 @@
         "price_old": 22.93,
         "discount": 0.17,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/fa35e8d073aac1e00698afafd8b61b1e.jpg",
-        "image_local": "data/images/profi/ciuc_premium_bere.jpg",
+        "image_local": "fixed_images_llama/profi/ciuc_premium_bere.jpg",
         "requires_card": false
     },
     {
@@ -919,7 +919,7 @@
         "price_old": 96.99,
         "discount": 0.18,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/6527fe584490c8e1f8281fb48b0ddb5d.jpg",
-        "image_local": "data/images/profi/jameson_whiskey_irish_triple_distilled_40_vol.jpg",
+        "image_local": "fixed_images_llama/profi/jameson_whiskey_irish_triple_distilled_40_vol.jpg",
         "requires_card": false
     },
     {
@@ -932,7 +932,7 @@
         "price_old": 6.65,
         "discount": 0.25,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/2fd7631800a05c1a69cbd354515ca1bb.jpg",
-        "image_local": "data/images/profi/lfb_pasta_de_tomate_28.jpg",
+        "image_local": "fixed_images_llama/profi/lfb_pasta_de_tomate_28.jpg",
         "requires_card": false
     },
     {
@@ -945,7 +945,7 @@
         "price_old": 3.99,
         "discount": 0.25,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/5134c42d5d0f2a8a8186879a9d1f34fe.jpg",
-        "image_local": "data/images/profi/amata_fasole_boabe_alba_cannellini.jpg",
+        "image_local": "fixed_images_llama/profi/amata_fasole_boabe_alba_cannellini.jpg",
         "requires_card": false
     },
     {
@@ -958,7 +958,7 @@
         "price_old": 16.24,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/bb5439dfe902ec9c6e10be86b9685485.jpg",
-        "image_local": "data/images/profi/gradina_bunicii_ardei_capia_copti_decojiti_in_otet.jpg",
+        "image_local": "fixed_images_llama/profi/gradina_bunicii_ardei_capia_copti_decojiti_in_otet.jpg",
         "requires_card": false
     },
     {
@@ -971,7 +971,7 @@
         "price_old": 4.99,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/1773a0737dc5f3cf1fe765a436ac0f65.jpg",
-        "image_local": "data/images/profi/alex_dr_oetker_vopsea_60_oua_lichida.jpg",
+        "image_local": "fixed_images_llama/profi/alex_dr_oetker_vopsea_60_oua_lichida.jpg",
         "requires_card": false
     },
     {
@@ -984,7 +984,7 @@
         "price_old": 5.87,
         "discount": 0.15,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/9c937089cc1924698f48eee3d97b39f2.jpg",
-        "image_local": "data/images/profi/defne_masline_negre_ambalate.jpg",
+        "image_local": "fixed_images_llama/profi/defne_masline_negre_ambalate.jpg",
         "requires_card": false
     },
     {
@@ -997,7 +997,7 @@
         "price_old": 7.99,
         "discount": 0.13,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/4753fa8ffb342bfac6a65960c7d12987.jpg",
-        "image_local": "data/images/profi/marca_neidentificabila_varza_murata_ambalata.jpg",
+        "image_local": "fixed_images_llama/profi/marca_neidentificabila_varza_murata_ambalata.jpg",
         "requires_card": false
     },
     {
@@ -1010,7 +1010,7 @@
         "price_old": 37.29,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/86af721521fd53e45ed05b42c9d6a18b.jpg",
-        "image_local": "data/images/profi/theoni_olive_oils_ulei_de_masline_extravirgin.jpg",
+        "image_local": "fixed_images_llama/profi/theoni_olive_oils_ulei_de_masline_extravirgin.jpg",
         "requires_card": false
     },
     {
@@ -1023,7 +1023,7 @@
         "price_old": 11.99,
         "discount": 0.17,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/c408cba27da86afa16505ed69ba58bab.jpg",
-        "image_local": "data/images/profi/raureni_castraveti_in_otet_3_6_cm.jpg",
+        "image_local": "fixed_images_llama/profi/raureni_castraveti_in_otet_3_6_cm.jpg",
         "requires_card": true
     },
     {
@@ -1036,7 +1036,7 @@
         "price_old": 11.65,
         "discount": 0.23,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/82d5431a1cf519d8feb2027b2422f626.jpg",
-        "image_local": "data/images/profi/riso_scotti_orez_bob_cu_bob_mare.jpg",
+        "image_local": "fixed_images_llama/profi/riso_scotti_orez_bob_cu_bob_mare.jpg",
         "requires_card": false
     },
     {
@@ -1049,7 +1049,7 @@
         "price_old": 13.59,
         "discount": 0.19,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/75fb4f6fb6f03413bc439748778bb36a.jpg",
-        "image_local": "data/images/profi/nutline_intersnack_seminte_floarea_soarelui_albe_usor_sarate.jpg",
+        "image_local": "fixed_images_llama/profi/nutline_intersnack_seminte_floarea_soarelui_albe_usor_sarate.jpg",
         "requires_card": false
     },
     {
@@ -1062,7 +1062,7 @@
         "price_old": 17.95,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/d9c6e7851b9b68024d650d74947eb46e.jpg",
-        "image_local": "data/images/profi/unisol_ulei_floarea_soarelui.jpg",
+        "image_local": "fixed_images_llama/profi/unisol_ulei_floarea_soarelui.jpg",
         "requires_card": false
     },
     {
@@ -1075,7 +1075,7 @@
         "price_old": 9.49,
         "discount": 0.26,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/60aeb5cc650a24f4d3991cf83d6fe58b.jpg",
-        "image_local": "data/images/profi/home_garden_ciuperci_taiate.jpg",
+        "image_local": "fixed_images_llama/profi/home_garden_ciuperci_taiate.jpg",
         "requires_card": false
     },
     {
@@ -1088,7 +1088,7 @@
         "price_old": 11.89,
         "discount": 0.16,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/09305bf75c054ab849385aac3e5460a6.jpg",
-        "image_local": "data/images/profi/bonduelle_mazare.jpg",
+        "image_local": "fixed_images_llama/profi/bonduelle_mazare.jpg",
         "requires_card": false
     },
     {
@@ -1101,7 +1101,7 @@
         "price_old": 11.65,
         "discount": 0.19,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/11af941d6e185efaa08fc35333381cfa.jpg",
-        "image_local": "data/images/profi/mogyi_arahide_sarate.jpg",
+        "image_local": "fixed_images_llama/profi/mogyi_arahide_sarate.jpg",
         "requires_card": false
     },
     {
@@ -1114,7 +1114,7 @@
         "price_old": 8.69,
         "discount": 0.1,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/2801f7834a0041c1a1f8fbc50e0950c1.jpg",
-        "image_local": "data/images/profi/univer_hrean_in_otet.jpg",
+        "image_local": "fixed_images_llama/profi/univer_hrean_in_otet.jpg",
         "requires_card": false
     },
     {
@@ -1127,20 +1127,20 @@
         "price_old": 8.49,
         "discount": 0.25,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/a767907bcc81c4a44f04e81fc7c51ecd.jpg",
-        "image_local": "data/images/profi/tomi_ketchup_dulce.jpg",
+        "image_local": "fixed_images_llama/profi/tomi_ketchup_dulce.jpg",
         "requires_card": false
     },
     {
         "store": "Profi",
         "raw_name": "La minut Mustar iute",
         "name": "La minut Mustar iute",
-        "brand": "La minut",
+        "brand": "La Minut",
         "category": "Bacanie & Alimente de baza",
         "price_new": 4.59,
         "price_old": 5.74,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/905c18d780a20fb1f4589641bfb80406.jpg",
-        "image_local": "data/images/profi/la_minut_mustar_iute.jpg",
+        "image_local": "fixed_images_llama/profi/la_minut_mustar_iute.jpg",
         "requires_card": false
     },
     {
@@ -1153,7 +1153,7 @@
         "price_old": 5.09,
         "discount": 0.12,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/793df157c7146a6b1b4b5796c7e45660.jpg",
-        "image_local": "data/images/profi/masa_boiereasca_fasole_cu_carnati_afumati.jpg",
+        "image_local": "fixed_images_llama/profi/masa_boiereasca_fasole_cu_carnati_afumati.jpg",
         "requires_card": false
     },
     {
@@ -1166,7 +1166,7 @@
         "price_old": 4.09,
         "discount": 0.27,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/a9959529eef76808d05df4cf2b8125f7.jpg",
-        "image_local": "data/images/profi/gradina_bunicii_rosii_decojite_inregi.jpg",
+        "image_local": "fixed_images_llama/profi/gradina_bunicii_rosii_decojite_inregi.jpg",
         "requires_card": true
     },
     {
@@ -1179,33 +1179,33 @@
         "price_old": 9.89,
         "discount": 0.29,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/935640fd7fc019cb0bb4aff7ff182edf.jpg",
-        "image_local": "data/images/profi/krina_orez_camolino.jpg",
+        "image_local": "fixed_images_llama/profi/krina_orez_camolino.jpg",
         "requires_card": false
     },
     {
         "store": "Profi",
         "raw_name": "La minut Mustar dulce",
         "name": "La minut Mustar dulce",
-        "brand": "La minut",
+        "brand": "La Minut",
         "category": "Bacanie & Alimente de baza",
         "price_new": 4.59,
         "price_old": 5.74,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/905c18d780a20fb1f4589641bfb80406.jpg",
-        "image_local": "data/images/profi/la_minut_mustar_dulce.jpg",
+        "image_local": "fixed_images_llama/profi/la_minut_mustar_dulce.jpg",
         "requires_card": false
     },
     {
         "store": "Profi",
         "raw_name": "La minut Mustar de masa",
         "name": "La minut Mustar de masa",
-        "brand": "La minut",
+        "brand": "La Minut",
         "category": "Bacanie & Alimente de baza",
         "price_new": 4.59,
         "price_old": 5.74,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/905c18d780a20fb1f4589641bfb80406.jpg",
-        "image_local": "data/images/profi/la_minut_mustar_de_masa.jpg",
+        "image_local": "fixed_images_llama/profi/la_minut_mustar_de_masa.jpg",
         "requires_card": false
     },
     {
@@ -1218,7 +1218,7 @@
         "price_old": 7.49,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/13e68ef1a9f45d79377e131d71adf834.jpg",
-        "image_local": "data/images/profi/gradena_mazare_verde.jpg",
+        "image_local": "fixed_images_llama/profi/gradena_mazare_verde.jpg",
         "requires_card": false
     },
     {
@@ -1231,7 +1231,7 @@
         "price_old": 4.99,
         "discount": 0.1,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/faaf8cf25a89413a0c894d0b03231878.jpg",
-        "image_local": "data/images/profi/regal_otet_9_grade.jpg",
+        "image_local": "fixed_images_llama/profi/regal_otet_9_grade.jpg",
         "requires_card": false
     },
     {
@@ -1244,7 +1244,7 @@
         "price_old": 4.09,
         "discount": 0.27,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/a9959529eef76808d05df4cf2b8125f7.jpg",
-        "image_local": "data/images/profi/gradina_bunicii_rosii_decojite_cuburi.jpg",
+        "image_local": "fixed_images_llama/profi/gradina_bunicii_rosii_decojite_cuburi.jpg",
         "requires_card": false
     },
     {
@@ -1257,7 +1257,7 @@
         "price_old": 5.19,
         "discount": 0.25,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/d68eb97467676257f48c431547f1a518.jpg",
-        "image_local": "data/images/profi/diamant_zahar_zahar_brun_din_trestie.jpg",
+        "image_local": "fixed_images_llama/profi/diamant_zahar_zahar_brun_din_trestie.jpg",
         "requires_card": false
     },
     {
@@ -1270,7 +1270,7 @@
         "price_old": 11.65,
         "discount": 0.19,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/11af941d6e185efaa08fc35333381cfa.jpg",
-        "image_local": "data/images/profi/mogyi_arahide_nesarate.jpg",
+        "image_local": "fixed_images_llama/profi/mogyi_arahide_nesarate.jpg",
         "requires_card": false
     },
     {
@@ -1283,7 +1283,7 @@
         "price_old": 2.49,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/32c824ff503a7885a7919565df781dae.jpg",
-        "image_local": "data/images/profi/reeva_supa_instant_fidea_vita.jpg",
+        "image_local": "fixed_images_llama/profi/reeva_supa_instant_fidea_vita.jpg",
         "requires_card": false
     },
     {
@@ -1296,7 +1296,7 @@
         "price_old": 2.49,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/32c824ff503a7885a7919565df781dae.jpg",
-        "image_local": "data/images/profi/reeva_supa_instant_fidea_pui_picant.jpg",
+        "image_local": "fixed_images_llama/profi/reeva_supa_instant_fidea_pui_picant.jpg",
         "requires_card": false
     },
     {
@@ -1309,7 +1309,7 @@
         "price_old": 2.49,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/32c824ff503a7885a7919565df781dae.jpg",
-        "image_local": "data/images/profi/reeva_supa_instant_fidea_pui.jpg",
+        "image_local": "fixed_images_llama/profi/reeva_supa_instant_fidea_pui.jpg",
         "requires_card": false
     },
     {
@@ -1322,7 +1322,7 @@
         "price_old": 12.25,
         "discount": 0.27,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/9403653ba48a298656a88eae79bffbab.jpg",
-        "image_local": "data/images/profi/laura_praline_ciocolata_crema_alune.jpg",
+        "image_local": "fixed_images_llama/profi/laura_praline_ciocolata_crema_alune.jpg",
         "requires_card": true
     },
     {
@@ -1335,7 +1335,7 @@
         "price_old": 8.99,
         "discount": 0.33,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/9aa7ab341883be896dbd509529a2f151.jpg",
-        "image_local": "data/images/profi/lay_s_total_chipsuri_cascaval.jpg",
+        "image_local": "fixed_images_llama/profi/lay_s_total_chipsuri_cascaval.jpg",
         "requires_card": false
     },
     {
@@ -1348,7 +1348,7 @@
         "price_old": 5.59,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/e83c608a5ad9726e1de504fd7b239e27.jpg",
-        "image_local": "data/images/profi/kitbis_biscuiti_glazurati_portocale_ciocolata.jpg",
+        "image_local": "fixed_images_llama/profi/kitbis_biscuiti_glazurati_portocale_ciocolata.jpg",
         "requires_card": false
     },
     {
@@ -1361,7 +1361,7 @@
         "price_old": 1.19,
         "discount": 0.17,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/eb0193ec5bdd920671e9724ae8978a6d.jpg",
-        "image_local": "data/images/profi/nescafe_cafea_instant_3_in_1_strong.jpg",
+        "image_local": "fixed_images_llama/profi/nescafe_cafea_instant_3_in_1_strong.jpg",
         "requires_card": false
     },
     {
@@ -1374,7 +1374,7 @@
         "price_old": 5.59,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/e83c608a5ad9726e1de504fd7b239e27.jpg",
-        "image_local": "data/images/profi/kitbis_biscuiti_glazurati_zmeura_ciocolata.jpg",
+        "image_local": "fixed_images_llama/profi/kitbis_biscuiti_glazurati_zmeura_ciocolata.jpg",
         "requires_card": false
     },
     {
@@ -1387,7 +1387,7 @@
         "price_old": 5.59,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/e83c608a5ad9726e1de504fd7b239e27.jpg",
-        "image_local": "data/images/profi/kitbis_biscuiti_glazurati_capsuni_ciocolata.jpg",
+        "image_local": "fixed_images_llama/profi/kitbis_biscuiti_glazurati_capsuni_ciocolata.jpg",
         "requires_card": false
     },
     {
@@ -1400,7 +1400,7 @@
         "price_old": 18.99,
         "discount": 0.21,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/f4befea211dffdcddc84dec6475cae42.jpg",
-        "image_local": "data/images/profi/kandia_ciocolata_pentru_prajituri_cu_lapte.jpg",
+        "image_local": "fixed_images_llama/profi/kandia_ciocolata_pentru_prajituri_cu_lapte.jpg",
         "requires_card": false
     },
     {
@@ -1413,7 +1413,7 @@
         "price_old": 5.35,
         "discount": 0.16,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/ccc7b95cf84795473b14c9312191edf6.jpg",
-        "image_local": "data/images/profi/africana_ciocolata_arahide.jpg",
+        "image_local": "fixed_images_llama/profi/africana_ciocolata_arahide.jpg",
         "requires_card": false
     },
     {
@@ -1426,7 +1426,7 @@
         "price_old": 1.19,
         "discount": 0.17,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/5c289c03770718a7cb4c960020235a54.jpg",
-        "image_local": "data/images/profi/nescafe_cafea_instant_3_in_1_original.jpg",
+        "image_local": "fixed_images_llama/profi/nescafe_cafea_instant_3_in_1_original.jpg",
         "requires_card": false
     },
     {
@@ -1439,7 +1439,7 @@
         "price_old": 5.35,
         "discount": 0.16,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/ccc7b95cf84795473b14c9312191edf6.jpg",
-        "image_local": "data/images/profi/africana_ciocolata_arahide_stafide.jpg",
+        "image_local": "fixed_images_llama/profi/africana_ciocolata_arahide_stafide.jpg",
         "requires_card": false
     },
     {
@@ -1452,7 +1452,7 @@
         "price_old": 1.19,
         "discount": 0.17,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/eb0193ec5bdd920671e9724ae8978a6d.jpg",
-        "image_local": "data/images/profi/nescafe_cafea_instant_3_in_1_original.jpg",
+        "image_local": "fixed_images_llama/profi/nescafe_cafea_instant_3_in_1_original.jpg",
         "requires_card": false
     },
     {
@@ -1465,7 +1465,7 @@
         "price_old": 18.25,
         "discount": 0.29,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/c66951f636dd2b2b99009a9e84f9e0cc.jpg",
-        "image_local": "data/images/profi/eugenia_dobrogea_biscuiti_cu_multa_crema_cacao_original.jpg",
+        "image_local": "fixed_images_llama/profi/eugenia_dobrogea_biscuiti_cu_multa_crema_cacao_original.jpg",
         "requires_card": false
     },
     {
@@ -1478,7 +1478,7 @@
         "price_old": 11.55,
         "discount": 0.14,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/468df975dc1ff93b012ef0b4522cac70.jpg",
-        "image_local": "data/images/profi/milka_total_biscuiti_cookies_sensation_soft_inside_choco.jpg",
+        "image_local": "fixed_images_llama/profi/milka_total_biscuiti_cookies_sensation_soft_inside_choco.jpg",
         "requires_card": false
     },
     {
@@ -1491,7 +1491,7 @@
         "price_old": 4.39,
         "discount": 0.25,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/ee84574480bf3ae0664323b93054da54.jpg",
-        "image_local": "data/images/profi/smarties_drajeuri_de_ciocolata.jpg",
+        "image_local": "fixed_images_llama/profi/smarties_drajeuri_de_ciocolata.jpg",
         "requires_card": false
     },
     {
@@ -1504,7 +1504,7 @@
         "price_old": 11.55,
         "discount": 0.14,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/468df975dc1ff93b012ef0b4522cac70.jpg",
-        "image_local": "data/images/profi/milka_total_biscuiti_cookies_sensation_ciocolata_oreo.jpg",
+        "image_local": "fixed_images_llama/profi/milka_total_biscuiti_cookies_sensation_ciocolata_oreo.jpg",
         "requires_card": false
     },
     {
@@ -1517,7 +1517,7 @@
         "price_old": 9.15,
         "discount": 0.24,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/fd27cde850bab106cc554bcfa547c1b7.jpg",
-        "image_local": "data/images/profi/takis_tortilla_chips_fuego.jpg",
+        "image_local": "fixed_images_llama/profi/takis_tortilla_chips_fuego.jpg",
         "requires_card": false
     },
     {
@@ -1530,7 +1530,7 @@
         "price_old": 8.53,
         "discount": 0.15,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/5fc917eeacb224093abb73ee5d93dc85.jpg",
-        "image_local": "data/images/profi/rostar_biscuiti_petit_beurre.jpg",
+        "image_local": "fixed_images_llama/profi/rostar_biscuiti_petit_beurre.jpg",
         "requires_card": false
     },
     {
@@ -1543,7 +1543,7 @@
         "price_old": 18.99,
         "discount": 0.21,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/f4befea211dffdcddc84dec6475cae42.jpg",
-        "image_local": "data/images/profi/kandia_ciocolata_pentru_prajituri_50_cacao.jpg",
+        "image_local": "fixed_images_llama/profi/kandia_ciocolata_pentru_prajituri_50_cacao.jpg",
         "requires_card": false
     },
     {
@@ -1556,7 +1556,7 @@
         "price_old": 7.19,
         "discount": 0.17,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/1c56f15830a9f53215ab00e89a4ee74a.jpg",
-        "image_local": "data/images/profi/milka_total_biscuiti_glazurati_chocojaffa_chocolate_mousse.jpg",
+        "image_local": "fixed_images_llama/profi/milka_total_biscuiti_glazurati_chocojaffa_chocolate_mousse.jpg",
         "requires_card": false
     },
     {
@@ -1569,7 +1569,7 @@
         "price_old": 7.19,
         "discount": 0.17,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/1c56f15830a9f53215ab00e89a4ee74a.jpg",
-        "image_local": "data/images/profi/milka_total_biscuiti_glazurati_jeleu_zmeura_chocojaffa.jpg",
+        "image_local": "fixed_images_llama/profi/milka_total_biscuiti_glazurati_jeleu_zmeura_chocojaffa.jpg",
         "requires_card": false
     },
     {
@@ -1582,7 +1582,7 @@
         "price_old": 11.55,
         "discount": 0.14,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/468df975dc1ff93b012ef0b4522cac70.jpg",
-        "image_local": "data/images/profi/milka_total_biscuiti_cookies_sensation_ciocolata.jpg",
+        "image_local": "fixed_images_llama/profi/milka_total_biscuiti_cookies_sensation_ciocolata.jpg",
         "requires_card": false
     },
     {
@@ -1595,7 +1595,7 @@
         "price_old": 1.19,
         "discount": 0.17,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/5c289c03770718a7cb4c960020235a54.jpg",
-        "image_local": "data/images/profi/nescafe_cafea_instant_3_in_1_mild.jpg",
+        "image_local": "fixed_images_llama/profi/nescafe_cafea_instant_3_in_1_mild.jpg",
         "requires_card": true
     },
     {
@@ -1608,7 +1608,7 @@
         "price_old": 8.79,
         "discount": 0.23,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/7e38310879f4d0ca02bac207028dd5e3.jpg",
-        "image_local": "data/images/profi/joe_napolitane_crema_vanilie.jpg",
+        "image_local": "fixed_images_llama/profi/joe_napolitane_crema_vanilie.jpg",
         "requires_card": false
     },
     {
@@ -1621,7 +1621,7 @@
         "price_old": 22.19,
         "discount": 0.14,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/f46cbbcb19bd38ea5a7f833f742bbb8b.jpg",
-        "image_local": "data/images/profi/celebrations_bomboane_asortate.jpg",
+        "image_local": "fixed_images_llama/profi/celebrations_bomboane_asortate.jpg",
         "requires_card": false
     },
     {
@@ -1634,7 +1634,7 @@
         "price_old": 5.25,
         "discount": 0.24,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/710d82d2a31048ca580b31e9553d86c3.jpg",
-        "image_local": "data/images/profi/chio_sticks_stickletti_cartofi.jpg",
+        "image_local": "fixed_images_llama/profi/chio_sticks_stickletti_cartofi.jpg",
         "requires_card": false
     },
     {
@@ -1647,7 +1647,7 @@
         "price_old": 5.25,
         "discount": 0.24,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/710d82d2a31048ca580b31e9553d86c3.jpg",
-        "image_local": "data/images/profi/chio_sticks_stickletti_cascaval.jpg",
+        "image_local": "fixed_images_llama/profi/chio_sticks_stickletti_cascaval.jpg",
         "requires_card": false
     },
     {
@@ -1660,7 +1660,7 @@
         "price_old": 33.99,
         "discount": 0.21,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/d45fb7966df52a52673b36cbab3f282c.jpg",
-        "image_local": "data/images/profi/amaroy_cafea_macinata_classic.jpg",
+        "image_local": "fixed_images_llama/profi/amaroy_cafea_macinata_classic.jpg",
         "requires_card": true
     },
     {
@@ -1673,7 +1673,7 @@
         "price_old": 8.79,
         "discount": 0.23,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/7e38310879f4d0ca02bac207028dd5e3.jpg",
-        "image_local": "data/images/profi/joe_napolitane_crema_cacao.jpg",
+        "image_local": "fixed_images_llama/profi/joe_napolitane_crema_cacao.jpg",
         "requires_card": false
     },
     {
@@ -1686,7 +1686,7 @@
         "price_old": 13.99,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/c3a9755afe9b706ade8ee1bde4011ba2.jpg",
-        "image_local": "data/images/profi/kinder_dulciuri_paste_mini_mix.jpg",
+        "image_local": "fixed_images_llama/profi/kinder_dulciuri_paste_mini_mix.jpg",
         "requires_card": false
     },
     {
@@ -1699,7 +1699,7 @@
         "price_old": 8.85,
         "discount": 0.12,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/7a37424bcd2c189a24e5eb425e1bb1f3.jpg",
-        "image_local": "data/images/profi/splash_sampon_musetel.jpg",
+        "image_local": "fixed_images_llama/profi/splash_sampon_musetel.jpg",
         "requires_card": false
     },
     {
@@ -1712,7 +1712,7 @@
         "price_old": 8.85,
         "discount": 0.12,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/7a37424bcd2c189a24e5eb425e1bb1f3.jpg",
-        "image_local": "data/images/profi/splash_sampon_miere_lapte.jpg",
+        "image_local": "fixed_images_llama/profi/splash_sampon_miere_lapte.jpg",
         "requires_card": false
     },
     {
@@ -1725,7 +1725,7 @@
         "price_old": 22.55,
         "discount": 0.34,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/76271bdca39a46ae9edc646ca5c96aa1.jpg",
-        "image_local": "data/images/profi/colgate_pasta_dinti_total_anti_tartru.jpg",
+        "image_local": "fixed_images_llama/profi/colgate_pasta_dinti_total_anti_tartru.jpg",
         "requires_card": false
     },
     {
@@ -1738,7 +1738,7 @@
         "price_old": 25.75,
         "discount": 0.18,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/16cc9b7a281f837162abe62418435f58.jpg",
-        "image_local": "data/images/profi/discreet_absorbante_zilnice_waterlily_deo.jpg",
+        "image_local": "fixed_images_llama/profi/discreet_absorbante_zilnice_waterlily_deo.jpg",
         "requires_card": false
     },
     {
@@ -1751,7 +1751,7 @@
         "price_old": 7.39,
         "discount": 0.19,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/7233192bc1ec44eca2f7c4a260236451.jpg",
-        "image_local": "data/images/profi/pampers_servetele_umede_baby_fresh_clean.jpg",
+        "image_local": "fixed_images_llama/profi/pampers_servetele_umede_baby_fresh_clean.jpg",
         "requires_card": false
     },
     {
@@ -1764,7 +1764,7 @@
         "price_old": 27.45,
         "discount": 0.27,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/f6ecc883750550f5e8cfdcf290d80a9d.jpg",
-        "image_local": "data/images/profi/nivea_gel_de_dus_energy.jpg",
+        "image_local": "fixed_images_llama/profi/nivea_gel_de_dus_energy.jpg",
         "requires_card": false
     },
     {
@@ -1777,7 +1777,7 @@
         "price_old": 22.55,
         "discount": 0.34,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/76271bdca39a46ae9edc646ca5c96aa1.jpg",
-        "image_local": "data/images/profi/colgate_pasta_dinti_total_original.jpg",
+        "image_local": "fixed_images_llama/profi/colgate_pasta_dinti_total_original.jpg",
         "requires_card": false
     },
     {
@@ -1790,7 +1790,7 @@
         "price_old": 22.55,
         "discount": 0.34,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/76271bdca39a46ae9edc646ca5c96aa1.jpg",
-        "image_local": "data/images/profi/colgate_pasta_dinti_total_whitening.jpg",
+        "image_local": "fixed_images_llama/profi/colgate_pasta_dinti_total_whitening.jpg",
         "requires_card": false
     },
     {
@@ -1803,7 +1803,7 @@
         "price_old": 8.65,
         "discount": 0.19,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/1d7d4b6f767b9960759f99ef393ceb99.jpg",
-        "image_local": "data/images/profi/colgate_pasta_dinti_copii_smiles_3_5_ani.jpg",
+        "image_local": "fixed_images_llama/profi/colgate_pasta_dinti_copii_smiles_3_5_ani.jpg",
         "requires_card": false
     },
     {
@@ -1816,7 +1816,7 @@
         "price_old": 27.45,
         "discount": 0.27,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/f6ecc883750550f5e8cfdcf290d80a9d.jpg",
-        "image_local": "data/images/profi/nivea_gel_de_dus_pure_impact.jpg",
+        "image_local": "fixed_images_llama/profi/nivea_gel_de_dus_pure_impact.jpg",
         "requires_card": false
     },
     {
@@ -1829,7 +1829,7 @@
         "price_old": 8.65,
         "discount": 0.19,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/1d7d4b6f767b9960759f99ef393ceb99.jpg",
-        "image_local": "data/images/profi/colgate_pasta_dinti_copii_smiles_6_ani.jpg",
+        "image_local": "fixed_images_llama/profi/colgate_pasta_dinti_copii_smiles_6_ani.jpg",
         "requires_card": false
     },
     {
@@ -1842,7 +1842,7 @@
         "price_old": 18.25,
         "discount": 0.18,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/deb7a46e6b5054c3aa190edef227411e.jpg",
-        "image_local": "data/images/profi/nestle_biscuiti_junior.jpg",
+        "image_local": "fixed_images_llama/profi/nestle_biscuiti_junior.jpg",
         "requires_card": true
     },
     {
@@ -1855,7 +1855,7 @@
         "price_old": 135.99,
         "discount": 0.49,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/e7098f0c49f0f4749601048d6ac558db.jpg",
-        "image_local": "data/images/profi/ariel_detergent_automat_gel_capsule_all_in_1_pods_arctic_edition_color.jpg",
+        "image_local": "fixed_images_llama/profi/ariel_detergent_automat_gel_capsule_all_in_1_pods_arctic_edition_color.jpg",
         "requires_card": false
     },
     {
@@ -1868,7 +1868,7 @@
         "price_old": 5.69,
         "discount": 0.16,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/acb77746a568c3436b402be2f7630dbc.jpg",
-        "image_local": "data/images/profi/cassa_profi_detergent_vase_balsam.jpg",
+        "image_local": "fixed_images_llama/profi/cassa_profi_detergent_vase_balsam.jpg",
         "requires_card": false
     },
     {
@@ -1881,7 +1881,7 @@
         "price_old": 5.69,
         "discount": 0.16,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/acb77746a568c3436b402be2f7630dbc.jpg",
-        "image_local": "data/images/profi/cassa_profi_detergent_vase_lamaie.jpg",
+        "image_local": "fixed_images_llama/profi/cassa_profi_detergent_vase_lamaie.jpg",
         "requires_card": false
     },
     {
@@ -1894,7 +1894,7 @@
         "price_old": 5.69,
         "discount": 0.16,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/acb77746a568c3436b402be2f7630dbc.jpg",
-        "image_local": "data/images/profi/cassa_profi_detergent_vase_rodii.jpg",
+        "image_local": "fixed_images_llama/profi/cassa_profi_detergent_vase_rodii.jpg",
         "requires_card": true
     },
     {
@@ -1907,7 +1907,7 @@
         "price_old": 15.79,
         "discount": 0.37,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/2cdf38e627e623c97f8af39e5d4e1795.jpg",
-        "image_local": "data/images/profi/el_capitan_prosop_de_hartie_monorola_2_straturi.jpg",
+        "image_local": "fixed_images_llama/profi/el_capitan_prosop_de_hartie_monorola_2_straturi.jpg",
         "requires_card": true
     },
     {
@@ -1920,7 +1920,7 @@
         "price_old": 17.65,
         "discount": 0.26,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/04ce7ded86aca57b0b4674af586f5a27.jpg",
-        "image_local": "data/images/profi/domestos_dezinfectant_pentru_suprafete_atlantic_fresh.jpg",
+        "image_local": "fixed_images_llama/profi/domestos_dezinfectant_pentru_suprafete_atlantic_fresh.jpg",
         "requires_card": false
     },
     {
@@ -1933,20 +1933,20 @@
         "price_old": 29.19,
         "discount": 0.14,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/a5629b0d88465454f97d736b79bc6f4e.jpg",
-        "image_local": "data/images/profi/savex_detergent_automat_2_in_1_white.jpg",
+        "image_local": "fixed_images_llama/profi/savex_detergent_automat_2_in_1_white.jpg",
         "requires_card": false
     },
     {
         "store": "Profi",
         "raw_name": "Mr. proper Detergent lichid pentru suprafete lemon",
         "name": "Mr. proper Detergent lichid pentru suprafete",
-        "brand": "Mr. proper",
+        "brand": "Mr. Proper",
         "category": "Ingrijire & Curatenie",
         "price_new": 18.99,
         "price_old": 23.19,
         "discount": 0.18,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/332665a274b4c6c2e955d2bfb81481f2.jpg",
-        "image_local": "data/images/profi/mr_proper_detergent_lichid_pentru_suprafete_lemon.jpg",
+        "image_local": "fixed_images_llama/profi/mr_proper_detergent_lichid_pentru_suprafete_lemon.jpg",
         "requires_card": true
     },
     {
@@ -1959,7 +1959,7 @@
         "price_old": 17.65,
         "discount": 0.26,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/04ce7ded86aca57b0b4674af586f5a27.jpg",
-        "image_local": "data/images/profi/domestos_dezinfectant_pentru_suprafete_pine.jpg",
+        "image_local": "fixed_images_llama/profi/domestos_dezinfectant_pentru_suprafete_pine.jpg",
         "requires_card": false
     },
     {
@@ -1972,7 +1972,7 @@
         "price_old": 29.19,
         "discount": 0.14,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/a5629b0d88465454f97d736b79bc6f4e.jpg",
-        "image_local": "data/images/profi/savex_detergent_automat_2_in_1_fresh.jpg",
+        "image_local": "fixed_images_llama/profi/savex_detergent_automat_2_in_1_fresh.jpg",
         "requires_card": false
     },
     {
@@ -1985,7 +1985,7 @@
         "price_old": 12.45,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/5a9e7273af133db06ad709b4df320c20.jpg",
-        "image_local": "data/images/profi/clin_solutie_curatat_geamuri_lemon.jpg",
+        "image_local": "fixed_images_llama/profi/clin_solutie_curatat_geamuri_lemon.jpg",
         "requires_card": false
     },
     {
@@ -1998,7 +1998,7 @@
         "price_old": 133.99,
         "discount": 0.4,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/a414472bbb8ba26178cf70546dd33dd5.jpg",
-        "image_local": "data/images/profi/persil_detergent_automat_active_gel_deep_clean_universal.jpg",
+        "image_local": "fixed_images_llama/profi/persil_detergent_automat_active_gel_deep_clean_universal.jpg",
         "requires_card": false
     },
     {
@@ -2011,7 +2011,7 @@
         "price_old": 17.99,
         "discount": 0.28,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/7b6ddde911e901b506f08e51f0cf35d8.jpg",
-        "image_local": "data/images/profi/protex_sapun_lichid_antibacterian_fresh.jpg",
+        "image_local": "fixed_images_llama/profi/protex_sapun_lichid_antibacterian_fresh.jpg",
         "requires_card": false
     },
     {
@@ -2024,7 +2024,7 @@
         "price_old": 8.69,
         "discount": 0.12,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/ac0a71358ba08662c8bfa30559f51df5.jpg",
-        "image_local": "data/images/profi/sanobon_odorizant_wc_solid_5_in_1_purple_lavender.jpg",
+        "image_local": "fixed_images_llama/profi/sanobon_odorizant_wc_solid_5_in_1_purple_lavender.jpg",
         "requires_card": false
     },
     {
@@ -2037,7 +2037,7 @@
         "price_old": 20.79,
         "discount": 0.13,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/0ed9a556724a3349a867dfaa9b445bb6.jpg",
-        "image_local": "data/images/profi/sano_detergent_aragaz_spray_forte_plus.jpg",
+        "image_local": "fixed_images_llama/profi/sano_detergent_aragaz_spray_forte_plus.jpg",
         "requires_card": false
     },
     {
@@ -2050,7 +2050,7 @@
         "price_old": 13.99,
         "discount": 0.21,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/15c489feb992bfd95d7a730f5f605034.jpg",
-        "image_local": "data/images/profi/lowie_hartie_igienica_3_straturi_alb.jpg",
+        "image_local": "fixed_images_llama/profi/lowie_hartie_igienica_3_straturi_alb.jpg",
         "requires_card": false
     },
     {
@@ -2063,7 +2063,7 @@
         "price_old": 13.99,
         "discount": 0.21,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/15c489feb992bfd95d7a730f5f605034.jpg",
-        "image_local": "data/images/profi/lowie_hartie_igienica_3_straturi_piersica.jpg",
+        "image_local": "fixed_images_llama/profi/lowie_hartie_igienica_3_straturi_piersica.jpg",
         "requires_card": false
     },
     {
@@ -2076,7 +2076,7 @@
         "price_old": 13.99,
         "discount": 0.21,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/15c489feb992bfd95d7a730f5f605034.jpg",
-        "image_local": "data/images/profi/lowie_hartie_igienica_3_straturi_musetel.jpg",
+        "image_local": "fixed_images_llama/profi/lowie_hartie_igienica_3_straturi_musetel.jpg",
         "requires_card": false
     },
     {
@@ -2089,7 +2089,7 @@
         "price_old": 6.25,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/7211beba5ff50b58b1c2e1c8c8e27211.jpg",
-        "image_local": "data/images/profi/epack_pungi_alimentare_2_l.jpg",
+        "image_local": "fixed_images_llama/profi/epack_pungi_alimentare_2_l.jpg",
         "requires_card": false
     },
     {
@@ -2102,7 +2102,7 @@
         "price_old": 12.49,
         "discount": 0.28,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/dfd04ebc8104cfad97f214e9c0130afa.jpg",
-        "image_local": "data/images/profi/verdini_sosete_barbati.jpg",
+        "image_local": "fixed_images_llama/profi/verdini_sosete_barbati.jpg",
         "requires_card": false
     },
     {
@@ -2115,7 +2115,7 @@
         "price_old": 12.49,
         "discount": 0.28,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/dfd04ebc8104cfad97f214e9c0130afa.jpg",
-        "image_local": "data/images/profi/verdini_sosete_dama.jpg",
+        "image_local": "fixed_images_llama/profi/verdini_sosete_dama.jpg",
         "requires_card": false
     },
     {
@@ -2128,7 +2128,7 @@
         "price_old": 24.99,
         "discount": 0.12,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/30e5128602da7a8f6d3e0364cc3ad359.jpg",
-        "image_local": "data/images/profi/majorette_majorette_solido_jucarie_masina_curse_audi_r8_coupe.jpg",
+        "image_local": "fixed_images_llama/profi/majorette_majorette_solido_jucarie_masina_curse_audi_r8_coupe.jpg",
         "requires_card": false
     },
     {
@@ -2141,7 +2141,7 @@
         "price_old": 7.09,
         "discount": 0.16,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/b3b9c0755fe2d7a964ac19c89a82cd23.jpg",
-        "image_local": "data/images/profi/home_kitchen_folie_aluminiu.jpg",
+        "image_local": "fixed_images_llama/profi/home_kitchen_folie_aluminiu.jpg",
         "requires_card": false
     },
     {
@@ -2154,7 +2154,7 @@
         "price_old": 24.99,
         "discount": 0.2,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/e8979a6c847ee92395b5b59b7caa6523.jpg",
-        "image_local": "data/images/profi/chengyu_toys_jucarie_excavator_simulation_vehicle.jpg",
+        "image_local": "fixed_images_llama/profi/chengyu_toys_jucarie_excavator_simulation_vehicle.jpg",
         "requires_card": false
     },
     {
@@ -2167,7 +2167,7 @@
         "price_old": 14.99,
         "discount": 0.1,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/798076f685081e01d18f67106868a7d4.jpg",
-        "image_local": "data/images/profi/disney_mini_figurine_mystery.jpg",
+        "image_local": "fixed_images_llama/profi/disney_mini_figurine_mystery.jpg",
         "requires_card": false
     },
     {
@@ -2180,7 +2180,7 @@
         "price_old": 8.15,
         "discount": 0.14,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/135a2fc65feeae743f0de5d28d581ae9.jpg",
-        "image_local": "data/images/profi/epack_hartie_copt.jpg",
+        "image_local": "fixed_images_llama/profi/epack_hartie_copt.jpg",
         "requires_card": false
     },
     {
@@ -2193,7 +2193,7 @@
         "price_old": 33.59,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/c30b279c7baf44161f14695606470565.jpg",
-        "image_local": "data/images/profi/lovepet_hrana_uscata_caini_pasare_vita.jpg",
+        "image_local": "fixed_images_llama/profi/lovepet_hrana_uscata_caini_pasare_vita.jpg",
         "requires_card": false
     },
     {
@@ -2206,7 +2206,7 @@
         "price_old": 33.59,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/c30b279c7baf44161f14695606470565.jpg",
-        "image_local": "data/images/profi/hugo_dog_food_hrana_uscata_caini_adulti_vita.jpg",
+        "image_local": "fixed_images_llama/profi/hugo_dog_food_hrana_uscata_caini_adulti_vita.jpg",
         "requires_card": false
     },
     {
@@ -2219,7 +2219,7 @@
         "price_old": 33.59,
         "discount": 0.11,
         "image_url": "https://storage.googleapis.com/promoscore/pictures/ro/c30b279c7baf44161f14695606470565.jpg",
-        "image_local": "data/images/profi/proxi_hrana_uscata_caini_adult_pui_vita.jpg",
+        "image_local": "fixed_images_llama/profi/proxi_hrana_uscata_caini_adult_pui_vita.jpg",
         "requires_card": false
     }
 ]

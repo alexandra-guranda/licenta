@@ -1,20 +1,6 @@
-"""
-Sincronizare imagini produse — versiune curata.
-
-Probleme rezolvate fata de image_fix.py / rename_images.py:
-  1. Fisierele existente NU sunt de incredere (continut gresit din cauza
-     misalinierii regex din scraper) → re-descarca intotdeauna din image_url.
-  2. Valideaza continutul: header JPEG/PNG valid + minim 5 KB.
-  3. Descarcari paralele (ThreadPoolExecutor) — 10x mai rapid.
-  4. Actualizeaza image_local in JSON la calea corecta bazata pe raw_name.
-  5. Regenereaza REFINED_WEB_DATA.json la final.
-  6. --clean: sterge fisierele orfane (nu sunt referentiate in niciun JSON).
-  7. URL-uri expirate (404) → fallback la logo magazin.
-"""
 import json
 import logging
 import re
-import struct
 import sys
 import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -23,8 +9,8 @@ from pathlib import Path
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
 
-REFINED_DIR = Path("outputs/refined")
-IMAGE_BASE  = Path("outputs/data/images")
+REFINED_DIR = Path("outputs/refined_llama")
+IMAGE_BASE  = Path("outputs/fixed_images_llama")
 COMBINED    = REFINED_DIR / "REFINED_WEB_DATA.json"
 
 STORE_FILES = [
@@ -38,10 +24,9 @@ STORE_FILES = [
 ]
 
 HEADERS    = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
-MIN_BYTES  = 5_000   # sub 5 KB = placeholder / eroare CDN
+MIN_BYTES  = 5_000
 MAX_WORKERS = 12
 
-# Logo-uri fallback per magazin (cale relativa fata de outputs/)
 STORE_LOGOS = {
     "auchan":      "assets/logos/auchan.png",
     "lidl":        "assets/logos/lidl.png",
@@ -52,7 +37,6 @@ STORE_LOGOS = {
     "profi":       "assets/logos/profi.png",
 }
 
-
 def slugify(text: str) -> str:
     if not text:
         return "produs_fara_nume"
@@ -60,23 +44,17 @@ def slugify(text: str) -> str:
 
 
 def is_valid_image(data: bytes) -> bool:
-    """Verifica daca bytes-ii sunt un JPEG sau PNG real si nu un placeholder."""
     if len(data) < MIN_BYTES:
         return False
-    # JPEG incepe cu FF D8 FF
     if data[:3] == b"\xff\xd8\xff":
         return True
-    # PNG incepe cu 89 50 4E 47
     if data[:4] == b"\x89PNG":
         return True
-    # WebP: RIFF....WEBP
     if data[:4] == b"RIFF" and data[8:12] == b"WEBP":
         return True
     return False
 
-
 def download_and_validate(url: str, dest: Path) -> tuple[bool, str]:
-    """Descarca URL → dest. Returneaza (success, motiv_esec)."""
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
         if r.status_code != 200:
@@ -91,23 +69,19 @@ def download_and_validate(url: str, dest: Path) -> tuple[bool, str]:
 
 
 def build_correct_path(prod: dict) -> tuple[Path, str]:
-    """Calculeaza calea corecta pe disk si calea relativa pentru JSON."""
     store    = (prod.get("store") or "unknown").lower().replace(" ", "_")
     raw_name = prod.get("raw_name") or prod.get("name") or ""
     fname    = slugify(raw_name) + ".jpg"
-    rel      = f"data/images/{store}/{fname}"
+    rel      = f"fixed_images_llama/{store}/{fname}"
     return IMAGE_BASE / store / fname, rel
-
 
 def needs_download(dest: Path, force: bool) -> bool:
     if force:
         return True
     if not dest.exists():
         return True
-    # Fisier exista dar e prea mic (placeholder / corupt)
     if dest.stat().st_size < MIN_BYTES:
         return True
-    # Fisier exista dar continutul nu e imagine valida
     try:
         data = dest.read_bytes()
         if not is_valid_image(data):
@@ -118,8 +92,6 @@ def needs_download(dest: Path, force: bool) -> bool:
 
 
 def process_product(prod: dict, force: bool) -> str:
-    """Proceseaza un produs: verifica / descarca / actualizeaza image_local.
-    Returneaza statusul: 'ok' | 'skip' | 'download' | 'fail' | 'no_url'."""
     dest, rel = build_correct_path(prod)
 
     if not needs_download(dest, force):
@@ -137,7 +109,6 @@ def process_product(prod: dict, force: bool) -> str:
         return "download"
     else:
         log.debug("FAIL [%s]: %s | %s", prod.get("raw_name", "?")[:40], reason, url[:60])
-        # URL expirat sau invalid → fallback la logo magazin
         _apply_logo_fallback(prod)
         return "fail"
 
@@ -231,7 +202,6 @@ def main():
     log.info("TOTAL  skip=%-4d | descarcat=%-4d | esec=%-4d | fara_url=%-4d",
              total["skip"], total["download"], total["fail"], total["no_url"])
 
-    # Regeneram baza combinata
     all_products = []
     for fname in STORE_FILES:
         p = REFINED_DIR / fname

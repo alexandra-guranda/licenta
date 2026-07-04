@@ -1,17 +1,3 @@
-"""
-Compara datele refined OCR cu datele refined Web pentru aceleasi magazine.
-
-Metrici:
-  - Numar produse per sursa
-  - Acuratete nume si categorie (word-overlap + keyword rules)
-  - Acoperire discount
-  - Distributia categoriilor
-  - Produse comune gasite prin fuzzy matching (top similaritati)
-
-Utilizare:
-    python compare_ocr_web.py              # toate magazinele comune
-    python compare_ocr_web.py auchan       # doar auchan
-"""
 import json
 import re
 import sys
@@ -19,7 +5,8 @@ from pathlib import Path
 
 from thefuzz import fuzz
 
-REFINED_DIR = Path("outputs/refined")
+WEB_DIR = Path("outputs/refined_llama")
+OCR_DIR = Path("outputs/refined_llama_ocr")
 
 STORE_PAIRS = [
     ("refined_data_auchan.json",     "refined_ocr_auchan.json",     "Auchan"),
@@ -28,6 +15,7 @@ STORE_PAIRS = [
     ("refined_data_profi.json",      "refined_ocr_profi.json",      "Profi"),
     ("refined_data_carrefour.json",  "refined_ocr_carrefour.json",  "Carrefour"),
     ("refined_data_mega_image.json", "refined_ocr_mega_image.json", "Mega Image"),
+    ("refined_data_lidl.json",       "refined_ocr_lidl.json",       "Lidl"),
 ]
 
 VALID_CATS = {
@@ -64,13 +52,9 @@ CATEGORY_KEYWORDS = {
 STOP_WORDS = {"de", "si", "cu", "la", "pe", "a", "o", "al", "ale", "pentru",
               "din", "fara", "sau", "ori", "dar", "ci", "care"}
 
-
-# ─── helpers ───────────────────────────────────────────────────────────────────
-
 def significant_words(text: str) -> list[str]:
     return [w for w in re.findall(r"\w+", text.lower())
             if w not in STOP_WORDS and len(w) > 2]
-
 
 def name_ok(raw: str, name: str) -> bool:
     if not name or len(name.strip()) < 3:
@@ -82,7 +66,6 @@ def name_ok(raw: str, name: str) -> bool:
     matched = sum(1 for w in nw if w in raw_low)
     return (matched / len(nw)) >= 0.5
 
-
 def cat_ok(raw: str, cat: str) -> bool:
     if cat not in VALID_CATS:
         return False
@@ -93,18 +76,14 @@ def cat_ok(raw: str, cat: str) -> bool:
         if score > best_score:
             best_score, best = score, c
     if best_score == 0:
-        return True   # nu stim, nu penalizam
+        return True
     return best == cat
 
-
 def discount_pct(p: dict) -> float:
-    """Returneaza discountul ca procent (0-100) sau 0 daca lipseste."""
     d = float(p.get("discount") or 0)
     if d == 0:
         return 0.0
-    # stocat ca fractie (0..1) sau ca procent (1..100)?
     return round(d * 100, 1) if d <= 1.0 else round(d, 1)
-
 
 def stats(products: list[dict]) -> dict:
     total = len(products)
@@ -125,19 +104,12 @@ def stats(products: list[dict]) -> dict:
         "cat_dist":      dict(sorted(cat_dist.items(), key=lambda x: -x[1])),
     }
 
-
 MATCH_THRESHOLD = 72   # scor minim fuzzy pentru a considera doua produse "identice"
-
 
 def _score(a: str, b: str) -> int:
     return max(fuzz.token_set_ratio(a, b), fuzz.partial_ratio(a, b))
 
-
 def compute_overlap(src: list[dict], tgt: list[dict]) -> tuple[list[dict], list[dict]]:
-    """
-    Pentru fiecare produs din src, cauta cel mai bun match in tgt.
-    Returneaza (matched, unmatched) — listele de produse din src.
-    """
     tgt_names = [(p, p.get("raw_name", "").lower()) for p in tgt]
     matched, unmatched = [], []
 
@@ -159,9 +131,7 @@ def compute_overlap(src: list[dict], tgt: list[dict]) -> tuple[list[dict], list[
 
     return matched, unmatched
 
-
 def top_examples(matched: list[dict], n: int = 6) -> list[dict]:
-    """Sorteaza matched dupa scor si deduplica."""
     seen, unique = set(), []
     for m in sorted(matched, key=lambda x: -x["_match_score"]):
         key = m["_match_raw"]
@@ -170,14 +140,10 @@ def top_examples(matched: list[dict], n: int = 6) -> list[dict]:
             unique.append(m)
     return unique[:n]
 
-
-# ─── output ────────────────────────────────────────────────────────────────────
-
 def print_header(title: str) -> None:
     print(f"\n{'='*70}")
     print(f"  {title}")
     print(f"{'='*70}")
-
 
 def compare_store(store: str, web: list[dict], ocr: list[dict]) -> None:
     sw = stats(web)
@@ -185,10 +151,9 @@ def compare_store(store: str, web: list[dict], ocr: list[dict]) -> None:
 
     print_header(f"{store.upper()}")
 
-    # Overlap: web → ocr si ocr → web
     print(f"  Calcul overlap (poate dura cateva secunde)...", end="\r")
-    w_matched, w_only  = compute_overlap(web, ocr)   # web produse gasite in OCR
-    o_matched, o_only  = compute_overlap(ocr, web)   # ocr produse gasite in Web
+    w_matched, w_only  = compute_overlap(web, ocr)
+    o_matched, o_only  = compute_overlap(ocr, web)
 
     w_in_ocr_pct = round(len(w_matched) / len(web) * 100, 1) if web else 0
     o_in_web_pct = round(len(o_matched) / len(ocr) * 100, 1) if ocr else 0
@@ -203,7 +168,6 @@ def compare_store(store: str, web: list[dict], ocr: list[dict]) -> None:
     print(f"  {'Gasite si in cealalta sursa':<35} {len(w_matched):>7} ({w_in_ocr_pct}%) {len(o_matched):>4} ({o_in_web_pct}%)")
     print(f"  {'Doar in aceasta sursa':<35} {len(w_only):>10} {len(o_only):>10}")
 
-    # Distributia categoriilor
     print(f"\n  {'Categorie':<32} {'WEB':>6} {'OCR':>6}")
     print(f"  {'-'*46}")
     all_cats = sorted(set(list(sw["cat_dist"].keys()) + list(so["cat_dist"].keys())))
@@ -213,7 +177,6 @@ def compare_store(store: str, web: list[dict], ocr: list[dict]) -> None:
         flag = "  " if wc == 0 or oc == 0 else ("✓ " if abs(wc - oc) / max(wc, oc) < 0.5 else "△ ")
         print(f"  {flag}{cat:<30} {wc:>6} {oc:>6}")
 
-    # Exemple produse comune
     examples = top_examples(w_matched, n=6)
     if examples:
         print(f"\n  Exemple produse comune (scor >= {MATCH_THRESHOLD}):")
@@ -224,12 +187,10 @@ def compare_store(store: str, web: list[dict], ocr: list[dict]) -> None:
             print(f"  {m['_match_score']:>3}  {m['raw_name'][:35]:<36} {m['_match_raw'][:35]:<36} "
                   f"{cat_flag:>4}  {str(m.get('price_new') or ''):>6} {str(m['_match_price'] or ''):>6}")
 
-    # Exemple produse doar in web (fara corespondent in OCR)
     if w_only:
         print(f"\n  Exemple produse DOAR in WEB (fara corespondent OCR):")
         for p in w_only[:5]:
             print(f"    [{p.get('category','?')[:20]:<20}] {p.get('raw_name','')[:55]}")
-
 
 def main() -> None:
     store_filter = sys.argv[1].lower() if len(sys.argv) > 1 else None
@@ -243,13 +204,12 @@ def main() -> None:
         print(f"Niciun magazin gasit pentru filtrul: {store_filter}")
         return
 
-    # Sumar global
     total_web = total_ocr = 0
     name_web = name_ocr = cat_web = cat_ocr = disc_web = disc_ocr = 0
 
     for web_file, ocr_file, store in pairs:
-        wp = REFINED_DIR / web_file
-        op = REFINED_DIR / ocr_file
+        wp = WEB_DIR / web_file
+        op = OCR_DIR / ocr_file
         if not wp.exists() or not op.exists():
             print(f"[SKIP] {store}: fisier lipsa ({wp.name} sau {op.name})")
             continue
@@ -279,7 +239,6 @@ def main() -> None:
         print(f"  {'Acuratete categorie':<28} {round(cat_web/total_web*100,1):>9}% {round(cat_ocr/total_ocr*100,1):>9}%")
         print(f"  {'Cu discount':<28} {round(disc_web/total_web*100,1):>9}% {round(disc_ocr/total_ocr*100,1):>9}%")
         print()
-
 
 if __name__ == "__main__":
     main()

@@ -1,11 +1,4 @@
-"""
-Ruleaza toti colectorii + descarca imaginile.
-Detecteaza automat tokenul RSC din zgarcit.ro.
 
-Utilizare:
-    python collect_all.py              # toate magazinele
-    python collect_all.py penny lidl   # doar magazinele specificate
-"""
 import sys
 import re
 import requests
@@ -31,29 +24,22 @@ COLLECTORS = {
     "profi":      ("profi_collector",      "profi_precision_extractor"),
 }
 
-
 def get_rsc_token() -> str | None:
-    """Detecteaza tokenul RSC din prima pagina a zgarcit.ro."""
-    log.info("Detectare token RSC din zgarcit.ro...")
+    log.info("Detectare token RSC din zgarcit.ro: ")
     try:
-        # Prima cerere normala ca sa obtinem HTML-ul cu link-urile prefetch
         r = requests.get("https://zgarcit.ro/", headers={
             "User-Agent": HEADERS["User-Agent"],
         }, timeout=15)
-        # Tokenul apare in URL-uri de forma /_next/data/<token>/...
-        # sau ca parametru _rsc=<token> in script tags
         match = re.search(r'_rsc=([a-z0-9]+)', r.text)
         if match:
             token = match.group(1)
             log.info("Token RSC detectat automat: %s", token)
             return token
 
-        # Alternativ: incearca un request RSC si citeste redirectul
         r2 = requests.get(
             "https://zgarcit.ro/?providers=Penny&page=1&_rsc=test",
             headers=HEADERS, timeout=15, allow_redirects=False,
         )
-        # Site-ul poate returna tokenul corect in header sau body
         match2 = re.search(r'_rsc=([a-z0-9]+)', r2.headers.get("location", ""))
         if match2:
             token = match2.group(1)
@@ -64,9 +50,7 @@ def get_rsc_token() -> str | None:
         log.warning("Nu am putut detecta tokenul automat: %s", e)
     return None
 
-
 def verify_token(token: str) -> bool:
-    """Verifica daca tokenul functioneaza."""
     url = f"https://zgarcit.ro/?providers=Penny&page=1&_rsc={token}"
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
@@ -101,8 +85,6 @@ def run_collector(store: str, token: str) -> bool:
 
 def main():
     requested = [s.lower() for s in sys.argv[1:]] or list(COLLECTORS.keys())
-
-    # Detectare token
     token = get_rsc_token()
     if not token or not verify_token(token):
         log.error(
@@ -111,7 +93,6 @@ def main():
             "    copiaza parametrul _rsc= din primul request si ruleaza:\n"
             "    python collect_all.py --token <TOKEN_TAU>"
         )
-        # Verificam daca a fost dat manual
         for arg in sys.argv[1:]:
             if arg.startswith("--token="):
                 token = arg.split("=", 1)[1]
@@ -124,13 +105,11 @@ def main():
 
     log.info("Token activ: %s", token)
 
-    # Rulam colectorii
     stores = [s for s in requested if s in COLLECTORS]
     for store in stores:
         log.info("▶ Colectare %s...", store.upper())
         run_collector(store, token)
 
-    # Descarcam imaginile dupa colectare
     log.info("▶ Descarcare imagini (force)...")
     from image_sync import sync_store, STORE_FILES, COMBINED, REFINED_DIR
     import json
@@ -142,7 +121,6 @@ def main():
         if counts:
             log.info("  %s: descarcat=%d esec=%d", fname, counts.get("download", 0), counts.get("fail", 0))
 
-    # Regeneram baza combinata
     all_products = []
     for fname in STORE_FILES:
         p = REFINED_DIR / fname
@@ -152,7 +130,6 @@ def main():
     with open(COMBINED, "w", encoding="utf-8") as f:
         json.dump(all_products, f, indent=4, ensure_ascii=False)
     log.info("Gata! %d produse in %s", len(all_products), COMBINED)
-
 
 if __name__ == "__main__":
     main()

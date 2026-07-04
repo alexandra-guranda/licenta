@@ -84,7 +84,6 @@ export default function AIChatScreen() {
             style={styles.container}
             keyboardVerticalOffset={90}
         >
-            {/* Header */}
             <View style={styles.header}>
                 <TouchableOpacity style={styles.iconBtn} onPress={() => router.back()} activeOpacity={0.8}>
                     <ArrowLeft size={20} color={COLORS.navyDark} />
@@ -98,13 +97,11 @@ export default function AIChatScreen() {
                         <Text style={styles.headerStatus}>● Online acum</Text>
                     </View>
                 </View>
-                {/* X pentru a închide — navigă înapoi */}
                 <TouchableOpacity style={styles.iconBtn} onPress={() => router.back()} activeOpacity={0.8}>
                     <X size={18} color={COLORS.textLight} />
                 </TouchableOpacity>
             </View>
 
-            {/* Messages */}
             <FlatList
                 ref={flatListRef}
                 data={messages}

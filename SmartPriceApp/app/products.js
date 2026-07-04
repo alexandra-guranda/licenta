@@ -2,13 +2,11 @@ import React, { useEffect, useState, useRef } from 'react';
 import {
     View, Text, FlatList, Image, StyleSheet,
     ActivityIndicator, TouchableOpacity, StatusBar,
-    Animated, Dimensions, ScrollView,
+    Animated, ScrollView, useWindowDimensions,
 } from 'react-native';
 import { ChevronLeft, SlidersHorizontal, Tag, CreditCard } from 'lucide-react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { fetchProducts, fetchTopDeals, API_BASE } from '../src/services/api';
-
-const { width } = Dimensions.get('window');
 
 const COLORS = {
     navy:      '#1e3a5f',
@@ -24,12 +22,10 @@ const COLORS = {
     border:    '#e2e4ee',
 };
 
-const ALL_STORES    = ['Auchan', 'Kaufland', 'Penny', 'Profi', 'Carrefour', 'Mega Image', 'Lidl'];
-const SORT_OPTIONS  = ['Relevanță', 'Preț ↑', 'Preț ↓', 'Reducere'];
-const CARD_WIDTH    = (width - 48) / 2;
+const ALL_STORES   = ['Auchan', 'Kaufland', 'Penny', 'Profi', 'Carrefour', 'Mega Image', 'Lidl'];
+const SORT_OPTIONS = ['Relevanță', 'Preț ↑', 'Preț ↓', 'Reducere'];
 
-/* ── Product Card ──────────────────────────────────────── */
-function ProductCard({ item, index, onPress }) {
+function ProductCard({ item, index, onPress, cardWidth }) {
     const anim = useRef(new Animated.Value(0)).current;
     useEffect(() => {
         Animated.timing(anim, { toValue: 1, duration: 320, delay: Math.min(index * 60, 400), useNativeDriver: true }).start();
@@ -40,7 +36,7 @@ function ProductCard({ item, index, onPress }) {
         ? Math.round(((item.price_old - item.price_new) / item.price_old) * 100)
         : null;
     return (
-        <Animated.View style={[styles.card, { opacity: anim, transform: [{ translateY }] }]}>
+        <Animated.View style={[styles.card, { width: cardWidth }, { opacity: anim, transform: [{ translateY }] }]}>
             <TouchableOpacity onPress={onPress} activeOpacity={0.88} style={{ flex: 1 }}>
                 {discountPct && (
                     <View style={styles.discountBadge}>
@@ -52,11 +48,11 @@ function ProductCard({ item, index, onPress }) {
                     <View style={styles.cardBadge}><CreditCard size={10} color={COLORS.white} /></View>
                 )}
                 <View style={styles.imageWrapper}>
-                    <Image source={{ uri: (item.image_local && item.image_local !== 'null') ? `${API_BASE}/static/${item.image_local}` : item.image_url }} style={styles.image} resizeMode="contain" />
+                    <Image source={{ uri: item.image_url }} style={[styles.image, { width: cardWidth - 24 }]} resizeMode="contain" />
                 </View>
                 <View style={styles.cardBody}>
                     <View style={styles.storePill}><Text style={styles.storeText}>{item.store}</Text></View>
-                    <Text style={styles.productName} numberOfLines={2}>{item.name}</Text>
+                    <Text style={styles.productName} numberOfLines={3}>{item.name}</Text>
                     <View style={styles.priceRow}>
                         <Text style={styles.priceNew}>{item.price_new.toFixed(2)} lei</Text>
                         {hasDiscount && <Text style={styles.priceOld}>{item.price_old.toFixed(2)} lei</Text>}
@@ -67,16 +63,20 @@ function ProductCard({ item, index, onPress }) {
     );
 }
 
-/* ── Products Screen ───────────────────────────────────── */
 export default function ProductsScreen() {
+    const { width } = useWindowDimensions();
+    const cardWidth = (width - 48) / 2;
     const router = useRouter();
     const { category, store, deals } = useLocalSearchParams();
     const isDeals = deals === 'true';
 
     const [data, setData]           = useState({ products: [], count: 0 });
     const [loading, setLoading]     = useState(true);
+    const [loadingMore, setLoadingMore] = useState(false);
     const [activeSort, setActiveSort] = useState(0);
     const [storeFilter, setStoreFilter] = useState(store || null);
+    const pageRef = useRef(0);
+    const PAGE_SIZE = 100;
 
     const headerOpacity = useRef(new Animated.Value(0)).current;
     const headerSlide   = useRef(new Animated.Value(-20)).current;
@@ -86,14 +86,27 @@ export default function ProductsScreen() {
             Animated.timing(headerOpacity, { toValue: 1, duration: 400, useNativeDriver: true }),
             Animated.timing(headerSlide,   { toValue: 0, duration: 400, useNativeDriver: true }),
         ]).start();
+        pageRef.current = 0;
         setLoading(true);
         const loader = isDeals
             ? fetchTopDeals(500).then((products) => ({ products: products || [], count: (products || []).length }))
-            : fetchProducts(category, null, null);
+            : fetchProducts(category, null, null, 0, PAGE_SIZE);
         loader
             .then((res) => { setData(res); setLoading(false); })
             .catch(() => setLoading(false));
     }, [category, isDeals]);
+
+    const loadMore = () => {
+        if (loadingMore || isDeals || loading) return;
+        if (data.products.length >= data.count) return;
+        setLoadingMore(true);
+        const nextSkip = (pageRef.current + 1) * PAGE_SIZE;
+        fetchProducts(category, null, null, nextSkip, PAGE_SIZE).then((res) => {
+            pageRef.current += 1;
+            setData((prev) => ({ count: res.count, products: [...prev.products, ...(res.products || [])] }));
+            setLoadingMore(false);
+        }).catch(() => setLoadingMore(false));
+    };
 
     const storesInCategory = React.useMemo(() => {
         const present = new Set((data.products || []).map(p => p.store));
@@ -121,7 +134,6 @@ export default function ProductsScreen() {
         <View style={styles.container}>
             <StatusBar barStyle="light-content" backgroundColor={COLORS.navy} />
 
-            {/* ── Header ── */}
             <Animated.View style={[styles.header, { opacity: headerOpacity, transform: [{ translateY: headerSlide }] }]}>
                 <View style={styles.headerTop}>
                     <TouchableOpacity style={styles.backBtn} onPress={() => router.back()} activeOpacity={0.8}>
@@ -138,7 +150,6 @@ export default function ProductsScreen() {
                     </TouchableOpacity>
                 </View>
 
-                {/* Sort chips */}
                 <View style={styles.sortRow}>
                     {SORT_OPTIONS.map((opt, i) => (
                         <TouchableOpacity
@@ -152,7 +163,6 @@ export default function ProductsScreen() {
                     ))}
                 </View>
 
-                {/* Store filter chips */}
                 {!loading && storesInCategory.length > 1 && (
                     <ScrollView
                         horizontal
@@ -176,7 +186,6 @@ export default function ProductsScreen() {
                 )}
             </Animated.View>
 
-            {/* ── Content ── */}
             {loading ? (
                 <View style={styles.loaderWrap}>
                     <ActivityIndicator size="large" color={COLORS.navy} />
@@ -198,10 +207,14 @@ export default function ProductsScreen() {
                     columnWrapperStyle={styles.row}
                     contentContainerStyle={styles.listContent}
                     showsVerticalScrollIndicator={false}
+                    onEndReached={loadMore}
+                    onEndReachedThreshold={0.3}
+                    ListFooterComponent={loadingMore ? <ActivityIndicator color={COLORS.navy} style={{ marginVertical: 16 }} /> : null}
                     renderItem={({ item, index }) => (
                         <ProductCard
                             item={item}
                             index={index}
+                            cardWidth={cardWidth}
                             onPress={() => router.push({ pathname: '/product-details', params: { id: item.id } })}
                         />
                     )}
@@ -211,7 +224,6 @@ export default function ProductsScreen() {
     );
 }
 
-/* ── Styles ────────────────────────────────────────────── */
 const styles = StyleSheet.create({
     container: { flex: 1, backgroundColor: COLORS.bg },
 
@@ -244,20 +256,20 @@ const styles = StyleSheet.create({
     row: { gap: 16, marginBottom: 16 },
 
     card: {
-        width: CARD_WIDTH, backgroundColor: COLORS.white, borderRadius: 24,
+        backgroundColor: COLORS.white, borderRadius: 24,
         overflow: 'hidden', elevation: 5,
         shadowColor: '#000', shadowOpacity: 0.08, shadowRadius: 12,
         borderWidth: 1, borderColor: COLORS.border,
     },
     discountBadge:     { position: 'absolute', top: 12, left: 12, zIndex: 2, flexDirection: 'row', alignItems: 'center', backgroundColor: COLORS.red, paddingHorizontal: 8, paddingVertical: 4, borderRadius: 10, gap: 3 },
     discountBadgeText: { color: COLORS.white, fontSize: 11, fontWeight: '900' },
-    imageWrapper:      { width: '100%', height: 130, backgroundColor: '#fafafa', justifyContent: 'center', alignItems: 'center', padding: 12 },
-    image:             { width: '100%', height: '100%' },
+    imageWrapper:      { width: '100%', height: 130, backgroundColor: '#fafafa', justifyContent: 'center', alignItems: 'center' },
+    image:             { height: 106 },
     cardBody:          { padding: 12 },
     storePill:         { alignSelf: 'flex-start', backgroundColor: COLORS.navyLight, paddingHorizontal: 8, paddingVertical: 3, borderRadius: 8, marginBottom: 6 },
     storeText:         { fontSize: 10, fontWeight: '800', color: COLORS.navyDark, textTransform: 'uppercase', letterSpacing: 0.5 },
     cardBadge:         { position: 'absolute', top: 12, right: 12, zIndex: 2, backgroundColor: COLORS.navy, width: 22, height: 22, borderRadius: 6, justifyContent: 'center', alignItems: 'center' },
-    productName:       { fontSize: 13, fontWeight: '600', color: COLORS.textMid, lineHeight: 18, marginBottom: 8, minHeight: 36 },
+    productName:       { fontSize: 13, fontWeight: '600', color: COLORS.textMid, lineHeight: 18, marginBottom: 8, minHeight: 54 },
     priceRow:          { flexDirection: 'row', alignItems: 'flex-end', gap: 6, marginBottom: 10 },
     priceNew:          { fontSize: 17, fontWeight: '900', color: COLORS.red },
     priceOld:          { fontSize: 12, color: COLORS.textLight, textDecorationLine: 'line-through', marginBottom: 1 },

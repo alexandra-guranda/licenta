@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python *)"
+      "Bash(python *)",
+      "PowerShell(Get-ChildItem \"D:\\\\Licenta\\\\OCR-licenta\" | Where-Object { $_.Extension -eq \".py\" } | Select-Object Name)",
+      "Bash(python3 *)",
+      "PowerShell(Get-ChildItem \"D:\\\\Licenta\\\\OCR-licenta\\\\inputs\\\\\" | Where-Object { $_.Name -match \"lidl|Lidl\" } | Select-Object Name, Length, LastWriteTime)"
     ]
   }
 }

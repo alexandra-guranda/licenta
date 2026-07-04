@@ -1,14 +1,21 @@
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
+
+def strip_diacritics(text: str) -> str:
+    return "".join(
+        c for c in unicodedata.normalize("NFD", text)
+        if unicodedata.category(c) != "Mn"
+    )
+
 REFINED_DIR = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("outputs/refined_llama")
 
 CATEGORY_KEYWORDS = {
-    # Ordinea contează când scorurile sunt egale — primul câștigă.
     "Ingrijire & Curatenie": [
         "detergent", "balsam", "sampon", "șampon", "sapun", "săpun",
         "gel de dus", "deodorant", "pasta de dinti", "pasta de dinți",
@@ -17,7 +24,6 @@ CATEGORY_KEYWORDS = {
         "dezinfectant", "clor", "inalbitor", "înălbitor",
         "saci menajeri", "burete","absorbante"
     ],
-    # Panificatie ÎNAINTE de Carne/Lactate/Bauturi — strudel/foietaj cu ingrediente câștigă la egalitate
     "Panificatie & Dulciuri": [
         "paine", "pâine", "cozonac", "prajitura", "prăjitură", "tort",
         "gogoasa", "gogoașă", "croissant", "briosa", "brioșă", "cornuri",
@@ -47,7 +53,6 @@ CATEGORY_KEYWORDS = {
         "feta", "crema de branza", "cheddar", "parmezan", "emmental",
         "grana padano", "budinca", "frisca", "frișcă", "danonino",
     ],
-    # Bauturi ÎNAINTE de Legume — prinde sucuri cu fructe corect
     "Bauturi": [
         "apa", "suc", "vin", "bere", "limonada", "limonadă",
         "bautura", "băutură", "nectar", "smoothie", "energizant",
@@ -79,21 +84,15 @@ CATEGORY_KEYWORDS = {
         "chips", "chipsuri", "covrigei", "grisine", "stickletti",
         "migdale", "arahide", "nuci",
         "legume baza", "salata humus", "supa instant",
-        # conserve pește — crap/hering/macrou/ton doar aici, nu și în Carne
         "ton in", "ton bucati", "macrou in", "macrou sos", "hering in",
         "fasole boabe", "fasole alba", "fasole rosie", "mazare boabe",
         "ton la conserva",
         "macrou", "hering", "ton", "crap",
-        # ceai (aliment de baza, nu bautura)
         "ceai",
-        # legume conservate/murate — mai specific decat keyword-urile din Legume
         "in otet", "decojite", "rosii decojite", "vinete coapte", "coapte",
         "castraveti in otet", "ardei capia in otet",
-        # fasole/mazare preparata/conserva
         "fasole cu", "mazare",
-        # pate si produse tartinabile
         "pate", "pate de", "pasta vegetala",
-        # snacks cu branza (nu lactate)
         "sticks", "cu cascaval",
     ],
     "Casa & Diverse": [
@@ -112,9 +111,7 @@ NOISE_NAME_PATTERNS = [
     r"Cä'",
     r"\bCä\b",
 ]
-
 VALID_CATEGORIES = set(CATEGORY_KEYWORDS.keys()) | {"Necategorizat"}
-
 
 def normalize(text: str) -> str:
     return text.lower().strip()
@@ -123,10 +120,9 @@ def normalize(text: str) -> str:
 def _kw_match(kw: str, text: str) -> bool:
     return bool(re.search(r"\b" + re.escape(kw) + r"\b", text, re.IGNORECASE))
 
-
 def name_is_correct(raw_name: str, name: str) -> tuple[bool, str]:
-    raw_low = normalize(raw_name)
-    name_low = normalize(name)
+    raw_low  = strip_diacritics(normalize(raw_name))
+    name_low = strip_diacritics(normalize(name))
 
     for pattern in NOISE_NAME_PATTERNS:
         if re.search(pattern, name, re.IGNORECASE):
@@ -216,9 +212,9 @@ def evaluate_file(filepath: Path) -> dict:
         "store": store,
         "total": total,
         "name_correct": name_ok,
-        "name_accuracy": round(name_ok / total * 100, 1) if total else 0,
+        "name_accuracy": round(name_ok / total * 100, 2) if total else 0,
         "cat_correct": cat_ok,
-        "cat_accuracy": round(cat_ok / total * 100, 1) if total else 0,
+        "cat_accuracy": round(cat_ok / total * 100, 2) if total else 0,
         "name_errors": errors_name,
         "cat_errors": errors_cat,
     }
@@ -235,24 +231,24 @@ def main():
         result = evaluate_file(fp)
         all_results.append(result)
 
-    print("=" * 75)
-    print(f"{'Magazin':<18} {'Total':>6} {'Nume OK':>8} {'Acur. Nume':>12} {'Cat OK':>8} {'Acur. Cat':>11}")
-    print("=" * 75)
+    print("=" * 80)
+    print(f"{'Magazin':<18} {'Total':>6} {'Nume OK':>8} {'Acur. Nume':>13} {'Cat OK':>8} {'Acur. Cat':>12}")
+    print("=" * 80)
 
     total_all = name_all = cat_all = 0
     for r in all_results:
         print(
             f"{r['store']:<18} {r['total']:>6} {r['name_correct']:>8} "
-            f"{r['name_accuracy']:>10.1f}% {r['cat_correct']:>8} {r['cat_accuracy']:>10.1f}%"
+            f"{r['name_accuracy']:>11.2f}% {r['cat_correct']:>8} {r['cat_accuracy']:>10.2f}%"
         )
         total_all += r["total"]
         name_all += r["name_correct"]
         cat_all += r["cat_correct"]
 
-    print("=" * 75)
+    print("=" * 80)
     print(
         f"{'TOTAL':<18} {total_all:>6} {name_all:>8} "
-        f"{name_all/total_all*100:>10.1f}% {cat_all:>8} {cat_all/total_all*100:>10.1f}%"
+        f"{name_all/total_all*100:>11.2f}% {cat_all:>8} {cat_all/total_all*100:>10.2f}%"
     )
     print()
 

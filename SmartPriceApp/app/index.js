@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import {
     View, Text, ScrollView, TouchableOpacity, StyleSheet,
     Image, FlatList, ActivityIndicator, StatusBar,
-    Dimensions, Animated,
+    Animated, useWindowDimensions,
 } from 'react-native';
 import {
     ChevronRight, Beef, Apple, Milk, Leaf,
@@ -10,10 +10,7 @@ import {
     Bath, Home, Percent, Bell, Search, Tag,
 } from 'lucide-react-native';
 import { useRouter } from 'expo-router';
-import { fetchTopDeals, fetchProducts, API_BASE } from '../src/services/api';
-
-const { width } = Dimensions.get('window');
-const CARD_W = (width - 52) / 2;
+import { fetchTopDeals, fetchProducts, fetchCategories } from '../src/services/api';
 
 const COLORS = {
     navy:      '#1e3a5f',
@@ -41,7 +38,6 @@ const CATEGORII = [
     { name: 'Casa & Diverse',            icon: <Home    color="#64748b"       size={20}/>, bg: '#f8fafc', border: '#e2e8f0' },
 ];
 
-/* ── Deal Card ─────────────────────────────────────────── */
 function DealCard({ item, index, onPress }) {
     const anim = useRef(new Animated.Value(0)).current;
     useEffect(() => {
@@ -55,11 +51,11 @@ function DealCard({ item, index, onPress }) {
                     <Text style={styles.dealBadgeText}>-{Math.round(item.discount * 100)}%</Text>
                 </View>
                 <View style={styles.dealImageWrap}>
-                    <Image source={{ uri: (item.image_local && item.image_local !== 'null') ? `${API_BASE}/static/${item.image_local}` : item.image_url }} style={styles.dealImage} resizeMode="contain" />
+                    <Image source={{ uri: item.image_url }} style={styles.dealImage} resizeMode="contain" />
                 </View>
                 <View style={styles.dealBody}>
                     <View style={styles.dealStorePill}><Text style={styles.dealStoreText}>{item.store}</Text></View>
-                    <Text style={styles.dealName} numberOfLines={2}>{item.name}</Text>
+                    <Text style={styles.dealName} numberOfLines={3}>{item.name}</Text>
                     <View style={styles.dealPriceRow}>
                         <Text style={styles.dealPriceNew}>{item.price_new.toFixed(2)} lei</Text>
                         {item.price_old && <Text style={styles.dealPriceOld}>{item.price_old.toFixed(2)} lei</Text>}
@@ -70,14 +66,13 @@ function DealCard({ item, index, onPress }) {
     );
 }
 
-/* ── Small Product Card (inline grid) ─────────────────── */
-function SmallProductCard({ item, onPress }) {
+function SmallProductCard({ item, onPress, cardW }) {
     const hasDiscount = item.price_old && item.price_old > item.price_new;
     const discountPct = hasDiscount
         ? Math.round(((item.price_old - item.price_new) / item.price_old) * 100)
         : null;
     return (
-        <TouchableOpacity style={styles.smallCard} onPress={onPress} activeOpacity={0.88}>
+        <TouchableOpacity style={[styles.smallCard, { width: cardW }]} onPress={onPress} activeOpacity={0.88}>
             {discountPct && (
                 <View style={styles.smallBadge}>
                     <Tag size={9} color={COLORS.white} />
@@ -85,10 +80,10 @@ function SmallProductCard({ item, onPress }) {
                 </View>
             )}
             <View style={styles.smallImageWrap}>
-                <Image source={{ uri: (item.image_local && item.image_local !== 'null') ? `${API_BASE}/static/${item.image_local}` : item.image_url }} style={styles.smallImage} resizeMode="contain" />
+                <Image source={{ uri: item.image_url }} style={styles.smallImage} resizeMode="contain" />
             </View>
             <View style={styles.smallBody}>
-                <Text style={styles.smallName} numberOfLines={2}>{item.name}</Text>
+                <Text style={styles.smallName} numberOfLines={3}>{item.name}</Text>
                 <Text style={styles.smallPrice}>{item.price_new.toFixed(2)} lei</Text>
                 {hasDiscount && <Text style={styles.smallPriceOld}>{item.price_old.toFixed(2)} lei</Text>}
             </View>
@@ -96,8 +91,7 @@ function SmallProductCard({ item, onPress }) {
     );
 }
 
-/* ── Category Item ─────────────────────────────────────── */
-function CatItem({ cat, index, onPress }) {
+function CatItem({ cat, index, onPress, count }) {
     const anim = useRef(new Animated.Value(0)).current;
     useEffect(() => {
         Animated.timing(anim, { toValue: 1, duration: 300, delay: 200 + Math.min(index * 35, 500), useNativeDriver: true }).start();
@@ -110,7 +104,12 @@ function CatItem({ cat, index, onPress }) {
                     <View style={[styles.iconCircle, { backgroundColor: cat.bg, borderColor: cat.border }]}>
                         {cat.icon}
                     </View>
-                    <Text style={styles.catText}>{cat.name}</Text>
+                    <View style={{ flex: 1, marginLeft: 14 }}>
+                        <Text style={styles.catText}>{cat.name}</Text>
+                        {count !== undefined && (
+                            <Text style={styles.catCount}>{count} produse</Text>
+                        )}
+                    </View>
                 </View>
                 <View style={styles.catChevronWrap}>
                     <ChevronRight size={16} color={COLORS.navyDark} />
@@ -120,8 +119,9 @@ function CatItem({ cat, index, onPress }) {
     );
 }
 
-/* ── Home Screen ───────────────────────────────────────── */
 export default function HomeScreen() {
+    const { width } = useWindowDimensions();
+    const cardW = (width - 52) / 2;
     const router = useRouter();
     const [topDeals, setTopDeals]             = useState([]);
     const [loading, setLoading]               = useState(true);
@@ -129,6 +129,7 @@ export default function HomeScreen() {
     const [selectedCategory, setSelectedCategory] = useState(null);
     const [inlineProducts, setInlineProducts] = useState([]);
     const [inlineLoading, setInlineLoading]   = useState(false);
+    const [categoryCounts, setCategoryCounts] = useState({});
     const scrollY       = useRef(new Animated.Value(0)).current;
     const headerOpacity = useRef(new Animated.Value(0)).current;
     const headerSlide   = useRef(new Animated.Value(-10)).current;
@@ -141,6 +142,11 @@ export default function HomeScreen() {
         fetchTopDeals(20)
             .then(data => { setTopDeals([...data].sort((a, b) => (b.discount || 0) - (a.discount || 0))); setLoading(false); })
             .catch(() => setLoading(false));
+        fetchCategories().then(res => {
+            const map = {};
+            (res.categories || []).forEach(c => { map[c.name] = c.count; });
+            setCategoryCounts(map);
+        });
     }, []);
 
     useEffect(() => {
@@ -189,7 +195,6 @@ export default function HomeScreen() {
         <View style={styles.root}>
             <StatusBar barStyle="light-content" backgroundColor={COLORS.navy} />
 
-            {/* ── Collapsing Header ── */}
             <Animated.View style={[styles.header, { height: headerHeight, opacity: headerOpacity, transform: [{ translateY: headerSlide }] }]}>
                 <View style={styles.deco1} />
                 <View style={styles.deco2} />
@@ -213,7 +218,6 @@ export default function HomeScreen() {
                 </View>
             </Animated.View>
 
-            {/* ── Scrollable Content ── */}
             <Animated.ScrollView
                 style={styles.scroll}
                 showsVerticalScrollIndicator={false}
@@ -222,7 +226,6 @@ export default function HomeScreen() {
             >
                 <View style={{ height: 44 }} />
 
-                {/* ── Oferte de Neratat ── */}
                 <View style={styles.sectionRow}>
                     <View style={styles.sectionIconWrap}><Percent size={16} color={COLORS.red} /></View>
                     <Text style={styles.sectionTitle}>Oferte de Neratat</Text>
@@ -246,13 +249,12 @@ export default function HomeScreen() {
                             <DealCard
                                 item={item}
                                 index={index}
-                                onPress={() => router.push({ pathname: '/products', params: { category: item.category, store: '' } })}
+                                onPress={() => router.push({ pathname: '/product-details', params: { id: item.id } })}
                             />
                         )}
                     />
                 )}
 
-                {/* ── Magazine ── */}
                 <View style={[styles.sectionRow, { marginTop: 28 }]}>
                     <View style={[styles.sectionIconWrap, { backgroundColor: COLORS.navyLight }]}><Store size={16} color={COLORS.navy} /></View>
                     <Text style={styles.sectionTitle}>Magazine</Text>
@@ -277,7 +279,6 @@ export default function HomeScreen() {
                     }}
                 />
 
-                {/* ── Categorii ── */}
                 <View style={[styles.sectionRow, { marginTop: 28 }]}>
                     <View style={[styles.sectionIconWrap, { backgroundColor: COLORS.navyLight }]}><Leaf size={16} color={COLORS.navy} /></View>
                     <Text style={styles.sectionTitle}>Categorii</Text>
@@ -310,12 +311,11 @@ export default function HomeScreen() {
                 ) : (
                     <View style={styles.catCard}>
                         {CATEGORII.map((cat, index) => (
-                            <CatItem key={index} cat={cat} index={index} onPress={() => handleCategorySelect(cat.name)} />
+                            <CatItem key={index} cat={cat} index={index} count={categoryCounts[cat.name]} onPress={() => handleCategorySelect(cat.name)} />
                         ))}
                     </View>
                 )}
 
-                {/* ── Produse inline (magazin + categorie selectate) ── */}
                 {selectedStore && selectedCategory && (
                     <View style={styles.inlineSection}>
                         <View style={styles.inlineHeader}>
@@ -345,6 +345,7 @@ export default function HomeScreen() {
                                     <SmallProductCard
                                         key={i}
                                         item={item}
+                                        cardW={cardW}
                                         onPress={() => router.push({ pathname: '/product-details', params: { id: item.id } })}
                                     />
                                 ))}
@@ -359,7 +360,6 @@ export default function HomeScreen() {
     );
 }
 
-/* ── Styles ────────────────────────────────────────────── */
 const styles = StyleSheet.create({
     root:   { flex: 1, backgroundColor: COLORS.bg },
     scroll: { flex: 1, marginTop: -28 },
@@ -395,8 +395,8 @@ const styles = StyleSheet.create({
     dealCard:      { backgroundColor: COLORS.white, width: 176, borderRadius: 28, marginRight: 14, overflow: 'hidden', elevation: 7, shadowColor: '#000', shadowOpacity: 0.09, shadowRadius: 14, borderWidth: 1, borderColor: COLORS.border },
     dealBadge:     { position: 'absolute', top: 12, left: 12, zIndex: 2, backgroundColor: COLORS.red, paddingHorizontal: 10, paddingVertical: 5, borderRadius: 12 },
     dealBadgeText: { color: COLORS.white, fontSize: 12, fontWeight: '900' },
-    dealImageWrap: { width: '100%', height: 120, backgroundColor: '#fafafa', justifyContent: 'center', alignItems: 'center', padding: 10 },
-    dealImage:     { width: '100%', height: '100%' },
+    dealImageWrap: { width: '100%', height: 120, backgroundColor: '#fafafa', justifyContent: 'center', alignItems: 'center' },
+    dealImage:     { width: 150, height: 100 },
     dealBody:      { padding: 12 },
     dealStorePill: { alignSelf: 'flex-start', backgroundColor: COLORS.navyLight, paddingHorizontal: 8, paddingVertical: 3, borderRadius: 8, marginBottom: 6 },
     dealStoreText: { fontSize: 10, fontWeight: '800', color: COLORS.navyDark, textTransform: 'uppercase', letterSpacing: 0.5 },
@@ -409,7 +409,8 @@ const styles = StyleSheet.create({
     catItem:        { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingHorizontal: 18, paddingVertical: 14, borderBottomWidth: 1, borderBottomColor: '#F1F5F9' },
     catLeft:        { flexDirection: 'row', alignItems: 'center', flex: 1 },
     iconCircle:     { width: 44, height: 44, borderRadius: 14, justifyContent: 'center', alignItems: 'center', borderWidth: 1 },
-    catText:        { marginLeft: 14, fontSize: 15, fontWeight: '700', color: COLORS.textDark, flex: 1 },
+    catText:        { fontSize: 15, fontWeight: '700', color: COLORS.textDark },
+    catCount:       { fontSize: 12, fontWeight: '500', color: COLORS.textLight, marginTop: 1 },
     catChevronWrap: { width: 28, height: 28, borderRadius: 9, backgroundColor: COLORS.navyLight, justifyContent: 'center', alignItems: 'center' },
 
     loaderWrap: { paddingVertical: 36, alignItems: 'center', gap: 10 },
@@ -426,7 +427,7 @@ const styles = StyleSheet.create({
     inlineTitle:   { fontSize: 17, fontWeight: '800', color: COLORS.textDark, flex: 1, letterSpacing: -0.3 },
     inlineGrid:    { flexDirection: 'row', flexWrap: 'wrap', gap: 12 },
 
-    smallCard:      { width: CARD_W, backgroundColor: COLORS.white, borderRadius: 20, overflow: 'hidden', elevation: 4, shadowColor: '#000', shadowOpacity: 0.07, shadowRadius: 10, borderWidth: 1, borderColor: COLORS.border },
+    smallCard:      { backgroundColor: COLORS.white, borderRadius: 20, overflow: 'hidden', elevation: 4, shadowColor: '#000', shadowOpacity: 0.07, shadowRadius: 10, borderWidth: 1, borderColor: COLORS.border },
     smallBadge:     { position: 'absolute', top: 8, left: 8, zIndex: 2, flexDirection: 'row', alignItems: 'center', backgroundColor: COLORS.red, paddingHorizontal: 6, paddingVertical: 3, borderRadius: 8, gap: 2 },
     smallBadgeText: { color: COLORS.white, fontSize: 10, fontWeight: '900' },
     smallImageWrap: { width: '100%', height: 110, backgroundColor: '#fafafa', justifyContent: 'center', alignItems: 'center', padding: 10 },

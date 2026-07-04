@@ -1,12 +1,8 @@
-"""
-Re-aplica fix_item (fara AI) pe datele refined existente.
-Folosit dupa imbunatatiri ale regulilor din reparator.py.
-"""
 import json
 import logging
 from pathlib import Path
 import ftfy
-from reparator import fix_item, VALID_CATEGORIES
+from web_refiner import fix_item, VALID_CATEGORIES
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger(__name__)
@@ -26,16 +22,13 @@ STORE_FILES = [
 
 TEXT_FIELDS = ("name", "raw_name", "brand", "category")
 
-
 def fix_encoding(item: dict) -> dict:
-    """Apply ftfy to all text fields to fix double-encoded UTF-8 garbling."""
     out = dict(item)
     for field in TEXT_FIELDS:
         val = out.get(field)
         if isinstance(val, str) and val:
             out[field] = ftfy.fix_text(val)
     return out
-
 
 def refix_file(path: Path) -> list[dict]:
     enc = "utf-8" if "lidl" in path.name else "cp1252"
@@ -59,7 +52,6 @@ def refix_file(path: Path) -> list[dict]:
 
     return fixed_data
 
-
 def main():
     all_products = []
     for fname in STORE_FILES:
@@ -80,7 +72,6 @@ def main():
     with open(COMBINED_OUT, "w", encoding="utf-8") as f:
         json.dump(all_products, f, indent=4, ensure_ascii=False)
     log.info("Salvat → %s (%d produse)", COMBINED_OUT, len(all_products))
-
 
 if __name__ == "__main__":
     main()

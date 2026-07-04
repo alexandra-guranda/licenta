@@ -1,10 +1,3 @@
-"""
-Incarca magazinele si produsele in Supabase.
-Ruleaza dupa build_db.py ori de cate ori datele se schimba.
-
-Utilizare:
-    python upload_supabase.py
-"""
 import json
 import os
 import sys
@@ -19,7 +12,7 @@ load_dotenv()
 
 SUPABASE_URL = os.environ["SUPABASE_URL"]
 SUPABASE_KEY = os.environ["SUPABASE_KEY"]
-DB_PATH      = Path("outputs/refined/REFINED_WEB_DATA.json")
+DB_PATH      = Path("outputs/refined_llama/REFINED_WEB_DATA.json")
 BATCH_SIZE   = 500
 
 LOGOS_DIR    = Path("assets/logos")
@@ -36,16 +29,13 @@ STORES = [
 ]
 
 STORE_ID_MAP = {s["name"].lower(): s["id"] for s in STORES}
-# variante alternative pentru matching
 STORE_ID_MAP.update({
     "mega image": 6,
     "mega_image": 6,
 })
 
-
 def get_store_id(store_name: str) -> int | None:
     return STORE_ID_MAP.get((store_name or "").lower().strip())
-
 
 def clean_product(product: dict, idx: int) -> dict:
     return {
@@ -64,7 +54,6 @@ def clean_product(product: dict, idx: int) -> dict:
         "requires_card": bool(product.get("requires_card", False)),
     }
 
-
 def main():
     if not DB_PATH.exists():
         print(f"Fisier lipsa: {DB_PATH}. Ruleaza mai intai: python build_db.py")
@@ -76,8 +65,8 @@ def main():
     print(f"Produse de incarcat: {len(products)}")
     client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-    # ── 1. Magazine + logo-uri ────────────────────────────────────────────────
     print("\n[1/2] Incarc magazinele si logo-urile...")
+    client.table("products").delete().gte("id", 0).execute()
     client.table("stores").delete().gte("id", 0).execute()
 
     stores_rows = []
@@ -88,7 +77,6 @@ def main():
             dest = s["file"]
             with open(logo_path, "rb") as f:
                 data = f.read()
-            # suprascrie daca exista deja
             try:
                 client.storage.from_(LOGO_BUCKET).remove([dest])
             except Exception:
@@ -103,14 +91,11 @@ def main():
     client.table("stores").insert(stores_rows).execute()
     print(f"  {len(stores_rows)} magazine incarcate.")
 
-    # ── 2. Produse ───────────────────────────────────────────────────────────
     print("\n[2/2] Incarc produsele...")
-    client.table("products").delete().gte("id", 0).execute()
 
     rows = [clean_product(p, i) for i, p in enumerate(products)]
     total = len(rows)
 
-    # Verifica produse fara store_id (magazin necunoscut)
     fara_store = [r for r in rows if r["store_id"] is None]
     if fara_store:
         magazine_necunoscute = {r["store"] for r in fara_store}
@@ -125,7 +110,6 @@ def main():
 
     print(f"\n  {total} produse incarcate.")
     print(f"\nGata! Supabase actualizat cu {len(STORES)} magazine si {total} produse.")
-
 
 if __name__ == "__main__":
     main()
