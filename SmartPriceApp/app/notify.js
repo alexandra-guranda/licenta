@@ -64,7 +64,6 @@ export default function NotifyScreen() {
         >
             <StatusBar barStyle="light-content" backgroundColor={COLORS.navy} />
 
-            {/* Header */}
             <View style={styles.header}>
                 <TouchableOpacity style={styles.backBtn} onPress={() => router.back()} activeOpacity={0.8}>
                     <ArrowLeft size={20} color={COLORS.white} />
@@ -75,7 +74,6 @@ export default function NotifyScreen() {
 
             <View style={styles.body}>
                 {success ? (
-                    /* ── Stare succes ── */
                     <View style={styles.successCard}>
                         <View style={styles.successIcon}>
                             <CheckCircle size={48} color={COLORS.green} />
@@ -90,7 +88,6 @@ export default function NotifyScreen() {
                         </TouchableOpacity>
                     </View>
                 ) : (
-                    /* ── Formular ── */
                     <>
                         <View style={styles.iconWrap}>
                             <Bell size={36} color={COLORS.gold} />

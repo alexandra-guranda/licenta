@@ -156,7 +156,6 @@ def name_is_correct(raw_name: str, name: str) -> tuple[bool, str]:
 
     return True, "ok"
 
-
 def category_is_correct(raw_name: str, category: str) -> tuple[bool, str]:
     if category not in VALID_CATEGORIES:
         return False, f"unknown category: '{category}'"

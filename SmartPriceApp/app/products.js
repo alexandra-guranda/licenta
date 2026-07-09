@@ -81,6 +81,12 @@ export default function ProductsScreen() {
     const headerOpacity = useRef(new Animated.Value(0)).current;
     const headerSlide   = useRef(new Animated.Value(-20)).current;
 
+    const singleStore = storeFilters.length === 1 ? storeFilters[0] : null;
+
+    useEffect(() => {
+        setStoreFilters(store ? store.split(',').filter(Boolean) : []);
+    }, [store]);
+
     useEffect(() => {
         Animated.parallel([
             Animated.timing(headerOpacity, { toValue: 1, duration: 400, useNativeDriver: true }),
@@ -90,18 +96,18 @@ export default function ProductsScreen() {
         setLoading(true);
         const loader = isDeals
             ? fetchTopDeals(500).then((products) => ({ products: products || [], count: (products || []).length }))
-            : fetchProducts(category, null, null, 0, PAGE_SIZE);
+            : fetchProducts(category, null, singleStore, 0, PAGE_SIZE);
         loader
             .then((res) => { setData(res); setLoading(false); })
             .catch(() => setLoading(false));
-    }, [category, isDeals]);
+    }, [category, isDeals, singleStore]);
 
     const loadMore = () => {
         if (loadingMore || isDeals || loading) return;
         if (data.products.length >= data.count) return;
         setLoadingMore(true);
         const nextSkip = (pageRef.current + 1) * PAGE_SIZE;
-        fetchProducts(category, null, null, nextSkip, PAGE_SIZE).then((res) => {
+        fetchProducts(category, null, singleStore, nextSkip, PAGE_SIZE).then((res) => {
             pageRef.current += 1;
             setData((prev) => ({ count: res.count, products: [...prev.products, ...(res.products || [])] }));
             setLoadingMore(false);
@@ -146,7 +152,9 @@ export default function ProductsScreen() {
                     <View style={styles.headerTitleWrap}>
                         <Text style={styles.headerTitle} numberOfLines={1}>{isDeals ? 'Oferte de Neratat' : (category || 'Produse')}</Text>
                         {!loading && (
-                            <Text style={styles.headerCount}>{displayedProducts.length} produse</Text>
+                            <Text style={styles.headerCount}>
+                                {storeFilters.length > 1 ? displayedProducts.length : data.count} produse
+                            </Text>
                         )}
                     </View>
                     <TouchableOpacity style={styles.filterBtn} activeOpacity={0.8}>

@@ -148,7 +148,6 @@ def sync_store(fname: str, force: bool) -> dict:
 
 
 def clean_orphans() -> int:
-    """Sterge imaginile de pe disk care nu sunt referentiate in niciun JSON refined."""
     referenced: set[Path] = set()
     for fname in STORE_FILES:
         p = REFINED_DIR / fname
@@ -168,7 +167,6 @@ def clean_orphans() -> int:
 
     log.info("--clean: %d fisiere orfane sterse.", deleted)
     return deleted
-
 
 def main():
     force   = "--force" in sys.argv

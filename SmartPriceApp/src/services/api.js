@@ -35,6 +35,17 @@ export const fetchCategories = async () => {
     }
 };
 
+export const fetchStores = async () => {
+    try {
+        const response = await fetch(`${API_BASE}/stores`);
+        const data = await response.json();
+        return data.stores || [];
+    } catch (error) {
+        console.error("API Error Stores:", error);
+        return [];
+    }
+};
+
 export const fetchProduct = async (id) => {
     try {
         const response = await fetch(`${API_BASE}/products/${id}`);
@@ -66,6 +77,16 @@ export const compareProduct = async (name) => {
     } catch (error) {
         console.error("API Error Compare:", error);
         return [];
+    }
+};
+
+export const reloadDatabase = async () => {
+    try {
+        const response = await fetch(`${API_BASE}/reload`, { method: 'POST' });
+        return await response.json();
+    } catch (error) {
+        console.error("API Error Reload:", error);
+        return null;
     }
 };
 

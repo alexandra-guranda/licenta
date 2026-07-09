@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 import { Search, X, ArrowLeft, Clock, ShoppingBag } from 'lucide-react-native';
 import { useRouter } from 'expo-router';
-import { searchProducts, API_BASE } from '../src/services/api';
+import { searchProducts } from '../src/services/api';
 
 const COLORS = {
     navy:      '#1e3a5f',

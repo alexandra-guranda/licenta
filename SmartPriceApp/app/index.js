@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useRef } from 'react';
 import {
-    View, Text, ScrollView, TouchableOpacity, StyleSheet,
+    View, Text, TouchableOpacity, StyleSheet,
     Image, FlatList, ActivityIndicator, StatusBar,
-    Animated, useWindowDimensions,
+    Animated, useWindowDimensions, RefreshControl,
 } from 'react-native';
 import {
     ChevronRight, Beef, Apple, Milk, Leaf,
@@ -10,7 +10,7 @@ import {
     Bath, Home, Percent, Bell, Search, Tag,
 } from 'lucide-react-native';
 import { useRouter } from 'expo-router';
-import { fetchTopDeals, fetchProducts, fetchCategories } from '../src/services/api';
+import { fetchTopDeals, fetchProducts, fetchCategories, reloadDatabase } from '../src/services/api';
 
 const COLORS = {
     navy:      '#1e3a5f',
@@ -130,24 +130,41 @@ export default function HomeScreen() {
     const [inlineProducts, setInlineProducts] = useState([]);
     const [inlineLoading, setInlineLoading]   = useState(false);
     const [categoryCounts, setCategoryCounts] = useState({});
+    const [refreshing, setRefreshing]         = useState(false);
     const scrollY       = useRef(new Animated.Value(0)).current;
     const headerOpacity = useRef(new Animated.Value(0)).current;
     const headerSlide   = useRef(new Animated.Value(-10)).current;
+
+    const loadHomeData = () => {
+        return Promise.all([
+            fetchTopDeals(20).then(data => {
+                setTopDeals([...data].sort((a, b) => (b.discount || 0) - (a.discount || 0)));
+            }),
+            fetchCategories().then(res => {
+                const map = {};
+                (res.categories || []).forEach(c => { map[c.name] = c.count; });
+                setCategoryCounts(map);
+            }),
+        ]);
+    };
 
     useEffect(() => {
         Animated.parallel([
             Animated.timing(headerOpacity, { toValue: 1, duration: 500, useNativeDriver: true }),
             Animated.timing(headerSlide,   { toValue: 0, duration: 500, useNativeDriver: true }),
         ]).start();
-        fetchTopDeals(20)
-            .then(data => { setTopDeals([...data].sort((a, b) => (b.discount || 0) - (a.discount || 0))); setLoading(false); })
+        loadHomeData()
+            .then(() => setLoading(false))
             .catch(() => setLoading(false));
-        fetchCategories().then(res => {
-            const map = {};
-            (res.categories || []).forEach(c => { map[c.name] = c.count; });
-            setCategoryCounts(map);
-        });
     }, []);
+
+    const onRefresh = () => {
+        setRefreshing(true);
+        reloadDatabase()
+            .then(() => loadHomeData())
+            .catch(() => {})
+            .finally(() => setRefreshing(false));
+    };
 
     useEffect(() => {
         if (selectedStores.length > 0) {
@@ -228,6 +245,9 @@ export default function HomeScreen() {
                 showsVerticalScrollIndicator={false}
                 onScroll={Animated.event([{ nativeEvent: { contentOffset: { y: scrollY } } }], { useNativeDriver: false })}
                 scrollEventThrottle={16}
+                refreshControl={
+                    <RefreshControl refreshing={refreshing} onRefresh={onRefresh} tintColor={COLORS.navy} colors={[COLORS.navy]} />
+                }
             >
                 <View style={{ height: 44 }} />
 
@@ -263,12 +283,16 @@ export default function HomeScreen() {
                 <View style={[styles.sectionRow, { marginTop: 28 }]}>
                     <View style={[styles.sectionIconWrap, { backgroundColor: COLORS.navyLight }]}><Store size={16} color={COLORS.navy} /></View>
                     <Text style={styles.sectionTitle}>Magazine</Text>
-                    {selectedStores.length > 0 && (
+                    {selectedStores.length > 0 ? (
                         <TouchableOpacity
                             style={styles.seeAllBtn}
                             onPress={() => { setSelectedStores([]); setSelectedCategories([]); }}
                         >
                             <Text style={styles.seeAllText}>Șterge tot</Text>
+                        </TouchableOpacity>
+                    ) : (
+                        <TouchableOpacity style={styles.seeAllBtn} onPress={() => router.push('/stores')}>
+                            <Text style={styles.seeAllText}>Vezi toate</Text>
                         </TouchableOpacity>
                     )}
                 </View>

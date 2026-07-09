@@ -104,7 +104,7 @@ def stats(products: list[dict]) -> dict:
         "cat_dist":      dict(sorted(cat_dist.items(), key=lambda x: -x[1])),
     }
 
-MATCH_THRESHOLD = 72   # scor minim fuzzy pentru a considera doua produse "identice"
+MATCH_THRESHOLD = 72
 
 def _score(a: str, b: str) -> int:
     return max(fuzz.token_set_ratio(a, b), fuzz.partial_ratio(a, b))

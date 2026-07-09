@@ -112,7 +112,6 @@ export default function AIChatScreen() {
                 showsVerticalScrollIndicator={false}
             />
 
-            {/* Typing indicator */}
             {loading && (
                 <View style={[styles.bubbleWrap, styles.aiBubbleWrap, { paddingHorizontal: 16, paddingBottom: 6 }]}>
                     <View style={styles.botAvatar}>
@@ -124,7 +123,6 @@ export default function AIChatScreen() {
                 </View>
             )}
 
-            {/* Quick asks */}
             {showQuickAsks && (
                 <ScrollView
                     horizontal
@@ -145,7 +143,6 @@ export default function AIChatScreen() {
                 </ScrollView>
             )}
 
-            {/* Input */}
             <View style={styles.inputArea}>
                 <TextInput
                     style={styles.input}
