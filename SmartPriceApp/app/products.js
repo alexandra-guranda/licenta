@@ -74,7 +74,7 @@ export default function ProductsScreen() {
     const [loading, setLoading]     = useState(true);
     const [loadingMore, setLoadingMore] = useState(false);
     const [activeSort, setActiveSort] = useState(0);
-    const [storeFilter, setStoreFilter] = useState(store || null);
+    const [storeFilters, setStoreFilters] = useState(store ? store.split(',').filter(Boolean) : []);
     const pageRef = useRef(0);
     const PAGE_SIZE = 100;
 
@@ -126,9 +126,13 @@ export default function ProductsScreen() {
     }, [data.products, activeSort]);
 
     const displayedProducts = React.useMemo(() => {
-        if (!storeFilter) return sortedProducts;
-        return sortedProducts.filter(p => p.store === storeFilter);
-    }, [sortedProducts, storeFilter]);
+        if (storeFilters.length === 0) return sortedProducts;
+        return sortedProducts.filter(p => storeFilters.includes(p.store));
+    }, [sortedProducts, storeFilters]);
+
+    const toggleStoreFilter = (s) => {
+        setStoreFilters((prev) => prev.includes(s) ? prev.filter(x => x !== s) : [...prev, s]);
+    };
 
     return (
         <View style={styles.container}>
@@ -140,7 +144,7 @@ export default function ProductsScreen() {
                         <ChevronLeft size={22} color={COLORS.white} />
                     </TouchableOpacity>
                     <View style={styles.headerTitleWrap}>
-                        <Text style={styles.headerTitle} numberOfLines={1}>{isDeals ? 'Oferte de Neratat' : category}</Text>
+                        <Text style={styles.headerTitle} numberOfLines={1}>{isDeals ? 'Oferte de Neratat' : (category || 'Produse')}</Text>
                         {!loading && (
                             <Text style={styles.headerCount}>{displayedProducts.length} produse</Text>
                         )}
@@ -170,12 +174,12 @@ export default function ProductsScreen() {
                         contentContainerStyle={styles.storeFilterList}
                     >
                         {storesInCategory.map(s => {
-                            const active = storeFilter === s;
+                            const active = storeFilters.includes(s);
                             return (
                                 <TouchableOpacity
                                     key={s}
                                     style={[styles.storeChip, active && styles.storeChipActive]}
-                                    onPress={() => setStoreFilter(active ? null : s)}
+                                    onPress={() => toggleStoreFilter(s)}
                                     activeOpacity={0.8}
                                 >
                                     <Text style={[styles.storeChipText, active && styles.storeChipTextActive]}>{s}</Text>
@@ -196,7 +200,7 @@ export default function ProductsScreen() {
                     <Text style={styles.emptyEmoji}>🛒</Text>
                     <Text style={styles.emptyTitle}>Niciun produs găsit</Text>
                     <Text style={styles.emptySub}>
-                        {storeFilter ? `${storeFilter} nu are produse în această categorie` : 'Încearcă altă categorie'}
+                        {storeFilters.length > 0 ? `${storeFilters.join(', ')} nu are produse în această categorie` : 'Încearcă altă categorie'}
                     </Text>
                 </View>
             ) : (

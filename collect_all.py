@@ -89,9 +89,6 @@ def main():
     if not token or not verify_token(token):
         log.error(
             "Nu s-a putut detecta tokenul RSC automat.\n"
-            "  → Deschide zgarcit.ro in browser, F12 → Network,\n"
-            "    copiaza parametrul _rsc= din primul request si ruleaza:\n"
-            "    python collect_all.py --token <TOKEN_TAU>"
         )
         for arg in sys.argv[1:]:
             if arg.startswith("--token="):

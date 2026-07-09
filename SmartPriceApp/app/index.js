@@ -125,8 +125,8 @@ export default function HomeScreen() {
     const router = useRouter();
     const [topDeals, setTopDeals]             = useState([]);
     const [loading, setLoading]               = useState(true);
-    const [selectedStore, setSelectedStore]   = useState(null);
-    const [selectedCategory, setSelectedCategory] = useState(null);
+    const [selectedStores, setSelectedStores] = useState([]);
+    const [selectedCategories, setSelectedCategories] = useState([]);
     const [inlineProducts, setInlineProducts] = useState([]);
     const [inlineLoading, setInlineLoading]   = useState(false);
     const [categoryCounts, setCategoryCounts] = useState({});
@@ -150,29 +150,34 @@ export default function HomeScreen() {
     }, []);
 
     useEffect(() => {
-        if (selectedStore && selectedCategory) {
+        if (selectedStores.length > 0) {
             setInlineLoading(true);
-            fetchProducts(selectedCategory, null, selectedStore)
-                .then(res => { setInlineProducts(res.products || []); setInlineLoading(false); })
+            fetchProducts(null, null, null, 0, 300)
+                .then(res => {
+                    let filtered = (res.products || []).filter(p => selectedStores.includes(p.store));
+                    if (selectedCategories.length > 0) {
+                        filtered = filtered.filter(p => selectedCategories.includes(p.category));
+                    }
+                    setInlineProducts(filtered);
+                    setInlineLoading(false);
+                })
                 .catch(() => { setInlineProducts([]); setInlineLoading(false); });
         } else {
             setInlineProducts([]);
         }
-    }, [selectedStore, selectedCategory]);
+    }, [selectedStores, selectedCategories]);
 
     const handleStoreSelect = (store) => {
-        if (selectedStore === store) {
-            setSelectedStore(null);
-            setSelectedCategory(null);
-        } else {
-            setSelectedStore(store);
-            setSelectedCategory(null);
-        }
+        setSelectedStores(prev => {
+            const next = prev.includes(store) ? prev.filter(s => s !== store) : [...prev, store];
+            if (next.length === 0) setSelectedCategories([]);
+            return next;
+        });
     };
 
     const handleCategorySelect = (categoryName) => {
-        if (selectedStore) {
-            setSelectedCategory(prev => prev === categoryName ? null : categoryName);
+        if (selectedStores.length > 0) {
+            setSelectedCategories(prev => prev.includes(categoryName) ? prev.filter(c => c !== categoryName) : [...prev, categoryName]);
         } else {
             router.push({ pathname: '/products', params: { category: categoryName, store: '' } });
         }
@@ -189,7 +194,7 @@ export default function HomeScreen() {
         return 'Bună seara! 🌙';
     };
 
-    const filteredDeals = selectedStore ? topDeals.filter(p => p.store === selectedStore) : topDeals;
+    const filteredDeals = selectedStores.length > 0 ? topDeals.filter(p => selectedStores.includes(p.store)) : topDeals;
 
     return (
         <View style={styles.root}>
@@ -258,6 +263,14 @@ export default function HomeScreen() {
                 <View style={[styles.sectionRow, { marginTop: 28 }]}>
                     <View style={[styles.sectionIconWrap, { backgroundColor: COLORS.navyLight }]}><Store size={16} color={COLORS.navy} /></View>
                     <Text style={styles.sectionTitle}>Magazine</Text>
+                    {selectedStores.length > 0 && (
+                        <TouchableOpacity
+                            style={styles.seeAllBtn}
+                            onPress={() => { setSelectedStores([]); setSelectedCategories([]); }}
+                        >
+                            <Text style={styles.seeAllText}>Șterge tot</Text>
+                        </TouchableOpacity>
+                    )}
                 </View>
                 <FlatList
                     horizontal
@@ -266,7 +279,7 @@ export default function HomeScreen() {
                     showsHorizontalScrollIndicator={false}
                     contentContainerStyle={styles.storeFilterList}
                     renderItem={({ item }) => {
-                        const active = selectedStore === item;
+                        const active = selectedStores.includes(item);
                         return (
                             <TouchableOpacity
                                 style={[styles.storeChip, active && styles.storeChipActive]}
@@ -282,10 +295,10 @@ export default function HomeScreen() {
                 <View style={[styles.sectionRow, { marginTop: 28 }]}>
                     <View style={[styles.sectionIconWrap, { backgroundColor: COLORS.navyLight }]}><Leaf size={16} color={COLORS.navy} /></View>
                     <Text style={styles.sectionTitle}>Categorii</Text>
-                    {selectedStore && <Text style={styles.storeHint}>{selectedStore}</Text>}
+                    {selectedStores.length > 0 && <Text style={styles.storeHint}>{selectedStores.join(', ')}</Text>}
                 </View>
 
-                {selectedStore ? (
+                {selectedStores.length > 0 ? (
                     <FlatList
                         horizontal
                         data={CATEGORII}
@@ -293,7 +306,7 @@ export default function HomeScreen() {
                         showsHorizontalScrollIndicator={false}
                         contentContainerStyle={styles.storeFilterList}
                         renderItem={({ item: cat }) => {
-                            const catActive = selectedCategory === cat.name;
+                            const catActive = selectedCategories.includes(cat.name);
                             return (
                                 <TouchableOpacity
                                     style={[styles.storeChip, catActive && styles.storeChipActive]}
@@ -316,15 +329,15 @@ export default function HomeScreen() {
                     </View>
                 )}
 
-                {selectedStore && selectedCategory && (
+                {selectedStores.length > 0 && (
                     <View style={styles.inlineSection}>
                         <View style={styles.inlineHeader}>
                             <Text style={styles.inlineTitle} numberOfLines={1}>
-                                {selectedCategory}
+                                {selectedCategories.length > 0 ? selectedCategories.join(', ') : 'Toate produsele'}
                             </Text>
                             <TouchableOpacity
                                 style={styles.seeAllBtn}
-                                onPress={() => router.push({ pathname: '/products', params: { category: selectedCategory, store: selectedStore } })}
+                                onPress={() => router.push({ pathname: '/products', params: { category: selectedCategories.length === 1 ? selectedCategories[0] : '', store: selectedStores.join(',') } })}
                             >
                                 <Text style={styles.seeAllText}>Vezi toate</Text>
                             </TouchableOpacity>
